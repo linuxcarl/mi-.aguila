@@ -3,6 +3,9 @@ import { config } from '../config';
 import helmet from 'helmet';
 import cors from 'cors';
 
+import * as swaggerUi from 'swagger-ui-express';
+import * as swaggerDoc from './swagger.json';
+
 const app: express.Application = express();
 
 app.use(cors());
@@ -12,6 +15,8 @@ app.use(helmet());
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
+// Routing
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
 app.listen(config.api.port, () => {
   console.log(`Escuchando en el puerto ${config.api.port}`);

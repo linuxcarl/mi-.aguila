@@ -1,0 +1,25 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Mi Águila",
+    "description": "API Rest mi Águila.",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://carlosramirezflores.com/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Travels",
+      "description": "Everything about your travels"
+    }
+  ],
+  "paths": null,
+  "components": null
+}
