@@ -1,0 +1,19 @@
+{
+  "name": "mi-aguila",
+  "version": "1.0.0",
+  "description": "API Rest mi agula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/linuxcarl/mi-.aguila.git"
+  },
+  "author": "Carlos Enrique Ramirez Flores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linuxcarl/mi-.aguila/issues"
+  },
+  "homepage": "https://github.com/linuxcarl/mi-.aguila#readme"
+}
