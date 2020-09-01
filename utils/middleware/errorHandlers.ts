@@ -1,5 +1,5 @@
 import * as boom from '@hapi/boom';
-import { config } from '../../../config/index';
+import { config } from '../../config/index';
 
 function withErrorStack(error: object, stack: string): object {
   if (config.dev) {
