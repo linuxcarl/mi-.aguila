@@ -13,14 +13,14 @@ export async function find(table: string, filter: filter): Promise<string> {
   let { limit, page } = filter;
   delete filter.limit;
   delete filter.page;
-
   if (Object.keys(filter).length) {
     Object.entries(filter).forEach(([key, value]) => {
       if (value) {
-        data = data.filter((item: object) => item[key] == value);
+        data = data.filter((item: object) => item[key].name == value);
       }
     });
   }
+
   if (limit) {
     let init = limit * --page;
     limit = init ? Number(init) + Number(limit) : limit;

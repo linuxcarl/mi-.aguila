@@ -1,4 +1,4 @@
 import * as store from '../../../store/dummy';
-import * as controller from './controller';
+import controller = require('./controller');
 
-export controller(store);
+module.exports = controller(store);
