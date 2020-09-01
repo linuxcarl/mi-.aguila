@@ -1,4 +1,4 @@
-type TypesBodyMessagees = string | object;
+type TypesBodyMessagees = string | object | Array<any>;
 interface formatResponse {
   error: boolean;
   status: number;
@@ -7,7 +7,7 @@ interface formatResponse {
 export const success = (
   req: string,
   res: any,
-  message: string,
+  message: TypesBodyMessagees,
   status: number
 ): void => {
   let statusCode = status || 200;
