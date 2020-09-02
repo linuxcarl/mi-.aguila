@@ -13,13 +13,18 @@ interface IFilter {
 const idSchema: string = JoiObjectId();
 const limit: NumberSchema = Joi.number();
 const page: NumberSchema = Joi.number();
-const city: StringSchema = Joi.string().min(4).max(50);
+const city: StringSchema = Joi.string().min(2).max(50);
 const country: StringSchema = city;
 
 export const filterSchema: IFilter = {
   _id: idSchema,
   page,
   limit,
+  city,
+  country,
+};
+
+export const filterSchemaTotales: IFilter = {
   city,
   country,
 };

@@ -2,13 +2,16 @@ import express from 'express';
 import * as Controller from './index';
 import * as responses from '../../../utils/network/responses';
 
-import { filterSchema } from '../../../utils/schemas/trips';
+import {
+  filterSchema,
+  filterSchemaTotales,
+} from '../../../utils/schemas/trips';
 import { validationHandler } from '../../../utils/middleware/validationHandler';
 
 const router = express.Router();
 
 router.get('/', validationHandler(filterSchema, 'query'), getAll);
-router.get('/total', getTotal);
+router.get('/total', validationHandler(filterSchemaTotales, 'query'), getTotal);
 
 async function getAll(req: any, res: any, next: any): Promise<void> {
   let { page = 1, limit = 20, city, country } = req.query;
