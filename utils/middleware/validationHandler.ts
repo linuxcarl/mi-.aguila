@@ -1,7 +1,7 @@
-import * as boom from '@hapi/boom';
+import boom from '@hapi/boom';
 import Joi from '@hapi/joi';
 
-function validate(data: object, schema: Joi.SchemaMap): object {
+function validate(data: object, schema: Joi.SchemaMap): any {
   const { error } = Joi.object(schema).validate(data);
   return error;
 }
