@@ -59,6 +59,18 @@ export async function create(
   const result = saveData.save();
   return result;
 }
+export async function update(
+  collection: string,
+  data: object,
+  _id: string
+): Promise<object> {
+  const modelUpdate: any = await modelTrips.findOne({
+    _id: _id,
+  });
+  Object.assign(modelUpdate, data);
+  const result = await modelUpdate.save();
+  return result;
+}
 function cleanFilter(filter: filter): object {
   let _filter: any = {};
   Object.entries(filter).forEach(([index, value]) => {

@@ -16,9 +16,14 @@ module.exports = function (injectedStore: any): any {
     const created: object = await store.create(collection, data);
     return created;
   }
+  async function update(data: object, _id: string): Promise<object> {
+    const updated: object = await store.update(collection, data, _id);
+    return updated;
+  }
   return {
     findAll,
     findTotales,
     create,
+    update,
   };
 };
