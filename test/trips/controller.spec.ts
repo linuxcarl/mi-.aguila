@@ -27,4 +27,26 @@ describe('controller - trips', () => {
       expect(trips[0]).toStrictEqual(tripsMock[1]);
     });
   });
+
+  test('Should return total trips ', () => {
+    return Controller.findTotales({}).then((trips: number) => {
+      expect(trips).toStrictEqual(tripsMock.length);
+      expect(typeof trips).toBe('number');
+    });
+  });
+  test('Should return total trips by country ', () => {
+    return Controller.findTotales({ country: 'Colombia' }).then(
+      (trips: number) => {
+        expect(trips).toStrictEqual(tripsMock.length);
+        expect(typeof trips).toBe('number');
+      }
+    );
+  });
+  test('Should return total trips by city ', () => {
+    return Controller.findTotales({ city: 'Medellin' }).then(
+      (trips: number) => {
+        expect(typeof trips).toBe('number');
+      }
+    );
+  });
 });
