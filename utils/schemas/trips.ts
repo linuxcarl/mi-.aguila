@@ -1,14 +1,6 @@
 import Joi, { NumberSchema, StringSchema } from '@hapi/joi';
-import ObjectId from 'joi-objectid';
+const ObjectId = require('joi-objectid');
 const JoiObjectId = ObjectId(Joi);
-
-interface IFilter {
-  _id?: string;
-  page?: NumberSchema;
-  limit?: NumberSchema;
-  city?: StringSchema;
-  country?: StringSchema;
-}
 
 const idSchema: string = JoiObjectId();
 const limit: NumberSchema = Joi.number();
@@ -16,7 +8,7 @@ const page: NumberSchema = Joi.number();
 const city: StringSchema = Joi.string().min(2).max(50);
 const country: StringSchema = city;
 
-export const filterSchema: IFilter = {
+export const filterSchema = {
   _id: idSchema,
   page,
   limit,
@@ -24,7 +16,7 @@ export const filterSchema: IFilter = {
   country,
 };
 
-export const filterSchemaTotales: IFilter = {
+export const filterSchemaTotales = {
   city,
   country,
 };

@@ -1,5 +1,5 @@
 import express from 'express';
-import * as Controller from './index';
+const Controller = require('./index');
 import * as responses from '../../../utils/network/responses';
 
 import {
