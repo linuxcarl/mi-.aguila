@@ -40,5 +40,13 @@ async function getTotal(req: any, res: any, next: any): Promise<void> {
     next(error);
   }
 }
-async function createTrip(req: any, res: any, next: any): Promise<void> {}
+async function createTrip(req: any, res: any, next: any): Promise<void> {
+  const { body: trips } = req;
+  try {
+    const createdTrip: string[] = await Controller.create(trips);
+    responses.success(req, res, createdTrip, 201);
+  } catch (error) {
+    next(error);
+  }
+}
 module.exports = router;

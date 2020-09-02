@@ -1,7 +1,7 @@
 export const trips = [
   {
     start: {
-      date: { $date: '2019-01-25T19:06:27.936+0000' },
+      date: '2019-01-25T19:06:27.936+0000',
       pickup_address: 'Cl. 90 #19-41, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -26,8 +26,8 @@ export const trips = [
     car: { plate: 'ESM308' },
     status: 'started',
     check_code: '66',
-    createdAt: { $date: '2019-01-25T19:03:53.251+0000' },
-    updatedAt: { $date: '2019-01-25T19:47:04.397+0000' },
+    createdAt: '2019-01-25T19:03:53.251+0000',
+    updatedAt: '2019-01-25T19:47:04.397+0000',
     price: 13800.0,
     driver_location: {
       type: 'Point',
@@ -36,7 +36,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-25T03:00:00.000+0000' },
+      date: '2019-01-25T03:00:00.000+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -61,8 +61,8 @@ export const trips = [
     car: { plate: 'WMZ550' },
     status: 'started',
     check_code: '92',
-    createdAt: { $date: '2019-01-24T23:36:51.363+0000' },
-    updatedAt: { $date: '2019-01-25T03:55:25.006+0000' },
+    createdAt: '2019-01-24T23:36:51.363+0000',
+    updatedAt: '2019-01-25T03:55:25.006+0000',
     price: 34100.0,
     driver_location: {
       type: 'Point',
@@ -71,7 +71,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-24T10:51:02.000+0000' },
+      date: '2019-01-24T10:51:02.000+0000',
       pickup_address: 'Esq. con calle carrera 7c, Cl. 129, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -96,8 +96,8 @@ export const trips = [
     car: { plate: 'WGO385' },
     status: 'near',
     check_code: '19',
-    createdAt: { $date: '2019-01-24T02:21:02.606+0000' },
-    updatedAt: { $date: '2019-01-24T12:15:26.717+0000' },
+    createdAt: '2019-01-24T02:21:02.606+0000',
+    updatedAt: '2019-01-24T12:15:26.717+0000',
     price: 36900.0,
     driver_location: {
       type: 'Point',
@@ -106,7 +106,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-24T19:40:00.000+0000' },
+      date: '2019-01-24T19:40:00.000+0000',
       pickup_address: 'Cra. 92, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -131,8 +131,8 @@ export const trips = [
     car: { plate: 'WNZ132' },
     status: 'onWay',
     check_code: '58',
-    createdAt: { $date: '2019-01-23T15:30:52.732+0000' },
-    updatedAt: { $date: '2019-01-24T20:23:04.545+0000' },
+    createdAt: '2019-01-23T15:30:52.732+0000',
+    updatedAt: '2019-01-24T20:23:04.545+0000',
     price: 22700.0,
     driver_location: {
       type: 'Point',
@@ -141,7 +141,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-23T02:30:12.765+0000' },
+      date: '2019-01-23T02:30:12.765+0000',
       pickup_address: 'Cra. 9 #80-15, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -166,8 +166,8 @@ export const trips = [
     car: { plate: 'SZM019' },
     status: 'onWay',
     check_code: '62',
-    createdAt: { $date: '2019-01-23T02:17:56.208+0000' },
-    updatedAt: { $date: '2019-01-24T03:00:04.862+0000' },
+    createdAt: '2019-01-23T02:17:56.208+0000',
+    updatedAt: '2019-01-24T03:00:04.862+0000',
     price: 6500.0,
     driver_location: {
       type: 'Point',
@@ -176,7 +176,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-23T12:20:36.000+0000' },
+      date: '2019-01-23T12:20:36.000+0000',
       pickup_address: 'Cra. 8 #95-33, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -201,8 +201,8 @@ export const trips = [
     car: { plate: 'EXZ583' },
     status: 'near',
     check_code: '92',
-    createdAt: { $date: '2019-01-23T00:53:00.948+0000' },
-    updatedAt: { $date: '2019-01-23T17:13:56.133+0000' },
+    createdAt: '2019-01-23T00:53:00.948+0000',
+    updatedAt: '2019-01-23T17:13:56.133+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -211,7 +211,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-22T14:44:39.969+0000' },
+      date: '2019-01-22T14:44:39.969+0000',
       pickup_address: 'Cl. 96 ##13a-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -236,8 +236,8 @@ export const trips = [
     car: { plate: 'WOW395' },
     status: 'near',
     check_code: '19',
-    createdAt: { $date: '2019-01-22T14:35:47.287+0000' },
-    updatedAt: { $date: '2019-01-22T16:44:00.001+0000' },
+    createdAt: '2019-01-22T14:35:47.287+0000',
+    updatedAt: '2019-01-22T16:44:00.001+0000',
     price: 20300.0,
     driver_location: {
       type: 'Point',
@@ -246,7 +246,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-22T12:30:00.000+0000' },
+      date: '2019-01-22T12:30:00.000+0000',
       pickup_address: 'Cra. 11 #8276, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -274,8 +274,8 @@ export const trips = [
     car: { plate: 'WNU017' },
     status: 'started',
     check_code: '13',
-    createdAt: { $date: '2019-01-21T23:32:11.865+0000' },
-    updatedAt: { $date: '2019-01-22T13:25:46.938+0000' },
+    createdAt: '2019-01-21T23:32:11.865+0000',
+    updatedAt: '2019-01-22T13:25:46.938+0000',
     price: 12700.0,
     driver_location: {
       type: 'Point',
@@ -284,7 +284,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-21T13:26:22.014+0000' },
+      date: '2019-01-21T13:26:22.014+0000',
       pickup_address:
         'Inexmoda - Carrera 43 # 9 Sur - 195, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -311,8 +311,8 @@ export const trips = [
     car: { plate: 'WDX501' },
     status: 'near',
     check_code: '60',
-    createdAt: { $date: '2019-01-21T13:12:05.966+0000' },
-    updatedAt: { $date: '2019-01-21T16:07:10.548+0000' },
+    createdAt: '2019-01-21T13:12:05.966+0000',
+    updatedAt: '2019-01-21T16:07:10.548+0000',
     price: 50900.0,
     driver_location: {
       type: 'Point',
@@ -321,7 +321,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-25T12:25:00.000+0000' },
+      date: '2019-01-25T12:25:00.000+0000',
       pickup_address: 'Cl. 104 #19a-18, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -343,8 +343,8 @@ export const trips = [
     car: { plate: 'TSP521' },
     status: 'onWay',
     check_code: '69',
-    createdAt: { $date: '2019-01-20T22:46:18.519+0000' },
-    updatedAt: { $date: '2019-01-25T21:10:30.141+0000' },
+    createdAt: '2019-01-20T22:46:18.519+0000',
+    updatedAt: '2019-01-25T21:10:30.141+0000',
     price: 14100.0,
     driver_location: {
       type: 'Point',
@@ -353,7 +353,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-20T18:20:53.980+0000' },
+      date: '2019-01-20T18:20:53.980+0000',
       pickup_address: 'Puerta 1-Salidas-Aeropuerto El Dorado',
       pickup_location: {
         type: 'Point',
@@ -379,8 +379,8 @@ export const trips = [
     car: { plate: 'WNV375' },
     status: 'onWay',
     check_code: '75',
-    createdAt: { $date: '2019-01-20T18:13:15.333+0000' },
-    updatedAt: { $date: '2019-01-21T09:38:27.921+0000' },
+    createdAt: '2019-01-20T18:13:15.333+0000',
+    updatedAt: '2019-01-21T09:38:27.921+0000',
     price: 27700.0,
     driver_location: {
       type: 'Point',
@@ -389,7 +389,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-19T16:33:00.000+0000' },
+      date: '2019-01-19T16:33:00.000+0000',
       pickup_address: 'Cl. 116 #45-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -411,8 +411,8 @@ export const trips = [
     car: { plate: 'WEP161' },
     status: 'started',
     check_code: '56',
-    createdAt: { $date: '2019-01-19T16:01:54.896+0000' },
-    updatedAt: { $date: '2019-01-19T21:26:26.656+0000' },
+    createdAt: '2019-01-19T16:01:54.896+0000',
+    updatedAt: '2019-01-19T21:26:26.656+0000',
     price: 15300.0,
     driver_location: {
       type: 'Point',
@@ -421,7 +421,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-19T03:15:59.345+0000' },
+      date: '2019-01-19T03:15:59.345+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -443,8 +443,8 @@ export const trips = [
     car: { plate: 'WMO016' },
     status: 'near',
     check_code: '88',
-    createdAt: { $date: '2019-01-19T03:15:50.332+0000' },
-    updatedAt: { $date: '2019-01-22T05:00:09.801+0000' },
+    createdAt: '2019-01-19T03:15:50.332+0000',
+    updatedAt: '2019-01-22T05:00:09.801+0000',
     price: 12700.0,
     driver_location: {
       type: 'Point',
@@ -453,7 +453,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-18T21:44:18.939+0000' },
+      date: '2019-01-18T21:44:18.939+0000',
       pickup_address: 'Cl. 108 #45-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -476,8 +476,8 @@ export const trips = [
     car: { plate: 'WHT087' },
     status: 'near',
     check_code: '58',
-    createdAt: { $date: '2019-01-18T21:39:23.277+0000' },
-    updatedAt: { $date: '2019-01-21T19:13:23.629+0000' },
+    createdAt: '2019-01-18T21:39:23.277+0000',
+    updatedAt: '2019-01-21T19:13:23.629+0000',
     price: 11200.0,
     driver_location: {
       type: 'Point',
@@ -486,7 +486,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-18T03:00:00.000+0000' },
+      date: '2019-01-18T03:00:00.000+0000',
       pickup_address: 'Cra. 91 #52-98, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -508,8 +508,8 @@ export const trips = [
     car: { plate: 'ESM554' },
     status: 'onWay',
     check_code: '14',
-    createdAt: { $date: '2019-01-17T23:05:47.014+0000' },
-    updatedAt: { $date: '2019-01-25T05:00:11.529+0000' },
+    createdAt: '2019-01-17T23:05:47.014+0000',
+    updatedAt: '2019-01-25T05:00:11.529+0000',
     price: 53000.0,
     driver_location: {
       type: 'Point',
@@ -518,7 +518,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-18T21:00:00.000+0000' },
+      date: '2019-01-18T21:00:00.000+0000',
       pickup_address: 'Ak. 9 #113-52, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -546,8 +546,8 @@ export const trips = [
     car: { plate: 'TGN493' },
     status: 'started',
     check_code: '47',
-    createdAt: { $date: '2019-01-17T22:12:26.276+0000' },
-    updatedAt: { $date: '2019-01-18T21:45:42.511+0000' },
+    createdAt: '2019-01-17T22:12:26.276+0000',
+    updatedAt: '2019-01-18T21:45:42.511+0000',
     price: 37100.0,
     driver_location: {
       type: 'Point',
@@ -556,7 +556,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-17T17:36:32.164+0000' },
+      date: '2019-01-17T17:36:32.164+0000',
       pickup_address: 'Cra. 13a #90-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -581,8 +581,8 @@ export const trips = [
     car: { plate: 'WGY079' },
     status: 'onWay',
     check_code: '82',
-    createdAt: { $date: '2019-01-17T17:31:43.546+0000' },
-    updatedAt: { $date: '2019-01-19T01:03:43.423+0000' },
+    createdAt: '2019-01-17T17:31:43.546+0000',
+    updatedAt: '2019-01-19T01:03:43.423+0000',
     price: 14900.0,
     driver_location: {
       type: 'Point',
@@ -591,7 +591,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-17T17:16:23.939+0000' },
+      date: '2019-01-17T17:16:23.939+0000',
       pickup_address: 'Cl. 110 #9-25, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -616,8 +616,8 @@ export const trips = [
     car: { plate: 'EXX857' },
     status: 'near',
     check_code: '69',
-    createdAt: { $date: '2019-01-17T17:08:24.192+0000' },
-    updatedAt: { $date: '2019-01-17T18:52:30.448+0000' },
+    createdAt: '2019-01-17T17:08:24.192+0000',
+    updatedAt: '2019-01-17T18:52:30.448+0000',
     price: 28900.0,
     driver_location: {
       type: 'Point',
@@ -626,7 +626,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-17T13:25:00.000+0000' },
+      date: '2019-01-17T13:25:00.000+0000',
       pickup_address:
         'Aeropuerto Olaya Herrera - Cra. 65 #13-157, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -652,8 +652,8 @@ export const trips = [
     car: { plate: 'WCO578' },
     status: 'started',
     check_code: '62',
-    createdAt: { $date: '2019-01-17T10:58:40.518+0000' },
-    updatedAt: { $date: '2019-01-17T13:50:11.305+0000' },
+    createdAt: '2019-01-17T10:58:40.518+0000',
+    updatedAt: '2019-01-17T13:50:11.305+0000',
     price: 15200.0,
     driver_location: {
       type: 'Point',
@@ -662,7 +662,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-17T10:55:20.000+0000' },
+      date: '2019-01-17T10:55:20.000+0000',
       pickup_address: '#41b-, Cl. 7 Sur #41b67, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -685,8 +685,8 @@ export const trips = [
     car: { plate: 'ESP937' },
     status: 'started',
     check_code: '62',
-    createdAt: { $date: '2019-01-17T05:27:18.717+0000' },
-    updatedAt: { $date: '2019-01-19T05:00:06.560+0000' },
+    createdAt: '2019-01-17T05:27:18.717+0000',
+    updatedAt: '2019-01-19T05:00:06.560+0000',
     price: 90000.0,
     driver_location: {
       type: 'Point',
@@ -695,7 +695,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-16T21:00:00.000+0000' },
+      date: '2019-01-16T21:00:00.000+0000',
       pickup_address:
         'Km 3.5 autopista Medellin Centro empresarial metropolitano Modulo 1 Bodega 10, Cota, Cundinamarca, Colombia',
       pickup_location: {
@@ -721,8 +721,8 @@ export const trips = [
     car: { plate: 'WNY986' },
     status: 'onWay',
     check_code: '78',
-    createdAt: { $date: '2019-01-16T13:25:11.617+0000' },
-    updatedAt: { $date: '2019-01-16T22:34:13.777+0000' },
+    createdAt: '2019-01-16T13:25:11.617+0000',
+    updatedAt: '2019-01-16T22:34:13.777+0000',
     price: 63500.0,
     driver_location: {
       type: 'Point',
@@ -731,7 +731,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-16T01:00:34.000+0000' },
+      date: '2019-01-16T01:00:34.000+0000',
       pickup_address:
         'Aeropuerto Ernesto Cortissoz - Aeropuerto Internacional Ernesto Cortissoz, Soledad, Atlántico, Colombia',
       pickup_location: {
@@ -758,8 +758,8 @@ export const trips = [
     car: { plate: 'WEO281' },
     status: 'onWay',
     check_code: '69',
-    createdAt: { $date: '2019-01-15T20:33:06.184+0000' },
-    updatedAt: { $date: '2019-01-17T12:58:01.888+0000' },
+    createdAt: '2019-01-15T20:33:06.184+0000',
+    updatedAt: '2019-01-17T12:58:01.888+0000',
     price: 46300.0,
     driver_location: {
       type: 'Point',
@@ -768,7 +768,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-15T01:45:00.000+0000' },
+      date: '2019-01-15T01:45:00.000+0000',
       pickup_address: 'Rionegro, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -794,8 +794,8 @@ export const trips = [
     car: { plate: 'WPN670' },
     status: 'started',
     check_code: '60',
-    createdAt: { $date: '2019-01-14T23:32:32.861+0000' },
-    updatedAt: { $date: '2019-01-18T05:00:03.299+0000' },
+    createdAt: '2019-01-14T23:32:32.861+0000',
+    updatedAt: '2019-01-18T05:00:03.299+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -804,7 +804,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-14T23:20:05.527+0000' },
+      date: '2019-01-14T23:20:05.527+0000',
       pickup_address: 'Cl. 74 #11-61, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -826,8 +826,8 @@ export const trips = [
     car: { plate: 'WNZ848' },
     status: 'onWay',
     check_code: '40',
-    createdAt: { $date: '2019-01-14T23:18:06.765+0000' },
-    updatedAt: { $date: '2019-01-16T12:33:46.288+0000' },
+    createdAt: '2019-01-14T23:18:06.765+0000',
+    updatedAt: '2019-01-16T12:33:46.288+0000',
     price: 7700.0,
     driver_location: {
       type: 'Point',
@@ -836,7 +836,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-14T21:03:09.086+0000' },
+      date: '2019-01-14T21:03:09.086+0000',
       pickup_address: 'Cl. 82 #11 - 37 - Cl. 82 #11 - 37, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -861,8 +861,8 @@ export const trips = [
     car: { plate: 'EXZ699' },
     status: 'onWay',
     check_code: '79',
-    createdAt: { $date: '2019-01-14T20:57:29.409+0000' },
-    updatedAt: { $date: '2019-01-14T21:45:25.282+0000' },
+    createdAt: '2019-01-14T20:57:29.409+0000',
+    updatedAt: '2019-01-14T21:45:25.282+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -871,7 +871,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-14T16:40:42.000+0000' },
+      date: '2019-01-14T16:40:42.000+0000',
       pickup_address: 'Cl. 147 #17 - 60, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -896,8 +896,8 @@ export const trips = [
     car: { plate: 'WMY682' },
     status: 'onWay',
     check_code: '50',
-    createdAt: { $date: '2019-01-14T16:04:07.897+0000' },
-    updatedAt: { $date: '2019-01-14T21:13:54.280+0000' },
+    createdAt: '2019-01-14T16:04:07.897+0000',
+    updatedAt: '2019-01-14T21:13:54.280+0000',
     price: 21100.0,
     driver_location: {
       type: 'Point',
@@ -906,7 +906,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-14T11:00:00.000+0000' },
+      date: '2019-01-14T11:00:00.000+0000',
       pickup_address: 'Cl. 128d #21-43, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -931,8 +931,8 @@ export const trips = [
     car: { plate: 'ESK993' },
     status: 'onWay',
     check_code: '68',
-    createdAt: { $date: '2019-01-14T07:10:11.577+0000' },
-    updatedAt: { $date: '2019-01-15T23:51:46.324+0000' },
+    createdAt: '2019-01-14T07:10:11.577+0000',
+    updatedAt: '2019-01-15T23:51:46.324+0000',
     price: 18600.0,
     driver_location: {
       type: 'Point',
@@ -941,7 +941,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-12T07:27:15.966+0000' },
+      date: '2019-01-12T07:27:15.966+0000',
       pickup_address: 'Cra. 58 #128B-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -967,8 +967,8 @@ export const trips = [
     car: { plate: 'TSY088' },
     status: 'near',
     check_code: '88',
-    createdAt: { $date: '2019-01-12T07:15:06.892+0000' },
-    updatedAt: { $date: '2019-01-16T03:07:19.168+0000' },
+    createdAt: '2019-01-12T07:15:06.892+0000',
+    updatedAt: '2019-01-16T03:07:19.168+0000',
     price: 11800.0,
     driver_location: {
       type: 'Point',
@@ -977,7 +977,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-12T02:57:34.721+0000' },
+      date: '2019-01-12T02:57:34.721+0000',
       pickup_address: 'Ac. 82 #10-33, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1005,8 +1005,8 @@ export const trips = [
     car: { plate: 'FRR430' },
     status: 'started',
     check_code: '13',
-    createdAt: { $date: '2019-01-12T02:51:08.056+0000' },
-    updatedAt: { $date: '2019-01-22T20:38:04.131+0000' },
+    createdAt: '2019-01-12T02:51:08.056+0000',
+    updatedAt: '2019-01-22T20:38:04.131+0000',
     price: 16700.0,
     driver_location: {
       type: 'Point',
@@ -1015,7 +1015,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-12T02:45:47.000+0000' },
+      date: '2019-01-12T02:45:47.000+0000',
       pickup_address:
         'Premium Plaza - Cra. 43A ###30-25, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -1042,8 +1042,8 @@ export const trips = [
     car: { plate: 'WNU563' },
     status: 'onWay',
     check_code: '90',
-    createdAt: { $date: '2019-01-12T01:05:29.094+0000' },
-    updatedAt: { $date: '2019-01-12T14:56:30.922+0000' },
+    createdAt: '2019-01-12T01:05:29.094+0000',
+    updatedAt: '2019-01-12T14:56:30.922+0000',
     price: 0.0,
     driver_location: {
       type: 'Point',
@@ -1052,7 +1052,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T23:20:00.000+0000' },
+      date: '2019-01-11T23:20:00.000+0000',
       pickup_address: 'Unnamed Road, Cota, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1077,8 +1077,8 @@ export const trips = [
     car: { plate: 'FRR430' },
     status: 'started',
     check_code: '16',
-    createdAt: { $date: '2019-01-11T21:17:13.336+0000' },
-    updatedAt: { $date: '2019-01-25T15:02:02.222+0000' },
+    createdAt: '2019-01-11T21:17:13.336+0000',
+    updatedAt: '2019-01-25T15:02:02.222+0000',
     price: 63500.0,
     driver_location: {
       type: 'Point',
@@ -1087,7 +1087,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T21:50:00.000+0000' },
+      date: '2019-01-11T21:50:00.000+0000',
       pickup_address: 'Ak. 50 #19-55, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1112,8 +1112,8 @@ export const trips = [
     car: { plate: 'EYX364' },
     status: 'near',
     check_code: '31',
-    createdAt: { $date: '2019-01-11T20:32:26.753+0000' },
-    updatedAt: { $date: '2019-01-14T03:58:17.288+0000' },
+    createdAt: '2019-01-11T20:32:26.753+0000',
+    updatedAt: '2019-01-14T03:58:17.288+0000',
     price: 17600.0,
     driver_location: {
       type: 'Point',
@@ -1122,7 +1122,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T21:30:00.000+0000' },
+      date: '2019-01-11T21:30:00.000+0000',
       pickup_address: 'Cafam Floresta, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1147,8 +1147,8 @@ export const trips = [
     car: { plate: 'WPO046' },
     status: 'near',
     check_code: '65',
-    createdAt: { $date: '2019-01-11T19:20:28.432+0000' },
-    updatedAt: { $date: '2019-01-24T23:23:20.944+0000' },
+    createdAt: '2019-01-11T19:20:28.432+0000',
+    updatedAt: '2019-01-24T23:23:20.944+0000',
     price: 21500.0,
     driver_location: {
       type: 'Point',
@@ -1157,7 +1157,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T10:25:07.090+0000' },
+      date: '2019-01-11T10:25:07.090+0000',
       pickup_address: 'Cra. 9 #80-21',
       pickup_location: {
         type: 'Point',
@@ -1182,8 +1182,8 @@ export const trips = [
     car: { plate: 'WPL979' },
     status: 'near',
     check_code: '81',
-    createdAt: { $date: '2019-01-11T09:57:55.750+0000' },
-    updatedAt: { $date: '2019-01-12T00:07:05.802+0000' },
+    createdAt: '2019-01-11T09:57:55.750+0000',
+    updatedAt: '2019-01-12T00:07:05.802+0000',
     price: 21700.0,
     driver_location: {
       type: 'Point',
@@ -1192,7 +1192,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T11:10:00.000+0000' },
+      date: '2019-01-11T11:10:00.000+0000',
       pickup_address: 'Cra. 71 #25-15, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1218,8 +1218,8 @@ export const trips = [
     car: { plate: 'ESP536' },
     status: 'started',
     check_code: '11',
-    createdAt: { $date: '2019-01-11T00:37:04.532+0000' },
-    updatedAt: { $date: '2019-01-11T14:58:29.829+0000' },
+    createdAt: '2019-01-11T00:37:04.532+0000',
+    updatedAt: '2019-01-11T14:58:29.829+0000',
     price: 17700.0,
     driver_location: {
       type: 'Point',
@@ -1228,7 +1228,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T03:00:00.000+0000' },
+      date: '2019-01-11T03:00:00.000+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1253,8 +1253,8 @@ export const trips = [
     car: { plate: 'EXZ801' },
     status: 'started',
     check_code: '61',
-    createdAt: { $date: '2019-01-10T23:43:29.551+0000' },
-    updatedAt: { $date: '2019-01-12T05:00:10.861+0000' },
+    createdAt: '2019-01-10T23:43:29.551+0000',
+    updatedAt: '2019-01-12T05:00:10.861+0000',
     price: 21500.0,
     driver_location: {
       type: 'Point',
@@ -1263,7 +1263,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T22:30:00.000+0000' },
+      date: '2019-01-11T22:30:00.000+0000',
       pickup_address: 'DG 24C - Tv 68, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1285,8 +1285,8 @@ export const trips = [
     car: { plate: 'WPR034' },
     status: 'onWay',
     check_code: '70',
-    createdAt: { $date: '2019-01-10T23:17:07.591+0000' },
-    updatedAt: { $date: '2019-01-11T23:15:04.853+0000' },
+    createdAt: '2019-01-10T23:17:07.591+0000',
+    updatedAt: '2019-01-11T23:15:04.853+0000',
     price: 20700.0,
     driver_location: {
       type: 'Point',
@@ -1295,7 +1295,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-10T02:00:00.000+0000' },
+      date: '2019-01-10T02:00:00.000+0000',
       pickup_address: 'Glorieta Del Aeropuerto, Rionegro, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1317,8 +1317,8 @@ export const trips = [
     car: { plate: 'WNR983' },
     status: 'started',
     check_code: '42',
-    createdAt: { $date: '2019-01-09T23:45:36.080+0000' },
-    updatedAt: { $date: '2019-01-11T19:27:35.683+0000' },
+    createdAt: '2019-01-09T23:45:36.080+0000',
+    updatedAt: '2019-01-11T19:27:35.683+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -1327,7 +1327,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-09T20:49:50.223+0000' },
+      date: '2019-01-09T20:49:50.223+0000',
       pickup_address: 'Cra 45 #24b-27, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1352,8 +1352,8 @@ export const trips = [
     car: { plate: 'ESL999' },
     status: 'onWay',
     check_code: '15',
-    createdAt: { $date: '2019-01-09T20:48:11.352+0000' },
-    updatedAt: { $date: '2019-01-25T18:14:23.105+0000' },
+    createdAt: '2019-01-09T20:48:11.352+0000',
+    updatedAt: '2019-01-25T18:14:23.105+0000',
     price: 16500.0,
     driver_location: {
       type: 'Point',
@@ -1362,7 +1362,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-08T21:56:27.942+0000' },
+      date: '2019-01-08T21:56:27.942+0000',
       pickup_address: 'Cra 45 #24b13, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1384,8 +1384,8 @@ export const trips = [
     car: { plate: 'WNY062' },
     status: 'near',
     check_code: '30',
-    createdAt: { $date: '2019-01-08T21:47:43.178+0000' },
-    updatedAt: { $date: '2019-01-25T23:20:02.888+0000' },
+    createdAt: '2019-01-08T21:47:43.178+0000',
+    updatedAt: '2019-01-25T23:20:02.888+0000',
     price: 15500.0,
     driver_location: {
       type: 'Point',
@@ -1394,7 +1394,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-05T02:00:00.000+0000' },
+      date: '2019-01-05T02:00:00.000+0000',
       pickup_address:
         'Upper Side - Carrera 13 # 81 - 24, Piso 4, Bogotá, Colombia',
       pickup_location: {
@@ -1423,8 +1423,8 @@ export const trips = [
     car: { plate: 'WFR455' },
     status: 'onWay',
     check_code: '87',
-    createdAt: { $date: '2019-01-05T00:27:14.251+0000' },
-    updatedAt: { $date: '2019-01-06T19:24:38.432+0000' },
+    createdAt: '2019-01-05T00:27:14.251+0000',
+    updatedAt: '2019-01-06T19:24:38.432+0000',
     price: 29300.0,
     driver_location: {
       type: 'Point',
@@ -1433,7 +1433,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-05T04:00:00.000+0000' },
+      date: '2019-01-05T04:00:00.000+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1455,8 +1455,8 @@ export const trips = [
     car: { plate: 'EXZ468' },
     status: 'near',
     check_code: '27',
-    createdAt: { $date: '2019-01-05T00:03:37.274+0000' },
-    updatedAt: { $date: '2019-01-09T05:00:13.057+0000' },
+    createdAt: '2019-01-05T00:03:37.274+0000',
+    updatedAt: '2019-01-09T05:00:13.057+0000',
     price: 23400.0,
     driver_location: {
       type: 'Point',
@@ -1465,7 +1465,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-04T12:58:31.100+0000' },
+      date: '2019-01-04T12:58:31.100+0000',
       pickup_address: 'El pinar alto - carrera 5 #81-50, bogotá',
       pickup_location: {
         type: 'Point',
@@ -1487,8 +1487,8 @@ export const trips = [
     car: { plate: 'WNX036' },
     status: 'started',
     check_code: '24',
-    createdAt: { $date: '2019-01-04T12:50:23.498+0000' },
-    updatedAt: { $date: '2019-01-04T19:57:16.883+0000' },
+    createdAt: '2019-01-04T12:50:23.498+0000',
+    updatedAt: '2019-01-04T19:57:16.883+0000',
     price: 15300.0,
     driver_location: {
       type: 'Point',
@@ -1497,7 +1497,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-04T10:59:08.000+0000' },
+      date: '2019-01-04T10:59:08.000+0000',
       pickup_address: 'Cra. 57 #117d-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1522,8 +1522,8 @@ export const trips = [
     car: { plate: 'EXZ404' },
     status: 'near',
     check_code: '70',
-    createdAt: { $date: '2019-01-03T22:22:43.907+0000' },
-    updatedAt: { $date: '2019-01-04T11:35:30.438+0000' },
+    createdAt: '2019-01-03T22:22:43.907+0000',
+    updatedAt: '2019-01-04T11:35:30.438+0000',
     price: 23400.0,
     driver_location: {
       type: 'Point',
@@ -1532,7 +1532,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-11T12:30:00.000+0000' },
+      date: '2019-01-11T12:30:00.000+0000',
       pickup_address: 'Cl. 116 #18-60, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1554,8 +1554,8 @@ export const trips = [
     car: { plate: 'ESO457' },
     status: 'onWay',
     check_code: '85',
-    createdAt: { $date: '2019-01-03T16:28:01.567+0000' },
-    updatedAt: { $date: '2019-01-11T19:19:51.690+0000' },
+    createdAt: '2019-01-03T16:28:01.567+0000',
+    updatedAt: '2019-01-11T19:19:51.690+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -1564,7 +1564,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-03T03:00:00.000+0000' },
+      date: '2019-01-03T03:00:00.000+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1586,8 +1586,8 @@ export const trips = [
     car: { plate: 'WNV114' },
     status: 'started',
     check_code: '57',
-    createdAt: { $date: '2019-01-02T23:01:38.313+0000' },
-    updatedAt: { $date: '2019-01-03T03:49:05.924+0000' },
+    createdAt: '2019-01-02T23:01:38.313+0000',
+    updatedAt: '2019-01-03T03:49:05.924+0000',
     price: 33700.0,
     driver_location: {
       type: 'Point',
@@ -1596,7 +1596,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-02T22:00:00.000+0000' },
+      date: '2019-01-02T22:00:00.000+0000',
       pickup_address: 'DG 24C - Tv 68, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1621,8 +1621,8 @@ export const trips = [
     car: { plate: 'WFR514' },
     status: 'near',
     check_code: '83',
-    createdAt: { $date: '2019-01-01T01:00:16.959+0000' },
-    updatedAt: { $date: '2019-01-02T22:53:06.191+0000' },
+    createdAt: '2019-01-01T01:00:16.959+0000',
+    updatedAt: '2019-01-02T22:53:06.191+0000',
     price: 28200.0,
     driver_location: {
       type: 'Point',
@@ -1631,7 +1631,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-02T22:30:00.000+0000' },
+      date: '2019-01-02T22:30:00.000+0000',
       pickup_address: 'DG 24C - Tv 68, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1656,8 +1656,8 @@ export const trips = [
     car: { plate: 'TZQ627' },
     status: 'onWay',
     check_code: '37',
-    createdAt: { $date: '2019-01-01T00:59:00.159+0000' },
-    updatedAt: { $date: '2019-01-02T23:21:07.360+0000' },
+    createdAt: '2019-01-01T00:59:00.159+0000',
+    updatedAt: '2019-01-02T23:21:07.360+0000',
     price: 25600.0,
     driver_location: {
       type: 'Point',
@@ -1666,7 +1666,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-31T05:46:42.530+0000' },
+      date: '2018-12-31T05:46:42.530+0000',
       pickup_address:
         'Avenida 15 # 124-30 Centro Comercial Unicentro, Bogotá, Colombia',
       pickup_location: {
@@ -1689,8 +1689,8 @@ export const trips = [
     car: { plate: 'WNR898' },
     status: 'started',
     check_code: '37',
-    createdAt: { $date: '2018-12-31T05:42:40.869+0000' },
-    updatedAt: { $date: '2018-12-31T06:55:04.215+0000' },
+    createdAt: '2018-12-31T05:42:40.869+0000',
+    updatedAt: '2018-12-31T06:55:04.215+0000',
     price: 28300.0,
     driver_location: {
       type: 'Point',
@@ -1699,7 +1699,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-29T22:24:37.267+0000' },
+      date: '2018-12-29T22:24:37.267+0000',
       pickup_address: 'Cl. 12 #31-03, Cali, Valle del Cauca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1725,8 +1725,8 @@ export const trips = [
     car: { plate: 'WPK005' },
     status: 'near',
     check_code: '89',
-    createdAt: { $date: '2018-12-29T21:58:49.953+0000' },
-    updatedAt: { $date: '2018-12-31T00:08:25.705+0000' },
+    createdAt: '2018-12-29T21:58:49.953+0000',
+    updatedAt: '2018-12-31T00:08:25.705+0000',
     price: 17200.0,
     driver_location: {
       type: 'Point',
@@ -1735,7 +1735,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-29T15:05:38.529+0000' },
+      date: '2018-12-29T15:05:38.529+0000',
       pickup_address: 'Puente Aéreo-Llegada Viajeros-Aeropuerto El Dorado',
       pickup_location: {
         type: 'Point',
@@ -1764,8 +1764,8 @@ export const trips = [
     car: { plate: 'EXZ707' },
     status: 'near',
     check_code: '38',
-    createdAt: { $date: '2018-12-29T14:55:52.868+0000' },
-    updatedAt: { $date: '2019-01-08T00:59:50.793+0000' },
+    createdAt: '2018-12-29T14:55:52.868+0000',
+    updatedAt: '2019-01-08T00:59:50.793+0000',
     price: 33900.0,
     driver_location: {
       type: 'Point',
@@ -1774,7 +1774,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-31T11:36:38.000+0000' },
+      date: '2018-12-31T11:36:38.000+0000',
       pickup_address: 'Cl. 39 Sur #5-6, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1796,8 +1796,8 @@ export const trips = [
     car: { plate: 'WNT585' },
     status: 'onWay',
     check_code: '62',
-    createdAt: { $date: '2018-12-28T22:46:56.807+0000' },
-    updatedAt: { $date: '2018-12-31T12:27:05.427+0000' },
+    createdAt: '2018-12-28T22:46:56.807+0000',
+    updatedAt: '2018-12-31T12:27:05.427+0000',
     price: 32600.0,
     driver_location: {
       type: 'Point',
@@ -1806,7 +1806,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-28T20:27:08.357+0000' },
+      date: '2018-12-28T20:27:08.357+0000',
       pickup_address:
         'Éxito Country - Cl. 134 #9 - 51, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
@@ -1829,8 +1829,8 @@ export const trips = [
     car: { plate: 'WPR150' },
     status: 'near',
     check_code: '28',
-    createdAt: { $date: '2018-12-28T20:10:57.316+0000' },
-    updatedAt: { $date: '2019-01-16T01:18:51.485+0000' },
+    createdAt: '2018-12-28T20:10:57.316+0000',
+    updatedAt: '2019-01-16T01:18:51.485+0000',
     price: 13300.0,
     driver_location: {
       type: 'Point',
@@ -1839,7 +1839,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-28T14:27:54.261+0000' },
+      date: '2018-12-28T14:27:54.261+0000',
       pickup_address: 'Cra. 12a #79-31, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1864,8 +1864,8 @@ export const trips = [
     car: { plate: 'WNS634' },
     status: 'started',
     check_code: '90',
-    createdAt: { $date: '2018-12-28T14:24:01.501+0000' },
-    updatedAt: { $date: '2019-01-15T09:03:07.720+0000' },
+    createdAt: '2018-12-28T14:24:01.501+0000',
+    updatedAt: '2019-01-15T09:03:07.720+0000',
     price: 10700.0,
     driver_location: {
       type: 'Point',
@@ -1874,7 +1874,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-28T03:05:00.000+0000' },
+      date: '2018-12-28T03:05:00.000+0000',
       pickup_address: 'Codensa - Carrera 13a #93-66, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -1899,8 +1899,8 @@ export const trips = [
     car: { plate: 'EXX235' },
     status: 'started',
     check_code: '31',
-    createdAt: { $date: '2018-12-28T00:51:29.150+0000' },
-    updatedAt: { $date: '2018-12-28T04:37:59.856+0000' },
+    createdAt: '2018-12-28T00:51:29.150+0000',
+    updatedAt: '2018-12-28T04:37:59.856+0000',
     price: 19600.0,
     driver_location: {
       type: 'Point',
@@ -1909,7 +1909,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-28T03:57:18.000+0000' },
+      date: '2018-12-28T03:57:18.000+0000',
       pickup_address: 'Cra. 123 #14-55, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1934,8 +1934,8 @@ export const trips = [
     car: { plate: 'WPR112' },
     status: 'started',
     check_code: '92',
-    createdAt: { $date: '2018-12-27T23:06:46.427+0000' },
-    updatedAt: { $date: '2018-12-29T05:00:16.116+0000' },
+    createdAt: '2018-12-27T23:06:46.427+0000',
+    updatedAt: '2018-12-29T05:00:16.116+0000',
     price: 18300.0,
     driver_location: {
       type: 'Point',
@@ -1944,7 +1944,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-28T22:00:00.000+0000' },
+      date: '2018-12-28T22:00:00.000+0000',
       pickup_address: 'DG 24C - Tv 68, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -1966,8 +1966,8 @@ export const trips = [
     car: { plate: 'WNZ200' },
     status: 'onWay',
     check_code: '81',
-    createdAt: { $date: '2018-12-27T22:40:51.820+0000' },
-    updatedAt: { $date: '2018-12-28T23:19:05.758+0000' },
+    createdAt: '2018-12-27T22:40:51.820+0000',
+    updatedAt: '2018-12-28T23:19:05.758+0000',
     price: 23100.0,
     driver_location: {
       type: 'Point',
@@ -1976,7 +1976,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2019-01-01T23:00:00.000+0000' },
+      date: '2019-01-01T23:00:00.000+0000',
       pickup_address:
         'a 11a-109, Cra. 2a #11a-1, Madrid, Cundinamarca, Colombia',
       pickup_location: {
@@ -1999,8 +1999,8 @@ export const trips = [
     car: { plate: 'TZT277' },
     status: 'near',
     check_code: '57',
-    createdAt: { $date: '2018-12-27T16:59:02.533+0000' },
-    updatedAt: { $date: '2019-01-02T00:44:04.167+0000' },
+    createdAt: '2018-12-27T16:59:02.533+0000',
+    updatedAt: '2019-01-02T00:44:04.167+0000',
     price: 74100.0,
     driver_location: {
       type: 'Point',
@@ -2009,7 +2009,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-28T12:25:00.000+0000' },
+      date: '2018-12-28T12:25:00.000+0000',
       pickup_address: 'Calle 104 19a-64, bogotá',
       pickup_location: {
         type: 'Point',
@@ -2034,8 +2034,8 @@ export const trips = [
     car: { plate: 'ESN380' },
     status: 'near',
     check_code: '95',
-    createdAt: { $date: '2018-12-26T01:37:34.710+0000' },
-    updatedAt: { $date: '2018-12-28T23:01:21.649+0000' },
+    createdAt: '2018-12-26T01:37:34.710+0000',
+    updatedAt: '2018-12-28T23:01:21.649+0000',
     price: 13200.0,
     driver_location: {
       type: 'Point',
@@ -2044,7 +2044,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-25T14:00:42.000+0000' },
+      date: '2018-12-25T14:00:42.000+0000',
       pickup_address: 'Ak. 7 #72-92 torre 1 ap 1602',
       pickup_location: {
         type: 'Point',
@@ -2069,8 +2069,8 @@ export const trips = [
     car: { plate: 'EXZ801' },
     status: 'onWay',
     check_code: '64',
-    createdAt: { $date: '2018-12-25T01:05:21.308+0000' },
-    updatedAt: { $date: '2018-12-27T12:07:57.873+0000' },
+    createdAt: '2018-12-25T01:05:21.308+0000',
+    updatedAt: '2018-12-27T12:07:57.873+0000',
     price: 30100.0,
     driver_location: {
       type: 'Point',
@@ -2079,7 +2079,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-23T04:20:00.000+0000' },
+      date: '2018-12-23T04:20:00.000+0000',
       pickup_address: 'Cra. 25a ##1a Sur 45, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2102,8 +2102,8 @@ export const trips = [
     car: { plate: 'WGP239' },
     status: 'onWay',
     check_code: '14',
-    createdAt: { $date: '2018-12-23T02:06:43.246+0000' },
-    updatedAt: { $date: '2018-12-23T05:33:10.510+0000' },
+    createdAt: '2018-12-23T02:06:43.246+0000',
+    updatedAt: '2018-12-23T05:33:10.510+0000',
     price: 39200.0,
     driver_location: {
       type: 'Point',
@@ -2112,7 +2112,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-22T03:48:27.511+0000' },
+      date: '2018-12-22T03:48:27.511+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2137,8 +2137,8 @@ export const trips = [
     car: { plate: 'WNK191' },
     status: 'near',
     check_code: '77',
-    createdAt: { $date: '2018-12-22T03:30:34.895+0000' },
-    updatedAt: { $date: '2018-12-22T05:01:52.025+0000' },
+    createdAt: '2018-12-22T03:30:34.895+0000',
+    updatedAt: '2018-12-22T05:01:52.025+0000',
     price: 27600.0,
     driver_location: {
       type: 'Point',
@@ -2147,7 +2147,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-22T03:56:53.000+0000' },
+      date: '2018-12-22T03:56:53.000+0000',
       pickup_address: 'Cra. 123 #14-55, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2172,8 +2172,8 @@ export const trips = [
     car: { plate: 'WNY437' },
     status: 'near',
     check_code: '44',
-    createdAt: { $date: '2018-12-21T22:37:28.497+0000' },
-    updatedAt: { $date: '2018-12-25T05:00:05.460+0000' },
+    createdAt: '2018-12-21T22:37:28.497+0000',
+    updatedAt: '2018-12-25T05:00:05.460+0000',
     price: 21700.0,
     driver_location: {
       type: 'Point',
@@ -2182,7 +2182,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-20T12:44:33.751+0000' },
+      date: '2018-12-20T12:44:33.751+0000',
       pickup_address:
         'Colegio San Bartolomé La Merced - Cra. 5 #33B-80, Bogotá, Colombia',
       pickup_location: {
@@ -2208,8 +2208,8 @@ export const trips = [
     car: { plate: 'ESO382' },
     status: 'onWay',
     check_code: '78',
-    createdAt: { $date: '2018-12-20T12:40:13.174+0000' },
-    updatedAt: { $date: '2018-12-20T14:38:18.788+0000' },
+    createdAt: '2018-12-20T12:40:13.174+0000',
+    updatedAt: '2018-12-20T14:38:18.788+0000',
     price: 38900.0,
     driver_location: {
       type: 'Point',
@@ -2218,7 +2218,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-20T11:38:25.096+0000' },
+      date: '2018-12-20T11:38:25.096+0000',
       pickup_address: 'Cra. 50 #147a-20, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2240,8 +2240,8 @@ export const trips = [
     car: { plate: 'ESO249' },
     status: 'onWay',
     check_code: '17',
-    createdAt: { $date: '2018-12-20T11:19:09.363+0000' },
-    updatedAt: { $date: '2018-12-24T22:55:22.409+0000' },
+    createdAt: '2018-12-20T11:19:09.363+0000',
+    updatedAt: '2018-12-24T22:55:22.409+0000',
     price: 25100.0,
     driver_location: {
       type: 'Point',
@@ -2250,7 +2250,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-20T13:05:00.000+0000' },
+      date: '2018-12-20T13:05:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional José María Córdova - Rionegro, Antioquia, Colombia',
       pickup_location: {
@@ -2277,8 +2277,8 @@ export const trips = [
     car: { plate: 'WNR748' },
     status: 'near',
     check_code: '32',
-    createdAt: { $date: '2018-12-20T02:28:58.114+0000' },
-    updatedAt: { $date: '2018-12-22T05:04:35.194+0000' },
+    createdAt: '2018-12-20T02:28:58.114+0000',
+    updatedAt: '2018-12-22T05:04:35.194+0000',
     price: 88800.0,
     driver_location: {
       type: 'Point',
@@ -2287,7 +2287,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-19T11:50:34.000+0000' },
+      date: '2018-12-19T11:50:34.000+0000',
       pickup_address: 'Cra. 54d #135-34 - Cra. 54d #135-34, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2315,8 +2315,8 @@ export const trips = [
     car: { plate: 'SZN254' },
     status: 'onWay',
     check_code: '73',
-    createdAt: { $date: '2018-12-19T10:52:06.650+0000' },
-    updatedAt: { $date: '2018-12-19T22:57:04.298+0000' },
+    createdAt: '2018-12-19T10:52:06.650+0000',
+    updatedAt: '2018-12-19T22:57:04.298+0000',
     price: 18000.0,
     driver_location: {
       type: 'Point',
@@ -2325,7 +2325,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-19T03:50:00.000+0000' },
+      date: '2018-12-19T03:50:00.000+0000',
       pickup_address:
         'Centro Comercial El Tesoro, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -2351,8 +2351,8 @@ export const trips = [
     car: { plate: 'ESP885' },
     status: 'onWay',
     check_code: '96',
-    createdAt: { $date: '2018-12-19T02:45:05.783+0000' },
-    updatedAt: { $date: '2018-12-19T05:01:49.839+0000' },
+    createdAt: '2018-12-19T02:45:05.783+0000',
+    updatedAt: '2018-12-19T05:01:49.839+0000',
     price: 33600.0,
     driver_location: {
       type: 'Point',
@@ -2361,7 +2361,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-18T13:53:14.512+0000' },
+      date: '2018-12-18T13:53:14.512+0000',
       pickup_address:
         'Automotores San Jorge - Cl. 13 #No 38 - 91, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
@@ -2387,8 +2387,8 @@ export const trips = [
     car: { plate: 'TZR859' },
     status: 'started',
     check_code: '61',
-    createdAt: { $date: '2018-12-18T13:49:03.824+0000' },
-    updatedAt: { $date: '2018-12-26T16:35:25.974+0000' },
+    createdAt: '2018-12-18T13:49:03.824+0000',
+    updatedAt: '2018-12-26T16:35:25.974+0000',
     price: 29000.0,
     driver_location: {
       type: 'Point',
@@ -2397,7 +2397,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-18T13:00:26.205+0000' },
+      date: '2018-12-18T13:00:26.205+0000',
       pickup_address: 'Cra. 2 #76a-02, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2423,8 +2423,8 @@ export const trips = [
     car: { plate: 'WMK593' },
     status: 'started',
     check_code: '69',
-    createdAt: { $date: '2018-12-18T12:57:27.307+0000' },
-    updatedAt: { $date: '2018-12-18T15:44:50.841+0000' },
+    createdAt: '2018-12-18T12:57:27.307+0000',
+    updatedAt: '2018-12-18T15:44:50.841+0000',
     price: 12900.0,
     driver_location: {
       type: 'Point',
@@ -2433,7 +2433,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-18T13:35:52.000+0000' },
+      date: '2018-12-18T13:35:52.000+0000',
       pickup_address: 'Cl. 92 #14-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2458,8 +2458,8 @@ export const trips = [
     car: { plate: 'WPQ918' },
     status: 'near',
     check_code: '64',
-    createdAt: { $date: '2018-12-18T00:29:08.963+0000' },
-    updatedAt: { $date: '2018-12-18T19:28:21.741+0000' },
+    createdAt: '2018-12-18T00:29:08.963+0000',
+    updatedAt: '2018-12-18T19:28:21.741+0000',
     price: 17400.0,
     driver_location: {
       type: 'Point',
@@ -2468,7 +2468,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-17T17:42:48.305+0000' },
+      date: '2018-12-17T17:42:48.305+0000',
       pickup_address: 'Cl. 116 #7-15, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2493,8 +2493,8 @@ export const trips = [
     car: { plate: 'WFR453' },
     status: 'started',
     check_code: '29',
-    createdAt: { $date: '2018-12-17T17:31:43.708+0000' },
-    updatedAt: { $date: '2018-12-17T18:19:04.079+0000' },
+    createdAt: '2018-12-17T17:31:43.708+0000',
+    updatedAt: '2018-12-17T18:19:04.079+0000',
     price: 12400.0,
     driver_location: {
       type: 'Point',
@@ -2503,7 +2503,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-17T13:20:00.000+0000' },
+      date: '2018-12-17T13:20:00.000+0000',
       pickup_address: 'Cra 45 #24b-27, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2528,8 +2528,8 @@ export const trips = [
     car: { plate: 'ESO376' },
     status: 'near',
     check_code: '49',
-    createdAt: { $date: '2018-12-17T12:23:53.266+0000' },
-    updatedAt: { $date: '2018-12-17T23:26:25.707+0000' },
+    createdAt: '2018-12-17T12:23:53.266+0000',
+    updatedAt: '2018-12-17T23:26:25.707+0000',
     price: 18000.0,
     driver_location: {
       type: 'Point',
@@ -2538,7 +2538,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-17T12:00:09.000+0000' },
+      date: '2018-12-17T12:00:09.000+0000',
       pickup_address: 'Cl. 104b #45a-12, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2564,8 +2564,8 @@ export const trips = [
     car: { plate: 'ESM312' },
     status: 'onWay',
     check_code: '50',
-    createdAt: { $date: '2018-12-17T10:39:17.774+0000' },
-    updatedAt: { $date: '2018-12-17T12:26:46.770+0000' },
+    createdAt: '2018-12-17T10:39:17.774+0000',
+    updatedAt: '2018-12-17T12:26:46.770+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -2574,7 +2574,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-17T18:00:00.000+0000' },
+      date: '2018-12-17T18:00:00.000+0000',
       pickup_address:
         'Hotel Marriott Bogotá, Av. El Dorado #69b-53, Bogotá, Colombia',
       pickup_location: {
@@ -2597,8 +2597,8 @@ export const trips = [
     car: { plate: 'WNY986' },
     status: 'started',
     check_code: '27',
-    createdAt: { $date: '2018-12-17T01:19:43.286+0000' },
-    updatedAt: { $date: '2018-12-17T20:30:09.209+0000' },
+    createdAt: '2018-12-17T01:19:43.286+0000',
+    updatedAt: '2018-12-17T20:30:09.209+0000',
     price: 59200.0,
     driver_location: {
       type: 'Point',
@@ -2607,7 +2607,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-17T09:40:00.000+0000' },
+      date: '2018-12-17T09:40:00.000+0000',
       pickup_address:
         '#54a- a, Cl. 12 Sur #54a64, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -2630,8 +2630,8 @@ export const trips = [
     car: { plate: 'WMY406' },
     status: 'started',
     check_code: '54',
-    createdAt: { $date: '2018-12-16T17:01:45.247+0000' },
-    updatedAt: { $date: '2018-12-20T02:19:46.209+0000' },
+    createdAt: '2018-12-16T17:01:45.247+0000',
+    updatedAt: '2018-12-20T02:19:46.209+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -2640,7 +2640,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-17T12:00:00.000+0000' },
+      date: '2018-12-17T12:00:00.000+0000',
       pickup_address: 'Cl. 152a #54-80, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2662,8 +2662,8 @@ export const trips = [
     car: { plate: 'WPL854' },
     status: 'started',
     check_code: '82',
-    createdAt: { $date: '2018-12-16T16:58:17.845+0000' },
-    updatedAt: { $date: '2018-12-19T23:19:12.219+0000' },
+    createdAt: '2018-12-16T16:58:17.845+0000',
+    updatedAt: '2018-12-19T23:19:12.219+0000',
     price: 26400.0,
     driver_location: {
       type: 'Point',
@@ -2672,7 +2672,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-16T05:00:20.179+0000' },
+      date: '2018-12-16T05:00:20.179+0000',
       pickup_address: 'AK 60 - Cl 61, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2694,8 +2694,8 @@ export const trips = [
     car: { plate: 'EXZ062' },
     status: 'onWay',
     check_code: '98',
-    createdAt: { $date: '2018-12-16T04:52:53.432+0000' },
-    updatedAt: { $date: '2018-12-18T21:46:05.811+0000' },
+    createdAt: '2018-12-16T04:52:53.432+0000',
+    updatedAt: '2018-12-18T21:46:05.811+0000',
     price: 17400.0,
     driver_location: {
       type: 'Point',
@@ -2704,7 +2704,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-16T04:20:00.000+0000' },
+      date: '2018-12-16T04:20:00.000+0000',
       pickup_address: 'El Tesoro, Medellín, Medellin, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2729,8 +2729,8 @@ export const trips = [
     car: { plate: 'EXV151' },
     status: 'near',
     check_code: '38',
-    createdAt: { $date: '2018-12-16T00:39:43.039+0000' },
-    updatedAt: { $date: '2018-12-16T06:09:07.838+0000' },
+    createdAt: '2018-12-16T00:39:43.039+0000',
+    updatedAt: '2018-12-16T06:09:07.838+0000',
     price: 42900.0,
     driver_location: {
       type: 'Point',
@@ -2739,7 +2739,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-18T04:00:00.000+0000' },
+      date: '2018-12-18T04:00:00.000+0000',
       pickup_address:
         'Vía al Aeropuerto Nte., Palmira, Valle del Cauca, Colombia',
       pickup_location: {
@@ -2762,8 +2762,8 @@ export const trips = [
     car: { plate: 'WHW122' },
     status: 'onWay',
     check_code: '67',
-    createdAt: { $date: '2018-12-15T21:11:44.423+0000' },
-    updatedAt: { $date: '2018-12-21T05:00:05.905+0000' },
+    createdAt: '2018-12-15T21:11:44.423+0000',
+    updatedAt: '2018-12-21T05:00:05.905+0000',
     price: 107400.0,
     driver_location: {
       type: 'Point',
@@ -2772,7 +2772,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-17T22:00:00.000+0000' },
+      date: '2018-12-17T22:00:00.000+0000',
       pickup_address: 'DG 24C - Tv 68, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2797,8 +2797,8 @@ export const trips = [
     car: { plate: 'WPM775' },
     status: 'near',
     check_code: '45',
-    createdAt: { $date: '2018-12-15T02:24:01.382+0000' },
-    updatedAt: { $date: '2018-12-18T19:46:05.413+0000' },
+    createdAt: '2018-12-15T02:24:01.382+0000',
+    updatedAt: '2018-12-18T19:46:05.413+0000',
     price: 28600.0,
     driver_location: {
       type: 'Point',
@@ -2807,7 +2807,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-14T13:25:22.000+0000' },
+      date: '2018-12-14T13:25:22.000+0000',
       pickup_address: 'Cl. 92 #14-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2829,8 +2829,8 @@ export const trips = [
     car: { plate: 'WNY537' },
     status: 'started',
     check_code: '17',
-    createdAt: { $date: '2018-12-13T23:39:38.493+0000' },
-    updatedAt: { $date: '2018-12-14T22:04:44.991+0000' },
+    createdAt: '2018-12-13T23:39:38.493+0000',
+    updatedAt: '2018-12-14T22:04:44.991+0000',
     price: 17000.0,
     driver_location: {
       type: 'Point',
@@ -2839,7 +2839,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-13T20:30:27.547+0000' },
+      date: '2018-12-13T20:30:27.547+0000',
       pickup_address:
         'Centro Comercial El Tesoro, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -2863,8 +2863,8 @@ export const trips = [
     car: { plate: 'WMY934' },
     status: 'started',
     check_code: '61',
-    createdAt: { $date: '2018-12-13T19:58:24.154+0000' },
-    updatedAt: { $date: '2018-12-13T23:18:39.935+0000' },
+    createdAt: '2018-12-13T19:58:24.154+0000',
+    updatedAt: '2018-12-13T23:18:39.935+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -2873,7 +2873,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-13T21:30:14.000+0000' },
+      date: '2018-12-13T21:30:14.000+0000',
       pickup_address:
         'Compensar sede carrera 69 - Cra. 69 ###47-34, Bogotá, Colombia',
       pickup_location: {
@@ -2899,8 +2899,8 @@ export const trips = [
     car: { plate: 'WCV971' },
     status: 'onWay',
     check_code: '40',
-    createdAt: { $date: '2018-12-13T18:17:50.082+0000' },
-    updatedAt: { $date: '2018-12-20T03:34:37.739+0000' },
+    createdAt: '2018-12-13T18:17:50.082+0000',
+    updatedAt: '2018-12-20T03:34:37.739+0000',
     price: 30000.0,
     driver_location: {
       type: 'Point',
@@ -2909,7 +2909,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-13T23:20:00.000+0000' },
+      date: '2018-12-13T23:20:00.000+0000',
       pickup_address: 'Cl. 108 #45-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2931,8 +2931,8 @@ export const trips = [
     car: { plate: 'WEP312' },
     status: 'started',
     check_code: '42',
-    createdAt: { $date: '2018-12-13T16:51:44.403+0000' },
-    updatedAt: { $date: '2018-12-14T00:07:52.488+0000' },
+    createdAt: '2018-12-13T16:51:44.403+0000',
+    updatedAt: '2018-12-14T00:07:52.488+0000',
     price: 53000.0,
     driver_location: {
       type: 'Point',
@@ -2941,7 +2941,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-13T11:15:01.000+0000' },
+      date: '2018-12-13T11:15:01.000+0000',
       pickup_address: 'Cl. 127D #19-88 - Bogotá',
       pickup_location: {
         type: 'Point',
@@ -2966,8 +2966,8 @@ export const trips = [
     car: { plate: 'WHQ675' },
     status: 'onWay',
     check_code: '90',
-    createdAt: { $date: '2018-12-13T01:16:17.750+0000' },
-    updatedAt: { $date: '2018-12-15T14:03:08.309+0000' },
+    createdAt: '2018-12-13T01:16:17.750+0000',
+    updatedAt: '2018-12-15T14:03:08.309+0000',
     price: 22800.0,
     driver_location: {
       type: 'Point',
@@ -2976,7 +2976,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-14T14:30:00.000+0000' },
+      date: '2018-12-14T14:30:00.000+0000',
       pickup_address: 'Calle 26 #103-9, Fontibon, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -2998,8 +2998,8 @@ export const trips = [
     car: { plate: 'EXZ468' },
     status: 'started',
     check_code: '74',
-    createdAt: { $date: '2018-12-12T22:32:33.045+0000' },
-    updatedAt: { $date: '2018-12-17T15:32:37.824+0000' },
+    createdAt: '2018-12-12T22:32:33.045+0000',
+    updatedAt: '2018-12-17T15:32:37.824+0000',
     price: 40300.0,
     driver_location: {
       type: 'Point',
@@ -3008,7 +3008,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-11T18:38:51.178+0000' },
+      date: '2018-12-11T18:38:51.178+0000',
       pickup_address: 'Cl. 22b #56-63, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3030,8 +3030,8 @@ export const trips = [
     car: { plate: 'WOX185' },
     status: 'near',
     check_code: '70',
-    createdAt: { $date: '2018-12-11T18:27:52.389+0000' },
-    updatedAt: { $date: '2018-12-13T13:13:21.647+0000' },
+    createdAt: '2018-12-11T18:27:52.389+0000',
+    updatedAt: '2018-12-13T13:13:21.647+0000',
     price: 22000.0,
     driver_location: {
       type: 'Point',
@@ -3040,7 +3040,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-11T10:25:06.111+0000' },
+      date: '2018-12-11T10:25:06.111+0000',
       pickup_address: '#16, Cl. 17 Sur, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3062,8 +3062,8 @@ export const trips = [
     car: { plate: 'TLM958' },
     status: 'near',
     check_code: '48',
-    createdAt: { $date: '2018-12-11T09:54:04.857+0000' },
-    updatedAt: { $date: '2018-12-12T04:12:23.745+0000' },
+    createdAt: '2018-12-11T09:54:04.857+0000',
+    updatedAt: '2018-12-12T04:12:23.745+0000',
     price: 20600.0,
     driver_location: {
       type: 'Point',
@@ -3072,7 +3072,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-11T12:30:37.000+0000' },
+      date: '2018-12-11T12:30:37.000+0000',
       pickup_address:
         'AFFINITY APARTA HOTEL - Calle 6 sur # 43 A 100, El Poblado, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -3096,8 +3096,8 @@ export const trips = [
     car: { plate: 'TSX495' },
     status: 'started',
     check_code: '37',
-    createdAt: { $date: '2018-12-11T03:21:00.272+0000' },
-    updatedAt: { $date: '2018-12-11T21:31:58.122+0000' },
+    createdAt: '2018-12-11T03:21:00.272+0000',
+    updatedAt: '2018-12-11T21:31:58.122+0000',
     price: 17300.0,
     driver_location: {
       type: 'Point',
@@ -3106,7 +3106,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-11T12:00:00.000+0000' },
+      date: '2018-12-11T12:00:00.000+0000',
       pickup_address: 'Cl. 124a #54b-12, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3134,8 +3134,8 @@ export const trips = [
     car: { plate: 'ESO453' },
     status: 'onWay',
     check_code: '95',
-    createdAt: { $date: '2018-12-10T22:21:49.936+0000' },
-    updatedAt: { $date: '2018-12-11T12:21:05.366+0000' },
+    createdAt: '2018-12-10T22:21:49.936+0000',
+    updatedAt: '2018-12-11T12:21:05.366+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -3144,7 +3144,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-10T17:17:13.418+0000' },
+      date: '2018-12-10T17:17:13.418+0000',
       pickup_address: 'Cl. 93 #12-14, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3166,8 +3166,8 @@ export const trips = [
     car: { plate: 'TTO600' },
     status: 'started',
     check_code: '26',
-    createdAt: { $date: '2018-12-10T17:12:56.647+0000' },
-    updatedAt: { $date: '2018-12-10T17:28:09.702+0000' },
+    createdAt: '2018-12-10T17:12:56.647+0000',
+    updatedAt: '2018-12-10T17:28:09.702+0000',
     price: 7100.0,
     driver_location: {
       type: 'Point',
@@ -3176,7 +3176,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-10T14:15:00.000+0000' },
+      date: '2018-12-10T14:15:00.000+0000',
       pickup_address: 'Cra. 91 #26-38',
       pickup_location: {
         type: 'Point',
@@ -3201,8 +3201,8 @@ export const trips = [
     car: { plate: 'WPR088' },
     status: 'onWay',
     check_code: '85',
-    createdAt: { $date: '2018-12-10T13:08:12.472+0000' },
-    updatedAt: { $date: '2018-12-10T15:17:04.959+0000' },
+    createdAt: '2018-12-10T13:08:12.472+0000',
+    updatedAt: '2018-12-10T15:17:04.959+0000',
     price: 20900.0,
     driver_location: {
       type: 'Point',
@@ -3211,7 +3211,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-07T03:00:00.000+0000' },
+      date: '2018-12-07T03:00:00.000+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3236,8 +3236,8 @@ export const trips = [
     car: { plate: 'WPR088' },
     status: 'started',
     check_code: '52',
-    createdAt: { $date: '2018-12-07T00:14:54.765+0000' },
-    updatedAt: { $date: '2018-12-07T04:09:08.310+0000' },
+    createdAt: '2018-12-07T00:14:54.765+0000',
+    updatedAt: '2018-12-07T04:09:08.310+0000',
     price: 31000.0,
     driver_location: {
       type: 'Point',
@@ -3246,7 +3246,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-07T02:15:00.000+0000' },
+      date: '2018-12-07T02:15:00.000+0000',
       pickup_address: 'Cra. 9 #8219, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3271,8 +3271,8 @@ export const trips = [
     car: { plate: 'WGO764' },
     status: 'near',
     check_code: '55',
-    createdAt: { $date: '2018-12-06T15:47:01.826+0000' },
-    updatedAt: { $date: '2018-12-11T20:57:29.004+0000' },
+    createdAt: '2018-12-06T15:47:01.826+0000',
+    updatedAt: '2018-12-11T20:57:29.004+0000',
     price: 28300.0,
     driver_location: {
       type: 'Point',
@@ -3281,7 +3281,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-06T21:15:00.000+0000' },
+      date: '2018-12-06T21:15:00.000+0000',
       pickup_address:
         'Premium Plaza - Cra. 43A ###30-25, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -3305,8 +3305,8 @@ export const trips = [
     car: { plate: 'WLX684' },
     status: 'started',
     check_code: '49',
-    createdAt: { $date: '2018-12-06T01:08:56.208+0000' },
-    updatedAt: { $date: '2018-12-07T00:14:06.817+0000' },
+    createdAt: '2018-12-06T01:08:56.208+0000',
+    updatedAt: '2018-12-07T00:14:06.817+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -3315,7 +3315,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-06T15:30:00.000+0000' },
+      date: '2018-12-06T15:30:00.000+0000',
       pickup_address: 'Cl. 113 #7-45, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3343,8 +3343,8 @@ export const trips = [
     car: { plate: 'WLQ702' },
     status: 'near',
     check_code: '57',
-    createdAt: { $date: '2018-12-05T21:46:44.440+0000' },
-    updatedAt: { $date: '2018-12-10T20:33:57.724+0000' },
+    createdAt: '2018-12-05T21:46:44.440+0000',
+    updatedAt: '2018-12-10T20:33:57.724+0000',
     price: 385700.0,
     driver_location: {
       type: 'Point',
@@ -3353,7 +3353,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-05T12:15:00.000+0000' },
+      date: '2018-12-05T12:15:00.000+0000',
       pickup_address: 'Cl. 99 #10-8, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3379,8 +3379,8 @@ export const trips = [
     car: { plate: 'FUY680' },
     status: 'near',
     check_code: '60',
-    createdAt: { $date: '2018-12-05T09:59:30.733+0000' },
-    updatedAt: { $date: '2018-12-05T14:50:06.078+0000' },
+    createdAt: '2018-12-05T09:59:30.733+0000',
+    updatedAt: '2018-12-05T14:50:06.078+0000',
     price: 16100.0,
     driver_location: {
       type: 'Point',
@@ -3389,7 +3389,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-04T22:15:54.000+0000' },
+      date: '2018-12-04T22:15:54.000+0000',
       pickup_address: 'Calle 26 #59-41',
       pickup_location: {
         type: 'Point',
@@ -3411,8 +3411,8 @@ export const trips = [
     car: { plate: 'WEX574' },
     status: 'onWay',
     check_code: '71',
-    createdAt: { $date: '2018-12-04T21:36:05.606+0000' },
-    updatedAt: { $date: '2018-12-05T22:49:20.604+0000' },
+    createdAt: '2018-12-04T21:36:05.606+0000',
+    updatedAt: '2018-12-05T22:49:20.604+0000',
     price: 15500.0,
     driver_location: {
       type: 'Point',
@@ -3421,7 +3421,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-05T09:45:24.000+0000' },
+      date: '2018-12-05T09:45:24.000+0000',
       pickup_address: 'Cra. 16 #94-37, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3449,8 +3449,8 @@ export const trips = [
     car: { plate: 'FRR391' },
     status: 'near',
     check_code: '29',
-    createdAt: { $date: '2018-12-04T19:25:48.014+0000' },
-    updatedAt: { $date: '2018-12-05T12:02:21.807+0000' },
+    createdAt: '2018-12-04T19:25:48.014+0000',
+    updatedAt: '2018-12-05T12:02:21.807+0000',
     price: 38500.0,
     driver_location: {
       type: 'Point',
@@ -3459,7 +3459,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-04T13:45:00.000+0000' },
+      date: '2018-12-04T13:45:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional José María Córdova - Rionegro, Antioquia, Colombia',
       pickup_location: {
@@ -3486,8 +3486,8 @@ export const trips = [
     car: { plate: 'WNT412' },
     status: 'onWay',
     check_code: '65',
-    createdAt: { $date: '2018-12-04T11:03:47.948+0000' },
-    updatedAt: { $date: '2018-12-05T02:18:43.629+0000' },
+    createdAt: '2018-12-04T11:03:47.948+0000',
+    updatedAt: '2018-12-05T02:18:43.629+0000',
     price: 82400.0,
     driver_location: {
       type: 'Point',
@@ -3496,7 +3496,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-04T03:00:00.000+0000' },
+      date: '2018-12-04T03:00:00.000+0000',
       pickup_address: 'Cl 52A, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3521,8 +3521,8 @@ export const trips = [
     car: { plate: 'WOX071' },
     status: 'started',
     check_code: '29',
-    createdAt: { $date: '2018-12-03T23:40:16.920+0000' },
-    updatedAt: { $date: '2018-12-04T04:03:09.653+0000' },
+    createdAt: '2018-12-03T23:40:16.920+0000',
+    updatedAt: '2018-12-04T04:03:09.653+0000',
     price: 34000.0,
     driver_location: {
       type: 'Point',
@@ -3531,7 +3531,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-03T21:30:00.000+0000' },
+      date: '2018-12-03T21:30:00.000+0000',
       pickup_address: 'Cl. 116 #7-15, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3553,8 +3553,8 @@ export const trips = [
     car: { plate: 'WPR118' },
     status: 'started',
     check_code: '80',
-    createdAt: { $date: '2018-12-03T20:34:22.038+0000' },
-    updatedAt: { $date: '2018-12-04T21:54:49.180+0000' },
+    createdAt: '2018-12-03T20:34:22.038+0000',
+    updatedAt: '2018-12-04T21:54:49.180+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -3563,7 +3563,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-05T12:20:00.000+0000' },
+      date: '2018-12-05T12:20:00.000+0000',
       pickup_address: 'Cl. 104 #19a-18, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -3588,8 +3588,8 @@ export const trips = [
     car: { plate: 'WGH075' },
     status: 'onWay',
     check_code: '13',
-    createdAt: { $date: '2018-12-02T23:48:51.313+0000' },
-    updatedAt: { $date: '2018-12-09T23:51:40.353+0000' },
+    createdAt: '2018-12-02T23:48:51.313+0000',
+    updatedAt: '2018-12-09T23:51:40.353+0000',
     price: 14000.0,
     driver_location: {
       type: 'Point',
@@ -3598,7 +3598,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-30T16:47:51.115+0000' },
+      date: '2018-11-30T16:47:51.115+0000',
       pickup_address: 'Puerta 8-Salidas-Aeropuerto El Dorado',
       pickup_location: {
         type: 'Point',
@@ -3623,8 +3623,8 @@ export const trips = [
     car: { plate: 'WPO195' },
     status: 'near',
     check_code: '95',
-    createdAt: { $date: '2018-11-30T16:45:29.504+0000' },
-    updatedAt: { $date: '2018-12-06T01:48:03.969+0000' },
+    createdAt: '2018-11-30T16:45:29.504+0000',
+    updatedAt: '2018-12-06T01:48:03.969+0000',
     price: 51500.0,
     driver_location: {
       type: 'Point',
@@ -3633,7 +3633,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-30T02:55:46.800+0000' },
+      date: '2018-11-30T02:55:46.800+0000',
       pickup_address: 'Diagonal 40a #14-1',
       pickup_location: {
         type: 'Point',
@@ -3658,8 +3658,8 @@ export const trips = [
     car: { plate: 'WPR046' },
     status: 'near',
     check_code: '25',
-    createdAt: { $date: '2018-11-30T02:43:12.348+0000' },
-    updatedAt: { $date: '2018-11-30T03:27:52.369+0000' },
+    createdAt: '2018-11-30T02:43:12.348+0000',
+    updatedAt: '2018-11-30T03:27:52.369+0000',
     price: 14000.0,
     driver_location: {
       type: 'Point',
@@ -3668,7 +3668,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-29T13:30:52.000+0000' },
+      date: '2018-11-29T13:30:52.000+0000',
       pickup_address: 'Cl. 49 #78a-27, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3694,8 +3694,8 @@ export const trips = [
     car: { plate: 'EQW048' },
     status: 'started',
     check_code: '89',
-    createdAt: { $date: '2018-11-29T00:09:52.246+0000' },
-    updatedAt: { $date: '2018-11-29T15:49:13.051+0000' },
+    createdAt: '2018-11-29T00:09:52.246+0000',
+    updatedAt: '2018-11-29T15:49:13.051+0000',
     price: 16200.0,
     driver_location: {
       type: 'Point',
@@ -3704,7 +3704,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-28T20:00:07.000+0000' },
+      date: '2018-11-28T20:00:07.000+0000',
       pickup_address: 'Cra 45 #24b-27, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3729,8 +3729,8 @@ export const trips = [
     car: { plate: 'ESL424' },
     status: 'near',
     check_code: '15',
-    createdAt: { $date: '2018-11-28T18:55:27.453+0000' },
-    updatedAt: { $date: '2018-11-28T22:37:14.231+0000' },
+    createdAt: '2018-11-28T18:55:27.453+0000',
+    updatedAt: '2018-11-28T22:37:14.231+0000',
     price: 23300.0,
     driver_location: {
       type: 'Point',
@@ -3739,7 +3739,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-29T11:00:00.000+0000' },
+      date: '2018-11-29T11:00:00.000+0000',
       pickup_address: 'Cra. 51a #127-52, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3764,8 +3764,8 @@ export const trips = [
     car: { plate: 'WGP510' },
     status: 'onWay',
     check_code: '10',
-    createdAt: { $date: '2018-11-28T17:24:27.495+0000' },
-    updatedAt: { $date: '2018-11-29T11:33:07.783+0000' },
+    createdAt: '2018-11-28T17:24:27.495+0000',
+    updatedAt: '2018-11-29T11:33:07.783+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -3774,7 +3774,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-28T13:30:15.000+0000' },
+      date: '2018-11-28T13:30:15.000+0000',
       pickup_address: 'Cl. 135 #7-41, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3802,8 +3802,8 @@ export const trips = [
     car: { plate: 'WMN853' },
     status: 'onWay',
     check_code: '74',
-    createdAt: { $date: '2018-11-28T03:27:52.708+0000' },
-    updatedAt: { $date: '2018-11-28T21:23:42.810+0000' },
+    createdAt: '2018-11-28T03:27:52.708+0000',
+    updatedAt: '2018-11-28T21:23:42.810+0000',
     price: 19800.0,
     driver_location: {
       type: 'Point',
@@ -3812,7 +3812,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-03T19:30:00.000+0000' },
+      date: '2018-12-03T19:30:00.000+0000',
       pickup_address: 'Ak. 19 #90-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3837,8 +3837,8 @@ export const trips = [
     car: { plate: 'WNU166' },
     status: 'near',
     check_code: '35',
-    createdAt: { $date: '2018-11-27T17:24:55.649+0000' },
-    updatedAt: { $date: '2018-12-03T20:22:54.826+0000' },
+    createdAt: '2018-11-27T17:24:55.649+0000',
+    updatedAt: '2018-12-03T20:22:54.826+0000',
     price: 35500.0,
     driver_location: {
       type: 'Point',
@@ -3847,7 +3847,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-28T11:50:00.000+0000' },
+      date: '2018-11-28T11:50:00.000+0000',
       pickup_address: 'Ac. 100 #7-33, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3872,8 +3872,8 @@ export const trips = [
     car: { plate: 'ERL160' },
     status: 'onWay',
     check_code: '17',
-    createdAt: { $date: '2018-11-27T15:52:43.666+0000' },
-    updatedAt: { $date: '2018-12-05T09:45:13.842+0000' },
+    createdAt: '2018-11-27T15:52:43.666+0000',
+    updatedAt: '2018-12-05T09:45:13.842+0000',
     price: 871500.0,
     driver_location: {
       type: 'Point',
@@ -3882,7 +3882,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-26T17:20:00.000+0000' },
+      date: '2018-11-26T17:20:00.000+0000',
       pickup_address: 'Calle 26 #103-9, Fontibon, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3907,8 +3907,8 @@ export const trips = [
     car: { plate: 'WNS899' },
     status: 'started',
     check_code: '35',
-    createdAt: { $date: '2018-11-26T14:15:14.485+0000' },
-    updatedAt: { $date: '2018-11-26T18:27:05.850+0000' },
+    createdAt: '2018-11-26T14:15:14.485+0000',
+    updatedAt: '2018-11-26T18:27:05.850+0000',
     price: 45200.0,
     driver_location: {
       type: 'Point',
@@ -3917,7 +3917,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-26T13:20:00.000+0000' },
+      date: '2018-11-26T13:20:00.000+0000',
       pickup_address: 'Cl. 92 #14-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3942,8 +3942,8 @@ export const trips = [
     car: { plate: 'FUY674' },
     status: 'near',
     check_code: '48',
-    createdAt: { $date: '2018-11-25T22:25:17.006+0000' },
-    updatedAt: { $date: '2018-11-26T20:24:32.902+0000' },
+    createdAt: '2018-11-25T22:25:17.006+0000',
+    updatedAt: '2018-11-26T20:24:32.902+0000',
     price: 15900.0,
     driver_location: {
       type: 'Point',
@@ -3952,7 +3952,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-23T23:32:46.062+0000' },
+      date: '2018-11-23T23:32:46.062+0000',
       pickup_address: 'Ac. 100 #8a-49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -3981,8 +3981,8 @@ export const trips = [
     car: { plate: 'WHO631' },
     status: 'near',
     check_code: '48',
-    createdAt: { $date: '2018-11-23T23:17:16.394+0000' },
-    updatedAt: { $date: '2018-11-24T01:26:30.470+0000' },
+    createdAt: '2018-11-23T23:17:16.394+0000',
+    updatedAt: '2018-11-24T01:26:30.470+0000',
     price: 70000.0,
     driver_location: {
       type: 'Point',
@@ -3991,7 +3991,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-24T18:30:46.000+0000' },
+      date: '2018-11-24T18:30:46.000+0000',
       pickup_address:
         'Aeropuerto Internacional El Dorado - Calle 26 #103-9, Fontibon',
       pickup_location: {
@@ -4014,8 +4014,8 @@ export const trips = [
     car: { plate: 'WNL132' },
     status: 'onWay',
     check_code: '41',
-    createdAt: { $date: '2018-11-23T21:01:56.255+0000' },
-    updatedAt: { $date: '2018-11-26T21:42:40.140+0000' },
+    createdAt: '2018-11-23T21:01:56.255+0000',
+    updatedAt: '2018-11-26T21:42:40.140+0000',
     price: 51600.0,
     driver_location: {
       type: 'Point',
@@ -4024,7 +4024,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-23T03:00:00.000+0000' },
+      date: '2018-11-23T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4049,8 +4049,8 @@ export const trips = [
     car: { plate: 'TGL326' },
     status: 'started',
     check_code: '58',
-    createdAt: { $date: '2018-11-22T23:20:44.574+0000' },
-    updatedAt: { $date: '2018-11-24T05:00:10.897+0000' },
+    createdAt: '2018-11-22T23:20:44.574+0000',
+    updatedAt: '2018-11-24T05:00:10.897+0000',
     price: 29200.0,
     driver_location: {
       type: 'Point',
@@ -4059,7 +4059,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-29T21:30:00.000+0000' },
+      date: '2018-11-29T21:30:00.000+0000',
       pickup_address: 'Cra. 90a #64c-54, bogotá',
       pickup_location: {
         type: 'Point',
@@ -4081,8 +4081,8 @@ export const trips = [
     car: { plate: 'EXZ243' },
     status: 'onWay',
     check_code: '30',
-    createdAt: { $date: '2018-11-22T21:06:13.520+0000' },
-    updatedAt: { $date: '2018-11-29T22:53:07.076+0000' },
+    createdAt: '2018-11-22T21:06:13.520+0000',
+    updatedAt: '2018-11-29T22:53:07.076+0000',
     price: 30300.0,
     driver_location: {
       type: 'Point',
@@ -4091,7 +4091,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-23T21:30:00.000+0000' },
+      date: '2018-11-23T21:30:00.000+0000',
       pickup_address: 'Zf Carrera 2, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4116,8 +4116,8 @@ export const trips = [
     car: { plate: 'ESM894' },
     status: 'started',
     check_code: '33',
-    createdAt: { $date: '2018-11-22T18:13:22.239+0000' },
-    updatedAt: { $date: '2018-11-23T22:57:09.145+0000' },
+    createdAt: '2018-11-22T18:13:22.239+0000',
+    updatedAt: '2018-11-23T22:57:09.145+0000',
     price: 39600.0,
     driver_location: {
       type: 'Point',
@@ -4126,7 +4126,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-21T18:41:46.577+0000' },
+      date: '2018-11-21T18:41:46.577+0000',
       pickup_address: 'calle 93 #19b-31, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4148,8 +4148,8 @@ export const trips = [
     car: { plate: 'WPM726' },
     status: 'near',
     check_code: '70',
-    createdAt: { $date: '2018-11-21T18:36:50.795+0000' },
-    updatedAt: { $date: '2018-11-23T17:00:46.889+0000' },
+    createdAt: '2018-11-21T18:36:50.795+0000',
+    updatedAt: '2018-11-23T17:00:46.889+0000',
     price: 10200.0,
     driver_location: {
       type: 'Point',
@@ -4158,7 +4158,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-21T13:20:29.000+0000' },
+      date: '2018-11-21T13:20:29.000+0000',
       pickup_address: 'Cra. 7 #126-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4181,8 +4181,8 @@ export const trips = [
     car: { plate: 'ESO381' },
     status: 'onWay',
     check_code: '51',
-    createdAt: { $date: '2018-11-21T12:05:09.211+0000' },
-    updatedAt: { $date: '2018-11-21T14:59:54.167+0000' },
+    createdAt: '2018-11-21T12:05:09.211+0000',
+    updatedAt: '2018-11-21T14:59:54.167+0000',
     price: 16400.0,
     driver_location: {
       type: 'Point',
@@ -4191,7 +4191,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-21T13:00:00.000+0000' },
+      date: '2018-11-21T13:00:00.000+0000',
       pickup_address: 'Ac. 26 #92-32, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4217,8 +4217,8 @@ export const trips = [
     car: { plate: 'WNY986' },
     status: 'onWay',
     check_code: '77',
-    createdAt: { $date: '2018-11-20T22:17:29.871+0000' },
-    updatedAt: { $date: '2018-11-21T14:39:05.927+0000' },
+    createdAt: '2018-11-20T22:17:29.871+0000',
+    updatedAt: '2018-11-21T14:39:05.927+0000',
     price: 125300.0,
     driver_location: {
       type: 'Point',
@@ -4227,7 +4227,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-21T16:15:04.000+0000' },
+      date: '2018-11-21T16:15:04.000+0000',
       pickup_address:
         'Aeropuerto Internacional Rafael Núñez - Crespo Calle 70, Cartagena, Bolívar, Colombia',
       pickup_location: {
@@ -4254,8 +4254,8 @@ export const trips = [
     car: { plate: 'TVC542' },
     status: 'onWay',
     check_code: '92',
-    createdAt: { $date: '2018-11-20T20:44:50.272+0000' },
-    updatedAt: { $date: '2018-11-23T20:56:46.745+0000' },
+    createdAt: '2018-11-20T20:44:50.272+0000',
+    updatedAt: '2018-11-23T20:56:46.745+0000',
     price: 32700.0,
     driver_location: {
       type: 'Point',
@@ -4264,7 +4264,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-21T11:40:21.000+0000' },
+      date: '2018-11-21T11:40:21.000+0000',
       pickup_address: 'Cl. 93a #9a-74, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4286,8 +4286,8 @@ export const trips = [
     car: { plate: 'EXX235' },
     status: 'started',
     check_code: '45',
-    createdAt: { $date: '2018-11-20T13:19:35.731+0000' },
-    updatedAt: { $date: '2018-11-21T12:17:47.452+0000' },
+    createdAt: '2018-11-20T13:19:35.731+0000',
+    updatedAt: '2018-11-21T12:17:47.452+0000',
     price: 18300.0,
     driver_location: {
       type: 'Point',
@@ -4296,7 +4296,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-20T12:54:00.000+0000' },
+      date: '2018-11-20T12:54:00.000+0000',
       pickup_address:
         'Glorieta Aeropuerto Olaya Herrera, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -4322,8 +4322,8 @@ export const trips = [
     car: { plate: 'WHR242' },
     status: 'onWay',
     check_code: '88',
-    createdAt: { $date: '2018-11-20T11:53:26.310+0000' },
-    updatedAt: { $date: '2018-11-23T05:00:06.860+0000' },
+    createdAt: '2018-11-20T11:53:26.310+0000',
+    updatedAt: '2018-11-23T05:00:06.860+0000',
     price: 13400.0,
     driver_location: {
       type: 'Point',
@@ -4332,7 +4332,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-20T11:30:00.000+0000' },
+      date: '2018-11-20T11:30:00.000+0000',
       pickup_address: 'Ac. 116 #2238, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4357,8 +4357,8 @@ export const trips = [
     car: { plate: 'WNL296' },
     status: 'onWay',
     check_code: '36',
-    createdAt: { $date: '2018-11-20T03:41:14.149+0000' },
-    updatedAt: { $date: '2018-11-20T17:51:18.396+0000' },
+    createdAt: '2018-11-20T03:41:14.149+0000',
+    updatedAt: '2018-11-20T17:51:18.396+0000',
     price: 103100.0,
     driver_location: {
       type: 'Point',
@@ -4367,7 +4367,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-20T03:00:00.000+0000' },
+      date: '2018-11-20T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4392,8 +4392,8 @@ export const trips = [
     car: { plate: 'WPO985' },
     status: 'near',
     check_code: '83',
-    createdAt: { $date: '2018-11-20T00:27:28.607+0000' },
-    updatedAt: { $date: '2018-11-20T04:05:07.574+0000' },
+    createdAt: '2018-11-20T00:27:28.607+0000',
+    updatedAt: '2018-11-20T04:05:07.574+0000',
     price: 34900.0,
     driver_location: {
       type: 'Point',
@@ -4402,7 +4402,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-19T18:10:00.000+0000' },
+      date: '2018-11-19T18:10:00.000+0000',
       pickup_address:
         'Km 3.5 autopista Medellin Centro empresarial metropolitano Modulo 1 Bodega 10, Cota, Cundinamarca, Colombia',
       pickup_location: {
@@ -4431,8 +4431,8 @@ export const trips = [
     car: { plate: 'WNY986' },
     status: 'near',
     check_code: '83',
-    createdAt: { $date: '2018-11-19T12:12:04.885+0000' },
-    updatedAt: { $date: '2018-11-21T15:28:11.670+0000' },
+    createdAt: '2018-11-19T12:12:04.885+0000',
+    updatedAt: '2018-11-21T15:28:11.670+0000',
     price: 63500.0,
     driver_location: {
       type: 'Point',
@@ -4441,7 +4441,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-19T12:00:00.000+0000' },
+      date: '2018-11-19T12:00:00.000+0000',
       pickup_address: 'Cl. 59 Bis Sur #48g-47, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4470,8 +4470,8 @@ export const trips = [
     car: { plate: 'WPR054' },
     status: 'started',
     check_code: '87',
-    createdAt: { $date: '2018-11-19T01:18:15.754+0000' },
-    updatedAt: { $date: '2018-11-19T12:22:03.710+0000' },
+    createdAt: '2018-11-19T01:18:15.754+0000',
+    updatedAt: '2018-11-19T12:22:03.710+0000',
     price: 10300.0,
     driver_location: {
       type: 'Point',
@@ -4480,7 +4480,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-19T01:30:00.000+0000' },
+      date: '2018-11-19T01:30:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Rafael Núñez - Crespo Calle 70, Cartagena, Bolívar, Colombia',
       pickup_location: {
@@ -4507,8 +4507,8 @@ export const trips = [
     car: { plate: 'TVC542' },
     status: 'onWay',
     check_code: '84',
-    createdAt: { $date: '2018-11-18T00:05:07.372+0000' },
-    updatedAt: { $date: '2018-11-19T13:11:17.929+0000' },
+    createdAt: '2018-11-18T00:05:07.372+0000',
+    updatedAt: '2018-11-19T13:11:17.929+0000',
     price: 37800.0,
     driver_location: {
       type: 'Point',
@@ -4517,7 +4517,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-16T14:23:42.811+0000' },
+      date: '2018-11-16T14:23:42.811+0000',
       pickup_address: 'Cra. 7 #77-7 bogota',
       pickup_location: {
         type: 'Point',
@@ -4539,8 +4539,8 @@ export const trips = [
     car: { plate: 'TSP521' },
     status: 'near',
     check_code: '47',
-    createdAt: { $date: '2018-11-16T14:14:02.244+0000' },
-    updatedAt: { $date: '2018-11-16T15:18:52.646+0000' },
+    createdAt: '2018-11-16T14:14:02.244+0000',
+    updatedAt: '2018-11-16T15:18:52.646+0000',
     price: 11600.0,
     driver_location: {
       type: 'Point',
@@ -4549,7 +4549,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-27T14:10:00.000+0000' },
+      date: '2018-11-27T14:10:00.000+0000',
       pickup_address: 'Cra. 58b #135-49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4574,8 +4574,8 @@ export const trips = [
     car: { plate: 'ESO252' },
     status: 'near',
     check_code: '66',
-    createdAt: { $date: '2018-11-15T19:34:25.435+0000' },
-    updatedAt: { $date: '2018-11-29T01:25:49.953+0000' },
+    createdAt: '2018-11-15T19:34:25.435+0000',
+    updatedAt: '2018-11-29T01:25:49.953+0000',
     price: 85000.0,
     driver_location: {
       type: 'Point',
@@ -4584,7 +4584,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-15T11:58:58.709+0000' },
+      date: '2018-11-15T11:58:58.709+0000',
       pickup_address: 'Calle 46 59-60, bogotá',
       pickup_location: {
         type: 'Point',
@@ -4609,8 +4609,8 @@ export const trips = [
     car: { plate: 'EQQ472' },
     status: 'onWay',
     check_code: '76',
-    createdAt: { $date: '2018-11-15T11:42:57.810+0000' },
-    updatedAt: { $date: '2018-11-15T22:26:09.346+0000' },
+    createdAt: '2018-11-15T11:42:57.810+0000',
+    updatedAt: '2018-11-15T22:26:09.346+0000',
     price: 14400.0,
     driver_location: {
       type: 'Point',
@@ -4619,7 +4619,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-19T10:50:00.000+0000' },
+      date: '2018-11-19T10:50:00.000+0000',
       pickup_address: 'Puerta 5-Salidas-Aeropuerto El Dorado',
       pickup_location: {
         type: 'Point',
@@ -4644,8 +4644,8 @@ export const trips = [
     car: { plate: 'WNY986' },
     status: 'onWay',
     check_code: '67',
-    createdAt: { $date: '2018-11-15T05:27:15.593+0000' },
-    updatedAt: { $date: '2018-11-21T23:20:43.535+0000' },
+    createdAt: '2018-11-15T05:27:15.593+0000',
+    updatedAt: '2018-11-21T23:20:43.535+0000',
     price: 34300.0,
     driver_location: {
       type: 'Point',
@@ -4654,7 +4654,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-15T13:40:06.000+0000' },
+      date: '2018-11-15T13:40:06.000+0000',
       pickup_address:
         'Aeropuerto Internacional Rafael Núñez - Crespo Calle 70, Cartagena, Bolívar, Colombia',
       pickup_location: {
@@ -4684,8 +4684,8 @@ export const trips = [
     car: { plate: 'TVC453' },
     status: 'near',
     check_code: '60',
-    createdAt: { $date: '2018-11-14T22:55:11.563+0000' },
-    updatedAt: { $date: '2018-11-16T11:06:49.566+0000' },
+    createdAt: '2018-11-14T22:55:11.563+0000',
+    updatedAt: '2018-11-16T11:06:49.566+0000',
     price: 86100.0,
     driver_location: {
       type: 'Point',
@@ -4694,7 +4694,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-14T21:00:00.000+0000' },
+      date: '2018-11-14T21:00:00.000+0000',
       pickup_address:
         'Inexmoda - Carrera 43 # 9 Sur - 195, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -4720,8 +4720,8 @@ export const trips = [
     car: { plate: 'ESP871' },
     status: 'near',
     check_code: '14',
-    createdAt: { $date: '2018-11-14T19:24:20.959+0000' },
-    updatedAt: { $date: '2018-11-15T17:07:04.755+0000' },
+    createdAt: '2018-11-14T19:24:20.959+0000',
+    updatedAt: '2018-11-15T17:07:04.755+0000',
     price: 58900.0,
     driver_location: {
       type: 'Point',
@@ -4730,7 +4730,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-14T20:00:42.000+0000' },
+      date: '2018-11-14T20:00:42.000+0000',
       pickup_address:
         'Centro Empresarial Santillana - Cra 43A, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -4754,8 +4754,8 @@ export const trips = [
     car: { plate: 'WLZ357' },
     status: 'started',
     check_code: '31',
-    createdAt: { $date: '2018-11-14T18:53:33.110+0000' },
-    updatedAt: { $date: '2018-11-17T05:00:06.175+0000' },
+    createdAt: '2018-11-14T18:53:33.110+0000',
+    updatedAt: '2018-11-17T05:00:06.175+0000',
     price: 111400.0,
     driver_location: {
       type: 'Point',
@@ -4764,7 +4764,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-13T22:44:50.710+0000' },
+      date: '2018-11-13T22:44:50.710+0000',
       pickup_address: 'Cra. 8 #81a-80, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4792,8 +4792,8 @@ export const trips = [
     car: { plate: 'EXZ002' },
     status: 'near',
     check_code: '75',
-    createdAt: { $date: '2018-11-13T22:36:58.682+0000' },
-    updatedAt: { $date: '2018-11-13T23:39:26.514+0000' },
+    createdAt: '2018-11-13T22:36:58.682+0000',
+    updatedAt: '2018-11-13T23:39:26.514+0000',
     price: 9600.0,
     driver_location: {
       type: 'Point',
@@ -4802,7 +4802,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-12-04T23:10:00.000+0000' },
+      date: '2018-12-04T23:10:00.000+0000',
       pickup_address: 'Calle 26 #103-9, Fontibon, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4827,8 +4827,8 @@ export const trips = [
     car: { plate: 'EXZ002' },
     status: 'onWay',
     check_code: '74',
-    createdAt: { $date: '2018-11-13T16:35:15.159+0000' },
-    updatedAt: { $date: '2018-12-05T01:13:07.293+0000' },
+    createdAt: '2018-11-13T16:35:15.159+0000',
+    updatedAt: '2018-12-05T01:13:07.293+0000',
     price: 71700.0,
     driver_location: {
       type: 'Point',
@@ -4837,7 +4837,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-13T11:35:00.000+0000' },
+      date: '2018-11-13T11:35:00.000+0000',
       pickup_address: 'Cl. 129 #7-53, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4862,8 +4862,8 @@ export const trips = [
     car: { plate: 'WNZ267' },
     status: 'near',
     check_code: '27',
-    createdAt: { $date: '2018-11-12T17:40:15.973+0000' },
-    updatedAt: { $date: '2018-11-14T14:02:06.712+0000' },
+    createdAt: '2018-11-12T17:40:15.973+0000',
+    updatedAt: '2018-11-14T14:02:06.712+0000',
     price: 12400.0,
     driver_location: {
       type: 'Point',
@@ -4872,7 +4872,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-11T04:37:18.615+0000' },
+      date: '2018-11-11T04:37:18.615+0000',
       pickup_address: 'Cra. 1 Este #72a-41, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4897,8 +4897,8 @@ export const trips = [
     car: { plate: 'WNZ267' },
     status: 'started',
     check_code: '39',
-    createdAt: { $date: '2018-11-11T04:29:55.579+0000' },
-    updatedAt: { $date: '2018-11-15T05:00:08.222+0000' },
+    createdAt: '2018-11-11T04:29:55.579+0000',
+    updatedAt: '2018-11-15T05:00:08.222+0000',
     price: 17500.0,
     driver_location: {
       type: 'Point',
@@ -4907,7 +4907,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-10T12:20:00.000+0000' },
+      date: '2018-11-10T12:20:00.000+0000',
       pickup_address: 'Cl. 21, bello',
       pickup_location: {
         type: 'Point',
@@ -4930,8 +4930,8 @@ export const trips = [
     car: { plate: 'SSX011' },
     status: 'near',
     check_code: '90',
-    createdAt: { $date: '2018-11-10T04:07:26.390+0000' },
-    updatedAt: { $date: '2018-11-10T18:27:08.416+0000' },
+    createdAt: '2018-11-10T04:07:26.390+0000',
+    updatedAt: '2018-11-10T18:27:08.416+0000',
     price: 24000.0,
     driver_location: {
       type: 'Point',
@@ -4940,7 +4940,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-10T07:40:00.000+0000' },
+      date: '2018-11-10T07:40:00.000+0000',
       pickup_address: 'Cra. 24b #2a-79, Cali, Valle del Cauca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -4966,8 +4966,8 @@ export const trips = [
     car: { plate: 'WHV429' },
     status: 'onWay',
     check_code: '50',
-    createdAt: { $date: '2018-11-10T02:28:30.194+0000' },
-    updatedAt: { $date: '2018-11-10T12:40:58.185+0000' },
+    createdAt: '2018-11-10T02:28:30.194+0000',
+    updatedAt: '2018-11-10T12:40:58.185+0000',
     price: 79425.0,
     driver_location: {
       type: 'Point',
@@ -4976,7 +4976,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-10T03:00:00.000+0000' },
+      date: '2018-11-10T03:00:00.000+0000',
       pickup_address: 'Cra. 129 #22b-57, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5001,8 +5001,8 @@ export const trips = [
     car: { plate: 'WNS492' },
     status: 'onWay',
     check_code: '71',
-    createdAt: { $date: '2018-11-09T21:28:13.128+0000' },
-    updatedAt: { $date: '2018-12-11T00:29:50.988+0000' },
+    createdAt: '2018-11-09T21:28:13.128+0000',
+    updatedAt: '2018-12-11T00:29:50.988+0000',
     price: 13900.0,
     driver_location: {
       type: 'Point',
@@ -5011,7 +5011,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-10T11:15:38.000+0000' },
+      date: '2018-11-10T11:15:38.000+0000',
       pickup_address:
         'Hotel ESTELAR Square - Carrera 43 # 9 s - 105, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -5038,8 +5038,8 @@ export const trips = [
     car: { plate: 'WLQ063' },
     status: 'near',
     check_code: '99',
-    createdAt: { $date: '2018-11-09T20:31:06.769+0000' },
-    updatedAt: { $date: '2018-11-10T19:42:53.565+0000' },
+    createdAt: '2018-11-09T20:31:06.769+0000',
+    updatedAt: '2018-11-10T19:42:53.565+0000',
     price: 31000.0,
     driver_location: {
       type: 'Point',
@@ -5048,7 +5048,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-09T16:24:59.104+0000' },
+      date: '2018-11-09T16:24:59.104+0000',
       pickup_address: 'Cl. 186 #7-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5076,8 +5076,8 @@ export const trips = [
     car: { plate: 'WMY978' },
     status: 'started',
     check_code: '63',
-    createdAt: { $date: '2018-11-09T15:46:29.255+0000' },
-    updatedAt: { $date: '2018-11-09T17:23:22.721+0000' },
+    createdAt: '2018-11-09T15:46:29.255+0000',
+    updatedAt: '2018-11-09T17:23:22.721+0000',
     price: 21900.0,
     driver_location: {
       type: 'Point',
@@ -5086,7 +5086,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-09T05:37:50.099+0000' },
+      date: '2018-11-09T05:37:50.099+0000',
       pickup_address: 'Cra. 4 #75-45, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5111,8 +5111,8 @@ export const trips = [
     car: { plate: 'EXX234' },
     status: 'near',
     check_code: '21',
-    createdAt: { $date: '2018-11-09T05:32:30.064+0000' },
-    updatedAt: { $date: '2018-11-09T13:47:14.523+0000' },
+    createdAt: '2018-11-09T05:32:30.064+0000',
+    updatedAt: '2018-11-09T13:47:14.523+0000',
     price: 10900.0,
     driver_location: {
       type: 'Point',
@@ -5121,7 +5121,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-08T12:30:00.000+0000' },
+      date: '2018-11-08T12:30:00.000+0000',
       pickup_address: 'Cra. 21 #133-85, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5147,8 +5147,8 @@ export const trips = [
     car: { plate: 'TLO067' },
     status: 'onWay',
     check_code: '32',
-    createdAt: { $date: '2018-11-07T23:39:23.160+0000' },
-    updatedAt: { $date: '2018-11-08T18:23:49.733+0000' },
+    createdAt: '2018-11-07T23:39:23.160+0000',
+    updatedAt: '2018-11-08T18:23:49.733+0000',
     price: 13300.0,
     driver_location: {
       type: 'Point',
@@ -5157,7 +5157,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-07T23:30:01.000+0000' },
+      date: '2018-11-07T23:30:01.000+0000',
       pickup_address:
         'Universidad Externado de Colombia - Calle 12 #1-17 Este, Bogotá',
       pickup_location: {
@@ -5181,8 +5181,8 @@ export const trips = [
     car: { plate: 'WMY978' },
     status: 'onWay',
     check_code: '29',
-    createdAt: { $date: '2018-11-07T21:37:27.355+0000' },
-    updatedAt: { $date: '2018-11-08T03:16:42.926+0000' },
+    createdAt: '2018-11-07T21:37:27.355+0000',
+    updatedAt: '2018-11-08T03:16:42.926+0000',
     price: 35100.0,
     driver_location: {
       type: 'Point',
@@ -5191,7 +5191,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-07T11:25:45.000+0000' },
+      date: '2018-11-07T11:25:45.000+0000',
       pickup_address: 'Cl. 145 #7f:76, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5217,8 +5217,8 @@ export const trips = [
     car: { plate: 'ESK987' },
     status: 'near',
     check_code: '78',
-    createdAt: { $date: '2018-11-07T02:36:45.521+0000' },
-    updatedAt: { $date: '2018-11-07T11:38:51.962+0000' },
+    createdAt: '2018-11-07T02:36:45.521+0000',
+    updatedAt: '2018-11-07T11:38:51.962+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -5227,7 +5227,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-07T14:35:02.000+0000' },
+      date: '2018-11-07T14:35:02.000+0000',
       pickup_address: 'EL PINAR ALTO - Carrera 5 #81-50, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -5252,8 +5252,8 @@ export const trips = [
     car: { plate: 'UFX176' },
     status: 'onWay',
     check_code: '66',
-    createdAt: { $date: '2018-11-07T02:09:25.056+0000' },
-    updatedAt: { $date: '2018-11-07T18:20:42.040+0000' },
+    createdAt: '2018-11-07T02:09:25.056+0000',
+    updatedAt: '2018-11-07T18:20:42.040+0000',
     price: 17000.0,
     driver_location: {
       type: 'Point',
@@ -5262,7 +5262,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-07T01:00:00.000+0000' },
+      date: '2018-11-07T01:00:00.000+0000',
       pickup_address: 'Cra. 129 #22b-57, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5290,8 +5290,8 @@ export const trips = [
     car: { plate: 'EXX902' },
     status: 'started',
     check_code: '84',
-    createdAt: { $date: '2018-11-07T00:23:17.789+0000' },
-    updatedAt: { $date: '2018-11-08T00:44:51.732+0000' },
+    createdAt: '2018-11-07T00:23:17.789+0000',
+    updatedAt: '2018-11-08T00:44:51.732+0000',
     price: 41100.0,
     driver_location: {
       type: 'Point',
@@ -5300,7 +5300,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-09T11:20:00.000+0000' },
+      date: '2018-11-09T11:20:00.000+0000',
       pickup_address: 'Cl. 108 #17a-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5325,8 +5325,8 @@ export const trips = [
     car: { plate: 'SQW676' },
     status: 'near',
     check_code: '21',
-    createdAt: { $date: '2018-11-07T00:21:17.128+0000' },
-    updatedAt: { $date: '2018-11-09T11:59:46.944+0000' },
+    createdAt: '2018-11-07T00:21:17.128+0000',
+    updatedAt: '2018-11-09T11:59:46.944+0000',
     price: 17800.0,
     driver_location: {
       type: 'Point',
@@ -5335,7 +5335,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-06T20:08:05.287+0000' },
+      date: '2018-11-06T20:08:05.287+0000',
       pickup_address: 'Cra. 106a #153a-11, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5360,8 +5360,8 @@ export const trips = [
     car: { plate: 'WNK144' },
     status: 'onWay',
     check_code: '66',
-    createdAt: { $date: '2018-11-06T19:26:30.178+0000' },
-    updatedAt: { $date: '2018-11-06T21:21:08.708+0000' },
+    createdAt: '2018-11-06T19:26:30.178+0000',
+    updatedAt: '2018-11-06T21:21:08.708+0000',
     price: 31700.0,
     driver_location: {
       type: 'Point',
@@ -5370,7 +5370,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-06T12:38:08.596+0000' },
+      date: '2018-11-06T12:38:08.596+0000',
       pickup_address: 'Cra. 9 #93B -49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5398,8 +5398,8 @@ export const trips = [
     car: { plate: 'WHS533' },
     status: 'near',
     check_code: '54',
-    createdAt: { $date: '2018-11-06T12:32:25.941+0000' },
-    updatedAt: { $date: '2018-11-07T23:04:26.486+0000' },
+    createdAt: '2018-11-06T12:32:25.941+0000',
+    updatedAt: '2018-11-07T23:04:26.486+0000',
     price: 8300.0,
     driver_location: {
       type: 'Point',
@@ -5408,7 +5408,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-06T11:00:00.000+0000' },
+      date: '2018-11-06T11:00:00.000+0000',
       pickup_address: 'Cra. 9 #84-40, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5430,8 +5430,8 @@ export const trips = [
     car: { plate: 'TUK360' },
     status: 'started',
     check_code: '17',
-    createdAt: { $date: '2018-11-06T09:40:02.228+0000' },
-    updatedAt: { $date: '2018-11-08T01:17:33.500+0000' },
+    createdAt: '2018-11-06T09:40:02.228+0000',
+    updatedAt: '2018-11-08T01:17:33.500+0000',
     price: 33400.0,
     driver_location: {
       type: 'Point',
@@ -5440,7 +5440,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-12T03:30:00.000+0000' },
+      date: '2018-11-12T03:30:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5462,14 +5462,14 @@ export const trips = [
     car: {},
     status: 'onWay',
     check_code: '11',
-    createdAt: { $date: '2018-11-06T00:15:50.994+0000' },
-    updatedAt: { $date: '2018-11-06T05:00:10.483+0000' },
+    createdAt: '2018-11-06T00:15:50.994+0000',
+    updatedAt: '2018-11-06T05:00:10.483+0000',
     price: 34500.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-03T04:55:00.000+0000' },
+      date: '2018-11-03T04:55:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5491,8 +5491,8 @@ export const trips = [
     car: { plate: 'WPM993' },
     status: 'started',
     check_code: '64',
-    createdAt: { $date: '2018-11-03T02:04:11.662+0000' },
-    updatedAt: { $date: '2018-11-06T05:00:08.416+0000' },
+    createdAt: '2018-11-03T02:04:11.662+0000',
+    updatedAt: '2018-11-06T05:00:08.416+0000',
     price: 28200.0,
     driver_location: {
       type: 'Point',
@@ -5501,7 +5501,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-02T22:31:37.665+0000' },
+      date: '2018-11-02T22:31:37.665+0000',
       pickup_address: 'Cra 45 #24b-27, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5526,8 +5526,8 @@ export const trips = [
     car: { plate: 'TTO489' },
     status: 'onWay',
     check_code: '22',
-    createdAt: { $date: '2018-11-02T22:22:39.641+0000' },
-    updatedAt: { $date: '2018-11-03T01:24:53.808+0000' },
+    createdAt: '2018-11-02T22:22:39.641+0000',
+    updatedAt: '2018-11-03T01:24:53.808+0000',
     price: 20900.0,
     driver_location: {
       type: 'Point',
@@ -5536,7 +5536,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-02T23:45:21.000+0000' },
+      date: '2018-11-02T23:45:21.000+0000',
       pickup_address: 'Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5561,8 +5561,8 @@ export const trips = [
     car: { plate: 'ERL484' },
     status: 'started',
     check_code: '49',
-    createdAt: { $date: '2018-11-02T21:21:00.948+0000' },
-    updatedAt: { $date: '2018-11-05T00:31:17.626+0000' },
+    createdAt: '2018-11-02T21:21:00.948+0000',
+    updatedAt: '2018-11-05T00:31:17.626+0000',
     price: 38700.0,
     driver_location: {
       type: 'Point',
@@ -5571,7 +5571,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-07T12:00:00.000+0000' },
+      date: '2018-11-07T12:00:00.000+0000',
       pickup_address: 'Ak. 9 #12530, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5597,8 +5597,8 @@ export const trips = [
     car: { plate: 'WCT117' },
     status: 'onWay',
     check_code: '56',
-    createdAt: { $date: '2018-11-02T15:32:36.545+0000' },
-    updatedAt: { $date: '2018-11-15T18:27:24.513+0000' },
+    createdAt: '2018-11-02T15:32:36.545+0000',
+    updatedAt: '2018-11-15T18:27:24.513+0000',
     price: 565000.0,
     driver_location: {
       type: 'Point',
@@ -5607,7 +5607,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:00:00.000+0000' },
+      date: '2018-11-06T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5629,14 +5629,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '30',
-    createdAt: { $date: '2018-11-01T21:31:26.575+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:09.010+0000' },
+    createdAt: '2018-11-01T21:31:26.575+0000',
+    updatedAt: '2018-11-06T07:51:09.010+0000',
     price: 20200.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-02T13:35:15.000+0000' },
+      date: '2018-11-02T13:35:15.000+0000',
       pickup_address: 'Cra. 11a #94-31, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5661,8 +5661,8 @@ export const trips = [
     car: { plate: 'WNV484' },
     status: 'onWay',
     check_code: '12',
-    createdAt: { $date: '2018-11-01T21:24:46.993+0000' },
-    updatedAt: { $date: '2018-11-02T22:06:07.075+0000' },
+    createdAt: '2018-11-01T21:24:46.993+0000',
+    updatedAt: '2018-11-02T22:06:07.075+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -5671,7 +5671,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-05T05:00:00.000+0000' },
+      date: '2018-11-05T05:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5693,14 +5693,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '96',
-    createdAt: { $date: '2018-11-01T21:23:28.120+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:09.006+0000' },
+    createdAt: '2018-11-01T21:23:28.120+0000',
+    updatedAt: '2018-11-06T07:51:09.006+0000',
     price: 40500.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T04:00:00.000+0000' },
+      date: '2018-11-06T04:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5722,14 +5722,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '54',
-    createdAt: { $date: '2018-11-01T21:19:50.962+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:08.916+0000' },
+    createdAt: '2018-11-01T21:19:50.962+0000',
+    updatedAt: '2018-11-06T07:51:08.916+0000',
     price: 15800.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T04:00:00.000+0000' },
+      date: '2018-11-06T04:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5754,14 +5754,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '96',
-    createdAt: { $date: '2018-11-01T21:16:39.709+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:09.002+0000' },
+    createdAt: '2018-11-01T21:16:39.709+0000',
+    updatedAt: '2018-11-06T07:51:09.002+0000',
     price: 17600.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:40:00.000+0000' },
+      date: '2018-11-06T03:40:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5783,14 +5783,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '83',
-    createdAt: { $date: '2018-11-01T21:09:09.629+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:08.923+0000' },
+    createdAt: '2018-11-01T21:09:09.629+0000',
+    updatedAt: '2018-11-06T07:51:08.923+0000',
     price: 18200.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:00:00.000+0000' },
+      date: '2018-11-06T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5812,14 +5812,14 @@ export const trips = [
     car: {},
     status: 'onWay',
     check_code: '60',
-    createdAt: { $date: '2018-11-01T20:46:27.098+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:08.924+0000' },
+    createdAt: '2018-11-01T20:46:27.098+0000',
+    updatedAt: '2018-11-06T07:51:08.924+0000',
     price: 33600.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-05T02:40:00.000+0000' },
+      date: '2018-11-05T02:40:00.000+0000',
       pickup_address:
         'Cr 71D, Cl. 14 Sur #No. 1, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
@@ -5842,8 +5842,8 @@ export const trips = [
     car: { plate: 'WNV375' },
     status: 'near',
     check_code: '82',
-    createdAt: { $date: '2018-11-01T20:44:47.465+0000' },
-    updatedAt: { $date: '2018-11-05T04:26:12.885+0000' },
+    createdAt: '2018-11-01T20:44:47.465+0000',
+    updatedAt: '2018-11-05T04:26:12.885+0000',
     price: 20800.0,
     driver_location: {
       type: 'Point',
@@ -5852,7 +5852,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-01T20:51:36.546+0000' },
+      date: '2018-11-01T20:51:36.546+0000',
       pickup_address: 'Cra. 7 #77-7 bogota',
       pickup_location: {
         type: 'Point',
@@ -5874,8 +5874,8 @@ export const trips = [
     car: { plate: 'WHS474' },
     status: 'near',
     check_code: '56',
-    createdAt: { $date: '2018-11-01T20:44:08.489+0000' },
-    updatedAt: { $date: '2018-11-01T22:22:55.898+0000' },
+    createdAt: '2018-11-01T20:44:08.489+0000',
+    updatedAt: '2018-11-01T22:22:55.898+0000',
     price: 11600.0,
     driver_location: {
       type: 'Point',
@@ -5884,7 +5884,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:00:00.000+0000' },
+      date: '2018-11-06T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5906,14 +5906,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '42',
-    createdAt: { $date: '2018-11-01T20:43:16.206+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:09.082+0000' },
+    createdAt: '2018-11-01T20:43:16.206+0000',
+    updatedAt: '2018-11-06T07:51:09.082+0000',
     price: 31500.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:00:00.000+0000' },
+      date: '2018-11-06T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5935,14 +5935,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '42',
-    createdAt: { $date: '2018-11-01T20:34:30.806+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:08.997+0000' },
+    createdAt: '2018-11-01T20:34:30.806+0000',
+    updatedAt: '2018-11-06T07:51:08.997+0000',
     price: 17900.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T04:00:00.000+0000' },
+      date: '2018-11-06T04:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5967,14 +5967,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '70',
-    createdAt: { $date: '2018-11-01T20:26:34.068+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:09.008+0000' },
+    createdAt: '2018-11-01T20:26:34.068+0000',
+    updatedAt: '2018-11-06T07:51:09.008+0000',
     price: 27600.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:00:00.000+0000' },
+      date: '2018-11-06T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -5999,14 +5999,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '56',
-    createdAt: { $date: '2018-11-01T20:20:46.449+0000' },
-    updatedAt: { $date: '2018-11-16T10:21:24.566+0000' },
+    createdAt: '2018-11-01T20:20:46.449+0000',
+    updatedAt: '2018-11-16T10:21:24.566+0000',
     price: 47200.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-01T22:05:00.000+0000' },
+      date: '2018-11-01T22:05:00.000+0000',
       pickup_address: 'Calle 22N # 6AN-24, Cali, Valle del Cauca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6035,8 +6035,8 @@ export const trips = [
     car: { plate: 'WHW384' },
     status: 'onWay',
     check_code: '80',
-    createdAt: { $date: '2018-11-01T20:15:28.571+0000' },
-    updatedAt: { $date: '2018-11-02T01:35:30.703+0000' },
+    createdAt: '2018-11-01T20:15:28.571+0000',
+    updatedAt: '2018-11-02T01:35:30.703+0000',
     price: 80800.0,
     driver_location: {
       type: 'Point',
@@ -6045,7 +6045,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:30:00.000+0000' },
+      date: '2018-11-06T03:30:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6067,14 +6067,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '92',
-    createdAt: { $date: '2018-11-01T19:54:44.313+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:08.390+0000' },
+    createdAt: '2018-11-01T19:54:44.313+0000',
+    updatedAt: '2018-11-06T07:51:08.390+0000',
     price: 26400.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-07T04:20:00.000+0000' },
+      date: '2018-11-07T04:20:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6096,14 +6096,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '31',
-    createdAt: { $date: '2018-11-01T19:42:24.019+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:08.016+0000' },
+    createdAt: '2018-11-01T19:42:24.019+0000',
+    updatedAt: '2018-11-06T07:51:08.016+0000',
     price: 21400.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-05T05:00:00.000+0000' },
+      date: '2018-11-05T05:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6125,14 +6125,14 @@ export const trips = [
     car: {},
     status: 'onWay',
     check_code: '72',
-    createdAt: { $date: '2018-11-01T19:26:14.585+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:08.006+0000' },
+    createdAt: '2018-11-01T19:26:14.585+0000',
+    updatedAt: '2018-11-06T07:51:08.006+0000',
     price: 39400.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:00:00.000+0000' },
+      date: '2018-11-06T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6154,14 +6154,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '47',
-    createdAt: { $date: '2018-11-01T19:19:38.526+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:07.162+0000' },
+    createdAt: '2018-11-01T19:19:38.526+0000',
+    updatedAt: '2018-11-06T07:51:07.162+0000',
     price: 76800.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-06T03:00:00.000+0000' },
+      date: '2018-11-06T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6183,14 +6183,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '59',
-    createdAt: { $date: '2018-11-01T19:15:14.038+0000' },
-    updatedAt: { $date: '2018-11-06T07:51:07.157+0000' },
+    createdAt: '2018-11-01T19:15:14.038+0000',
+    updatedAt: '2018-11-06T07:51:07.157+0000',
     price: 42000.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-11-01T17:27:43.500+0000' },
+      date: '2018-11-01T17:27:43.500+0000',
       pickup_address: 'Cl. 98 ###70-91, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6219,8 +6219,8 @@ export const trips = [
     car: { plate: 'WMZ943' },
     status: 'near',
     check_code: '21',
-    createdAt: { $date: '2018-11-01T17:27:21.381+0000' },
-    updatedAt: { $date: '2018-11-01T19:44:25.702+0000' },
+    createdAt: '2018-11-01T17:27:21.381+0000',
+    updatedAt: '2018-11-01T19:44:25.702+0000',
     price: 36600.0,
     driver_location: {
       type: 'Point',
@@ -6229,7 +6229,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-01T03:00:00.000+0000' },
+      date: '2018-11-01T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6251,8 +6251,8 @@ export const trips = [
     car: { plate: 'WNV224' },
     status: 'near',
     check_code: '93',
-    createdAt: { $date: '2018-11-01T00:58:24.500+0000' },
-    updatedAt: { $date: '2018-11-03T05:00:14.327+0000' },
+    createdAt: '2018-11-01T00:58:24.500+0000',
+    updatedAt: '2018-11-03T05:00:14.327+0000',
     price: 26300.0,
     driver_location: {
       type: 'Point',
@@ -6261,7 +6261,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-01T03:00:00.000+0000' },
+      date: '2018-11-01T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6283,8 +6283,8 @@ export const trips = [
     car: { plate: 'WLK955' },
     status: 'near',
     check_code: '24',
-    createdAt: { $date: '2018-11-01T00:50:07.196+0000' },
-    updatedAt: { $date: '2018-11-03T05:00:14.002+0000' },
+    createdAt: '2018-11-01T00:50:07.196+0000',
+    updatedAt: '2018-11-03T05:00:14.002+0000',
     price: 78200.0,
     driver_location: {
       type: 'Point',
@@ -6293,7 +6293,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-31T12:04:40.091+0000' },
+      date: '2018-10-31T12:04:40.091+0000',
       pickup_address: 'Cl. 58 #35a-58, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6316,8 +6316,8 @@ export const trips = [
     car: { plate: 'WFR419' },
     status: 'onWay',
     check_code: '94',
-    createdAt: { $date: '2018-10-31T12:00:18.023+0000' },
-    updatedAt: { $date: '2018-11-01T00:44:14.939+0000' },
+    createdAt: '2018-10-31T12:00:18.023+0000',
+    updatedAt: '2018-11-01T00:44:14.939+0000',
     price: 27200.0,
     driver_location: {
       type: 'Point',
@@ -6326,7 +6326,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-31T11:29:02.792+0000' },
+      date: '2018-10-31T11:29:02.792+0000',
       pickup_address: 'Carrera 72 #24-2',
       pickup_location: {
         type: 'Point',
@@ -6352,8 +6352,8 @@ export const trips = [
     car: { plate: 'WFR406' },
     status: 'started',
     check_code: '13',
-    createdAt: { $date: '2018-10-31T11:26:23.940+0000' },
-    updatedAt: { $date: '2018-10-31T23:02:56.844+0000' },
+    createdAt: '2018-10-31T11:26:23.940+0000',
+    updatedAt: '2018-10-31T23:02:56.844+0000',
     price: 24400.0,
     driver_location: {
       type: 'Point',
@@ -6362,7 +6362,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-31T03:00:00.000+0000' },
+      date: '2018-10-31T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6384,8 +6384,8 @@ export const trips = [
     car: { plate: 'WFR403' },
     status: 'near',
     check_code: '91',
-    createdAt: { $date: '2018-10-31T01:06:34.263+0000' },
-    updatedAt: { $date: '2018-11-03T05:00:11.435+0000' },
+    createdAt: '2018-10-31T01:06:34.263+0000',
+    updatedAt: '2018-11-03T05:00:11.435+0000',
     price: 30200.0,
     driver_location: {
       type: 'Point',
@@ -6394,7 +6394,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-31T03:00:00.000+0000' },
+      date: '2018-10-31T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6419,8 +6419,8 @@ export const trips = [
     car: { plate: 'WNU896' },
     status: 'started',
     check_code: '21',
-    createdAt: { $date: '2018-10-31T00:13:17.602+0000' },
-    updatedAt: { $date: '2018-11-03T05:00:10.061+0000' },
+    createdAt: '2018-10-31T00:13:17.602+0000',
+    updatedAt: '2018-11-03T05:00:10.061+0000',
     price: 41300.0,
     driver_location: {
       type: 'Point',
@@ -6429,7 +6429,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-30T14:56:48.477+0000' },
+      date: '2018-10-30T14:56:48.477+0000',
       pickup_address: 'Cl. 95 #9-97, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -6454,8 +6454,8 @@ export const trips = [
     car: { plate: 'WPR044' },
     status: 'started',
     check_code: '47',
-    createdAt: { $date: '2018-10-30T14:45:33.433+0000' },
-    updatedAt: { $date: '2018-10-30T16:23:56.265+0000' },
+    createdAt: '2018-10-30T14:45:33.433+0000',
+    updatedAt: '2018-10-30T16:23:56.265+0000',
     price: 22600.0,
     driver_location: {
       type: 'Point',
@@ -6464,7 +6464,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-30T11:45:36.000+0000' },
+      date: '2018-10-30T11:45:36.000+0000',
       pickup_address: 'Cl. 88 #9-30, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -6490,8 +6490,8 @@ export const trips = [
     car: { plate: 'EXX524' },
     status: 'started',
     check_code: '78',
-    createdAt: { $date: '2018-10-30T04:19:29.153+0000' },
-    updatedAt: { $date: '2018-10-30T12:09:53.922+0000' },
+    createdAt: '2018-10-30T04:19:29.153+0000',
+    updatedAt: '2018-10-30T12:09:53.922+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -6500,7 +6500,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-30T13:30:09.000+0000' },
+      date: '2018-10-30T13:30:09.000+0000',
       pickup_address: 'Cl. 132 #20-31, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6522,8 +6522,8 @@ export const trips = [
     car: { plate: 'WGI110' },
     status: 'started',
     check_code: '40',
-    createdAt: { $date: '2018-10-30T04:02:37.673+0000' },
-    updatedAt: { $date: '2018-10-30T15:18:40.549+0000' },
+    createdAt: '2018-10-30T04:02:37.673+0000',
+    updatedAt: '2018-10-30T15:18:40.549+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -6532,7 +6532,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-30T12:30:45.000+0000' },
+      date: '2018-10-30T12:30:45.000+0000',
       pickup_address: 'Cl. 128b #78-90, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6555,8 +6555,8 @@ export const trips = [
     car: { plate: 'TTP160' },
     status: 'onWay',
     check_code: '91',
-    createdAt: { $date: '2018-10-29T23:32:46.539+0000' },
-    updatedAt: { $date: '2018-10-30T18:21:25.903+0000' },
+    createdAt: '2018-10-29T23:32:46.539+0000',
+    updatedAt: '2018-10-30T18:21:25.903+0000',
     price: 22500.0,
     driver_location: {
       type: 'Point',
@@ -6565,7 +6565,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-08T20:20:00.000+0000' },
+      date: '2018-11-08T20:20:00.000+0000',
       pickup_address: 'Cl. 98 #70-91, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6591,8 +6591,8 @@ export const trips = [
     car: { plate: 'TTN732' },
     status: 'onWay',
     check_code: '66',
-    createdAt: { $date: '2018-10-29T21:48:28.214+0000' },
-    updatedAt: { $date: '2018-11-08T20:51:54.014+0000' },
+    createdAt: '2018-10-29T21:48:28.214+0000',
+    updatedAt: '2018-11-08T20:51:54.014+0000',
     price: 28300.0,
     driver_location: {
       type: 'Point',
@@ -6601,7 +6601,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-27T04:00:08.409+0000' },
+      date: '2018-10-27T04:00:08.409+0000',
       pickup_address: 'Cl. 96 ##13a-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6623,8 +6623,8 @@ export const trips = [
     car: { plate: 'ESK708' },
     status: 'started',
     check_code: '44',
-    createdAt: { $date: '2018-10-27T03:33:35.057+0000' },
-    updatedAt: { $date: '2018-11-01T01:41:03.053+0000' },
+    createdAt: '2018-10-27T03:33:35.057+0000',
+    updatedAt: '2018-11-01T01:41:03.053+0000',
     price: 24800.0,
     driver_location: {
       type: 'Point',
@@ -6633,7 +6633,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-27T03:08:38.269+0000' },
+      date: '2018-10-27T03:08:38.269+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6655,8 +6655,8 @@ export const trips = [
     car: { plate: 'WFR393' },
     status: 'onWay',
     check_code: '77',
-    createdAt: { $date: '2018-10-27T02:58:50.989+0000' },
-    updatedAt: { $date: '2018-11-02T05:00:10.627+0000' },
+    createdAt: '2018-10-27T02:58:50.989+0000',
+    updatedAt: '2018-11-02T05:00:10.627+0000',
     price: 27500.0,
     driver_location: {
       type: 'Point',
@@ -6665,7 +6665,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-28T06:00:00.000+0000' },
+      date: '2018-10-28T06:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6687,14 +6687,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '21',
-    createdAt: { $date: '2018-10-26T19:48:38.103+0000' },
-    updatedAt: { $date: '2018-11-06T00:02:02.106+0000' },
+    createdAt: '2018-10-26T19:48:38.103+0000',
+    updatedAt: '2018-11-06T00:02:02.106+0000',
     price: 28300.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-29T12:50:00.000+0000' },
+      date: '2018-10-29T12:50:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Ernesto Cortissoz, Soledad, Atlántico, Colombia',
       pickup_location: {
@@ -6717,8 +6717,8 @@ export const trips = [
     car: { plate: 'WOX645' },
     status: 'near',
     check_code: '69',
-    createdAt: { $date: '2018-10-26T19:45:53.358+0000' },
-    updatedAt: { $date: '2018-11-08T19:46:12.798+0000' },
+    createdAt: '2018-10-26T19:45:53.358+0000',
+    updatedAt: '2018-11-08T19:46:12.798+0000',
     price: 74600.0,
     driver_location: {
       type: 'Point',
@@ -6727,7 +6727,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-29T04:10:00.000+0000' },
+      date: '2018-10-29T04:10:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6752,14 +6752,14 @@ export const trips = [
     car: {},
     status: 'onWay',
     check_code: '91',
-    createdAt: { $date: '2018-10-26T19:10:59.292+0000' },
-    updatedAt: { $date: '2018-11-06T05:00:07.381+0000' },
+    createdAt: '2018-10-26T19:10:59.292+0000',
+    updatedAt: '2018-11-06T05:00:07.381+0000',
     price: 26000.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-29T03:00:00.000+0000' },
+      date: '2018-10-29T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6781,14 +6781,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '15',
-    createdAt: { $date: '2018-10-26T18:59:02.135+0000' },
-    updatedAt: { $date: '2018-11-06T05:00:06.624+0000' },
+    createdAt: '2018-10-26T18:59:02.135+0000',
+    updatedAt: '2018-11-06T05:00:06.624+0000',
     price: 26500.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-29T03:00:00.000+0000' },
+      date: '2018-10-29T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6810,14 +6810,14 @@ export const trips = [
     car: {},
     status: 'onWay',
     check_code: '51',
-    createdAt: { $date: '2018-10-26T18:44:26.007+0000' },
-    updatedAt: { $date: '2018-11-06T00:02:02.109+0000' },
+    createdAt: '2018-10-26T18:44:26.007+0000',
+    updatedAt: '2018-11-06T00:02:02.109+0000',
     price: 22200.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-29T04:00:00.000+0000' },
+      date: '2018-10-29T04:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6839,14 +6839,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '64',
-    createdAt: { $date: '2018-10-26T16:18:11.509+0000' },
-    updatedAt: { $date: '2018-11-06T05:00:06.561+0000' },
+    createdAt: '2018-10-26T16:18:11.509+0000',
+    updatedAt: '2018-11-06T05:00:06.561+0000',
     price: 29600.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-29T03:00:00.000+0000' },
+      date: '2018-10-29T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6868,14 +6868,14 @@ export const trips = [
     car: {},
     status: 'near',
     check_code: '48',
-    createdAt: { $date: '2018-10-26T16:12:27.614+0000' },
-    updatedAt: { $date: '2018-11-06T00:02:02.101+0000' },
+    createdAt: '2018-10-26T16:12:27.614+0000',
+    updatedAt: '2018-11-06T00:02:02.101+0000',
     price: 60000.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-29T03:00:00.000+0000' },
+      date: '2018-10-29T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6897,14 +6897,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '55',
-    createdAt: { $date: '2018-10-26T15:57:08.657+0000' },
-    updatedAt: { $date: '2018-11-06T05:00:06.135+0000' },
+    createdAt: '2018-10-26T15:57:08.657+0000',
+    updatedAt: '2018-11-06T05:00:06.135+0000',
     price: 22800.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-29T03:00:00.000+0000' },
+      date: '2018-10-29T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6926,14 +6926,14 @@ export const trips = [
     car: {},
     status: 'onWay',
     check_code: '83',
-    createdAt: { $date: '2018-10-26T15:45:37.561+0000' },
-    updatedAt: { $date: '2018-11-06T00:02:02.099+0000' },
+    createdAt: '2018-10-26T15:45:37.561+0000',
+    updatedAt: '2018-11-06T00:02:02.099+0000',
     price: 24700.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-26T15:00:00.000+0000' },
+      date: '2018-10-26T15:00:00.000+0000',
       pickup_address: 'Cra. 12 Bis, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6959,8 +6959,8 @@ export const trips = [
     car: { plate: 'WLU248' },
     status: 'onWay',
     check_code: '61',
-    createdAt: { $date: '2018-10-26T12:06:48.894+0000' },
-    updatedAt: { $date: '2018-10-26T15:13:01.925+0000' },
+    createdAt: '2018-10-26T12:06:48.894+0000',
+    updatedAt: '2018-10-26T15:13:01.925+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -6969,7 +6969,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-26T03:00:00.000+0000' },
+      date: '2018-10-26T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -6994,8 +6994,8 @@ export const trips = [
     car: { plate: 'WPL818' },
     status: 'started',
     check_code: '41',
-    createdAt: { $date: '2018-10-26T02:44:08.226+0000' },
-    updatedAt: { $date: '2018-11-01T05:00:08.837+0000' },
+    createdAt: '2018-10-26T02:44:08.226+0000',
+    updatedAt: '2018-11-01T05:00:08.837+0000',
     price: 40700.0,
     driver_location: {
       type: 'Point',
@@ -7004,7 +7004,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-26T03:00:00.000+0000' },
+      date: '2018-10-26T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7029,8 +7029,8 @@ export const trips = [
     car: { plate: 'WNY477' },
     status: 'started',
     check_code: '63',
-    createdAt: { $date: '2018-10-26T02:37:00.241+0000' },
-    updatedAt: { $date: '2018-11-01T05:00:08.720+0000' },
+    createdAt: '2018-10-26T02:37:00.241+0000',
+    updatedAt: '2018-11-01T05:00:08.720+0000',
     price: 24300.0,
     driver_location: {
       type: 'Point',
@@ -7039,7 +7039,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-26T03:00:00.000+0000' },
+      date: '2018-10-26T03:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7061,8 +7061,8 @@ export const trips = [
     car: { plate: 'WPR093' },
     status: 'onWay',
     check_code: '86',
-    createdAt: { $date: '2018-10-26T02:32:03.415+0000' },
-    updatedAt: { $date: '2018-11-01T05:00:08.081+0000' },
+    createdAt: '2018-10-26T02:32:03.415+0000',
+    updatedAt: '2018-11-01T05:00:08.081+0000',
     price: 21100.0,
     driver_location: {
       type: 'Point',
@@ -7071,7 +7071,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-26T02:00:16.000+0000' },
+      date: '2018-10-26T02:00:16.000+0000',
       pickup_address: 'Cra. 80b #24d-60, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7094,8 +7094,8 @@ export const trips = [
     car: { plate: 'WNY890' },
     status: 'onWay',
     check_code: '34',
-    createdAt: { $date: '2018-10-25T21:23:11.088+0000' },
-    updatedAt: { $date: '2018-10-26T15:37:44.493+0000' },
+    createdAt: '2018-10-25T21:23:11.088+0000',
+    updatedAt: '2018-10-26T15:37:44.493+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -7104,7 +7104,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-11-10T16:35:10.000+0000' },
+      date: '2018-11-10T16:35:10.000+0000',
       pickup_address:
         'El Dorado Luis Carlos Galan Sarmiento International Airport - Calle 26 #103-9, Fontibon',
       pickup_location: {
@@ -7130,8 +7130,8 @@ export const trips = [
     car: { plate: 'ESK769' },
     status: 'started',
     check_code: '71',
-    createdAt: { $date: '2018-10-25T14:36:32.757+0000' },
-    updatedAt: { $date: '2018-11-23T19:06:01.738+0000' },
+    createdAt: '2018-10-25T14:36:32.757+0000',
+    updatedAt: '2018-11-23T19:06:01.738+0000',
     price: 60300.0,
     driver_location: {
       type: 'Point',
@@ -7140,7 +7140,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-25T11:45:34.000+0000' },
+      date: '2018-10-25T11:45:34.000+0000',
       pickup_address:
         'Parcelación Belomonte - Unnamed Road Vda. El Penasco, Envigado, Antioquia, Colombia',
       pickup_location: {
@@ -7167,8 +7167,8 @@ export const trips = [
     car: { plate: 'EQT925' },
     status: 'started',
     check_code: '32',
-    createdAt: { $date: '2018-10-25T03:38:19.213+0000' },
-    updatedAt: { $date: '2018-10-30T05:00:06.025+0000' },
+    createdAt: '2018-10-25T03:38:19.213+0000',
+    updatedAt: '2018-10-30T05:00:06.025+0000',
     price: 55000.0,
     driver_location: {
       type: 'Point',
@@ -7177,7 +7177,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-26T09:00:25.000+0000' },
+      date: '2018-10-26T09:00:25.000+0000',
       pickup_address: 'Cra. 2 #76a-02, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7203,8 +7203,8 @@ export const trips = [
     car: { plate: 'WNV370' },
     status: 'started',
     check_code: '88',
-    createdAt: { $date: '2018-10-24T18:33:43.522+0000' },
-    updatedAt: { $date: '2018-11-09T23:58:58.071+0000' },
+    createdAt: '2018-10-24T18:33:43.522+0000',
+    updatedAt: '2018-11-09T23:58:58.071+0000',
     price: 37000.0,
     driver_location: {
       type: 'Point',
@@ -7213,7 +7213,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-24T12:45:03.000+0000' },
+      date: '2018-10-24T12:45:03.000+0000',
       pickup_address:
         'Aeropuerto Internacional Alfonso Bonilla Aragón - Vía al Aeropuerto Nte., Palmira, Valle del Cauca, Colombia',
       pickup_location: {
@@ -7240,8 +7240,8 @@ export const trips = [
     car: { plate: 'WMX904' },
     status: 'started',
     check_code: '23',
-    createdAt: { $date: '2018-10-24T02:13:08.783+0000' },
-    updatedAt: { $date: '2018-10-26T05:00:03.336+0000' },
+    createdAt: '2018-10-24T02:13:08.783+0000',
+    updatedAt: '2018-10-26T05:00:03.336+0000',
     price: 296000.0,
     driver_location: {
       type: 'Point',
@@ -7250,7 +7250,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-27T05:00:00.000+0000' },
+      date: '2018-10-27T05:00:00.000+0000',
       pickup_address: 'Ac. 26 #9232, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7272,14 +7272,14 @@ export const trips = [
     car: {},
     status: 'started',
     check_code: '37',
-    createdAt: { $date: '2018-10-23T23:20:46.769+0000' },
-    updatedAt: { $date: '2018-11-04T05:00:04.521+0000' },
+    createdAt: '2018-10-23T23:20:46.769+0000',
+    updatedAt: '2018-11-04T05:00:04.521+0000',
     price: 38200.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-25T16:20:30.000+0000' },
+      date: '2018-10-25T16:20:30.000+0000',
       pickup_address:
         'Elite soluciones - Cl. 102 #70G 63, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
@@ -7302,8 +7302,8 @@ export const trips = [
     car: { plate: 'ESN836' },
     status: 'started',
     check_code: '38',
-    createdAt: { $date: '2018-10-22T21:18:30.013+0000' },
-    updatedAt: { $date: '2018-11-01T04:57:24.610+0000' },
+    createdAt: '2018-10-22T21:18:30.013+0000',
+    updatedAt: '2018-11-01T04:57:24.610+0000',
     price: 14900.0,
     driver_location: {
       type: 'Point',
@@ -7312,7 +7312,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-21T15:00:00.000+0000' },
+      date: '2018-10-21T15:00:00.000+0000',
       pickup_address:
         'Aeropuerto "José María Córdova" - Rionegro, Antioquia, Colombia',
       pickup_location: {
@@ -7338,8 +7338,8 @@ export const trips = [
     car: { plate: 'WNU563' },
     status: 'onWay',
     check_code: '53',
-    createdAt: { $date: '2018-10-21T12:23:59.093+0000' },
-    updatedAt: { $date: '2018-10-21T17:27:50.114+0000' },
+    createdAt: '2018-10-21T12:23:59.093+0000',
+    updatedAt: '2018-10-21T17:27:50.114+0000',
     price: 87400.0,
     driver_location: {
       type: 'Point',
@@ -7348,7 +7348,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-23T03:00:00.000+0000' },
+      date: '2018-10-23T03:00:00.000+0000',
       pickup_address:
         'CALLE 26 No. 92-32, BLOQUE G4 y G5, EDIFICIO CONNECTA,, Bogotá, Colombia',
       pickup_location: {
@@ -7374,8 +7374,8 @@ export const trips = [
     car: { plate: 'ESN116' },
     status: 'started',
     check_code: '95',
-    createdAt: { $date: '2018-10-21T00:46:10.494+0000' },
-    updatedAt: { $date: '2018-10-31T05:00:05.369+0000' },
+    createdAt: '2018-10-21T00:46:10.494+0000',
+    updatedAt: '2018-10-31T05:00:05.369+0000',
     price: 25000.0,
     driver_location: {
       type: 'Point',
@@ -7384,7 +7384,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-20T04:06:48.851+0000' },
+      date: '2018-10-20T04:06:48.851+0000',
       pickup_address: 'Cl. 22 #5-56, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7413,8 +7413,8 @@ export const trips = [
     car: { plate: 'EQP897' },
     status: 'started',
     check_code: '51',
-    createdAt: { $date: '2018-10-20T03:59:38.826+0000' },
-    updatedAt: { $date: '2018-10-23T20:47:22.166+0000' },
+    createdAt: '2018-10-20T03:59:38.826+0000',
+    updatedAt: '2018-10-23T20:47:22.166+0000',
     price: 52000.0,
     driver_location: {
       type: 'Point',
@@ -7423,7 +7423,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-20T12:30:00.000+0000' },
+      date: '2018-10-20T12:30:00.000+0000',
       pickup_address: 'Cl. 113 #7-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7451,8 +7451,8 @@ export const trips = [
     car: { plate: 'WLS386' },
     status: 'onWay',
     check_code: '72',
-    createdAt: { $date: '2018-10-20T02:27:22.712+0000' },
-    updatedAt: { $date: '2018-10-25T05:00:06.084+0000' },
+    createdAt: '2018-10-20T02:27:22.712+0000',
+    updatedAt: '2018-10-25T05:00:06.084+0000',
     price: 1500000.0,
     driver_location: {
       type: 'Point',
@@ -7461,7 +7461,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-20T16:00:00.000+0000' },
+      date: '2018-10-20T16:00:00.000+0000',
       pickup_address: 'Cl. 35 #3-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7486,8 +7486,8 @@ export const trips = [
     car: { plate: 'ESM894' },
     status: 'onWay',
     check_code: '13',
-    createdAt: { $date: '2018-10-20T01:10:43.402+0000' },
-    updatedAt: { $date: '2018-10-26T21:43:10.718+0000' },
+    createdAt: '2018-10-20T01:10:43.402+0000',
+    updatedAt: '2018-10-26T21:43:10.718+0000',
     price: 16800.0,
     driver_location: {
       type: 'Point',
@@ -7496,7 +7496,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-18T12:00:42.000+0000' },
+      date: '2018-10-18T12:00:42.000+0000',
       pickup_address: 'Centro Comercial Paseo San Rafael - Calle 134 # 55-30',
       pickup_location: {
         type: 'Point',
@@ -7524,8 +7524,8 @@ export const trips = [
     car: { plate: 'WLM233' },
     status: 'near',
     check_code: '85',
-    createdAt: { $date: '2018-10-18T03:59:15.408+0000' },
-    updatedAt: { $date: '2018-10-23T14:49:30.921+0000' },
+    createdAt: '2018-10-18T03:59:15.408+0000',
+    updatedAt: '2018-10-23T14:49:30.921+0000',
     price: 27800.0,
     driver_location: {
       type: 'Point',
@@ -7534,7 +7534,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-17T12:30:00.000+0000' },
+      date: '2018-10-17T12:30:00.000+0000',
       pickup_address:
         'Hotel Four Points Sheraton Medellín - Cra 43C, Medellín, Antioquia, Colombia',
       pickup_location: {
@@ -7561,8 +7561,8 @@ export const trips = [
     car: { plate: 'WHR446' },
     status: 'onWay',
     check_code: '30',
-    createdAt: { $date: '2018-10-17T02:04:14.790+0000' },
-    updatedAt: { $date: '2018-10-17T14:37:50.371+0000' },
+    createdAt: '2018-10-17T02:04:14.790+0000',
+    updatedAt: '2018-10-17T14:37:50.371+0000',
     price: 13000.0,
     driver_location: {
       type: 'Point',
@@ -7571,7 +7571,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-17T02:49:13.000+0000' },
+      date: '2018-10-17T02:49:13.000+0000',
       pickup_address:
         'Aeropuerto Internacional José María Córdova, Rionegro, Antioquia, Colombia',
       pickup_location: {
@@ -7595,8 +7595,8 @@ export const trips = [
     car: { plate: 'WNZ615' },
     status: 'started',
     check_code: '83',
-    createdAt: { $date: '2018-10-17T00:48:59.092+0000' },
-    updatedAt: { $date: '2018-10-17T05:21:33.300+0000' },
+    createdAt: '2018-10-17T00:48:59.092+0000',
+    updatedAt: '2018-10-17T05:21:33.300+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -7605,7 +7605,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-14T03:19:52.315+0000' },
+      date: '2018-10-14T03:19:52.315+0000',
       pickup_address: 'Carrera 15 80-90, bogotá',
       pickup_location: {
         type: 'Point',
@@ -7630,8 +7630,8 @@ export const trips = [
     car: { plate: 'WNT586' },
     status: 'near',
     check_code: '55',
-    createdAt: { $date: '2018-10-14T03:13:13.286+0000' },
-    updatedAt: { $date: '2018-10-14T17:54:20.847+0000' },
+    createdAt: '2018-10-14T03:13:13.286+0000',
+    updatedAt: '2018-10-14T17:54:20.847+0000',
     price: 7800.0,
     driver_location: {
       type: 'Point',
@@ -7640,7 +7640,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-13T20:30:00.000+0000' },
+      date: '2018-10-13T20:30:00.000+0000',
       pickup_address:
         'Mayorca Mega Plaza - Cl. 51 Sur ##48-57, Sabaneta, Antioquia, Colombia',
       pickup_location: {
@@ -7664,8 +7664,8 @@ export const trips = [
     car: { plate: 'WMY934' },
     status: 'onWay',
     check_code: '82',
-    createdAt: { $date: '2018-10-13T17:22:28.050+0000' },
-    updatedAt: { $date: '2018-10-13T21:21:37.901+0000' },
+    createdAt: '2018-10-13T17:22:28.050+0000',
+    updatedAt: '2018-10-13T21:21:37.901+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -7674,7 +7674,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-12T01:00:00.000+0000' },
+      date: '2018-10-12T01:00:00.000+0000',
       pickup_address: 'Cl. 98 #70-91, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7697,8 +7697,8 @@ export const trips = [
     car: { plate: 'ESN836' },
     status: 'onWay',
     check_code: '48',
-    createdAt: { $date: '2018-10-11T20:27:58.704+0000' },
-    updatedAt: { $date: '2018-10-16T12:10:16.667+0000' },
+    createdAt: '2018-10-11T20:27:58.704+0000',
+    updatedAt: '2018-10-16T12:10:16.667+0000',
     price: 20000.0,
     driver_location: {
       type: 'Point',
@@ -7707,7 +7707,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-27T22:20:00.000+0000' },
+      date: '2018-10-27T22:20:00.000+0000',
       pickup_address: 'Rionegro, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7729,8 +7729,8 @@ export const trips = [
     car: { plate: 'EXX710' },
     status: 'started',
     check_code: '66',
-    createdAt: { $date: '2018-10-11T16:38:30.267+0000' },
-    updatedAt: { $date: '2018-10-30T05:00:04.164+0000' },
+    createdAt: '2018-10-11T16:38:30.267+0000',
+    updatedAt: '2018-10-30T05:00:04.164+0000',
     price: 85500.0,
     driver_location: {
       type: 'Point',
@@ -7739,7 +7739,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-11T19:30:00.000+0000' },
+      date: '2018-10-11T19:30:00.000+0000',
       pickup_address:
         'Cosmos Pacífico Hotel - Cl. 3 #31, Buenaventura, Valle del Cauca, Colombia',
       pickup_location: {
@@ -7769,8 +7769,8 @@ export const trips = [
     car: { plate: 'WMX904' },
     status: 'started',
     check_code: '13',
-    createdAt: { $date: '2018-10-11T11:28:35.296+0000' },
-    updatedAt: { $date: '2018-10-12T02:17:42.161+0000' },
+    createdAt: '2018-10-11T11:28:35.296+0000',
+    updatedAt: '2018-10-12T02:17:42.161+0000',
     price: 381240.0,
     driver_location: {
       type: 'Point',
@@ -7779,7 +7779,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-11T01:49:31.979+0000' },
+      date: '2018-10-11T01:49:31.979+0000',
       pickup_address: 'Ak. 9 #125-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7801,8 +7801,8 @@ export const trips = [
     car: { plate: 'WOW443' },
     status: 'started',
     check_code: '74',
-    createdAt: { $date: '2018-10-11T01:42:54.953+0000' },
-    updatedAt: { $date: '2018-10-11T02:33:26.738+0000' },
+    createdAt: '2018-10-11T01:42:54.953+0000',
+    updatedAt: '2018-10-11T02:33:26.738+0000',
     price: 28900.0,
     driver_location: {
       type: 'Point',
@@ -7811,7 +7811,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-10T21:12:57.703+0000' },
+      date: '2018-10-10T21:12:57.703+0000',
       pickup_address: 'Cl. 74 #20C-19, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7833,8 +7833,8 @@ export const trips = [
     car: { plate: 'ESN339' },
     status: 'onWay',
     check_code: '67',
-    createdAt: { $date: '2018-10-10T21:07:02.587+0000' },
-    updatedAt: { $date: '2018-10-10T22:09:08.909+0000' },
+    createdAt: '2018-10-10T21:07:02.587+0000',
+    updatedAt: '2018-10-10T22:09:08.909+0000',
     price: 8200.0,
     driver_location: {
       type: 'Point',
@@ -7843,7 +7843,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-10T11:30:07.000+0000' },
+      date: '2018-10-10T11:30:07.000+0000',
       pickup_address: 'Carrera 81 #127a-2',
       pickup_location: {
         type: 'Point',
@@ -7871,8 +7871,8 @@ export const trips = [
     car: { plate: 'EXZ127' },
     status: 'onWay',
     check_code: '85',
-    createdAt: { $date: '2018-10-10T10:29:17.155+0000' },
-    updatedAt: { $date: '2018-10-11T02:42:38.402+0000' },
+    createdAt: '2018-10-10T10:29:17.155+0000',
+    updatedAt: '2018-10-11T02:42:38.402+0000',
     price: 13700.0,
     driver_location: {
       type: 'Point',
@@ -7881,7 +7881,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-09T14:35:33.555+0000' },
+      date: '2018-10-09T14:35:33.555+0000',
       pickup_address: 'Ak. 15 #94-52, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7906,8 +7906,8 @@ export const trips = [
     car: { plate: 'WNS474' },
     status: 'started',
     check_code: '75',
-    createdAt: { $date: '2018-10-09T14:32:13.530+0000' },
-    updatedAt: { $date: '2018-10-09T17:13:19.586+0000' },
+    createdAt: '2018-10-09T14:32:13.530+0000',
+    updatedAt: '2018-10-09T17:13:19.586+0000',
     price: 14200.0,
     driver_location: {
       type: 'Point',
@@ -7916,7 +7916,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-10T11:40:59.000+0000' },
+      date: '2018-10-10T11:40:59.000+0000',
       pickup_address: 'Cra. 10 #93-51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7938,8 +7938,8 @@ export const trips = [
     car: { plate: 'WNT285' },
     status: 'onWay',
     check_code: '96',
-    createdAt: { $date: '2018-10-09T14:30:14.433+0000' },
-    updatedAt: { $date: '2018-10-10T13:46:30.178+0000' },
+    createdAt: '2018-10-09T14:30:14.433+0000',
+    updatedAt: '2018-10-10T13:46:30.178+0000',
     price: 16200.0,
     driver_location: {
       type: 'Point',
@@ -7948,7 +7948,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-09T12:54:33.000+0000' },
+      date: '2018-10-09T12:54:33.000+0000',
       pickup_address: 'Cra. 13 #142-71, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -7971,8 +7971,8 @@ export const trips = [
     car: { plate: 'WLM771' },
     status: 'started',
     check_code: '63',
-    createdAt: { $date: '2018-10-09T04:03:05.030+0000' },
-    updatedAt: { $date: '2018-10-09T16:39:48.779+0000' },
+    createdAt: '2018-10-09T04:03:05.030+0000',
+    updatedAt: '2018-10-09T16:39:48.779+0000',
     price: 29900.0,
     driver_location: {
       type: 'Point',
@@ -7981,7 +7981,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-09T11:30:36.000+0000' },
+      date: '2018-10-09T11:30:36.000+0000',
       pickup_address: 'Calle 127a 14a-71',
       pickup_location: {
         type: 'Point',
@@ -8007,8 +8007,8 @@ export const trips = [
     car: { plate: 'EXX234' },
     status: 'started',
     check_code: '82',
-    createdAt: { $date: '2018-10-09T03:32:33.390+0000' },
-    updatedAt: { $date: '2018-10-10T14:28:44.957+0000' },
+    createdAt: '2018-10-09T03:32:33.390+0000',
+    updatedAt: '2018-10-10T14:28:44.957+0000',
     price: 24600.0,
     driver_location: {
       type: 'Point',
@@ -8017,7 +8017,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-09T13:10:02.000+0000' },
+      date: '2018-10-09T13:10:02.000+0000',
       pickup_address: 'Cl. 129 #53d - 15, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8039,14 +8039,14 @@ export const trips = [
     car: { plate: 'ESL424' },
     status: 'near',
     check_code: '40',
-    createdAt: { $date: '2018-10-09T02:56:04.896+0000' },
-    updatedAt: { $date: '2018-10-09T19:23:04.032+0000' },
+    createdAt: '2018-10-09T02:56:04.896+0000',
+    updatedAt: '2018-10-09T19:23:04.032+0000',
     price: 17200.0,
     driver_location: null,
   },
   {
     start: {
-      date: { $date: '2018-10-08T11:25:00.000+0000' },
+      date: '2018-10-08T11:25:00.000+0000',
       pickup_address: 'Cl. 95 #71-87, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8071,8 +8071,8 @@ export const trips = [
     car: { plate: 'WHQ399' },
     status: 'started',
     check_code: '60',
-    createdAt: { $date: '2018-10-08T00:21:58.535+0000' },
-    updatedAt: { $date: '2018-10-08T13:15:04.560+0000' },
+    createdAt: '2018-10-08T00:21:58.535+0000',
+    updatedAt: '2018-10-08T13:15:04.560+0000',
     price: 14900.0,
     driver_location: {
       type: 'Point',
@@ -8081,7 +8081,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-04T22:49:41.865+0000' },
+      date: '2018-10-04T22:49:41.865+0000',
       pickup_address:
         'Centro Comercial Andino - Cra. 11 ##82-71, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
@@ -8111,8 +8111,8 @@ export const trips = [
     car: { plate: 'WOX185' },
     status: 'near',
     check_code: '63',
-    createdAt: { $date: '2018-10-04T22:37:17.722+0000' },
-    updatedAt: { $date: '2018-10-05T02:42:07.472+0000' },
+    createdAt: '2018-10-04T22:37:17.722+0000',
+    updatedAt: '2018-10-05T02:42:07.472+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -8121,7 +8121,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-05T13:00:00.000+0000' },
+      date: '2018-10-05T13:00:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Ernesto Cortissoz, Soledad, Atlántico, Colombia',
       pickup_location: {
@@ -8147,8 +8147,8 @@ export const trips = [
     car: { plate: 'WLU213' },
     status: 'onWay',
     check_code: '18',
-    createdAt: { $date: '2018-10-04T22:35:26.606+0000' },
-    updatedAt: { $date: '2018-10-05T14:03:03.175+0000' },
+    createdAt: '2018-10-04T22:35:26.606+0000',
+    updatedAt: '2018-10-05T14:03:03.175+0000',
     price: 49600.0,
     driver_location: {
       type: 'Point',
@@ -8157,7 +8157,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-04T13:00:00.000+0000' },
+      date: '2018-10-04T13:00:00.000+0000',
       pickup_address:
         '# 1a, Cl. 3 #31, Buenaventura, Valle del Cauca, Colombia',
       pickup_location: {
@@ -8184,8 +8184,8 @@ export const trips = [
     car: { plate: 'WNX759' },
     status: 'near',
     check_code: '74',
-    createdAt: { $date: '2018-10-03T18:44:06.539+0000' },
-    updatedAt: { $date: '2018-10-15T17:13:43.479+0000' },
+    createdAt: '2018-10-03T18:44:06.539+0000',
+    updatedAt: '2018-10-15T17:13:43.479+0000',
     price: 381240.0,
     driver_location: {
       type: 'Point',
@@ -8194,7 +8194,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-06T03:40:00.000+0000' },
+      date: '2018-10-06T03:40:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Ernesto Cortissoz, Soledad, Atlántico, Colombia',
       pickup_location: {
@@ -8217,8 +8217,8 @@ export const trips = [
     car: { plate: 'WGW562' },
     status: 'onWay',
     check_code: '99',
-    createdAt: { $date: '2018-10-03T12:50:59.019+0000' },
-    updatedAt: { $date: '2018-10-06T12:56:28.614+0000' },
+    createdAt: '2018-10-03T12:50:59.019+0000',
+    updatedAt: '2018-10-06T12:56:28.614+0000',
     price: 81600.0,
     driver_location: {
       type: 'Point',
@@ -8227,7 +8227,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-02T13:00:00.000+0000' },
+      date: '2018-10-02T13:00:00.000+0000',
       pickup_address: 'minimercado dany - Cra. 25 #36-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8252,8 +8252,8 @@ export const trips = [
     car: { plate: 'TSV831' },
     status: 'near',
     check_code: '79',
-    createdAt: { $date: '2018-10-02T01:51:45.804+0000' },
-    updatedAt: { $date: '2018-10-02T23:18:48.861+0000' },
+    createdAt: '2018-10-02T01:51:45.804+0000',
+    updatedAt: '2018-10-02T23:18:48.861+0000',
     price: 31700.0,
     driver_location: {
       type: 'Point',
@@ -8262,7 +8262,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-01T18:40:40.154+0000' },
+      date: '2018-10-01T18:40:40.154+0000',
       pickup_address: 'Cl. 77 #11-19, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -8291,8 +8291,8 @@ export const trips = [
     car: { plate: 'WPM168' },
     status: 'near',
     check_code: '80',
-    createdAt: { $date: '2018-10-01T18:35:30.118+0000' },
-    updatedAt: { $date: '2018-10-01T22:24:13.789+0000' },
+    createdAt: '2018-10-01T18:35:30.118+0000',
+    updatedAt: '2018-10-01T22:24:13.789+0000',
     price: 0.0,
     driver_location: {
       type: 'Point',
@@ -8301,7 +8301,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-10-01T10:30:00.000+0000' },
+      date: '2018-10-01T10:30:00.000+0000',
       pickup_address: 'Cl. 9d #69-71, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8329,8 +8329,8 @@ export const trips = [
     car: { plate: 'ESL424' },
     status: 'started',
     check_code: '16',
-    createdAt: { $date: '2018-10-01T00:01:09.764+0000' },
-    updatedAt: { $date: '2018-10-01T10:57:03.840+0000' },
+    createdAt: '2018-10-01T00:01:09.764+0000',
+    updatedAt: '2018-10-01T10:57:03.840+0000',
     price: 15500.0,
     driver_location: {
       type: 'Point',
@@ -8339,7 +8339,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-28T13:30:00.000+0000' },
+      date: '2018-09-28T13:30:00.000+0000',
       pickup_address: 'Autopista Nte., Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8364,8 +8364,8 @@ export const trips = [
     car: { plate: 'ESN837' },
     status: 'onWay',
     check_code: '49',
-    createdAt: { $date: '2018-09-28T12:30:51.110+0000' },
-    updatedAt: { $date: '2018-09-28T14:50:56.688+0000' },
+    createdAt: '2018-09-28T12:30:51.110+0000',
+    updatedAt: '2018-09-28T14:50:56.688+0000',
     price: 18500.0,
     driver_location: {
       type: 'Point',
@@ -8374,7 +8374,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-25T12:19:20.054+0000' },
+      date: '2018-09-25T12:19:20.054+0000',
       pickup_address: 'Cl. 144 #11a80, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8399,8 +8399,8 @@ export const trips = [
     car: { plate: 'SMP701' },
     status: 'onWay',
     check_code: '59',
-    createdAt: { $date: '2018-09-25T11:58:24.031+0000' },
-    updatedAt: { $date: '2018-09-25T17:13:44.670+0000' },
+    createdAt: '2018-09-25T11:58:24.031+0000',
+    updatedAt: '2018-09-25T17:13:44.670+0000',
     price: 29400.0,
     driver_location: {
       type: 'Point',
@@ -8409,7 +8409,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-24T22:34:12.599+0000' },
+      date: '2018-09-24T22:34:12.599+0000',
       pickup_address:
         'Instituto Nacional de Salud - Colombia - Ac. 26 #5120, Bogotá, Colombia',
       pickup_location: {
@@ -8432,8 +8432,8 @@ export const trips = [
     car: { plate: 'WNZ200' },
     status: 'near',
     check_code: '12',
-    createdAt: { $date: '2018-09-24T22:19:35.540+0000' },
-    updatedAt: { $date: '2018-09-29T05:00:02.654+0000' },
+    createdAt: '2018-09-24T22:19:35.540+0000',
+    updatedAt: '2018-09-29T05:00:02.654+0000',
     price: 12300.0,
     driver_location: {
       type: 'Point',
@@ -8442,7 +8442,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-21T11:49:18.164+0000' },
+      date: '2018-09-21T11:49:18.164+0000',
       pickup_address: 'Ac 80 #7-2',
       pickup_location: {
         type: 'Point',
@@ -8470,8 +8470,8 @@ export const trips = [
     car: { plate: 'WNX243' },
     status: 'near',
     check_code: '68',
-    createdAt: { $date: '2018-09-21T11:35:45.658+0000' },
-    updatedAt: { $date: '2018-09-21T17:29:58.301+0000' },
+    createdAt: '2018-09-21T11:35:45.658+0000',
+    updatedAt: '2018-09-21T17:29:58.301+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -8480,7 +8480,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-21T10:00:55.000+0000' },
+      date: '2018-09-21T10:00:55.000+0000',
       pickup_address: 'Cl. 68a Sur #49c-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8505,8 +8505,8 @@ export const trips = [
     car: { plate: 'WPQ704' },
     status: 'onWay',
     check_code: '16',
-    createdAt: { $date: '2018-09-21T01:52:17.769+0000' },
-    updatedAt: { $date: '2018-09-25T00:18:37.400+0000' },
+    createdAt: '2018-09-21T01:52:17.769+0000',
+    updatedAt: '2018-09-25T00:18:37.400+0000',
     price: 37900.0,
     driver_location: {
       type: 'Point',
@@ -8515,7 +8515,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-20T20:45:00.000+0000' },
+      date: '2018-09-20T20:45:00.000+0000',
       pickup_address: 'Cra. 11B #97-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8540,8 +8540,8 @@ export const trips = [
     car: { plate: 'TFS168' },
     status: 'started',
     check_code: '46',
-    createdAt: { $date: '2018-09-20T13:55:27.513+0000' },
-    updatedAt: { $date: '2018-09-25T23:54:51.432+0000' },
+    createdAt: '2018-09-20T13:55:27.513+0000',
+    updatedAt: '2018-09-25T23:54:51.432+0000',
     price: 55000.0,
     driver_location: {
       type: 'Point',
@@ -8550,7 +8550,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-25T22:00:00.000+0000' },
+      date: '2018-09-25T22:00:00.000+0000',
       pickup_address: 'Cra. 67 ##1aa -4, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8575,8 +8575,8 @@ export const trips = [
     car: { plate: 'EQT428' },
     status: 'onWay',
     check_code: '21',
-    createdAt: { $date: '2018-09-19T15:15:27.465+0000' },
-    updatedAt: { $date: '2018-09-27T00:28:25.031+0000' },
+    createdAt: '2018-09-19T15:15:27.465+0000',
+    updatedAt: '2018-09-27T00:28:25.031+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -8585,7 +8585,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-17T21:12:45.434+0000' },
+      date: '2018-09-17T21:12:45.434+0000',
       pickup_address:
         'Centro de Atencion al Solicitante (CAS) - Ac. 26 #92-32, Bogotá, Colombia',
       pickup_location: {
@@ -8608,8 +8608,8 @@ export const trips = [
     car: { plate: 'ESN116' },
     status: 'onWay',
     check_code: '83',
-    createdAt: { $date: '2018-09-17T21:03:56.774+0000' },
-    updatedAt: { $date: '2018-09-18T02:45:41.759+0000' },
+    createdAt: '2018-09-17T21:03:56.774+0000',
+    updatedAt: '2018-09-18T02:45:41.759+0000',
     price: 26200.0,
     driver_location: {
       type: 'Point',
@@ -8618,7 +8618,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-17T10:40:12.000+0000' },
+      date: '2018-09-17T10:40:12.000+0000',
       pickup_address: 'Cl. 19b #81b-45, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8641,8 +8641,8 @@ export const trips = [
     car: { plate: 'EXX234' },
     status: 'started',
     check_code: '18',
-    createdAt: { $date: '2018-09-17T03:00:22.327+0000' },
-    updatedAt: { $date: '2018-09-19T03:25:46.785+0000' },
+    createdAt: '2018-09-17T03:00:22.327+0000',
+    updatedAt: '2018-09-19T03:25:46.785+0000',
     price: 15000.0,
     driver_location: {
       type: 'Point',
@@ -8651,7 +8651,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-14T15:30:00.000+0000' },
+      date: '2018-09-14T15:30:00.000+0000',
       pickup_address:
         'Centro Comercial Viva - 87-50, Cra 51B, Barranquilla, Atlántico, Colombia',
       pickup_location: {
@@ -8675,8 +8675,8 @@ export const trips = [
     car: { plate: 'WOY057' },
     status: 'started',
     check_code: '51',
-    createdAt: { $date: '2018-09-14T11:41:38.410+0000' },
-    updatedAt: { $date: '2018-09-14T18:28:50.347+0000' },
+    createdAt: '2018-09-14T11:41:38.410+0000',
+    updatedAt: '2018-09-14T18:28:50.347+0000',
     price: 53800.0,
     driver_location: {
       type: 'Point',
@@ -8685,7 +8685,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-14T02:22:28.944+0000' },
+      date: '2018-09-14T02:22:28.944+0000',
       pickup_address: 'Cl. 116 #17-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8713,8 +8713,8 @@ export const trips = [
     car: { plate: 'EXX524' },
     status: 'started',
     check_code: '53',
-    createdAt: { $date: '2018-09-14T02:13:51.901+0000' },
-    updatedAt: { $date: '2018-09-14T11:54:09.091+0000' },
+    createdAt: '2018-09-14T02:13:51.901+0000',
+    updatedAt: '2018-09-14T11:54:09.091+0000',
     price: 15500.0,
     driver_location: {
       type: 'Point',
@@ -8723,7 +8723,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-13T12:05:23.000+0000' },
+      date: '2018-09-13T12:05:23.000+0000',
       pickup_address: 'Cl. 103 #11b-13, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8746,8 +8746,8 @@ export const trips = [
     car: { plate: 'EXX524' },
     status: 'onWay',
     check_code: '27',
-    createdAt: { $date: '2018-09-13T10:35:40.930+0000' },
-    updatedAt: { $date: '2018-09-13T21:16:18.827+0000' },
+    createdAt: '2018-09-13T10:35:40.930+0000',
+    updatedAt: '2018-09-13T21:16:18.827+0000',
     price: 22600.0,
     driver_location: {
       type: 'Point',
@@ -8756,7 +8756,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-12T14:53:42.695+0000' },
+      date: '2018-09-12T14:53:42.695+0000',
       pickup_address: 'Cra. 13a #93-2, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8784,8 +8784,8 @@ export const trips = [
     car: { plate: 'WLL859' },
     status: 'onWay',
     check_code: '10',
-    createdAt: { $date: '2018-09-12T14:47:07.664+0000' },
-    updatedAt: { $date: '2018-09-24T14:21:26.708+0000' },
+    createdAt: '2018-09-12T14:47:07.664+0000',
+    updatedAt: '2018-09-24T14:21:26.708+0000',
     price: 19700.0,
     driver_location: {
       type: 'Point',
@@ -8794,7 +8794,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-12T10:33:58.504+0000' },
+      date: '2018-09-12T10:33:58.504+0000',
       pickup_address: 'Cra. 79 #13-57, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8819,8 +8819,8 @@ export const trips = [
     car: { plate: 'WNU613' },
     status: 'near',
     check_code: '48',
-    createdAt: { $date: '2018-09-12T10:26:32.475+0000' },
-    updatedAt: { $date: '2018-09-18T01:04:01.068+0000' },
+    createdAt: '2018-09-12T10:26:32.475+0000',
+    updatedAt: '2018-09-18T01:04:01.068+0000',
     price: 24000.0,
     driver_location: {
       type: 'Point',
@@ -8829,7 +8829,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-11T20:31:31.441+0000' },
+      date: '2018-09-11T20:31:31.441+0000',
       pickup_address: 'Cl. 77 #11-19, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -8858,8 +8858,8 @@ export const trips = [
     car: { plate: 'WPR050' },
     status: 'onWay',
     check_code: '97',
-    createdAt: { $date: '2018-09-11T20:26:40.414+0000' },
-    updatedAt: { $date: '2018-09-11T20:51:21.505+0000' },
+    createdAt: '2018-09-11T20:26:40.414+0000',
+    updatedAt: '2018-09-11T20:51:21.505+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -8868,7 +8868,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-12T08:45:57.000+0000' },
+      date: '2018-09-12T08:45:57.000+0000',
       pickup_address: 'Cl 152B #56-10, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8893,8 +8893,8 @@ export const trips = [
     car: { plate: 'EXX857' },
     status: 'near',
     check_code: '35',
-    createdAt: { $date: '2018-09-11T16:12:47.965+0000' },
-    updatedAt: { $date: '2018-09-14T23:12:37.003+0000' },
+    createdAt: '2018-09-11T16:12:47.965+0000',
+    updatedAt: '2018-09-14T23:12:37.003+0000',
     price: 35700.0,
     driver_location: {
       type: 'Point',
@@ -8903,7 +8903,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-11T07:40:31.698+0000' },
+      date: '2018-09-11T07:40:31.698+0000',
       pickup_address: 'Ac 80 #100 - 52, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8925,8 +8925,8 @@ export const trips = [
     car: { plate: 'EXX235' },
     status: 'onWay',
     check_code: '49',
-    createdAt: { $date: '2018-09-11T07:33:25.799+0000' },
-    updatedAt: { $date: '2018-09-11T08:39:00.771+0000' },
+    createdAt: '2018-09-11T07:33:25.799+0000',
+    updatedAt: '2018-09-11T08:39:00.771+0000',
     price: 63500.0,
     driver_location: {
       type: 'Point',
@@ -8935,7 +8935,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-11T06:36:21.196+0000' },
+      date: '2018-09-11T06:36:21.196+0000',
       pickup_address: 'Ak 68 #75a-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -8957,8 +8957,8 @@ export const trips = [
     car: { plate: 'EXX233' },
     status: 'started',
     check_code: '41',
-    createdAt: { $date: '2018-09-11T06:30:46.113+0000' },
-    updatedAt: { $date: '2018-09-11T07:41:01.801+0000' },
+    createdAt: '2018-09-11T06:30:46.113+0000',
+    updatedAt: '2018-09-11T07:41:01.801+0000',
     price: 41000.0,
     driver_location: {
       type: 'Point',
@@ -8967,7 +8967,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-11T12:00:00.000+0000' },
+      date: '2018-09-11T12:00:00.000+0000',
       pickup_address:
         'Moro Publicidad y Mercadeo Asociados - Carrera 54 No. 135 - 35, Bogotá, Colombia',
       pickup_location: {
@@ -8991,8 +8991,8 @@ export const trips = [
     car: { plate: 'EXX456' },
     status: 'near',
     check_code: '35',
-    createdAt: { $date: '2018-09-11T04:30:58.736+0000' },
-    updatedAt: { $date: '2018-09-13T04:21:56.782+0000' },
+    createdAt: '2018-09-11T04:30:58.736+0000',
+    updatedAt: '2018-09-13T04:21:56.782+0000',
     price: 17100.0,
     driver_location: {
       type: 'Point',
@@ -9001,7 +9001,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-13T12:00:00.000+0000' },
+      date: '2018-09-13T12:00:00.000+0000',
       pickup_address: 'Cra. 25 #40-34 - Cra. 25 #40-34, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9026,8 +9026,8 @@ export const trips = [
     car: { plate: 'WNT048' },
     status: 'onWay',
     check_code: '34',
-    createdAt: { $date: '2018-09-10T21:24:56.249+0000' },
-    updatedAt: { $date: '2018-09-13T12:50:54.703+0000' },
+    createdAt: '2018-09-10T21:24:56.249+0000',
+    updatedAt: '2018-09-13T12:50:54.703+0000',
     price: 19300.0,
     driver_location: {
       type: 'Point',
@@ -9036,7 +9036,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-10T08:40:00.000+0000' },
+      date: '2018-09-10T08:40:00.000+0000',
       pickup_address: 'Cra. 59 #70-33, Barranquilla, Atlántico, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9059,8 +9059,8 @@ export const trips = [
     car: { plate: 'WOY057' },
     status: 'onWay',
     check_code: '64',
-    createdAt: { $date: '2018-09-07T15:56:22.770+0000' },
-    updatedAt: { $date: '2018-09-12T05:00:04.723+0000' },
+    createdAt: '2018-09-07T15:56:22.770+0000',
+    updatedAt: '2018-09-12T05:00:04.723+0000',
     price: 43750.0,
     driver_location: {
       type: 'Point',
@@ -9069,7 +9069,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-07T11:40:03.000+0000' },
+      date: '2018-09-07T11:40:03.000+0000',
       pickup_address: 'alsacia reservado 3 - Cl. 12, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -9094,8 +9094,8 @@ export const trips = [
     car: { plate: 'EXX862' },
     status: 'onWay',
     check_code: '32',
-    createdAt: { $date: '2018-09-07T00:57:13.265+0000' },
-    updatedAt: { $date: '2018-09-07T20:16:55.892+0000' },
+    createdAt: '2018-09-07T00:57:13.265+0000',
+    updatedAt: '2018-09-07T20:16:55.892+0000',
     price: 23900.0,
     driver_location: {
       type: 'Point',
@@ -9104,7 +9104,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-06T12:00:00.000+0000' },
+      date: '2018-09-06T12:00:00.000+0000',
       pickup_address: 'Cra. 13 Bis #109-11, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9133,8 +9133,8 @@ export const trips = [
     car: { plate: 'ESN337' },
     status: 'near',
     check_code: '29',
-    createdAt: { $date: '2018-09-06T03:29:02.430+0000' },
-    updatedAt: { $date: '2018-09-06T21:44:35.524+0000' },
+    createdAt: '2018-09-06T03:29:02.430+0000',
+    updatedAt: '2018-09-06T21:44:35.524+0000',
     price: 14700.0,
     driver_location: {
       type: 'Point',
@@ -9143,7 +9143,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-06T01:59:19.247+0000' },
+      date: '2018-09-06T01:59:19.247+0000',
       pickup_address: 'Cl. 93 #13-45, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9168,8 +9168,8 @@ export const trips = [
     car: { plate: 'EXX869' },
     status: 'started',
     check_code: '50',
-    createdAt: { $date: '2018-09-06T01:52:30.973+0000' },
-    updatedAt: { $date: '2018-09-07T02:47:30.123+0000' },
+    createdAt: '2018-09-06T01:52:30.973+0000',
+    updatedAt: '2018-09-07T02:47:30.123+0000',
     price: 20800.0,
     driver_location: {
       type: 'Point',
@@ -9178,7 +9178,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-06T01:47:23.330+0000' },
+      date: '2018-09-06T01:47:23.330+0000',
       pickup_address: 'Tecnofarma S.A - Carrera 16 #85-96, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -9203,8 +9203,8 @@ export const trips = [
     car: { plate: 'WPM004' },
     status: 'onWay',
     check_code: '74',
-    createdAt: { $date: '2018-09-06T01:37:38.309+0000' },
-    updatedAt: { $date: '2018-09-07T02:14:09.066+0000' },
+    createdAt: '2018-09-06T01:37:38.309+0000',
+    updatedAt: '2018-09-07T02:14:09.066+0000',
     price: 23900.0,
     driver_location: {
       type: 'Point',
@@ -9213,7 +9213,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-04T23:05:27.279+0000' },
+      date: '2018-09-04T23:05:27.279+0000',
       pickup_address: 'Cl. 12 #7-32, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9235,8 +9235,8 @@ export const trips = [
     car: { plate: 'WGO385' },
     status: 'started',
     check_code: '62',
-    createdAt: { $date: '2018-09-04T22:47:45.257+0000' },
-    updatedAt: { $date: '2018-09-05T12:51:53.911+0000' },
+    createdAt: '2018-09-04T22:47:45.257+0000',
+    updatedAt: '2018-09-05T12:51:53.911+0000',
     price: 17300.0,
     driver_location: {
       type: 'Point',
@@ -9245,7 +9245,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-14T15:30:00.000+0000' },
+      date: '2018-09-14T15:30:00.000+0000',
       pickup_address: 'Cl. 70, Cartagena, Bolívar, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9270,8 +9270,8 @@ export const trips = [
     car: { plate: 'WGN025' },
     status: 'started',
     check_code: '45',
-    createdAt: { $date: '2018-09-04T12:47:45.017+0000' },
-    updatedAt: { $date: '2018-09-14T19:38:21.384+0000' },
+    createdAt: '2018-09-04T12:47:45.017+0000',
+    updatedAt: '2018-09-14T19:38:21.384+0000',
     price: 26900.0,
     driver_location: {
       type: 'Point',
@@ -9280,7 +9280,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-04T12:25:17.000+0000' },
+      date: '2018-09-04T12:25:17.000+0000',
       pickup_address: 'Tv. 58 #114a-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9303,8 +9303,8 @@ export const trips = [
     car: { plate: 'ERK967' },
     status: 'started',
     check_code: '36',
-    createdAt: { $date: '2018-09-04T05:56:18.400+0000' },
-    updatedAt: { $date: '2018-09-05T05:29:52.436+0000' },
+    createdAt: '2018-09-04T05:56:18.400+0000',
+    updatedAt: '2018-09-05T05:29:52.436+0000',
     price: 18600.0,
     driver_location: {
       type: 'Point',
@@ -9313,7 +9313,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-10T08:40:00.000+0000' },
+      date: '2018-09-10T08:40:00.000+0000',
       pickup_address: 'Tunjuelito, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9335,8 +9335,8 @@ export const trips = [
     car: { plate: 'EXX857' },
     status: 'onWay',
     check_code: '78',
-    createdAt: { $date: '2018-09-03T15:59:25.489+0000' },
-    updatedAt: { $date: '2018-09-12T13:15:26.110+0000' },
+    createdAt: '2018-09-03T15:59:25.489+0000',
+    updatedAt: '2018-09-12T13:15:26.110+0000',
     price: 56300.0,
     driver_location: {
       type: 'Point',
@@ -9345,7 +9345,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-01T03:29:37.996+0000' },
+      date: '2018-09-01T03:29:37.996+0000',
       pickup_address: 'Centro Comercial Atlantis Plaza - Cl. 81 #13-05, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -9370,8 +9370,8 @@ export const trips = [
     car: { plate: 'WDT537' },
     status: 'onWay',
     check_code: '83',
-    createdAt: { $date: '2018-09-01T03:25:13.969+0000' },
-    updatedAt: { $date: '2018-09-22T13:41:50.469+0000' },
+    createdAt: '2018-09-01T03:25:13.969+0000',
+    updatedAt: '2018-09-22T13:41:50.469+0000',
     price: 642900.0,
     driver_location: {
       type: 'Point',
@@ -9380,7 +9380,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-01T00:03:09.694+0000' },
+      date: '2018-09-01T00:03:09.694+0000',
       pickup_address: 'Av. Circunvalar #52a-20, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9405,8 +9405,8 @@ export const trips = [
     car: { plate: 'WNR897' },
     status: 'started',
     check_code: '19',
-    createdAt: { $date: '2018-08-31T23:53:46.673+0000' },
-    updatedAt: { $date: '2018-09-04T18:45:09.307+0000' },
+    createdAt: '2018-08-31T23:53:46.673+0000',
+    updatedAt: '2018-09-04T18:45:09.307+0000',
     price: 14400.0,
     driver_location: {
       type: 'Point',
@@ -9415,7 +9415,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-09-04T12:00:00.000+0000' },
+      date: '2018-09-04T12:00:00.000+0000',
       pickup_address: '85, Cra. 13 #80, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9440,8 +9440,8 @@ export const trips = [
     car: { plate: 'WNS778' },
     status: 'started',
     check_code: '65',
-    createdAt: { $date: '2018-08-31T19:28:23.671+0000' },
-    updatedAt: { $date: '2018-09-05T03:35:21.195+0000' },
+    createdAt: '2018-08-31T19:28:23.671+0000',
+    updatedAt: '2018-09-05T03:35:21.195+0000',
     price: 23900.0,
     driver_location: {
       type: 'Point',
@@ -9450,7 +9450,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-31T11:45:38.000+0000' },
+      date: '2018-08-31T11:45:38.000+0000',
       pickup_address: 'Cl. 74 #1-46, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9475,8 +9475,8 @@ export const trips = [
     car: { plate: 'WLV038' },
     status: 'onWay',
     check_code: '24',
-    createdAt: { $date: '2018-08-31T03:59:58.588+0000' },
-    updatedAt: { $date: '2018-08-31T12:15:11.723+0000' },
+    createdAt: '2018-08-31T03:59:58.588+0000',
+    updatedAt: '2018-08-31T12:15:11.723+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -9485,7 +9485,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-31T11:30:00.000+0000' },
+      date: '2018-08-31T11:30:00.000+0000',
       pickup_address: 'Cl. 147 #19-79, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9510,8 +9510,8 @@ export const trips = [
     car: { plate: 'ESL155' },
     status: 'near',
     check_code: '29',
-    createdAt: { $date: '2018-08-31T02:18:47.768+0000' },
-    updatedAt: { $date: '2018-09-01T03:35:52.409+0000' },
+    createdAt: '2018-08-31T02:18:47.768+0000',
+    updatedAt: '2018-09-01T03:35:52.409+0000',
     price: 13100.0,
     driver_location: {
       type: 'Point',
@@ -9520,7 +9520,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-30T19:14:39.708+0000' },
+      date: '2018-08-30T19:14:39.708+0000',
       pickup_address: 'Cl. 22 #1-19, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9542,8 +9542,8 @@ export const trips = [
     car: { plate: 'ESL999' },
     status: 'onWay',
     check_code: '79',
-    createdAt: { $date: '2018-08-30T19:00:51.677+0000' },
-    updatedAt: { $date: '2018-08-30T21:56:36.655+0000' },
+    createdAt: '2018-08-30T19:00:51.677+0000',
+    updatedAt: '2018-08-30T21:56:36.655+0000',
     price: 25300.0,
     driver_location: {
       type: 'Point',
@@ -9552,7 +9552,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-30T12:15:37.000+0000' },
+      date: '2018-08-30T12:15:37.000+0000',
       pickup_address: 'Cra. 12b #148-3, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9580,8 +9580,8 @@ export const trips = [
     car: { plate: 'WNV386' },
     status: 'started',
     check_code: '53',
-    createdAt: { $date: '2018-08-30T10:48:25.199+0000' },
-    updatedAt: { $date: '2018-08-31T17:45:08.955+0000' },
+    createdAt: '2018-08-30T10:48:25.199+0000',
+    updatedAt: '2018-08-31T17:45:08.955+0000',
     price: 19400.0,
     driver_location: {
       type: 'Point',
@@ -9590,7 +9590,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-30T00:26:11.760+0000' },
+      date: '2018-08-30T00:26:11.760+0000',
       pickup_address: 'Ak. 9 #125-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9616,8 +9616,8 @@ export const trips = [
     car: { plate: 'SZZ954' },
     status: 'near',
     check_code: '10',
-    createdAt: { $date: '2018-08-30T00:20:40.615+0000' },
-    updatedAt: { $date: '2018-08-30T01:04:18.636+0000' },
+    createdAt: '2018-08-30T00:20:40.615+0000',
+    updatedAt: '2018-08-30T01:04:18.636+0000',
     price: 13800.0,
     driver_location: {
       type: 'Point',
@@ -9626,7 +9626,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-29T17:22:05.415+0000' },
+      date: '2018-08-29T17:22:05.415+0000',
       pickup_address: 'Cra. 23 #124-87, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9651,8 +9651,8 @@ export const trips = [
     car: { plate: 'SZU356' },
     status: 'onWay',
     check_code: '13',
-    createdAt: { $date: '2018-08-29T17:09:57.392+0000' },
-    updatedAt: { $date: '2018-08-29T19:21:30.124+0000' },
+    createdAt: '2018-08-29T17:09:57.392+0000',
+    updatedAt: '2018-08-29T19:21:30.124+0000',
     price: 9200.0,
     driver_location: {
       type: 'Point',
@@ -9661,7 +9661,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-28T13:45:51.000+0000' },
+      date: '2018-08-28T13:45:51.000+0000',
       pickup_address: 'Cl. 114a #15a-70, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9683,8 +9683,8 @@ export const trips = [
     car: { plate: 'WNS261' },
     status: 'onWay',
     check_code: '25',
-    createdAt: { $date: '2018-08-28T03:17:03.169+0000' },
-    updatedAt: { $date: '2018-08-28T13:59:01.510+0000' },
+    createdAt: '2018-08-28T03:17:03.169+0000',
+    updatedAt: '2018-08-28T13:59:01.510+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -9693,7 +9693,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-28T12:40:01.000+0000' },
+      date: '2018-08-28T12:40:01.000+0000',
       pickup_address: 'Cl. 106 #23-7 - Cl. 106 #23-7, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9721,8 +9721,8 @@ export const trips = [
     car: { plate: 'WNU125' },
     status: 'onWay',
     check_code: '27',
-    createdAt: { $date: '2018-08-28T01:03:50.567+0000' },
-    updatedAt: { $date: '2018-08-29T13:53:49.104+0000' },
+    createdAt: '2018-08-28T01:03:50.567+0000',
+    updatedAt: '2018-08-29T13:53:49.104+0000',
     price: 16400.0,
     driver_location: {
       type: 'Point',
@@ -9731,7 +9731,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-28T10:55:29.000+0000' },
+      date: '2018-08-28T10:55:29.000+0000',
       pickup_address: 'Baransu - Calle 93a #1950, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -9757,8 +9757,8 @@ export const trips = [
     car: { plate: 'TSY402' },
     status: 'onWay',
     check_code: '74',
-    createdAt: { $date: '2018-08-28T00:49:11.641+0000' },
-    updatedAt: { $date: '2018-08-30T01:56:02.961+0000' },
+    createdAt: '2018-08-28T00:49:11.641+0000',
+    updatedAt: '2018-08-30T01:56:02.961+0000',
     price: 35900.0,
     driver_location: {
       type: 'Point',
@@ -9767,7 +9767,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-27T22:41:51.620+0000' },
+      date: '2018-08-27T22:41:51.620+0000',
       pickup_address: 'Cl. 94 #11-30 - Cl. 94 #11-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9796,8 +9796,8 @@ export const trips = [
     car: { plate: 'WCL082' },
     status: 'onWay',
     check_code: '81',
-    createdAt: { $date: '2018-08-27T22:31:02.582+0000' },
-    updatedAt: { $date: '2018-09-06T15:15:56.325+0000' },
+    createdAt: '2018-08-27T22:31:02.582+0000',
+    updatedAt: '2018-09-06T15:15:56.325+0000',
     price: 8900.0,
     driver_location: {
       type: 'Point',
@@ -9806,7 +9806,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-27T20:35:30.776+0000' },
+      date: '2018-08-27T20:35:30.776+0000',
       pickup_address: 'Cl. 77 #11-19, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -9831,8 +9831,8 @@ export const trips = [
     car: { plate: 'WPQ920' },
     status: 'near',
     check_code: '61',
-    createdAt: { $date: '2018-08-27T20:31:50.630+0000' },
-    updatedAt: { $date: '2018-08-27T20:59:36.321+0000' },
+    createdAt: '2018-08-27T20:31:50.630+0000',
+    updatedAt: '2018-08-27T20:59:36.321+0000',
     price: 7500.0,
     driver_location: {
       type: 'Point',
@@ -9841,7 +9841,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-28T02:50:00.000+0000' },
+      date: '2018-08-28T02:50:00.000+0000',
       pickup_address: 'Cra. 127 #22g-18, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9866,8 +9866,8 @@ export const trips = [
     car: { plate: 'UFU282' },
     status: 'near',
     check_code: '26',
-    createdAt: { $date: '2018-08-27T13:40:42.780+0000' },
-    updatedAt: { $date: '2018-09-01T05:00:03.141+0000' },
+    createdAt: '2018-08-27T13:40:42.780+0000',
+    updatedAt: '2018-09-01T05:00:03.141+0000',
     price: 186600.0,
     driver_location: {
       type: 'Point',
@@ -9876,7 +9876,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-23T14:58:11.183+0000' },
+      date: '2018-08-23T14:58:11.183+0000',
       pickup_address:
         'Tribunales de Cundinamarca y Bogotá D.C. - Av La Esperanza #50',
       pickup_location: {
@@ -9899,8 +9899,8 @@ export const trips = [
     car: { plate: 'WNR883' },
     status: 'onWay',
     check_code: '89',
-    createdAt: { $date: '2018-08-23T14:56:09.161+0000' },
-    updatedAt: { $date: '2018-08-28T12:03:15.596+0000' },
+    createdAt: '2018-08-23T14:56:09.161+0000',
+    updatedAt: '2018-08-28T12:03:15.596+0000',
     price: 16900.0,
     driver_location: {
       type: 'Point',
@@ -9909,7 +9909,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-23T21:40:47.000+0000' },
+      date: '2018-08-23T21:40:47.000+0000',
       pickup_address: 'Cra. 10 #93b-53, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -9934,8 +9934,8 @@ export const trips = [
     car: { plate: 'WNZ546' },
     status: 'near',
     check_code: '28',
-    createdAt: { $date: '2018-08-23T12:23:18.611+0000' },
-    updatedAt: { $date: '2018-08-23T22:35:47.858+0000' },
+    createdAt: '2018-08-23T12:23:18.611+0000',
+    updatedAt: '2018-08-23T22:35:47.858+0000',
     price: 10700.0,
     driver_location: {
       type: 'Point',
@@ -9944,7 +9944,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-22T23:00:46.000+0000' },
+      date: '2018-08-22T23:00:46.000+0000',
       pickup_address:
         'Av. Circunvalar #77-2, Barranquilla, Atlántico, Colombia',
       pickup_location: {
@@ -9974,8 +9974,8 @@ export const trips = [
     car: { plate: 'SZM546' },
     status: 'onWay',
     check_code: '96',
-    createdAt: { $date: '2018-08-22T20:53:16.921+0000' },
-    updatedAt: { $date: '2018-08-23T02:41:04.431+0000' },
+    createdAt: '2018-08-22T20:53:16.921+0000',
+    updatedAt: '2018-08-23T02:41:04.431+0000',
     price: 29000.0,
     driver_location: {
       type: 'Point',
@@ -9984,7 +9984,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-30T14:30:00.000+0000' },
+      date: '2018-08-30T14:30:00.000+0000',
       pickup_address: 'Aeropuerto internacional el dorado',
       pickup_location: {
         type: 'Point',
@@ -10012,8 +10012,8 @@ export const trips = [
     car: { plate: 'WCS546' },
     status: 'started',
     check_code: '91',
-    createdAt: { $date: '2018-08-21T16:57:04.430+0000' },
-    updatedAt: { $date: '2018-08-30T17:21:03.538+0000' },
+    createdAt: '2018-08-21T16:57:04.430+0000',
+    updatedAt: '2018-08-30T17:21:03.538+0000',
     price: 32800.0,
     driver_location: {
       type: 'Point',
@@ -10022,7 +10022,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-24T11:15:17.000+0000' },
+      date: '2018-08-24T11:15:17.000+0000',
       pickup_address: 'Cra. 1a #76a-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10044,8 +10044,8 @@ export const trips = [
     car: { plate: 'ESN128' },
     status: 'near',
     check_code: '50',
-    createdAt: { $date: '2018-08-21T02:41:50.955+0000' },
-    updatedAt: { $date: '2018-08-26T22:27:04.201+0000' },
+    createdAt: '2018-08-21T02:41:50.955+0000',
+    updatedAt: '2018-08-26T22:27:04.201+0000',
     price: 14700.0,
     driver_location: {
       type: 'Point',
@@ -10054,7 +10054,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-21T11:15:45.000+0000' },
+      date: '2018-08-21T11:15:45.000+0000',
       pickup_address: 'Cra. 1a #76a-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10079,8 +10079,8 @@ export const trips = [
     car: { plate: 'EXX524' },
     status: 'started',
     check_code: '47',
-    createdAt: { $date: '2018-08-21T02:40:05.009+0000' },
-    updatedAt: { $date: '2018-08-22T11:09:08.935+0000' },
+    createdAt: '2018-08-21T02:40:05.009+0000',
+    updatedAt: '2018-08-22T11:09:08.935+0000',
     price: 11200.0,
     driver_location: {
       type: 'Point',
@@ -10089,7 +10089,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-21T11:15:00.000+0000' },
+      date: '2018-08-21T11:15:00.000+0000',
       pickup_address: 'Cra. 19a #102-70, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -10117,8 +10117,8 @@ export const trips = [
     car: { plate: 'WGL060' },
     status: 'near',
     check_code: '31',
-    createdAt: { $date: '2018-08-20T13:49:47.952+0000' },
-    updatedAt: { $date: '2018-08-21T14:04:53.303+0000' },
+    createdAt: '2018-08-20T13:49:47.952+0000',
+    updatedAt: '2018-08-21T14:04:53.303+0000',
     price: 33600.0,
     driver_location: {
       type: 'Point',
@@ -10127,7 +10127,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-17T19:11:01.088+0000' },
+      date: '2018-08-17T19:11:01.088+0000',
       pickup_address: 'Cl. 98 #70-91, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10155,8 +10155,8 @@ export const trips = [
     car: { plate: 'TFW798' },
     status: 'onWay',
     check_code: '52',
-    createdAt: { $date: '2018-08-17T19:02:55.068+0000' },
-    updatedAt: { $date: '2018-08-21T11:41:56.442+0000' },
+    createdAt: '2018-08-17T19:02:55.068+0000',
+    updatedAt: '2018-08-21T11:41:56.442+0000',
     price: 21700.0,
     driver_location: {
       type: 'Point',
@@ -10165,7 +10165,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-16T20:05:02.000+0000' },
+      date: '2018-08-16T20:05:02.000+0000',
       pickup_address: 'Cra. 7 #76-35, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -10194,8 +10194,8 @@ export const trips = [
     car: { plate: 'ESN132' },
     status: 'near',
     check_code: '68',
-    createdAt: { $date: '2018-08-16T18:53:00.100+0000' },
-    updatedAt: { $date: '2018-08-16T22:17:50.279+0000' },
+    createdAt: '2018-08-16T18:53:00.100+0000',
+    updatedAt: '2018-08-16T22:17:50.279+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -10204,7 +10204,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-16T10:40:59.000+0000' },
+      date: '2018-08-16T10:40:59.000+0000',
       pickup_address: 'Cl. 76 #11-41, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10229,8 +10229,8 @@ export const trips = [
     car: { plate: 'WFT615' },
     status: 'onWay',
     check_code: '92',
-    createdAt: { $date: '2018-08-16T00:57:31.352+0000' },
-    updatedAt: { $date: '2018-08-18T23:41:59.187+0000' },
+    createdAt: '2018-08-16T00:57:31.352+0000',
+    updatedAt: '2018-08-18T23:41:59.187+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -10239,7 +10239,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-16T00:58:17.995+0000' },
+      date: '2018-08-16T00:58:17.995+0000',
       pickup_address: 'Hotel Ibis Cali Granada - Av. 8 Nte. #21 Norte 40, Cali',
       pickup_location: {
         type: 'Point',
@@ -10262,8 +10262,8 @@ export const trips = [
     car: { plate: 'WHW824' },
     status: 'near',
     check_code: '63',
-    createdAt: { $date: '2018-08-16T00:53:29.047+0000' },
-    updatedAt: { $date: '2018-08-16T01:19:34.691+0000' },
+    createdAt: '2018-08-16T00:53:29.047+0000',
+    updatedAt: '2018-08-16T01:19:34.691+0000',
     price: 11600.0,
     driver_location: {
       type: 'Point',
@@ -10272,7 +10272,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-15T13:45:47.157+0000' },
+      date: '2018-08-15T13:45:47.157+0000',
       pickup_address: 'Ak. 15 #80-48, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10297,8 +10297,8 @@ export const trips = [
     car: { plate: 'EQQ011' },
     status: 'started',
     check_code: '73',
-    createdAt: { $date: '2018-08-15T13:37:37.137+0000' },
-    updatedAt: { $date: '2018-08-15T14:45:10.218+0000' },
+    createdAt: '2018-08-15T13:37:37.137+0000',
+    updatedAt: '2018-08-15T14:45:10.218+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -10307,7 +10307,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-15T12:32:38.000+0000' },
+      date: '2018-08-15T12:32:38.000+0000',
       pickup_address: 'Cl. 92 #14-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10332,8 +10332,8 @@ export const trips = [
     car: { plate: 'EQY569' },
     status: 'near',
     check_code: '79',
-    createdAt: { $date: '2018-08-15T11:31:47.603+0000' },
-    updatedAt: { $date: '2018-08-17T11:36:34.992+0000' },
+    createdAt: '2018-08-15T11:31:47.603+0000',
+    updatedAt: '2018-08-17T11:36:34.992+0000',
     price: 17600.0,
     driver_location: {
       type: 'Point',
@@ -10342,7 +10342,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-15T01:01:15.632+0000' },
+      date: '2018-08-15T01:01:15.632+0000',
       pickup_address: 'Cl. 20a #44-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10370,8 +10370,8 @@ export const trips = [
     car: { plate: 'WOX661' },
     status: 'started',
     check_code: '57',
-    createdAt: { $date: '2018-08-15T00:54:51.658+0000' },
-    updatedAt: { $date: '2018-08-17T12:32:57.558+0000' },
+    createdAt: '2018-08-15T00:54:51.658+0000',
+    updatedAt: '2018-08-17T12:32:57.558+0000',
     price: 28500.0,
     driver_location: {
       type: 'Point',
@@ -10380,7 +10380,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-13T22:22:31.215+0000' },
+      date: '2018-08-13T22:22:31.215+0000',
       pickup_address: 'Cra. 7 #75-01, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10405,8 +10405,8 @@ export const trips = [
     car: { plate: 'WPL760' },
     status: 'onWay',
     check_code: '52',
-    createdAt: { $date: '2018-08-13T22:15:18.165+0000' },
-    updatedAt: { $date: '2018-08-15T00:08:00.478+0000' },
+    createdAt: '2018-08-13T22:15:18.165+0000',
+    updatedAt: '2018-08-15T00:08:00.478+0000',
     price: 12800.0,
     driver_location: {
       type: 'Point',
@@ -10415,7 +10415,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-10T22:58:31.171+0000' },
+      date: '2018-08-10T22:58:31.171+0000',
       pickup_address:
         'Unicentro C, Cra. 100 #5-169, Cali, Valle del Cauca, Colombia',
       pickup_location: {
@@ -10438,8 +10438,8 @@ export const trips = [
     car: { plate: 'ZNM245' },
     status: 'near',
     check_code: '95',
-    createdAt: { $date: '2018-08-10T22:42:27.267+0000' },
-    updatedAt: { $date: '2018-08-11T03:09:03.861+0000' },
+    createdAt: '2018-08-10T22:42:27.267+0000',
+    updatedAt: '2018-08-11T03:09:03.861+0000',
     price: 21600.0,
     driver_location: {
       type: 'Point',
@@ -10448,7 +10448,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-10T18:50:00.000+0000' },
+      date: '2018-08-10T18:50:00.000+0000',
       pickup_address: 'Calle 26 #103-9, Fontibon, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10473,8 +10473,8 @@ export const trips = [
     car: { plate: 'WMO021' },
     status: 'onWay',
     check_code: '12',
-    createdAt: { $date: '2018-08-10T17:54:17.142+0000' },
-    updatedAt: { $date: '2018-08-14T19:44:09.697+0000' },
+    createdAt: '2018-08-10T17:54:17.142+0000',
+    updatedAt: '2018-08-14T19:44:09.697+0000',
     price: 33600.0,
     driver_location: {
       type: 'Point',
@@ -10483,7 +10483,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-10T18:00:46.000+0000' },
+      date: '2018-08-10T18:00:46.000+0000',
       pickup_address: 'Cra. 13 #26A-51 - Bogotá',
       pickup_location: {
         type: 'Point',
@@ -10511,8 +10511,8 @@ export const trips = [
     car: { plate: 'ESL335' },
     status: 'onWay',
     check_code: '77',
-    createdAt: { $date: '2018-08-10T17:13:59.405+0000' },
-    updatedAt: { $date: '2018-08-10T20:00:14.773+0000' },
+    createdAt: '2018-08-10T17:13:59.405+0000',
+    updatedAt: '2018-08-10T20:00:14.773+0000',
     price: 18500.0,
     driver_location: {
       type: 'Point',
@@ -10521,7 +10521,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-10T13:45:00.000+0000' },
+      date: '2018-08-10T13:45:00.000+0000',
       pickup_address: 'Cra. 21 #133-85, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10543,8 +10543,8 @@ export const trips = [
     car: { plate: 'WLL831' },
     status: 'onWay',
     check_code: '65',
-    createdAt: { $date: '2018-08-09T18:18:10.841+0000' },
-    updatedAt: { $date: '2018-08-27T16:38:50.743+0000' },
+    createdAt: '2018-08-09T18:18:10.841+0000',
+    updatedAt: '2018-08-27T16:38:50.743+0000',
     price: 14000.0,
     driver_location: {
       type: 'Point',
@@ -10553,7 +10553,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-10T14:00:00.000+0000' },
+      date: '2018-08-10T14:00:00.000+0000',
       pickup_address: 'Ac. 100 #13-95, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10575,8 +10575,8 @@ export const trips = [
     car: { plate: 'WPR031' },
     status: 'onWay',
     check_code: '58',
-    createdAt: { $date: '2018-08-09T15:08:28.926+0000' },
-    updatedAt: { $date: '2018-08-10T14:12:53.395+0000' },
+    createdAt: '2018-08-09T15:08:28.926+0000',
+    updatedAt: '2018-08-10T14:12:53.395+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -10585,7 +10585,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-08T12:15:00.000+0000' },
+      date: '2018-08-08T12:15:00.000+0000',
       pickup_address: 'Cl. 21, bello',
       pickup_location: {
         type: 'Point',
@@ -10607,8 +10607,8 @@ export const trips = [
     car: { plate: 'WHR446' },
     status: 'onWay',
     check_code: '65',
-    createdAt: { $date: '2018-08-08T02:31:29.114+0000' },
-    updatedAt: { $date: '2018-08-08T13:25:49.157+0000' },
+    createdAt: '2018-08-08T02:31:29.114+0000',
+    updatedAt: '2018-08-08T13:25:49.157+0000',
     price: 31300.0,
     driver_location: {
       type: 'Point',
@@ -10617,7 +10617,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-08T11:00:00.000+0000' },
+      date: '2018-08-08T11:00:00.000+0000',
       pickup_address: 'Cra. 12 #119-79 - Cra. 12 #119-79, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10643,8 +10643,8 @@ export const trips = [
     car: { plate: 'EXX208' },
     status: 'near',
     check_code: '29',
-    createdAt: { $date: '2018-08-08T01:46:13.086+0000' },
-    updatedAt: { $date: '2018-08-10T13:15:24.599+0000' },
+    createdAt: '2018-08-08T01:46:13.086+0000',
+    updatedAt: '2018-08-10T13:15:24.599+0000',
     price: 34600.0,
     driver_location: {
       type: 'Point',
@@ -10653,7 +10653,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-07T21:30:59.717+0000' },
+      date: '2018-08-07T21:30:59.717+0000',
       pickup_address: 'Cl. 90 #9a-17, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10678,8 +10678,8 @@ export const trips = [
     car: { plate: 'WNU125' },
     status: 'started',
     check_code: '25',
-    createdAt: { $date: '2018-08-07T21:20:49.303+0000' },
-    updatedAt: { $date: '2018-08-08T12:04:26.530+0000' },
+    createdAt: '2018-08-07T21:20:49.303+0000',
+    updatedAt: '2018-08-08T12:04:26.530+0000',
     price: 6600.0,
     driver_location: {
       type: 'Point',
@@ -10688,7 +10688,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-07T00:08:15.115+0000' },
+      date: '2018-08-07T00:08:15.115+0000',
       pickup_address: 'Cl. 90 #11-13, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10713,8 +10713,8 @@ export const trips = [
     car: { plate: 'WMZ698' },
     status: 'onWay',
     check_code: '79',
-    createdAt: { $date: '2018-08-07T00:03:48.091+0000' },
-    updatedAt: { $date: '2018-08-07T03:49:06.347+0000' },
+    createdAt: '2018-08-07T00:03:48.091+0000',
+    updatedAt: '2018-08-07T03:49:06.347+0000',
     price: 12800.0,
     driver_location: {
       type: 'Point',
@@ -10723,7 +10723,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-06T06:22:06.732+0000' },
+      date: '2018-08-06T06:22:06.732+0000',
       pickup_address: 'Ac 80 #100 - 52, Bogotá, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10748,8 +10748,8 @@ export const trips = [
     car: { plate: 'WEX529' },
     status: 'near',
     check_code: '84',
-    createdAt: { $date: '2018-08-06T06:10:24.659+0000' },
-    updatedAt: { $date: '2018-08-06T07:01:01.010+0000' },
+    createdAt: '2018-08-06T06:10:24.659+0000',
+    updatedAt: '2018-08-06T07:01:01.010+0000',
     price: 30100.0,
     driver_location: {
       type: 'Point',
@@ -10758,7 +10758,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-06T11:30:02.000+0000' },
+      date: '2018-08-06T11:30:02.000+0000',
       pickup_address: 'Cl. 103 #11b-13, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10783,8 +10783,8 @@ export const trips = [
     car: { plate: 'WPQ704' },
     status: 'onWay',
     check_code: '95',
-    createdAt: { $date: '2018-08-06T05:22:44.342+0000' },
-    updatedAt: { $date: '2018-08-06T15:53:03.983+0000' },
+    createdAt: '2018-08-06T05:22:44.342+0000',
+    updatedAt: '2018-08-06T15:53:03.983+0000',
     price: 22500.0,
     driver_location: {
       type: 'Point',
@@ -10793,7 +10793,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-05T14:20:04.079+0000' },
+      date: '2018-08-05T14:20:04.079+0000',
       pickup_address: 'Cra. 20 #184-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10815,8 +10815,8 @@ export const trips = [
     car: { plate: 'WGR233' },
     status: 'onWay',
     check_code: '54',
-    createdAt: { $date: '2018-08-05T14:05:57.599+0000' },
-    updatedAt: { $date: '2018-08-05T16:56:44.696+0000' },
+    createdAt: '2018-08-05T14:05:57.599+0000',
+    updatedAt: '2018-08-05T16:56:44.696+0000',
     price: 32000.0,
     driver_location: {
       type: 'Point',
@@ -10825,7 +10825,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-13T02:00:00.000+0000' },
+      date: '2018-08-13T02:00:00.000+0000',
       pickup_address:
         'Vía al Aeropuerto Nte., Palmira, Valle del Cauca, Colombia',
       pickup_location: {
@@ -10848,8 +10848,8 @@ export const trips = [
     car: { plate: 'WMX904' },
     status: 'started',
     check_code: '36',
-    createdAt: { $date: '2018-08-03T19:56:35.109+0000' },
-    updatedAt: { $date: '2018-08-13T03:03:05.449+0000' },
+    createdAt: '2018-08-03T19:56:35.109+0000',
+    updatedAt: '2018-08-13T03:03:05.449+0000',
     price: 88400.0,
     driver_location: {
       type: 'Point',
@@ -10858,7 +10858,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-02T21:00:17.000+0000' },
+      date: '2018-08-02T21:00:17.000+0000',
       pickup_address:
         'Begranda - Calle 18 # 35 - 69, Palms Avenue Oficina 322, Medellín',
       pickup_location: {
@@ -10888,8 +10888,8 @@ export const trips = [
     car: { plate: 'WNZ615' },
     status: 'started',
     check_code: '92',
-    createdAt: { $date: '2018-08-02T11:13:58.108+0000' },
-    updatedAt: { $date: '2018-08-02T22:23:39.251+0000' },
+    createdAt: '2018-08-02T11:13:58.108+0000',
+    updatedAt: '2018-08-02T22:23:39.251+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -10898,7 +10898,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-31T20:30:19.000+0000' },
+      date: '2018-07-31T20:30:19.000+0000',
       pickup_address: 'VILLAS DE SAUZALITO - Cra. 33 #33-06, Medellín',
       pickup_location: {
         type: 'Point',
@@ -10924,8 +10924,8 @@ export const trips = [
     car: { plate: 'WNZ452' },
     status: 'onWay',
     check_code: '23',
-    createdAt: { $date: '2018-07-31T14:31:49.406+0000' },
-    updatedAt: { $date: '2018-07-31T22:31:42.472+0000' },
+    createdAt: '2018-07-31T14:31:49.406+0000',
+    updatedAt: '2018-07-31T22:31:42.472+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -10934,7 +10934,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-01T14:10:00.000+0000' },
+      date: '2018-08-01T14:10:00.000+0000',
       pickup_address: 'Ak. 15 #80-48, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -10959,8 +10959,8 @@ export const trips = [
     car: { plate: 'WLM309' },
     status: 'near',
     check_code: '96',
-    createdAt: { $date: '2018-07-31T13:40:38.318+0000' },
-    updatedAt: { $date: '2018-08-01T14:33:07.844+0000' },
+    createdAt: '2018-07-31T13:40:38.318+0000',
+    updatedAt: '2018-08-01T14:33:07.844+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -10969,7 +10969,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-31T12:00:39.000+0000' },
+      date: '2018-07-31T12:00:39.000+0000',
       pickup_address: 'Cra. 1 este #78-63, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -10994,8 +10994,8 @@ export const trips = [
     car: { plate: 'ESN118' },
     status: 'near',
     check_code: '88',
-    createdAt: { $date: '2018-07-30T23:23:09.735+0000' },
-    updatedAt: { $date: '2018-07-31T13:27:59.249+0000' },
+    createdAt: '2018-07-30T23:23:09.735+0000',
+    updatedAt: '2018-07-31T13:27:59.249+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -11004,7 +11004,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-15T01:50:00.000+0000' },
+      date: '2018-08-15T01:50:00.000+0000',
       pickup_address: 'Rionegro, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11029,8 +11029,8 @@ export const trips = [
     car: { plate: 'WHR661' },
     status: 'started',
     check_code: '21',
-    createdAt: { $date: '2018-07-30T13:50:25.164+0000' },
-    updatedAt: { $date: '2018-08-16T00:46:12.076+0000' },
+    createdAt: '2018-07-30T13:50:25.164+0000',
+    updatedAt: '2018-08-16T00:46:12.076+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -11039,7 +11039,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-08-27T10:00:00.000+0000' },
+      date: '2018-08-27T10:00:00.000+0000',
       pickup_address: 'Cra. 79 & Cl. 53, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11061,8 +11061,8 @@ export const trips = [
     car: { plate: 'EQT331' },
     status: 'onWay',
     check_code: '83',
-    createdAt: { $date: '2018-07-30T13:33:03.748+0000' },
-    updatedAt: { $date: '2018-08-27T12:03:18.418+0000' },
+    createdAt: '2018-07-30T13:33:03.748+0000',
+    updatedAt: '2018-08-27T12:03:18.418+0000',
     price: 95300.0,
     driver_location: {
       type: 'Point',
@@ -11071,7 +11071,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-28T03:11:40.570+0000' },
+      date: '2018-07-28T03:11:40.570+0000',
       pickup_address: 'Cl. 19 #69F-45, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11096,8 +11096,8 @@ export const trips = [
     car: { plate: 'WNU323' },
     status: 'onWay',
     check_code: '72',
-    createdAt: { $date: '2018-07-28T02:51:06.644+0000' },
-    updatedAt: { $date: '2018-07-28T04:13:04.166+0000' },
+    createdAt: '2018-07-28T02:51:06.644+0000',
+    updatedAt: '2018-07-28T04:13:04.166+0000',
     price: 74100.0,
     driver_location: {
       type: 'Point',
@@ -11106,7 +11106,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-27T23:51:38.000+0000' },
+      date: '2018-07-27T23:51:38.000+0000',
       pickup_address:
         'Aeropuerto Internacional Rafael Núñez - Cl. 70, Cartagena',
       pickup_location: {
@@ -11130,8 +11130,8 @@ export const trips = [
     car: { plate: 'TVC730' },
     status: 'onWay',
     check_code: '84',
-    createdAt: { $date: '2018-07-27T21:51:10.007+0000' },
-    updatedAt: { $date: '2018-08-01T22:09:53.034+0000' },
+    createdAt: '2018-07-27T21:51:10.007+0000',
+    updatedAt: '2018-08-01T22:09:53.034+0000',
     price: 26100.0,
     driver_location: {
       type: 'Point',
@@ -11140,7 +11140,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-27T21:00:00.000+0000' },
+      date: '2018-07-27T21:00:00.000+0000',
       pickup_address: 'Cl. 67 #16-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11166,8 +11166,8 @@ export const trips = [
     car: { plate: 'ESL762' },
     status: 'started',
     check_code: '92',
-    createdAt: { $date: '2018-07-27T16:09:12.012+0000' },
-    updatedAt: { $date: '2018-07-28T01:21:24.227+0000' },
+    createdAt: '2018-07-27T16:09:12.012+0000',
+    updatedAt: '2018-07-28T01:21:24.227+0000',
     price: 31900.0,
     driver_location: {
       type: 'Point',
@@ -11176,7 +11176,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-28T00:20:00.000+0000' },
+      date: '2018-07-28T00:20:00.000+0000',
       pickup_address: 'Rionegro, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11201,8 +11201,8 @@ export const trips = [
     car: { plate: 'EQT665' },
     status: 'started',
     check_code: '57',
-    createdAt: { $date: '2018-07-27T14:12:48.451+0000' },
-    updatedAt: { $date: '2018-07-31T05:00:03.629+0000' },
+    createdAt: '2018-07-27T14:12:48.451+0000',
+    updatedAt: '2018-07-31T05:00:03.629+0000',
     price: 95600.0,
     driver_location: {
       type: 'Point',
@@ -11211,7 +11211,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-25T22:12:10.702+0000' },
+      date: '2018-07-25T22:12:10.702+0000',
       pickup_address: 'Cra. 9 #77-67, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11236,8 +11236,8 @@ export const trips = [
     car: { plate: 'WPP297' },
     status: 'started',
     check_code: '48',
-    createdAt: { $date: '2018-07-25T22:03:38.551+0000' },
-    updatedAt: { $date: '2018-07-26T12:56:40.652+0000' },
+    createdAt: '2018-07-25T22:03:38.551+0000',
+    updatedAt: '2018-07-26T12:56:40.652+0000',
     price: 14000.0,
     driver_location: {
       type: 'Point',
@@ -11246,7 +11246,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-25T01:48:10.770+0000' },
+      date: '2018-07-25T01:48:10.770+0000',
       pickup_address: 'Cl. 77 #11-19, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -11268,8 +11268,8 @@ export const trips = [
     car: { plate: 'ESK846' },
     status: 'onWay',
     check_code: '98',
-    createdAt: { $date: '2018-07-25T01:25:24.934+0000' },
-    updatedAt: { $date: '2018-07-27T00:33:13.296+0000' },
+    createdAt: '2018-07-25T01:25:24.934+0000',
+    updatedAt: '2018-07-27T00:33:13.296+0000',
     price: 25000.0,
     driver_location: {
       type: 'Point',
@@ -11278,7 +11278,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-25T11:45:16.000+0000' },
+      date: '2018-07-25T11:45:16.000+0000',
       pickup_address:
         'Aeropuerto Internacional Alfonso Bonilla Aragón - Vía al Aeropuerto Nte., Palmira',
       pickup_location: {
@@ -11301,8 +11301,8 @@ export const trips = [
     car: { plate: 'VMU777' },
     status: 'onWay',
     check_code: '70',
-    createdAt: { $date: '2018-07-25T00:29:40.951+0000' },
-    updatedAt: { $date: '2018-07-26T22:28:38.205+0000' },
+    createdAt: '2018-07-25T00:29:40.951+0000',
+    updatedAt: '2018-07-26T22:28:38.205+0000',
     price: 79425.0,
     driver_location: {
       type: 'Point',
@@ -11311,7 +11311,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-24T15:41:32.000+0000' },
+      date: '2018-07-24T15:41:32.000+0000',
       pickup_address:
         'Etiflex S.A. - Guarne-Aeropuerto José María Cordova, Rionegro',
       pickup_location: {
@@ -11337,8 +11337,8 @@ export const trips = [
     car: { plate: 'WLZ357' },
     status: 'onWay',
     check_code: '49',
-    createdAt: { $date: '2018-07-24T13:40:20.232+0000' },
-    updatedAt: { $date: '2018-07-24T16:26:42.047+0000' },
+    createdAt: '2018-07-24T13:40:20.232+0000',
+    updatedAt: '2018-07-24T16:26:42.047+0000',
     price: 64300.0,
     driver_location: {
       type: 'Point',
@@ -11347,7 +11347,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-23T18:43:28.886+0000' },
+      date: '2018-07-23T18:43:28.886+0000',
       pickup_address: 'Cl. 163a #13B-60, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11375,8 +11375,8 @@ export const trips = [
     car: { plate: 'WPM277' },
     status: 'started',
     check_code: '21',
-    createdAt: { $date: '2018-07-23T18:29:54.039+0000' },
-    updatedAt: { $date: '2018-07-24T22:47:55.843+0000' },
+    createdAt: '2018-07-23T18:29:54.039+0000',
+    updatedAt: '2018-07-24T22:47:55.843+0000',
     price: 14100.0,
     driver_location: {
       type: 'Point',
@@ -11385,7 +11385,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-23T18:09:17.270+0000' },
+      date: '2018-07-23T18:09:17.270+0000',
       pickup_address:
         'Agencia Nacional de Minería - Avenida Calle 26 # 59 - 51, Avenida Calle 26 # 59 - 51. Local 107. Piso 8, 9 y 10',
       pickup_location: {
@@ -11411,8 +11411,8 @@ export const trips = [
     car: { plate: 'WLM890' },
     status: 'started',
     check_code: '92',
-    createdAt: { $date: '2018-07-23T17:54:22.477+0000' },
-    updatedAt: { $date: '2018-07-23T22:07:00.074+0000' },
+    createdAt: '2018-07-23T17:54:22.477+0000',
+    updatedAt: '2018-07-23T22:07:00.074+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -11421,7 +11421,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-23T10:15:13.000+0000' },
+      date: '2018-07-23T10:15:13.000+0000',
       pickup_address: 'Cra. 56a #137b-8, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11446,8 +11446,8 @@ export const trips = [
     car: { plate: 'TGV823' },
     status: 'near',
     check_code: '43',
-    createdAt: { $date: '2018-07-23T00:02:53.520+0000' },
-    updatedAt: { $date: '2018-07-24T00:16:17.674+0000' },
+    createdAt: '2018-07-23T00:02:53.520+0000',
+    updatedAt: '2018-07-24T00:16:17.674+0000',
     price: 19000.0,
     driver_location: {
       type: 'Point',
@@ -11456,7 +11456,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-22T20:49:39.257+0000' },
+      date: '2018-07-22T20:49:39.257+0000',
       pickup_address: 'Terminal Cali - Calle 30N #2AN-29, Cali',
       pickup_location: {
         type: 'Point',
@@ -11481,8 +11481,8 @@ export const trips = [
     car: { plate: 'TZO135' },
     status: 'started',
     check_code: '94',
-    createdAt: { $date: '2018-07-22T20:36:07.578+0000' },
-    updatedAt: { $date: '2018-07-26T01:23:04.743+0000' },
+    createdAt: '2018-07-22T20:36:07.578+0000',
+    updatedAt: '2018-07-26T01:23:04.743+0000',
     price: 17600.0,
     driver_location: {
       type: 'Point',
@@ -11491,7 +11491,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-20T03:29:56.111+0000' },
+      date: '2018-07-20T03:29:56.111+0000',
       pickup_address: 'Cra. 25 #1a-45, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11516,8 +11516,8 @@ export const trips = [
     car: { plate: 'WGQ882' },
     status: 'started',
     check_code: '50',
-    createdAt: { $date: '2018-07-20T03:12:49.920+0000' },
-    updatedAt: { $date: '2018-07-20T05:40:53.168+0000' },
+    createdAt: '2018-07-20T03:12:49.920+0000',
+    updatedAt: '2018-07-20T05:40:53.168+0000',
     price: 9700.0,
     driver_location: {
       type: 'Point',
@@ -11526,7 +11526,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-19T18:15:00.000+0000' },
+      date: '2018-07-19T18:15:00.000+0000',
       pickup_address:
         'Restaurante Sazón Pacífico colombiano - Av 5N #17N-23, Cali',
       pickup_location: {
@@ -11549,8 +11549,8 @@ export const trips = [
     car: { plate: 'WHW132' },
     status: 'onWay',
     check_code: '34',
-    createdAt: { $date: '2018-07-19T16:46:27.812+0000' },
-    updatedAt: { $date: '2018-07-31T03:06:50.945+0000' },
+    createdAt: '2018-07-19T16:46:27.812+0000',
+    updatedAt: '2018-07-31T03:06:50.945+0000',
     price: 12800.0,
     driver_location: {
       type: 'Point',
@@ -11559,7 +11559,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-19T14:47:15.241+0000' },
+      date: '2018-07-19T14:47:15.241+0000',
       pickup_address: 'Cra. 16 #82-74, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11587,8 +11587,8 @@ export const trips = [
     car: { plate: 'ESL313' },
     status: 'started',
     check_code: '29',
-    createdAt: { $date: '2018-07-19T14:37:28.097+0000' },
-    updatedAt: { $date: '2018-07-19T16:15:57.954+0000' },
+    createdAt: '2018-07-19T14:37:28.097+0000',
+    updatedAt: '2018-07-19T16:15:57.954+0000',
     price: 18800.0,
     driver_location: {
       type: 'Point',
@@ -11597,7 +11597,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-19T15:27:18.330+0000' },
+      date: '2018-07-19T15:27:18.330+0000',
       pickup_address: 'Cl. 41 Sur #17a Este-2, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11619,8 +11619,8 @@ export const trips = [
     car: { plate: '0001XX' },
     status: 'near',
     check_code: '83',
-    createdAt: { $date: '2018-07-19T14:30:41.563+0000' },
-    updatedAt: { $date: '2018-07-24T05:00:03.333+0000' },
+    createdAt: '2018-07-19T14:30:41.563+0000',
+    updatedAt: '2018-07-24T05:00:03.333+0000',
     price: 0.0,
     driver_location: {
       type: 'Point',
@@ -11629,7 +11629,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-27T12:30:00.000+0000' },
+      date: '2018-07-27T12:30:00.000+0000',
       pickup_address: 'Cl. 127b Bis #20-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11651,8 +11651,8 @@ export const trips = [
     car: { plate: 'WNU166' },
     status: 'near',
     check_code: '59',
-    createdAt: { $date: '2018-07-18T21:42:27.504+0000' },
-    updatedAt: { $date: '2018-07-30T12:10:01.422+0000' },
+    createdAt: '2018-07-18T21:42:27.504+0000',
+    updatedAt: '2018-07-30T12:10:01.422+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -11661,7 +11661,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-23T12:30:00.000+0000' },
+      date: '2018-07-23T12:30:00.000+0000',
       pickup_address: 'Cl. 127b Bis #20-2, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11683,8 +11683,8 @@ export const trips = [
     car: { plate: 'EXX208' },
     status: 'started',
     check_code: '61',
-    createdAt: { $date: '2018-07-18T21:30:19.483+0000' },
-    updatedAt: { $date: '2018-07-23T23:00:21.686+0000' },
+    createdAt: '2018-07-18T21:30:19.483+0000',
+    updatedAt: '2018-07-23T23:00:21.686+0000',
     price: 16600.0,
     driver_location: {
       type: 'Point',
@@ -11693,7 +11693,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-18T10:15:16.000+0000' },
+      date: '2018-07-18T10:15:16.000+0000',
       pickup_address: 'Cra. 56a #137b-8, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11718,8 +11718,8 @@ export const trips = [
     car: { plate: 'WPM524' },
     status: 'onWay',
     check_code: '67',
-    createdAt: { $date: '2018-07-18T01:19:38.467+0000' },
-    updatedAt: { $date: '2018-07-19T01:53:00.067+0000' },
+    createdAt: '2018-07-18T01:19:38.467+0000',
+    updatedAt: '2018-07-19T01:53:00.067+0000',
     price: 19100.0,
     driver_location: {
       type: 'Point',
@@ -11728,7 +11728,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-18T13:00:00.000+0000' },
+      date: '2018-07-18T13:00:00.000+0000',
       pickup_address: 'Av Suba #115-58, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11750,8 +11750,8 @@ export const trips = [
     car: { plate: 'WNS896' },
     status: 'started',
     check_code: '45',
-    createdAt: { $date: '2018-07-17T22:26:02.827+0000' },
-    updatedAt: { $date: '2018-08-11T14:10:21.032+0000' },
+    createdAt: '2018-07-17T22:26:02.827+0000',
+    updatedAt: '2018-08-11T14:10:21.032+0000',
     price: 14600.0,
     driver_location: {
       type: 'Point',
@@ -11760,7 +11760,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-18T13:00:00.000+0000' },
+      date: '2018-07-18T13:00:00.000+0000',
       pickup_address: 'Calle 5N #2N-54, Cali, Valle del Cauca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11782,8 +11782,8 @@ export const trips = [
     car: { plate: 'WNX759' },
     status: 'onWay',
     check_code: '85',
-    createdAt: { $date: '2018-07-17T22:11:43.945+0000' },
-    updatedAt: { $date: '2018-10-11T15:03:38.234+0000' },
+    createdAt: '2018-07-17T22:11:43.945+0000',
+    updatedAt: '2018-10-11T15:03:38.234+0000',
     price: 381240.0,
     driver_location: {
       type: 'Point',
@@ -11792,7 +11792,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-17T14:30:09.000+0000' },
+      date: '2018-07-17T14:30:09.000+0000',
       pickup_address: 'Cosmos Pacífico Hotel - Cl. 3 #31, Buenaventura',
       pickup_location: {
         type: 'Point',
@@ -11818,8 +11818,8 @@ export const trips = [
     car: { plate: 'WMX904' },
     status: 'near',
     check_code: '32',
-    createdAt: { $date: '2018-07-17T00:13:14.460+0000' },
-    updatedAt: { $date: '2018-08-07T16:33:08.030+0000' },
+    createdAt: '2018-07-17T00:13:14.460+0000',
+    updatedAt: '2018-08-07T16:33:08.030+0000',
     price: 381240.0,
     driver_location: {
       type: 'Point',
@@ -11828,7 +11828,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-16T23:19:40.070+0000' },
+      date: '2018-07-16T23:19:40.070+0000',
       pickup_address: 'Cl. 78, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11853,8 +11853,8 @@ export const trips = [
     car: { plate: 'WMO145' },
     status: 'near',
     check_code: '99',
-    createdAt: { $date: '2018-07-16T23:06:11.033+0000' },
-    updatedAt: { $date: '2018-07-17T00:13:02.749+0000' },
+    createdAt: '2018-07-16T23:06:11.033+0000',
+    updatedAt: '2018-07-17T00:13:02.749+0000',
     price: 24300.0,
     driver_location: {
       type: 'Point',
@@ -11863,7 +11863,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-16T22:32:34.515+0000' },
+      date: '2018-07-16T22:32:34.515+0000',
       pickup_address: 'Cra. 129 #22b-57, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11888,8 +11888,8 @@ export const trips = [
     car: { plate: 'ERK876' },
     status: 'near',
     check_code: '17',
-    createdAt: { $date: '2018-07-16T21:59:19.964+0000' },
-    updatedAt: { $date: '2018-07-17T11:16:33.008+0000' },
+    createdAt: '2018-07-16T21:59:19.964+0000',
+    updatedAt: '2018-07-17T11:16:33.008+0000',
     price: 38200.0,
     driver_location: {
       type: 'Point',
@@ -11898,7 +11898,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-16T22:30:41.734+0000' },
+      date: '2018-07-16T22:30:41.734+0000',
       pickup_address: 'Usme, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11920,8 +11920,8 @@ export const trips = [
     car: { plate: 'DGU736' },
     status: 'onWay',
     check_code: '97',
-    createdAt: { $date: '2018-07-16T21:47:50.197+0000' },
-    updatedAt: { $date: '2018-07-16T22:08:51.259+0000' },
+    createdAt: '2018-07-16T21:47:50.197+0000',
+    updatedAt: '2018-07-16T22:08:51.259+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -11930,7 +11930,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-16T23:30:00.000+0000' },
+      date: '2018-07-16T23:30:00.000+0000',
       pickup_address: 'Calle 26 #103-9, Fontibon, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -11952,8 +11952,8 @@ export const trips = [
     car: { plate: 'TDK743' },
     status: 'started',
     check_code: '90',
-    createdAt: { $date: '2018-07-16T21:43:10.655+0000' },
-    updatedAt: { $date: '2018-10-23T04:07:54.714+0000' },
+    createdAt: '2018-07-16T21:43:10.655+0000',
+    updatedAt: '2018-10-23T04:07:54.714+0000',
     price: 60600.0,
     driver_location: {
       type: 'Point',
@@ -11962,7 +11962,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-16T21:47:30.000+0000' },
+      date: '2018-07-16T21:47:30.000+0000',
       pickup_address: 'Citibank - Cra. 9a #99-02, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -11984,8 +11984,8 @@ export const trips = [
     car: { plate: 'WHS062' },
     status: 'near',
     check_code: '88',
-    createdAt: { $date: '2018-07-16T19:49:31.413+0000' },
-    updatedAt: { $date: '2018-07-17T22:59:27.683+0000' },
+    createdAt: '2018-07-16T19:49:31.413+0000',
+    updatedAt: '2018-07-17T22:59:27.683+0000',
     price: 14300.0,
     driver_location: {
       type: 'Point',
@@ -11994,7 +11994,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-12T12:05:17.000+0000' },
+      date: '2018-07-12T12:05:17.000+0000',
       pickup_address: 'Cl. 74 #1-46, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12022,8 +12022,8 @@ export const trips = [
     car: { plate: 'WNX026' },
     status: 'onWay',
     check_code: '30',
-    createdAt: { $date: '2018-07-12T03:22:43.602+0000' },
-    updatedAt: { $date: '2018-07-12T22:24:57.818+0000' },
+    createdAt: '2018-07-12T03:22:43.602+0000',
+    updatedAt: '2018-07-12T22:24:57.818+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -12032,7 +12032,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-11T17:56:44.952+0000' },
+      date: '2018-07-11T17:56:44.952+0000',
       pickup_address: 'Cl. 97a #8-10, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -12057,8 +12057,8 @@ export const trips = [
     car: { plate: 'WNK572' },
     status: 'near',
     check_code: '23',
-    createdAt: { $date: '2018-07-11T17:44:04.085+0000' },
-    updatedAt: { $date: '2018-07-11T19:53:34.476+0000' },
+    createdAt: '2018-07-11T17:44:04.085+0000',
+    updatedAt: '2018-07-11T19:53:34.476+0000',
     price: 7400.0,
     driver_location: {
       type: 'Point',
@@ -12067,7 +12067,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-11T13:51:08.312+0000' },
+      date: '2018-07-11T13:51:08.312+0000',
       pickup_address: 'Ac. 82 #12-18, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12092,8 +12092,8 @@ export const trips = [
     car: { plate: 'ESM554' },
     status: 'started',
     check_code: '50',
-    createdAt: { $date: '2018-07-11T13:38:35.018+0000' },
-    updatedAt: { $date: '2018-07-11T14:10:58.746+0000' },
+    createdAt: '2018-07-11T13:38:35.018+0000',
+    updatedAt: '2018-07-11T14:10:58.746+0000',
     price: 9100.0,
     driver_location: {
       type: 'Point',
@@ -12102,7 +12102,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-10T11:30:00.000+0000' },
+      date: '2018-07-10T11:30:00.000+0000',
       pickup_address: 'Colombia # 2-72, Cali, Valle del Cauca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12128,8 +12128,8 @@ export const trips = [
     car: { plate: 'WNX759' },
     status: 'near',
     check_code: '90',
-    createdAt: { $date: '2018-07-09T14:27:25.188+0000' },
-    updatedAt: { $date: '2018-07-10T19:39:38.724+0000' },
+    createdAt: '2018-07-09T14:27:25.188+0000',
+    updatedAt: '2018-07-10T19:39:38.724+0000',
     price: 381240.0,
     driver_location: {
       type: 'Point',
@@ -12138,7 +12138,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-09T11:00:00.000+0000' },
+      date: '2018-07-09T11:00:00.000+0000',
       pickup_address: 'Cl. 53a Bis #21-54 - Bogotá',
       pickup_location: {
         type: 'Point',
@@ -12160,8 +12160,8 @@ export const trips = [
     car: { plate: 'ESM439' },
     status: 'near',
     check_code: '25',
-    createdAt: { $date: '2018-07-09T05:02:57.813+0000' },
-    updatedAt: { $date: '2018-07-09T12:03:56.260+0000' },
+    createdAt: '2018-07-09T05:02:57.813+0000',
+    updatedAt: '2018-07-09T12:03:56.260+0000',
     price: 19800.0,
     driver_location: {
       type: 'Point',
@@ -12170,7 +12170,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-09T11:00:38.000+0000' },
+      date: '2018-07-09T11:00:38.000+0000',
       pickup_address: 'Cra. 2 #76a-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12193,8 +12193,8 @@ export const trips = [
     car: { plate: 'WOY832' },
     status: 'near',
     check_code: '77',
-    createdAt: { $date: '2018-07-09T00:20:25.197+0000' },
-    updatedAt: { $date: '2018-07-09T11:57:58.348+0000' },
+    createdAt: '2018-07-09T00:20:25.197+0000',
+    updatedAt: '2018-07-09T11:57:58.348+0000',
     price: 39100.0,
     driver_location: {
       type: 'Point',
@@ -12203,7 +12203,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-05T11:20:00.000+0000' },
+      date: '2018-07-05T11:20:00.000+0000',
       pickup_address: 'Ac 80 #9-39 - Bogotá',
       pickup_location: {
         type: 'Point',
@@ -12225,8 +12225,8 @@ export const trips = [
     car: { plate: 'WMZ507' },
     status: 'near',
     check_code: '71',
-    createdAt: { $date: '2018-07-05T10:34:27.991+0000' },
-    updatedAt: { $date: '2018-07-05T11:58:08.339+0000' },
+    createdAt: '2018-07-05T10:34:27.991+0000',
+    updatedAt: '2018-07-05T11:58:08.339+0000',
     price: 14700.0,
     driver_location: {
       type: 'Point',
@@ -12235,7 +12235,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-05T12:59:23.000+0000' },
+      date: '2018-07-05T12:59:23.000+0000',
       pickup_address: 'Cl. 61 #3a-43 - Bogotá',
       pickup_location: {
         type: 'Point',
@@ -12260,8 +12260,8 @@ export const trips = [
     car: { plate: 'ESL997' },
     status: 'onWay',
     check_code: '85',
-    createdAt: { $date: '2018-07-05T09:59:48.161+0000' },
-    updatedAt: { $date: '2018-07-05T18:32:24.166+0000' },
+    createdAt: '2018-07-05T09:59:48.161+0000',
+    updatedAt: '2018-07-05T18:32:24.166+0000',
     price: 34400.0,
     driver_location: {
       type: 'Point',
@@ -12270,7 +12270,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-04T12:41:34.502+0000' },
+      date: '2018-07-04T12:41:34.502+0000',
       pickup_address: 'donde fabi - Cra. 40a #35 - 05, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -12298,8 +12298,8 @@ export const trips = [
     car: { plate: 'EQQ011' },
     status: 'onWay',
     check_code: '61',
-    createdAt: { $date: '2018-07-04T12:20:22.070+0000' },
-    updatedAt: { $date: '2018-07-05T00:12:20.515+0000' },
+    createdAt: '2018-07-04T12:20:22.070+0000',
+    updatedAt: '2018-07-05T00:12:20.515+0000',
     price: 12000.0,
     driver_location: {
       type: 'Point',
@@ -12308,7 +12308,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-04T02:00:00.000+0000' },
+      date: '2018-07-04T02:00:00.000+0000',
       pickup_address: 'Troncal Nqs, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12336,8 +12336,8 @@ export const trips = [
     car: { plate: 'TSX148' },
     status: 'near',
     check_code: '81',
-    createdAt: { $date: '2018-07-03T21:20:27.393+0000' },
-    updatedAt: { $date: '2018-07-11T05:00:01.601+0000' },
+    createdAt: '2018-07-03T21:20:27.393+0000',
+    updatedAt: '2018-07-11T05:00:01.601+0000',
     price: 186650.0,
     driver_location: {
       type: 'Point',
@@ -12346,7 +12346,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-02T12:00:00.000+0000' },
+      date: '2018-07-02T12:00:00.000+0000',
       pickup_address: 'Chía, Cundinamarca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12371,8 +12371,8 @@ export const trips = [
     car: { plate: 'ESL155' },
     status: 'near',
     check_code: '49',
-    createdAt: { $date: '2018-06-29T18:04:17.825+0000' },
-    updatedAt: { $date: '2018-07-04T17:04:31.717+0000' },
+    createdAt: '2018-06-29T18:04:17.825+0000',
+    updatedAt: '2018-07-04T17:04:31.717+0000',
     price: 75000.0,
     driver_location: {
       type: 'Point',
@@ -12381,7 +12381,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-07-03T12:00:00.000+0000' },
+      date: '2018-07-03T12:00:00.000+0000',
       pickup_address: 'no. Bogota, Cra. 11B #9659, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12404,8 +12404,8 @@ export const trips = [
     car: { plate: 'WNX415' },
     status: 'started',
     check_code: '17',
-    createdAt: { $date: '2018-06-29T14:12:28.168+0000' },
-    updatedAt: { $date: '2018-07-03T12:51:02.279+0000' },
+    createdAt: '2018-06-29T14:12:28.168+0000',
+    updatedAt: '2018-07-03T12:51:02.279+0000',
     price: 63500.0,
     driver_location: {
       type: 'Point',
@@ -12414,7 +12414,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-29T10:30:00.000+0000' },
+      date: '2018-06-29T10:30:00.000+0000',
       pickup_address: 'Cra. 12 #4-17 - Cali',
       pickup_location: {
         type: 'Point',
@@ -12443,8 +12443,8 @@ export const trips = [
     car: { plate: 'WNX758' },
     status: 'started',
     check_code: '53',
-    createdAt: { $date: '2018-06-29T00:36:51.230+0000' },
-    updatedAt: { $date: '2018-06-30T02:49:47.379+0000' },
+    createdAt: '2018-06-29T00:36:51.230+0000',
+    updatedAt: '2018-06-30T02:49:47.379+0000',
     price: 197500.0,
     driver_location: {
       type: 'Point',
@@ -12453,7 +12453,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-29T02:00:00.000+0000' },
+      date: '2018-06-29T02:00:00.000+0000',
       pickup_address: 'Troncal Nqs, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12481,8 +12481,8 @@ export const trips = [
     car: { plate: 'UFU282' },
     status: 'near',
     check_code: '93',
-    createdAt: { $date: '2018-06-27T23:33:44.581+0000' },
-    updatedAt: { $date: '2018-07-04T05:00:01.669+0000' },
+    createdAt: '2018-06-27T23:33:44.581+0000',
+    updatedAt: '2018-07-04T05:00:01.669+0000',
     price: 143000.0,
     driver_location: {
       type: 'Point',
@@ -12491,7 +12491,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-26T02:59:58.395+0000' },
+      date: '2018-06-26T02:59:58.395+0000',
       pickup_address: 'Ak. 9, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12516,8 +12516,8 @@ export const trips = [
     car: { plate: 'WGZ122' },
     status: 'near',
     check_code: '86',
-    createdAt: { $date: '2018-06-26T02:54:27.009+0000' },
-    updatedAt: { $date: '2018-06-26T03:51:01.513+0000' },
+    createdAt: '2018-06-26T02:54:27.009+0000',
+    updatedAt: '2018-06-26T03:51:01.513+0000',
     price: 43600.0,
     driver_location: {
       type: 'Point',
@@ -12526,7 +12526,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-21T11:00:00.000+0000' },
+      date: '2018-06-21T11:00:00.000+0000',
       pickup_address: 'Cra. 19a #102-70 - Bogotá',
       pickup_location: {
         type: 'Point',
@@ -12551,8 +12551,8 @@ export const trips = [
     car: { plate: 'WNT568' },
     status: 'near',
     check_code: '13',
-    createdAt: { $date: '2018-06-20T23:11:53.552+0000' },
-    updatedAt: { $date: '2018-06-21T13:48:44.371+0000' },
+    createdAt: '2018-06-20T23:11:53.552+0000',
+    updatedAt: '2018-06-21T13:48:44.371+0000',
     price: 32100.0,
     driver_location: {
       type: 'Point',
@@ -12561,7 +12561,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-05T01:05:24.254+0000' },
+      date: '2018-06-05T01:05:24.254+0000',
       pickup_address:
         'Corporación de Ferias y Exposiciones - Corferias - Cra. 37 #24-67, Bogotá',
       pickup_location: {
@@ -12587,8 +12587,8 @@ export const trips = [
     car: { plate: 'WNZ013' },
     status: 'started',
     check_code: '23',
-    createdAt: { $date: '2018-06-05T00:59:48.366+0000' },
-    updatedAt: { $date: '2018-06-06T18:06:35.234+0000' },
+    createdAt: '2018-06-05T00:59:48.366+0000',
+    updatedAt: '2018-06-06T18:06:35.234+0000',
     price: 26200.0,
     driver_location: {
       type: 'Point',
@@ -12597,7 +12597,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-04T20:30:00.000+0000' },
+      date: '2018-06-04T20:30:00.000+0000',
       pickup_address: 'Cl. 9 #4-73, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12619,8 +12619,8 @@ export const trips = [
     car: { plate: 'WOT357' },
     status: 'near',
     check_code: '95',
-    createdAt: { $date: '2018-06-04T00:59:53.023+0000' },
-    updatedAt: { $date: '2018-06-04T21:03:00.687+0000' },
+    createdAt: '2018-06-04T00:59:53.023+0000',
+    updatedAt: '2018-06-04T21:03:00.687+0000',
     price: 23200.0,
     driver_location: {
       type: 'Point',
@@ -12629,7 +12629,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-01T22:01:31.017+0000' },
+      date: '2018-06-01T22:01:31.017+0000',
       pickup_address: 'Cl. 90 #11-13, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12654,8 +12654,8 @@ export const trips = [
     car: { plate: 'WLU306' },
     status: 'started',
     check_code: '97',
-    createdAt: { $date: '2018-06-01T21:52:46.077+0000' },
-    updatedAt: { $date: '2018-06-05T22:14:21.725+0000' },
+    createdAt: '2018-06-01T21:52:46.077+0000',
+    updatedAt: '2018-06-05T22:14:21.725+0000',
     price: 8100.0,
     driver_location: {
       type: 'Point',
@@ -12664,7 +12664,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-06-01T14:00:00.000+0000' },
+      date: '2018-06-01T14:00:00.000+0000',
       pickup_address: 'Avenida Carrera 96 #24c94, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12690,8 +12690,8 @@ export const trips = [
     car: { plate: 'WHQ955' },
     status: 'started',
     check_code: '27',
-    createdAt: { $date: '2018-06-01T01:59:47.531+0000' },
-    updatedAt: { $date: '2018-06-06T15:41:27.491+0000' },
+    createdAt: '2018-06-01T01:59:47.531+0000',
+    updatedAt: '2018-06-06T15:41:27.491+0000',
     price: 172200.0,
     driver_location: {
       type: 'Point',
@@ -12700,7 +12700,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-31T03:30:37.000+0000' },
+      date: '2018-05-31T03:30:37.000+0000',
       pickup_address:
         'Aeropuerto Internacional Rafael Núñez - Cl. 70, Cartagena',
       pickup_location: {
@@ -12724,8 +12724,8 @@ export const trips = [
     car: { plate: 'WGN067' },
     status: 'started',
     check_code: '58',
-    createdAt: { $date: '2018-05-31T00:53:43.498+0000' },
-    updatedAt: { $date: '2018-06-11T20:03:22.450+0000' },
+    createdAt: '2018-05-31T00:53:43.498+0000',
+    updatedAt: '2018-06-11T20:03:22.450+0000',
     price: 27000.0,
     driver_location: {
       type: 'Point',
@@ -12734,7 +12734,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-30T16:42:37.585+0000' },
+      date: '2018-05-30T16:42:37.585+0000',
       pickup_address: 'Homecenter - Avenida Carrera 68 #8077, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -12759,8 +12759,8 @@ export const trips = [
     car: { plate: 'WEP579' },
     status: 'started',
     check_code: '14',
-    createdAt: { $date: '2018-05-30T16:34:05.698+0000' },
-    updatedAt: { $date: '2018-06-02T03:13:42.709+0000' },
+    createdAt: '2018-05-30T16:34:05.698+0000',
+    updatedAt: '2018-06-02T03:13:42.709+0000',
     price: 12600.0,
     driver_location: {
       type: 'Point',
@@ -12769,7 +12769,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-30T12:05:17.000+0000' },
+      date: '2018-05-30T12:05:17.000+0000',
       pickup_address: 'Cl. 23 #85a-84, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12791,8 +12791,8 @@ export const trips = [
     car: { plate: 'EQQ472' },
     status: 'started',
     check_code: '23',
-    createdAt: { $date: '2018-05-30T10:56:46.360+0000' },
-    updatedAt: { $date: '2018-05-30T20:22:06.304+0000' },
+    createdAt: '2018-05-30T10:56:46.360+0000',
+    updatedAt: '2018-05-30T20:22:06.304+0000',
     price: 11400.0,
     driver_location: {
       type: 'Point',
@@ -12801,7 +12801,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-25T13:20:00.000+0000' },
+      date: '2018-05-25T13:20:00.000+0000',
       pickup_address: 'Cl. 103 #69b-43, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12826,8 +12826,8 @@ export const trips = [
     car: { plate: 'WFV964' },
     status: 'onWay',
     check_code: '53',
-    createdAt: { $date: '2018-05-25T10:13:12.858+0000' },
-    updatedAt: { $date: '2018-05-25T13:55:58.129+0000' },
+    createdAt: '2018-05-25T10:13:12.858+0000',
+    updatedAt: '2018-05-25T13:55:58.129+0000',
     price: 13600.0,
     driver_location: {
       type: 'Point',
@@ -12836,7 +12836,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-24T22:49:04.726+0000' },
+      date: '2018-05-24T22:49:04.726+0000',
       pickup_address: 'Cra. 7 #75 - 51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12858,8 +12858,8 @@ export const trips = [
     car: { plate: 'ESL997' },
     status: 'onWay',
     check_code: '43',
-    createdAt: { $date: '2018-05-24T22:39:40.955+0000' },
-    updatedAt: { $date: '2018-05-29T12:48:45.447+0000' },
+    createdAt: '2018-05-24T22:39:40.955+0000',
+    updatedAt: '2018-05-29T12:48:45.447+0000',
     price: 11000.0,
     driver_location: {
       type: 'Point',
@@ -12868,7 +12868,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-24T21:32:11.492+0000' },
+      date: '2018-05-24T21:32:11.492+0000',
       pickup_address: 'Ak. 15 #80-90, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12890,8 +12890,8 @@ export const trips = [
     car: { plate: '666TTT' },
     status: 'onWay',
     check_code: '77',
-    createdAt: { $date: '2018-05-24T21:24:03.190+0000' },
-    updatedAt: { $date: '2018-05-30T05:00:02.079+0000' },
+    createdAt: '2018-05-24T21:24:03.190+0000',
+    updatedAt: '2018-05-30T05:00:02.079+0000',
     price: 396000.0,
     driver_location: {
       type: 'Point',
@@ -12900,7 +12900,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-24T04:37:23.076+0000' },
+      date: '2018-05-24T04:37:23.076+0000',
       pickup_address: 'Cl. 31 #13a:51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12922,8 +12922,8 @@ export const trips = [
     car: { plate: 'WNY074' },
     status: 'onWay',
     check_code: '36',
-    createdAt: { $date: '2018-05-24T04:32:05.020+0000' },
-    updatedAt: { $date: '2018-05-24T14:29:00.035+0000' },
+    createdAt: '2018-05-24T04:32:05.020+0000',
+    updatedAt: '2018-05-24T14:29:00.035+0000',
     price: 9300.0,
     driver_location: {
       type: 'Point',
@@ -12932,7 +12932,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-24T18:30:00.000+0000' },
+      date: '2018-05-24T18:30:00.000+0000',
       pickup_address: 'Buenaventura, Valle del Cauca, Colombia',
       pickup_location: {
         type: 'Point',
@@ -12957,8 +12957,8 @@ export const trips = [
     car: { plate: 'WHV429' },
     status: 'near',
     check_code: '90',
-    createdAt: { $date: '2018-05-23T23:35:19.032+0000' },
-    updatedAt: { $date: '2018-05-25T00:23:16.904+0000' },
+    createdAt: '2018-05-23T23:35:19.032+0000',
+    updatedAt: '2018-05-25T00:23:16.904+0000',
     price: 449900.0,
     driver_location: {
       type: 'Point',
@@ -12967,7 +12967,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-23T22:25:02.000+0000' },
+      date: '2018-05-23T22:25:02.000+0000',
       pickup_address: 'Aeropuerto internacional el dorado',
       pickup_location: {
         type: 'Point',
@@ -12989,8 +12989,8 @@ export const trips = [
     car: { plate: 'ESL507' },
     status: 'started',
     check_code: '56',
-    createdAt: { $date: '2018-05-23T21:23:59.286+0000' },
-    updatedAt: { $date: '2018-05-24T00:15:00.494+0000' },
+    createdAt: '2018-05-23T21:23:59.286+0000',
+    updatedAt: '2018-05-24T00:15:00.494+0000',
     price: 43800.0,
     driver_location: {
       type: 'Point',
@@ -12999,7 +12999,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-24T13:00:00.000+0000' },
+      date: '2018-05-24T13:00:00.000+0000',
       pickup_address:
         'Vía al Aeropuerto Nte., Palmira, Valle del Cauca, Colombia',
       pickup_location: {
@@ -13022,8 +13022,8 @@ export const trips = [
     car: { plate: 'WHV138' },
     status: 'onWay',
     check_code: '36',
-    createdAt: { $date: '2018-05-23T20:54:52.828+0000' },
-    updatedAt: { $date: '2018-05-24T20:21:23.463+0000' },
+    createdAt: '2018-05-23T20:54:52.828+0000',
+    updatedAt: '2018-05-24T20:21:23.463+0000',
     price: 66600.0,
     driver_location: {
       type: 'Point',
@@ -13032,7 +13032,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-23T21:00:00.000+0000' },
+      date: '2018-05-23T21:00:00.000+0000',
       pickup_address: 'Calle 26 #103-9, Fontibon, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13057,8 +13057,8 @@ export const trips = [
     car: { plate: 'WNZ837' },
     status: 'near',
     check_code: '65',
-    createdAt: { $date: '2018-05-23T19:58:28.660+0000' },
-    updatedAt: { $date: '2018-05-23T22:01:02.715+0000' },
+    createdAt: '2018-05-23T19:58:28.660+0000',
+    updatedAt: '2018-05-23T22:01:02.715+0000',
     price: 45400.0,
     driver_location: {
       type: 'Point',
@@ -13067,7 +13067,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-23T17:39:55.107+0000' },
+      date: '2018-05-23T17:39:55.107+0000',
       pickup_address: 'Edificio mario laserna, bogotá',
       pickup_location: {
         type: 'Point',
@@ -13089,8 +13089,8 @@ export const trips = [
     car: { plate: 'ESL944' },
     status: 'near',
     check_code: '21',
-    createdAt: { $date: '2018-05-23T17:25:14.671+0000' },
-    updatedAt: { $date: '2018-05-24T10:39:56.982+0000' },
+    createdAt: '2018-05-23T17:25:14.671+0000',
+    updatedAt: '2018-05-24T10:39:56.982+0000',
     price: 14600.0,
     driver_location: {
       type: 'Point',
@@ -13099,7 +13099,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-23T17:04:44.777+0000' },
+      date: '2018-05-23T17:04:44.777+0000',
       pickup_address: 'Cra. 1a #76a-36, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13124,8 +13124,8 @@ export const trips = [
     car: { plate: 'WNT843' },
     status: 'started',
     check_code: '34',
-    createdAt: { $date: '2018-05-23T16:56:05.448+0000' },
-    updatedAt: { $date: '2018-05-23T17:23:43.139+0000' },
+    createdAt: '2018-05-23T16:56:05.448+0000',
+    updatedAt: '2018-05-23T17:23:43.139+0000',
     price: 7800.0,
     driver_location: {
       type: 'Point',
@@ -13134,7 +13134,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-23T17:15:09.192+0000' },
+      date: '2018-05-23T17:15:09.192+0000',
       pickup_address: 'Centro Empresarial Santillana - Carrera 43A, Medellín',
       pickup_location: {
         type: 'Point',
@@ -13157,8 +13157,8 @@ export const trips = [
     car: { plate: 'WOW398' },
     status: 'started',
     check_code: '35',
-    createdAt: { $date: '2018-05-23T14:15:35.893+0000' },
-    updatedAt: { $date: '2018-05-23T19:14:07.349+0000' },
+    createdAt: '2018-05-23T14:15:35.893+0000',
+    updatedAt: '2018-05-23T19:14:07.349+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -13167,7 +13167,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-28T00:00:00.000+0000' },
+      date: '2018-05-28T00:00:00.000+0000',
       pickup_address: 'Aeropuerto internacional el dorado',
       pickup_location: {
         type: 'Point',
@@ -13192,8 +13192,8 @@ export const trips = [
     car: { plate: 'ESM305' },
     status: 'started',
     check_code: '76',
-    createdAt: { $date: '2018-05-23T13:57:31.497+0000' },
-    updatedAt: { $date: '2018-05-28T00:51:00.782+0000' },
+    createdAt: '2018-05-23T13:57:31.497+0000',
+    updatedAt: '2018-05-28T00:51:00.782+0000',
     price: 44100.0,
     driver_location: {
       type: 'Point',
@@ -13202,7 +13202,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-22T12:25:00.000+0000' },
+      date: '2018-05-22T12:25:00.000+0000',
       pickup_address: 'Cl. 104 #19a-18, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -13227,8 +13227,8 @@ export const trips = [
     car: { plate: 'WNX972' },
     status: 'near',
     check_code: '21',
-    createdAt: { $date: '2018-05-20T22:43:51.672+0000' },
-    updatedAt: { $date: '2018-05-22T15:19:48.698+0000' },
+    createdAt: '2018-05-20T22:43:51.672+0000',
+    updatedAt: '2018-05-22T15:19:48.698+0000',
     price: 17900.0,
     driver_location: {
       type: 'Point',
@@ -13237,7 +13237,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-18T11:30:00.000+0000' },
+      date: '2018-05-18T11:30:00.000+0000',
       pickup_address: 'Cl. 147 #12-52, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13259,8 +13259,8 @@ export const trips = [
     car: { plate: 'WHR449' },
     status: 'near',
     check_code: '54',
-    createdAt: { $date: '2018-05-18T04:00:30.645+0000' },
-    updatedAt: { $date: '2018-05-18T19:56:22.453+0000' },
+    createdAt: '2018-05-18T04:00:30.645+0000',
+    updatedAt: '2018-05-18T19:56:22.453+0000',
     price: 14500.0,
     driver_location: {
       type: 'Point',
@@ -13269,7 +13269,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-18T03:35:22.707+0000' },
+      date: '2018-05-18T03:35:22.707+0000',
       pickup_address: 'EK Hotel - Cl. 90 #11-13, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -13291,8 +13291,8 @@ export const trips = [
     car: { plate: 'WMZ468' },
     status: 'onWay',
     check_code: '91',
-    createdAt: { $date: '2018-05-18T03:22:15.487+0000' },
-    updatedAt: { $date: '2018-05-19T20:46:50.079+0000' },
+    createdAt: '2018-05-18T03:22:15.487+0000',
+    updatedAt: '2018-05-19T20:46:50.079+0000',
     price: 8800.0,
     driver_location: {
       type: 'Point',
@@ -13301,7 +13301,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-18T00:43:37.000+0000' },
+      date: '2018-05-18T00:43:37.000+0000',
       pickup_address: 'Tv. 95a #24-23',
       pickup_location: {
         type: 'Point',
@@ -13326,8 +13326,8 @@ export const trips = [
     car: { plate: 'WHT328' },
     status: 'onWay',
     check_code: '20',
-    createdAt: { $date: '2018-05-18T00:30:31.889+0000' },
-    updatedAt: { $date: '2018-05-25T13:29:18.944+0000' },
+    createdAt: '2018-05-18T00:30:31.889+0000',
+    updatedAt: '2018-05-25T13:29:18.944+0000',
     price: 29200.0,
     driver_location: {
       type: 'Point',
@@ -13336,7 +13336,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-18T00:12:09.621+0000' },
+      date: '2018-05-18T00:12:09.621+0000',
       pickup_address: 'Hotel ESTELAR Suites Jones - Cl. 61 #5-39, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -13361,8 +13361,8 @@ export const trips = [
     car: { plate: 'WNX647' },
     status: 'started',
     check_code: '22',
-    createdAt: { $date: '2018-05-18T00:01:56.950+0000' },
-    updatedAt: { $date: '2018-05-22T18:16:47.111+0000' },
+    createdAt: '2018-05-18T00:01:56.950+0000',
+    updatedAt: '2018-05-22T18:16:47.111+0000',
     price: 28600.0,
     driver_location: {
       type: 'Point',
@@ -13371,7 +13371,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-16T18:00:00.000+0000' },
+      date: '2018-05-16T18:00:00.000+0000',
       pickup_address:
         'Vía al Aeropuerto Nte., Palmira, Valle del Cauca, Colombia',
       pickup_location: {
@@ -13397,8 +13397,8 @@ export const trips = [
     car: { plate: 'WGY492' },
     status: 'near',
     check_code: '53',
-    createdAt: { $date: '2018-05-16T15:35:37.385+0000' },
-    updatedAt: { $date: '2018-05-23T05:00:01.896+0000' },
+    createdAt: '2018-05-16T15:35:37.385+0000',
+    updatedAt: '2018-05-23T05:00:01.896+0000',
     price: 218750.0,
     driver_location: {
       type: 'Point',
@@ -13407,7 +13407,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-16T12:19:42.164+0000' },
+      date: '2018-05-16T12:19:42.164+0000',
       pickup_address: 'Calle 6d #79a-76',
       pickup_location: {
         type: 'Point',
@@ -13432,8 +13432,8 @@ export const trips = [
     car: { plate: 'WLL054' },
     status: 'near',
     check_code: '22',
-    createdAt: { $date: '2018-05-16T12:05:04.008+0000' },
-    updatedAt: { $date: '2018-05-16T14:16:41.483+0000' },
+    createdAt: '2018-05-16T12:05:04.008+0000',
+    updatedAt: '2018-05-16T14:16:41.483+0000',
     price: 25100.0,
     driver_location: {
       type: 'Point',
@@ -13442,7 +13442,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-16T12:00:00.000+0000' },
+      date: '2018-05-16T12:00:00.000+0000',
       pickup_address: 'Aeropuerto Internacional José María Córdova - Rionegro',
       pickup_location: {
         type: 'Point',
@@ -13470,8 +13470,8 @@ export const trips = [
     car: { plate: 'WHR445' },
     status: 'onWay',
     check_code: '29',
-    createdAt: { $date: '2018-05-15T23:18:54.667+0000' },
-    updatedAt: { $date: '2018-05-17T15:00:16.195+0000' },
+    createdAt: '2018-05-15T23:18:54.667+0000',
+    updatedAt: '2018-05-17T15:00:16.195+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -13480,7 +13480,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-18T00:45:04.000+0000' },
+      date: '2018-05-18T00:45:04.000+0000',
       pickup_address: 'Aeropuerto internacional el dorado',
       pickup_location: {
         type: 'Point',
@@ -13505,8 +13505,8 @@ export const trips = [
     car: { plate: 'WNY633' },
     status: 'near',
     check_code: '99',
-    createdAt: { $date: '2018-05-15T15:19:16.012+0000' },
-    updatedAt: { $date: '2018-05-18T21:32:08.478+0000' },
+    createdAt: '2018-05-15T15:19:16.012+0000',
+    updatedAt: '2018-05-18T21:32:08.478+0000',
     price: 47100.0,
     driver_location: {
       type: 'Point',
@@ -13515,7 +13515,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-16T03:00:41.000+0000' },
+      date: '2018-05-16T03:00:41.000+0000',
       pickup_address:
         'Calle 82 #12-21 Dentro del centro comercial El Retiro, Bogotá, Colombia',
       pickup_location: {
@@ -13544,8 +13544,8 @@ export const trips = [
     car: { plate: 'WLL054' },
     status: 'near',
     check_code: '76',
-    createdAt: { $date: '2018-05-15T13:56:45.641+0000' },
-    updatedAt: { $date: '2018-05-19T00:44:21.422+0000' },
+    createdAt: '2018-05-15T13:56:45.641+0000',
+    updatedAt: '2018-05-19T00:44:21.422+0000',
     price: 13900.0,
     driver_location: {
       type: 'Point',
@@ -13554,7 +13554,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-15T11:57:00.000+0000' },
+      date: '2018-05-15T11:57:00.000+0000',
       pickup_address: 'Cl. 127 Bis #19-81, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13579,8 +13579,8 @@ export const trips = [
     car: { plate: 'WPP243' },
     status: 'onWay',
     check_code: '56',
-    createdAt: { $date: '2018-05-15T03:44:59.926+0000' },
-    updatedAt: { $date: '2018-05-15T22:36:46.941+0000' },
+    createdAt: '2018-05-15T03:44:59.926+0000',
+    updatedAt: '2018-05-15T22:36:46.941+0000',
     price: 23500.0,
     driver_location: {
       type: 'Point',
@@ -13589,7 +13589,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-12T12:45:00.000+0000' },
+      date: '2018-05-12T12:45:00.000+0000',
       pickup_address: 'Cra. 20 #107-24, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13614,8 +13614,8 @@ export const trips = [
     car: { plate: 'WNL132' },
     status: 'onWay',
     check_code: '42',
-    createdAt: { $date: '2018-05-12T12:12:56.696+0000' },
-    updatedAt: { $date: '2018-05-14T12:57:23.878+0000' },
+    createdAt: '2018-05-12T12:12:56.696+0000',
+    updatedAt: '2018-05-14T12:57:23.878+0000',
     price: 13000.0,
     driver_location: {
       type: 'Point',
@@ -13624,7 +13624,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-12T13:00:03.000+0000' },
+      date: '2018-05-12T13:00:03.000+0000',
       pickup_address:
         'Aeropuerto Internacional José María Córdova - Aeropuerto Internacional José María Córdova, Rionegro',
       pickup_location: {
@@ -13647,8 +13647,8 @@ export const trips = [
     car: { plate: 'WHO631' },
     status: 'onWay',
     check_code: '62',
-    createdAt: { $date: '2018-05-12T02:21:46.194+0000' },
-    updatedAt: { $date: '2018-05-15T12:29:06.293+0000' },
+    createdAt: '2018-05-12T02:21:46.194+0000',
+    updatedAt: '2018-05-15T12:29:06.293+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -13657,7 +13657,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-11T16:42:02.459+0000' },
+      date: '2018-05-11T16:42:02.459+0000',
       pickup_address: 'Cra. 13 #85-80, Bogotá, British Columbia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13679,8 +13679,8 @@ export const trips = [
     car: { plate: 'XXX115' },
     status: 'near',
     check_code: '68',
-    createdAt: { $date: '2018-05-11T16:29:44.328+0000' },
-    updatedAt: { $date: '2018-05-11T16:41:00.856+0000' },
+    createdAt: '2018-05-11T16:29:44.328+0000',
+    updatedAt: '2018-05-11T16:41:00.856+0000',
     price: 50000.0,
     driver_location: {
       type: 'Point',
@@ -13689,7 +13689,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-11T11:53:12.883+0000' },
+      date: '2018-05-11T11:53:12.883+0000',
       pickup_address: 'Cra. 16 #28b-56, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13712,8 +13712,8 @@ export const trips = [
     car: { plate: 'ESL938' },
     status: 'onWay',
     check_code: '59',
-    createdAt: { $date: '2018-05-11T11:29:24.757+0000' },
-    updatedAt: { $date: '2018-05-12T14:37:23.106+0000' },
+    createdAt: '2018-05-11T11:29:24.757+0000',
+    updatedAt: '2018-05-12T14:37:23.106+0000',
     price: 29500.0,
     driver_location: {
       type: 'Point',
@@ -13722,7 +13722,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-11T01:03:37.019+0000' },
+      date: '2018-05-11T01:03:37.019+0000',
       pickup_address: '11 Cracks Café - Cra. 5 ##66A-24, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -13744,8 +13744,8 @@ export const trips = [
     car: { plate: 'WMM888' },
     status: 'onWay',
     check_code: '74',
-    createdAt: { $date: '2018-05-11T00:54:32.886+0000' },
-    updatedAt: { $date: '2018-05-11T03:03:01.690+0000' },
+    createdAt: '2018-05-11T00:54:32.886+0000',
+    updatedAt: '2018-05-11T03:03:01.690+0000',
     price: 15100.0,
     driver_location: {
       type: 'Point',
@@ -13754,7 +13754,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T21:11:01.092+0000' },
+      date: '2018-05-10T21:11:01.092+0000',
       pickup_address: 'Troncal Autopista Sur, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13776,8 +13776,8 @@ export const trips = [
     car: { plate: 'TESTCAR' },
     status: 'started',
     check_code: '37',
-    createdAt: { $date: '2018-05-10T20:31:52.374+0000' },
-    updatedAt: { $date: '2018-05-10T20:55:00.864+0000' },
+    createdAt: '2018-05-10T20:31:52.374+0000',
+    updatedAt: '2018-05-10T20:55:00.864+0000',
     price: 50000.0,
     driver_location: {
       type: 'Point',
@@ -13786,7 +13786,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T20:42:40.533+0000' },
+      date: '2018-05-10T20:42:40.533+0000',
       pickup_address: 'Aeronautica Civil - Ac. 26 #10633, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -13808,8 +13808,8 @@ export const trips = [
     car: { plate: 'WPM451' },
     status: 'near',
     check_code: '51',
-    createdAt: { $date: '2018-05-10T20:28:43.467+0000' },
-    updatedAt: { $date: '2018-05-14T20:56:22.261+0000' },
+    createdAt: '2018-05-10T20:28:43.467+0000',
+    updatedAt: '2018-05-14T20:56:22.261+0000',
     price: 24000.0,
     driver_location: {
       type: 'Point',
@@ -13818,7 +13818,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T09:30:01.000+0000' },
+      date: '2018-05-10T09:30:01.000+0000',
       pickup_address: 'Calle 127A #53a-45',
       pickup_location: {
         type: 'Point',
@@ -13844,8 +13844,8 @@ export const trips = [
     car: { plate: 'WNU398' },
     status: 'near',
     check_code: '45',
-    createdAt: { $date: '2018-05-10T02:42:44.395+0000' },
-    updatedAt: { $date: '2018-05-12T05:00:03.240+0000' },
+    createdAt: '2018-05-10T02:42:44.395+0000',
+    updatedAt: '2018-05-12T05:00:03.240+0000',
     price: 37700.0,
     driver_location: {
       type: 'Point',
@@ -13854,7 +13854,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T11:10:39.000+0000' },
+      date: '2018-05-10T11:10:39.000+0000',
       pickup_address: 'Cl. 166 #9-70, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -13879,8 +13879,8 @@ export const trips = [
     car: { plate: 'WNT553' },
     status: 'near',
     check_code: '58',
-    createdAt: { $date: '2018-05-10T02:02:01.569+0000' },
-    updatedAt: { $date: '2018-05-10T11:45:39.005+0000' },
+    createdAt: '2018-05-10T02:02:01.569+0000',
+    updatedAt: '2018-05-10T11:45:39.005+0000',
     price: 15100.0,
     driver_location: {
       type: 'Point',
@@ -13889,7 +13889,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T02:30:01.000+0000' },
+      date: '2018-05-10T02:30:01.000+0000',
       pickup_address: 'Avenida Calle 82 #10-28',
       pickup_location: {
         type: 'Point',
@@ -13917,8 +13917,8 @@ export const trips = [
     car: { plate: 'WNV274' },
     status: 'started',
     check_code: '94',
-    createdAt: { $date: '2018-05-10T00:48:49.406+0000' },
-    updatedAt: { $date: '2018-05-11T03:15:07.324+0000' },
+    createdAt: '2018-05-10T00:48:49.406+0000',
+    updatedAt: '2018-05-11T03:15:07.324+0000',
     price: 16900.0,
     driver_location: {
       type: 'Point',
@@ -13927,7 +13927,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T04:35:00.000+0000' },
+      date: '2018-05-10T04:35:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Alfonso Bonilla Aragón - Vía al Aeropuerto Nte., Palmira',
       pickup_location: {
@@ -13951,8 +13951,8 @@ export const trips = [
     car: { plate: 'WHV324' },
     status: 'started',
     check_code: '50',
-    createdAt: { $date: '2018-05-10T00:15:52.803+0000' },
-    updatedAt: { $date: '2018-05-10T06:23:50.208+0000' },
+    createdAt: '2018-05-10T00:15:52.803+0000',
+    updatedAt: '2018-05-10T06:23:50.208+0000',
     price: 84300.0,
     driver_location: {
       type: 'Point',
@@ -13961,7 +13961,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-09T22:00:00.000+0000' },
+      date: '2018-05-09T22:00:00.000+0000',
       pickup_address:
         'Curaduría Urbana 4 Arq. Adriana López Moncayo - Carrera 17 #93a-87, Bogotá',
       pickup_location: {
@@ -13984,8 +13984,8 @@ export const trips = [
     car: { plate: 'WLQ945' },
     status: 'onWay',
     check_code: '51',
-    createdAt: { $date: '2018-05-09T20:34:50.580+0000' },
-    updatedAt: { $date: '2018-06-06T23:41:10.771+0000' },
+    createdAt: '2018-05-09T20:34:50.580+0000',
+    updatedAt: '2018-06-06T23:41:10.771+0000',
     price: 17300.0,
     driver_location: {
       type: 'Point',
@@ -13994,7 +13994,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-09T22:20:46.000+0000' },
+      date: '2018-05-09T22:20:46.000+0000',
       pickup_address: 'Hotel Tequendama - Cra. 10 #26-21, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -14016,8 +14016,8 @@ export const trips = [
     car: { plate: 'WMM473' },
     status: 'near',
     check_code: '26',
-    createdAt: { $date: '2018-05-09T19:15:43.760+0000' },
-    updatedAt: { $date: '2018-05-10T18:14:05.916+0000' },
+    createdAt: '2018-05-09T19:15:43.760+0000',
+    updatedAt: '2018-05-10T18:14:05.916+0000',
     price: 27600.0,
     driver_location: {
       type: 'Point',
@@ -14026,7 +14026,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-09T17:02:18.957+0000' },
+      date: '2018-05-09T17:02:18.957+0000',
       pickup_address: 'Exito Nte. #170, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14048,8 +14048,8 @@ export const trips = [
     car: { plate: 'WFL083' },
     status: 'started',
     check_code: '27',
-    createdAt: { $date: '2018-05-09T16:50:52.647+0000' },
-    updatedAt: { $date: '2018-06-07T13:05:04.966+0000' },
+    createdAt: '2018-05-09T16:50:52.647+0000',
+    updatedAt: '2018-06-07T13:05:04.966+0000',
     price: 31400.0,
     driver_location: {
       type: 'Point',
@@ -14058,7 +14058,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-09T15:45:57.090+0000' },
+      date: '2018-05-09T15:45:57.090+0000',
       pickup_address: 'Cl. 78 #62-44, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14083,8 +14083,8 @@ export const trips = [
     car: { plate: 'ERK386' },
     status: 'started',
     check_code: '13',
-    createdAt: { $date: '2018-05-09T15:41:20.828+0000' },
-    updatedAt: { $date: '2018-05-16T22:55:45.405+0000' },
+    createdAt: '2018-05-09T15:41:20.828+0000',
+    updatedAt: '2018-05-16T22:55:45.405+0000',
     price: 7600.0,
     driver_location: {
       type: 'Point',
@@ -14093,7 +14093,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-11T13:20:00.000+0000' },
+      date: '2018-05-11T13:20:00.000+0000',
       pickup_address: 'Calle 26 #103-9, Fontibon, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14115,8 +14115,8 @@ export const trips = [
     car: { plate: 'WNU239' },
     status: 'near',
     check_code: '93',
-    createdAt: { $date: '2018-05-09T14:20:24.469+0000' },
-    updatedAt: { $date: '2018-05-11T14:11:01.585+0000' },
+    createdAt: '2018-05-09T14:20:24.469+0000',
+    updatedAt: '2018-05-11T14:11:01.585+0000',
     price: 37900.0,
     driver_location: {
       type: 'Point',
@@ -14125,7 +14125,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T12:00:00.000+0000' },
+      date: '2018-05-10T12:00:00.000+0000',
       pickup_address: 'Cra. 11a #93-52, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14147,8 +14147,8 @@ export const trips = [
     car: { plate: 'WCT117' },
     status: 'near',
     check_code: '13',
-    createdAt: { $date: '2018-05-08T22:46:49.973+0000' },
-    updatedAt: { $date: '2018-05-23T05:00:01.448+0000' },
+    createdAt: '2018-05-08T22:46:49.973+0000',
+    updatedAt: '2018-05-23T05:00:01.448+0000',
     price: 541000.0,
     driver_location: {
       type: 'Point',
@@ -14157,7 +14157,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-16T11:30:00.000+0000' },
+      date: '2018-05-16T11:30:00.000+0000',
       pickup_address:
         'Carrera 53 N° 79 - 212, Barranquilla, Cundinamarca, Colombia',
       pickup_location: {
@@ -14181,8 +14181,8 @@ export const trips = [
     car: { plate: 'WEO117' },
     status: 'started',
     check_code: '89',
-    createdAt: { $date: '2018-05-08T20:27:31.597+0000' },
-    updatedAt: { $date: '2018-05-23T11:40:47.361+0000' },
+    createdAt: '2018-05-08T20:27:31.597+0000',
+    updatedAt: '2018-05-23T11:40:47.361+0000',
     price: 46800.0,
     driver_location: {
       type: 'Point',
@@ -14191,7 +14191,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-08T18:52:15.155+0000' },
+      date: '2018-05-08T18:52:15.155+0000',
       pickup_address: 'Caracol Televisión - Cl. 103 #69b-43, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -14219,8 +14219,8 @@ export const trips = [
     car: { plate: 'WOY550' },
     status: 'started',
     check_code: '18',
-    createdAt: { $date: '2018-05-08T18:28:51.936+0000' },
-    updatedAt: { $date: '2018-05-09T02:49:25.210+0000' },
+    createdAt: '2018-05-08T18:28:51.936+0000',
+    updatedAt: '2018-05-09T02:49:25.210+0000',
     price: 12500.0,
     driver_location: {
       type: 'Point',
@@ -14229,7 +14229,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-08T13:30:19.000+0000' },
+      date: '2018-05-08T13:30:19.000+0000',
       pickup_address: 'Aeropuerto Internacional José María Córdova - Rionegro',
       pickup_location: {
         type: 'Point',
@@ -14251,8 +14251,8 @@ export const trips = [
     car: { plate: 'WHT279' },
     status: 'onWay',
     check_code: '46',
-    createdAt: { $date: '2018-05-08T03:17:29.890+0000' },
-    updatedAt: { $date: '2018-05-10T17:40:25.852+0000' },
+    createdAt: '2018-05-08T03:17:29.890+0000',
+    updatedAt: '2018-05-10T17:40:25.852+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -14261,7 +14261,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-08T11:30:00.000+0000' },
+      date: '2018-05-08T11:30:00.000+0000',
       pickup_address: 'Cra. 74 #25g-69, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14287,8 +14287,8 @@ export const trips = [
     car: { plate: 'WER742' },
     status: 'near',
     check_code: '63',
-    createdAt: { $date: '2018-05-08T03:04:10.483+0000' },
-    updatedAt: { $date: '2018-05-08T12:25:52.745+0000' },
+    createdAt: '2018-05-08T03:04:10.483+0000',
+    updatedAt: '2018-05-08T12:25:52.745+0000',
     price: 23200.0,
     driver_location: {
       type: 'Point',
@@ -14297,7 +14297,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T22:47:16.650+0000' },
+      date: '2018-05-07T22:47:16.650+0000',
       pickup_address: 'Cra. 11d #118a-2',
       pickup_location: {
         type: 'Point',
@@ -14319,8 +14319,8 @@ export const trips = [
     car: { plate: 'WMM857' },
     status: 'onWay',
     check_code: '68',
-    createdAt: { $date: '2018-05-07T22:35:40.772+0000' },
-    updatedAt: { $date: '2018-05-08T01:52:46.730+0000' },
+    createdAt: '2018-05-07T22:35:40.772+0000',
+    updatedAt: '2018-05-08T01:52:46.730+0000',
     price: 8000.0,
     driver_location: {
       type: 'Point',
@@ -14329,7 +14329,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T19:45:14.364+0000' },
+      date: '2018-05-07T19:45:14.364+0000',
       pickup_address: 'Edificio Tierra Firme - Ak. 9 #11530, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -14354,8 +14354,8 @@ export const trips = [
     car: { plate: 'WNT156' },
     status: 'started',
     check_code: '94',
-    createdAt: { $date: '2018-05-07T19:29:53.341+0000' },
-    updatedAt: { $date: '2018-05-11T18:11:29.530+0000' },
+    createdAt: '2018-05-07T19:29:53.341+0000',
+    updatedAt: '2018-05-11T18:11:29.530+0000',
     price: 12800.0,
     driver_location: {
       type: 'Point',
@@ -14364,7 +14364,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T19:20:00.000+0000' },
+      date: '2018-05-07T19:20:00.000+0000',
       pickup_address: 'Ac. 26 #92-32, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14389,8 +14389,8 @@ export const trips = [
     car: { plate: 'WNU166' },
     status: 'near',
     check_code: '26',
-    createdAt: { $date: '2018-05-07T18:47:25.656+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:38.057+0000' },
+    createdAt: '2018-05-07T18:47:25.656+0000',
+    updatedAt: '2018-05-08T04:36:38.057+0000',
     price: 22000.0,
     driver_location: {
       type: 'Point',
@@ -14399,7 +14399,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T17:02:22.983+0000' },
+      date: '2018-05-07T17:02:22.983+0000',
       pickup_address: 'Cl. 98 #70-91, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14424,8 +14424,8 @@ export const trips = [
     car: { plate: 'WGO469' },
     status: 'onWay',
     check_code: '21',
-    createdAt: { $date: '2018-05-07T16:47:03.715+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:27.658+0000' },
+    createdAt: '2018-05-07T16:47:03.715+0000',
+    updatedAt: '2018-05-08T04:35:27.658+0000',
     price: 74100.0,
     driver_location: {
       type: 'Point',
@@ -14434,7 +14434,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T15:15:00.900+0000' },
+      date: '2018-05-07T15:15:00.900+0000',
       pickup_address: 'Carrera 85d #46a-43',
       pickup_location: {
         type: 'Point',
@@ -14459,8 +14459,8 @@ export const trips = [
     car: { plate: 'WMZ745' },
     status: 'near',
     check_code: '22',
-    createdAt: { $date: '2018-05-07T15:07:22.660+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:10.124+0000' },
+    createdAt: '2018-05-07T15:07:22.660+0000',
+    updatedAt: '2018-05-08T04:38:10.124+0000',
     price: 24900.0,
     driver_location: {
       type: 'Point',
@@ -14469,7 +14469,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T15:10:48.000+0000' },
+      date: '2018-05-07T15:10:48.000+0000',
       pickup_address: 'Cl. 113 #7-31 a 7-41, bogotá',
       pickup_location: {
         type: 'Point',
@@ -14494,8 +14494,8 @@ export const trips = [
     car: { plate: 'WNY195' },
     status: 'near',
     check_code: '38',
-    createdAt: { $date: '2018-05-07T14:03:44.560+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:40.994+0000' },
+    createdAt: '2018-05-07T14:03:44.560+0000',
+    updatedAt: '2018-05-08T04:34:40.994+0000',
     price: 49800.0,
     driver_location: {
       type: 'Point',
@@ -14504,7 +14504,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-08T23:00:00.000+0000' },
+      date: '2018-05-08T23:00:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Rafael Núñez - Cl. 70, Cartagena',
       pickup_location: {
@@ -14531,8 +14531,8 @@ export const trips = [
     car: { plate: 'TVC898' },
     status: 'near',
     check_code: '25',
-    createdAt: { $date: '2018-05-07T14:02:54.765+0000' },
-    updatedAt: { $date: '2018-05-09T02:53:27.520+0000' },
+    createdAt: '2018-05-07T14:02:54.765+0000',
+    updatedAt: '2018-05-09T02:53:27.520+0000',
     price: 26400.0,
     driver_location: {
       type: 'Point',
@@ -14541,7 +14541,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T15:20:00.000+0000' },
+      date: '2018-05-07T15:20:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Ernesto Cortissoz - Aeropuerto Internacional Ernesto Cortissoz, Soledad',
       pickup_location: {
@@ -14567,8 +14567,8 @@ export const trips = [
     car: { plate: 'WGV529' },
     status: 'onWay',
     check_code: '35',
-    createdAt: { $date: '2018-05-07T11:36:06.546+0000' },
-    updatedAt: { $date: '2018-05-08T10:42:21.381+0000' },
+    createdAt: '2018-05-07T11:36:06.546+0000',
+    updatedAt: '2018-05-08T10:42:21.381+0000',
     price: 43500.0,
     driver_location: {
       type: 'Point',
@@ -14577,7 +14577,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T12:30:41.000+0000' },
+      date: '2018-05-07T12:30:41.000+0000',
       pickup_address: 'Cl. 107a #7c-49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14602,8 +14602,8 @@ export const trips = [
     car: { plate: 'WHS550' },
     status: 'onWay',
     check_code: '16',
-    createdAt: { $date: '2018-05-07T11:19:13.684+0000' },
-    updatedAt: { $date: '2018-05-07T12:57:50.900+0000' },
+    createdAt: '2018-05-07T11:19:13.684+0000',
+    updatedAt: '2018-05-07T12:57:50.900+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -14612,7 +14612,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T13:30:00.000+0000' },
+      date: '2018-05-07T13:30:00.000+0000',
       pickup_address: 'Cra. 87a #6a-15, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14637,8 +14637,8 @@ export const trips = [
     car: { plate: 'WNY998' },
     status: 'near',
     check_code: '17',
-    createdAt: { $date: '2018-05-07T10:57:59.979+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:17.347+0000' },
+    createdAt: '2018-05-07T10:57:59.979+0000',
+    updatedAt: '2018-05-08T04:37:17.347+0000',
     price: 26000.0,
     driver_location: {
       type: 'Point',
@@ -14647,7 +14647,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:50:58.000+0000' },
+      date: '2018-05-07T11:50:58.000+0000',
       pickup_address: 'Codensa - Cra. 13a #93-66, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -14673,8 +14673,8 @@ export const trips = [
     car: { plate: 'WHT186' },
     status: 'onWay',
     check_code: '13',
-    createdAt: { $date: '2018-05-07T04:11:59.931+0000' },
-    updatedAt: { $date: '2018-05-16T16:29:42.069+0000' },
+    createdAt: '2018-05-07T04:11:59.931+0000',
+    updatedAt: '2018-05-16T16:29:42.069+0000',
     price: 11600.0,
     driver_location: {
       type: 'Point',
@@ -14683,7 +14683,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:15:00.000+0000' },
+      date: '2018-05-07T11:15:00.000+0000',
       pickup_address: 'Cra. 72n #39 Sur-2',
       pickup_location: {
         type: 'Point',
@@ -14708,8 +14708,8 @@ export const trips = [
     car: { plate: 'WNW861' },
     status: 'near',
     check_code: '11',
-    createdAt: { $date: '2018-05-07T03:42:12.980+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:57.153+0000' },
+    createdAt: '2018-05-07T03:42:12.980+0000',
+    updatedAt: '2018-05-08T04:37:57.153+0000',
     price: 33000.0,
     driver_location: {
       type: 'Point',
@@ -14718,7 +14718,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:00:12.000+0000' },
+      date: '2018-05-07T11:00:12.000+0000',
       pickup_address: 'Cra 79C #7a-61, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14747,8 +14747,8 @@ export const trips = [
     car: { plate: 'EQQ011' },
     status: 'onWay',
     check_code: '43',
-    createdAt: { $date: '2018-05-07T03:26:08.794+0000' },
-    updatedAt: { $date: '2018-06-26T14:45:12.464+0000' },
+    createdAt: '2018-05-07T03:26:08.794+0000',
+    updatedAt: '2018-06-26T14:45:12.464+0000',
     price: 32300.0,
     driver_location: {
       type: 'Point',
@@ -14757,7 +14757,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:30:00.000+0000' },
+      date: '2018-05-07T11:30:00.000+0000',
       pickup_address: 'Cra. 22a #82-45, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14780,8 +14780,8 @@ export const trips = [
     car: { plate: 'WHS476' },
     status: 'near',
     check_code: '45',
-    createdAt: { $date: '2018-05-07T03:19:17.879+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:43.202+0000' },
+    createdAt: '2018-05-07T03:19:17.879+0000',
+    updatedAt: '2018-05-08T04:35:43.202+0000',
     price: 32900.0,
     driver_location: {
       type: 'Point',
@@ -14790,7 +14790,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T13:00:00.000+0000' },
+      date: '2018-05-07T13:00:00.000+0000',
       pickup_address: 'Cl. 51 Sur #87-15, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14815,8 +14815,8 @@ export const trips = [
     car: { plate: 'ESK945' },
     status: 'near',
     check_code: '89',
-    createdAt: { $date: '2018-05-07T03:14:32.191+0000' },
-    updatedAt: { $date: '2018-05-08T23:41:44.457+0000' },
+    createdAt: '2018-05-07T03:14:32.191+0000',
+    updatedAt: '2018-05-08T23:41:44.457+0000',
     price: 36500.0,
     driver_location: {
       type: 'Point',
@@ -14825,7 +14825,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:10:00.000+0000' },
+      date: '2018-05-07T11:10:00.000+0000',
       pickup_address: 'Cra. 15 #119-66, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14847,8 +14847,8 @@ export const trips = [
     car: { plate: 'WNT587' },
     status: 'near',
     check_code: '54',
-    createdAt: { $date: '2018-05-07T02:56:26.865+0000' },
-    updatedAt: { $date: '2018-05-09T21:07:27.321+0000' },
+    createdAt: '2018-05-07T02:56:26.865+0000',
+    updatedAt: '2018-05-09T21:07:27.321+0000',
     price: 17700.0,
     driver_location: {
       type: 'Point',
@@ -14857,7 +14857,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:55:00.000+0000' },
+      date: '2018-05-07T11:55:00.000+0000',
       pickup_address: 'Cl. 123a #11b-1',
       pickup_location: {
         type: 'Point',
@@ -14885,8 +14885,8 @@ export const trips = [
     car: { plate: 'WNX039' },
     status: 'near',
     check_code: '38',
-    createdAt: { $date: '2018-05-07T02:30:38.297+0000' },
-    updatedAt: { $date: '2018-05-08T00:18:40.814+0000' },
+    createdAt: '2018-05-07T02:30:38.297+0000',
+    updatedAt: '2018-05-08T00:18:40.814+0000',
     price: 16700.0,
     driver_location: {
       type: 'Point',
@@ -14895,7 +14895,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T09:50:22.000+0000' },
+      date: '2018-05-07T09:50:22.000+0000',
       pickup_address: 'Cra. 118 #86-20, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -14921,8 +14921,8 @@ export const trips = [
     car: { plate: 'WNY326' },
     status: 'onWay',
     check_code: '18',
-    createdAt: { $date: '2018-05-07T02:29:10.623+0000' },
-    updatedAt: { $date: '2018-05-16T22:05:16.041+0000' },
+    createdAt: '2018-05-07T02:29:10.623+0000',
+    updatedAt: '2018-05-16T22:05:16.041+0000',
     price: 32500.0,
     driver_location: {
       type: 'Point',
@@ -14931,7 +14931,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T02:27:56.405+0000' },
+      date: '2018-05-07T02:27:56.405+0000',
       pickup_address: 'Cl. 77 #7-48',
       pickup_location: {
         type: 'Point',
@@ -14956,8 +14956,8 @@ export const trips = [
     car: { plate: 'WOX754' },
     status: 'started',
     check_code: '29',
-    createdAt: { $date: '2018-05-07T02:21:25.217+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:32.676+0000' },
+    createdAt: '2018-05-07T02:21:25.217+0000',
+    updatedAt: '2018-05-08T04:36:32.676+0000',
     price: 11500.0,
     driver_location: {
       type: 'Point',
@@ -14966,7 +14966,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T09:50:00.000+0000' },
+      date: '2018-05-07T09:50:00.000+0000',
       pickup_address: 'Cra. 80i #56 Sur-1',
       pickup_location: {
         type: 'Point',
@@ -14991,8 +14991,8 @@ export const trips = [
     car: { plate: 'WMM475' },
     status: 'near',
     check_code: '84',
-    createdAt: { $date: '2018-05-07T02:20:49.240+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:57.151+0000' },
+    createdAt: '2018-05-07T02:20:49.240+0000',
+    updatedAt: '2018-05-08T04:37:57.151+0000',
     price: 21700.0,
     driver_location: {
       type: 'Point',
@@ -15001,7 +15001,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T10:30:00.000+0000' },
+      date: '2018-05-07T10:30:00.000+0000',
       pickup_address: 'Cra. 11 Bis #123-71, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15024,8 +15024,8 @@ export const trips = [
     car: { plate: 'WNT585' },
     status: 'near',
     check_code: '12',
-    createdAt: { $date: '2018-05-07T01:57:23.384+0000' },
-    updatedAt: { $date: '2018-05-07T11:13:51.282+0000' },
+    createdAt: '2018-05-07T01:57:23.384+0000',
+    updatedAt: '2018-05-07T11:13:51.282+0000',
     price: 16200.0,
     driver_location: {
       type: 'Point',
@@ -15034,7 +15034,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T10:25:00.000+0000' },
+      date: '2018-05-07T10:25:00.000+0000',
       pickup_address: 'Cra. 8c #77 sur-29',
       pickup_location: {
         type: 'Point',
@@ -15059,8 +15059,8 @@ export const trips = [
     car: { plate: 'WPL621' },
     status: 'onWay',
     check_code: '70',
-    createdAt: { $date: '2018-05-07T01:43:26.388+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:00.542+0000' },
+    createdAt: '2018-05-07T01:43:26.388+0000',
+    updatedAt: '2018-05-08T04:36:00.542+0000',
     price: 40800.0,
     driver_location: {
       type: 'Point',
@@ -15069,7 +15069,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T20:00:24.000+0000' },
+      date: '2018-05-07T20:00:24.000+0000',
       pickup_address: 'Productos ROche - Cra. 44 #2021, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -15095,8 +15095,8 @@ export const trips = [
     car: { plate: 'WHQ675' },
     status: 'near',
     check_code: '70',
-    createdAt: { $date: '2018-05-07T01:31:29.362+0000' },
-    updatedAt: { $date: '2018-05-09T01:56:26.411+0000' },
+    createdAt: '2018-05-07T01:31:29.362+0000',
+    updatedAt: '2018-05-09T01:56:26.411+0000',
     price: 28700.0,
     driver_location: {
       type: 'Point',
@@ -15105,7 +15105,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T12:40:40.000+0000' },
+      date: '2018-05-07T12:40:40.000+0000',
       pickup_address: 'Logos v - 64, transversal 4 #52 b, bogotá',
       pickup_location: {
         type: 'Point',
@@ -15133,8 +15133,8 @@ export const trips = [
     car: { plate: 'WHS556' },
     status: 'started',
     check_code: '96',
-    createdAt: { $date: '2018-05-07T01:29:10.795+0000' },
-    updatedAt: { $date: '2018-05-08T00:12:42.748+0000' },
+    createdAt: '2018-05-07T01:29:10.795+0000',
+    updatedAt: '2018-05-08T00:12:42.748+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -15143,7 +15143,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:30:39.000+0000' },
+      date: '2018-05-07T11:30:39.000+0000',
       pickup_address: 'Cra. 11c Bis #124-60, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15165,8 +15165,8 @@ export const trips = [
     car: { plate: 'WNT586' },
     status: 'onWay',
     check_code: '44',
-    createdAt: { $date: '2018-05-07T01:20:03.695+0000' },
-    updatedAt: { $date: '2018-05-07T22:28:39.600+0000' },
+    createdAt: '2018-05-07T01:20:03.695+0000',
+    updatedAt: '2018-05-07T22:28:39.600+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -15175,7 +15175,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T12:00:00.000+0000' },
+      date: '2018-05-07T12:00:00.000+0000',
       pickup_address: 'Cl. 147 #7B-58, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15200,8 +15200,8 @@ export const trips = [
     car: { plate: 'WNK285' },
     status: 'started',
     check_code: '96',
-    createdAt: { $date: '2018-05-07T00:52:08.925+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:11.405+0000' },
+    createdAt: '2018-05-07T00:52:08.925+0000',
+    updatedAt: '2018-05-08T04:37:11.405+0000',
     price: 33700.0,
     driver_location: {
       type: 'Point',
@@ -15210,7 +15210,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:45:35.000+0000' },
+      date: '2018-05-07T11:45:35.000+0000',
       pickup_address: 'Cra. 10 #93-51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15232,8 +15232,8 @@ export const trips = [
     car: { plate: 'WHS666' },
     status: 'near',
     check_code: '46',
-    createdAt: { $date: '2018-05-07T00:16:05.641+0000' },
-    updatedAt: { $date: '2018-05-07T12:22:48.547+0000' },
+    createdAt: '2018-05-07T00:16:05.641+0000',
+    updatedAt: '2018-05-07T12:22:48.547+0000',
     price: 17700.0,
     driver_location: {
       type: 'Point',
@@ -15242,7 +15242,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T11:10:00.000+0000' },
+      date: '2018-05-07T11:10:00.000+0000',
       pickup_address: 'Cl. 115 #9-25, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15270,8 +15270,8 @@ export const trips = [
     car: { plate: 'WOW395' },
     status: 'near',
     check_code: '12',
-    createdAt: { $date: '2018-05-06T23:17:52.990+0000' },
-    updatedAt: { $date: '2018-05-12T00:44:10.878+0000' },
+    createdAt: '2018-05-06T23:17:52.990+0000',
+    updatedAt: '2018-05-12T00:44:10.878+0000',
     price: 34400.0,
     driver_location: {
       type: 'Point',
@@ -15280,7 +15280,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T01:20:00.000+0000' },
+      date: '2018-05-07T01:20:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional El Dorado - Calle 26 #103-9, Fontibon',
       pickup_location: {
@@ -15309,8 +15309,8 @@ export const trips = [
     car: { plate: 'WHR449' },
     status: 'onWay',
     check_code: '50',
-    createdAt: { $date: '2018-05-06T22:44:14.082+0000' },
-    updatedAt: { $date: '2018-05-18T14:54:55.139+0000' },
+    createdAt: '2018-05-06T22:44:14.082+0000',
+    updatedAt: '2018-05-18T14:54:55.139+0000',
     price: 44700.0,
     driver_location: {
       type: 'Point',
@@ -15319,7 +15319,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-07T09:00:21.000+0000' },
+      date: '2018-05-07T09:00:21.000+0000',
       pickup_address:
         'Conjunto Residencial Caeli Reservado - Cajica-Tabio, El Canelon, El Tejar, Cajicá',
       pickup_location: {
@@ -15349,8 +15349,8 @@ export const trips = [
     car: { plate: 'WNZ546' },
     status: 'started',
     check_code: '86',
-    createdAt: { $date: '2018-05-06T22:43:31.503+0000' },
-    updatedAt: { $date: '2018-05-12T02:44:00.431+0000' },
+    createdAt: '2018-05-06T22:43:31.503+0000',
+    updatedAt: '2018-05-12T02:44:00.431+0000',
     price: 84700.0,
     driver_location: {
       type: 'Point',
@@ -15359,7 +15359,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-10T12:25:00.000+0000' },
+      date: '2018-05-10T12:25:00.000+0000',
       pickup_address: 'Cl. 104 #19a-18, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -15384,8 +15384,8 @@ export const trips = [
     car: { plate: 'ERK306' },
     status: 'near',
     check_code: '29',
-    createdAt: { $date: '2018-05-06T22:26:15.092+0000' },
-    updatedAt: { $date: '2018-05-10T13:25:32.785+0000' },
+    createdAt: '2018-05-06T22:26:15.092+0000',
+    updatedAt: '2018-05-10T13:25:32.785+0000',
     price: 14200.0,
     driver_location: {
       type: 'Point',
@@ -15394,7 +15394,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-06T22:35:53.810+0000' },
+      date: '2018-05-06T22:35:53.810+0000',
       pickup_address: 'Ak. 19 #85-70, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15422,8 +15422,8 @@ export const trips = [
     car: { plate: 'WGO469' },
     status: 'started',
     check_code: '86',
-    createdAt: { $date: '2018-05-06T22:21:51.406+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:01.308+0000' },
+    createdAt: '2018-05-06T22:21:51.406+0000',
+    updatedAt: '2018-05-08T04:35:01.308+0000',
     price: 12000.0,
     driver_location: {
       type: 'Point',
@@ -15432,7 +15432,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-05T18:10:00.000+0000' },
+      date: '2018-05-05T18:10:00.000+0000',
       pickup_address: 'Cl. 54a #30-71, Medellín, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15457,8 +15457,8 @@ export const trips = [
     car: { plate: 'WNK877' },
     status: 'near',
     check_code: '78',
-    createdAt: { $date: '2018-05-05T14:53:06.402+0000' },
-    updatedAt: { $date: '2018-05-11T15:08:03.113+0000' },
+    createdAt: '2018-05-05T14:53:06.402+0000',
+    updatedAt: '2018-05-11T15:08:03.113+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -15467,7 +15467,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-04T14:38:39.381+0000' },
+      date: '2018-05-04T14:38:39.381+0000',
       pickup_address: 'Microsoft Colombia - Cl. 92 #11-51, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -15495,8 +15495,8 @@ export const trips = [
     car: { plate: 'WHS378' },
     status: 'onWay',
     check_code: '22',
-    createdAt: { $date: '2018-05-04T14:25:04.669+0000' },
-    updatedAt: { $date: '2018-05-08T11:10:01.938+0000' },
+    createdAt: '2018-05-04T14:25:04.669+0000',
+    updatedAt: '2018-05-08T11:10:01.938+0000',
     price: 22200.0,
     driver_location: {
       type: 'Point',
@@ -15505,7 +15505,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-04T12:29:00.000+0000' },
+      date: '2018-05-04T12:29:00.000+0000',
       pickup_address: 'Cl. 137 #55-32, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15533,8 +15533,8 @@ export const trips = [
     car: { plate: 'WPQ704' },
     status: 'near',
     check_code: '45',
-    createdAt: { $date: '2018-05-04T03:05:36.483+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:53.916+0000' },
+    createdAt: '2018-05-04T03:05:36.483+0000',
+    updatedAt: '2018-05-08T04:35:53.916+0000',
     price: 36000.0,
     driver_location: {
       type: 'Point',
@@ -15543,7 +15543,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-04T01:30:00.000+0000' },
+      date: '2018-05-04T01:30:00.000+0000',
       pickup_address: 'Terminal Cali - Calle 30N #2AN-29, Cali',
       pickup_location: {
         type: 'Point',
@@ -15572,8 +15572,8 @@ export const trips = [
     car: { plate: 'WHV084' },
     status: 'started',
     check_code: '45',
-    createdAt: { $date: '2018-05-03T23:01:51.927+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:57.119+0000' },
+    createdAt: '2018-05-03T23:01:51.927+0000',
+    updatedAt: '2018-05-08T04:37:57.119+0000',
     price: 14300.0,
     driver_location: {
       type: 'Point',
@@ -15582,7 +15582,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-04T11:00:00.000+0000' },
+      date: '2018-05-04T11:00:00.000+0000',
       pickup_address:
         '# 1a, Cl. 3 #31, Buenaventura, Valle del Cauca, Colombia',
       pickup_location: {
@@ -15608,8 +15608,8 @@ export const trips = [
     car: { plate: 'WMX068' },
     status: 'started',
     check_code: '85',
-    createdAt: { $date: '2018-05-03T20:06:57.003+0000' },
-    updatedAt: { $date: '2018-05-13T13:48:50.498+0000' },
+    createdAt: '2018-05-03T20:06:57.003+0000',
+    updatedAt: '2018-05-13T13:48:50.498+0000',
     price: 820000.0,
     driver_location: {
       type: 'Point',
@@ -15618,7 +15618,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T16:41:42.117+0000' },
+      date: '2018-05-03T16:41:42.117+0000',
       pickup_address: 'Cra. 64 #4b-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15643,8 +15643,8 @@ export const trips = [
     car: { plate: 'WLM355' },
     status: 'onWay',
     check_code: '92',
-    createdAt: { $date: '2018-05-03T16:18:21.262+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:25.661+0000' },
+    createdAt: '2018-05-03T16:18:21.262+0000',
+    updatedAt: '2018-05-08T04:34:25.661+0000',
     price: 6900.0,
     driver_location: {
       type: 'Point',
@@ -15653,7 +15653,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T22:00:00.000+0000' },
+      date: '2018-05-03T22:00:00.000+0000',
       pickup_address:
         'Calle 5 Autopista Sur #68-70, Cali, Valle del Cauca, Colombia',
       pickup_location: {
@@ -15682,8 +15682,8 @@ export const trips = [
     car: { plate: 'WMY542' },
     status: 'near',
     check_code: '67',
-    createdAt: { $date: '2018-05-03T15:39:03.527+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:44.186+0000' },
+    createdAt: '2018-05-03T15:39:03.527+0000',
+    updatedAt: '2018-05-08T04:35:44.186+0000',
     price: 56800.0,
     driver_location: {
       type: 'Point',
@@ -15692,7 +15692,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T15:13:36.191+0000' },
+      date: '2018-05-03T15:13:36.191+0000',
       pickup_address: 'Jumbo calle 170 - Cl. 170 #64-47, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -15717,8 +15717,8 @@ export const trips = [
     car: { plate: 'WLM309' },
     status: 'onWay',
     check_code: '47',
-    createdAt: { $date: '2018-05-03T15:00:55.905+0000' },
-    updatedAt: { $date: '2018-05-09T16:53:37.879+0000' },
+    createdAt: '2018-05-03T15:00:55.905+0000',
+    updatedAt: '2018-05-09T16:53:37.879+0000',
     price: 17300.0,
     driver_location: {
       type: 'Point',
@@ -15727,7 +15727,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T13:11:00.849+0000' },
+      date: '2018-05-03T13:11:00.849+0000',
       pickup_address: 'Carrera 85d #46a-67',
       pickup_location: {
         type: 'Point',
@@ -15749,8 +15749,8 @@ export const trips = [
     car: { plate: 'WNK396' },
     status: 'onWay',
     check_code: '82',
-    createdAt: { $date: '2018-05-03T13:07:18.612+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:08.490+0000' },
+    createdAt: '2018-05-03T13:07:18.612+0000',
+    updatedAt: '2018-05-08T04:38:08.490+0000',
     price: 13400.0,
     driver_location: {
       type: 'Point',
@@ -15759,7 +15759,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T12:15:59.000+0000' },
+      date: '2018-05-03T12:15:59.000+0000',
       pickup_address: 'Calle 46 59-60, bogotá',
       pickup_location: {
         type: 'Point',
@@ -15784,8 +15784,8 @@ export const trips = [
     car: { plate: 'ESK985' },
     status: 'started',
     check_code: '99',
-    createdAt: { $date: '2018-05-03T10:42:56.792+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:23.970+0000' },
+    createdAt: '2018-05-03T10:42:56.792+0000',
+    updatedAt: '2018-05-08T04:35:23.970+0000',
     price: 17200.0,
     driver_location: {
       type: 'Point',
@@ -15794,7 +15794,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T11:30:03.000+0000' },
+      date: '2018-05-03T11:30:03.000+0000',
       pickup_address: 'Carrera 52 #123-20',
       pickup_location: {
         type: 'Point',
@@ -15816,8 +15816,8 @@ export const trips = [
     car: { plate: 'WPN155' },
     status: 'started',
     check_code: '63',
-    createdAt: { $date: '2018-05-03T03:51:00.740+0000' },
-    updatedAt: { $date: '2018-05-04T17:20:21.132+0000' },
+    createdAt: '2018-05-03T03:51:00.740+0000',
+    updatedAt: '2018-05-04T17:20:21.132+0000',
     price: 17700.0,
     driver_location: {
       type: 'Point',
@@ -15826,7 +15826,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T11:40:53.000+0000' },
+      date: '2018-05-03T11:40:53.000+0000',
       pickup_address: 'Cra. 23 #114-61, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15851,8 +15851,8 @@ export const trips = [
     car: { plate: 'WGG824' },
     status: 'onWay',
     check_code: '21',
-    createdAt: { $date: '2018-05-03T02:17:38.532+0000' },
-    updatedAt: { $date: '2018-05-07T11:48:27.151+0000' },
+    createdAt: '2018-05-03T02:17:38.532+0000',
+    updatedAt: '2018-05-07T11:48:27.151+0000',
     price: 23000.0,
     driver_location: {
       type: 'Point',
@@ -15861,7 +15861,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T02:22:49.161+0000' },
+      date: '2018-05-03T02:22:49.161+0000',
       pickup_address:
         'Cencosud Sede Administrativa (Easy Bogota) - Avenida Carrera 9 #12530, Bogotá',
       pickup_location: {
@@ -15887,8 +15887,8 @@ export const trips = [
     car: { plate: 'WML920' },
     status: 'onWay',
     check_code: '39',
-    createdAt: { $date: '2018-05-03T02:15:53.561+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:40.774+0000' },
+    createdAt: '2018-05-03T02:15:53.561+0000',
+    updatedAt: '2018-05-08T04:35:40.774+0000',
     price: 22200.0,
     driver_location: {
       type: 'Point',
@@ -15897,7 +15897,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T23:50:00.000+0000' },
+      date: '2018-05-03T23:50:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Ernesto Cortissoz, Soledad, Atlántico, Colombia',
       pickup_location: {
@@ -15923,8 +15923,8 @@ export const trips = [
     car: { plate: 'STS622' },
     status: 'near',
     check_code: '54',
-    createdAt: { $date: '2018-05-02T23:53:35.569+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:15.327+0000' },
+    createdAt: '2018-05-02T23:53:35.569+0000',
+    updatedAt: '2018-05-08T04:38:15.327+0000',
     price: 82900.0,
     driver_location: {
       type: 'Point',
@@ -15933,7 +15933,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T16:00:00.000+0000' },
+      date: '2018-05-03T16:00:00.000+0000',
       pickup_address: 'Cl. 52 Sur #97C - 35, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15955,8 +15955,8 @@ export const trips = [
     car: { plate: 'TFS036' },
     status: 'near',
     check_code: '99',
-    createdAt: { $date: '2018-05-02T23:19:14.825+0000' },
-    updatedAt: { $date: '2018-05-09T05:00:01.397+0000' },
+    createdAt: '2018-05-02T23:19:14.825+0000',
+    updatedAt: '2018-05-09T05:00:01.397+0000',
     price: 540000.0,
     driver_location: {
       type: 'Point',
@@ -15965,7 +15965,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T14:30:00.000+0000' },
+      date: '2018-05-03T14:30:00.000+0000',
       pickup_address: 'Rionegro, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -15987,8 +15987,8 @@ export const trips = [
     car: { plate: 'WLY244' },
     status: 'started',
     check_code: '28',
-    createdAt: { $date: '2018-05-02T22:45:14.390+0000' },
-    updatedAt: { $date: '2018-05-09T05:00:01.397+0000' },
+    createdAt: '2018-05-02T22:45:14.390+0000',
+    updatedAt: '2018-05-09T05:00:01.397+0000',
     price: 392500.0,
     driver_location: {
       type: 'Point',
@@ -15997,7 +15997,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T21:51:22.680+0000' },
+      date: '2018-05-02T21:51:22.680+0000',
       pickup_address: 'Carrera 45 #24b-1',
       pickup_location: {
         type: 'Point',
@@ -16022,8 +16022,8 @@ export const trips = [
     car: { plate: 'WHQ631' },
     status: 'near',
     check_code: '28',
-    createdAt: { $date: '2018-05-02T21:47:38.311+0000' },
-    updatedAt: { $date: '2018-05-05T13:42:22.433+0000' },
+    createdAt: '2018-05-02T21:47:38.311+0000',
+    updatedAt: '2018-05-05T13:42:22.433+0000',
     price: 21100.0,
     driver_location: {
       type: 'Point',
@@ -16032,7 +16032,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T11:30:46.000+0000' },
+      date: '2018-05-03T11:30:46.000+0000',
       pickup_address: 'Cl. 93a #10-55, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16057,8 +16057,8 @@ export const trips = [
     car: { plate: 'WOY215' },
     status: 'started',
     check_code: '88',
-    createdAt: { $date: '2018-05-02T21:13:03.395+0000' },
-    updatedAt: { $date: '2018-05-03T22:29:14.763+0000' },
+    createdAt: '2018-05-02T21:13:03.395+0000',
+    updatedAt: '2018-05-03T22:29:14.763+0000',
     price: 17100.0,
     driver_location: {
       type: 'Point',
@@ -16067,7 +16067,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T20:37:14.367+0000' },
+      date: '2018-05-02T20:37:14.367+0000',
       pickup_address: 'Cl. 77 #11-19, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -16092,8 +16092,8 @@ export const trips = [
     car: { plate: 'WNS662' },
     status: 'near',
     check_code: '78',
-    createdAt: { $date: '2018-05-02T20:27:35.774+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:04.141+0000' },
+    createdAt: '2018-05-02T20:27:35.774+0000',
+    updatedAt: '2018-05-08T04:37:04.141+0000',
     price: 12100.0,
     driver_location: {
       type: 'Point',
@@ -16102,7 +16102,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T20:21:41.241+0000' },
+      date: '2018-05-02T20:21:41.241+0000',
       pickup_address: 'Tv. 55 #95-66, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16127,8 +16127,8 @@ export const trips = [
     car: { plate: 'WNS428' },
     status: 'near',
     check_code: '20',
-    createdAt: { $date: '2018-05-02T20:09:33.990+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:04.141+0000' },
+    createdAt: '2018-05-02T20:09:33.990+0000',
+    updatedAt: '2018-05-08T04:37:04.141+0000',
     price: 12400.0,
     driver_location: {
       type: 'Point',
@@ -16137,7 +16137,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T21:00:06.000+0000' },
+      date: '2018-05-02T21:00:06.000+0000',
       pickup_address: 'Laboratorio Coaspharma - Cl. 18a ##28A-43, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -16159,8 +16159,8 @@ export const trips = [
     car: { plate: 'WMM543' },
     status: 'started',
     check_code: '55',
-    createdAt: { $date: '2018-05-02T19:52:37.604+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:54.131+0000' },
+    createdAt: '2018-05-02T19:52:37.604+0000',
+    updatedAt: '2018-05-08T04:34:54.131+0000',
     price: 20600.0,
     driver_location: {
       type: 'Point',
@@ -16169,7 +16169,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T19:48:01.183+0000' },
+      date: '2018-05-02T19:48:01.183+0000',
       pickup_address: 'Cl. 87 #10-93, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16194,8 +16194,8 @@ export const trips = [
     car: { plate: 'WNY633' },
     status: 'started',
     check_code: '38',
-    createdAt: { $date: '2018-05-02T19:37:51.317+0000' },
-    updatedAt: { $date: '2018-05-11T15:05:02.504+0000' },
+    createdAt: '2018-05-02T19:37:51.317+0000',
+    updatedAt: '2018-05-11T15:05:02.504+0000',
     price: 11800.0,
     driver_location: {
       type: 'Point',
@@ -16204,7 +16204,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T19:31:44.103+0000' },
+      date: '2018-05-02T19:31:44.103+0000',
       pickup_address: 'Ac. 82 #12-18, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16229,8 +16229,8 @@ export const trips = [
     car: { plate: 'WNK213' },
     status: 'onWay',
     check_code: '37',
-    createdAt: { $date: '2018-05-02T19:22:14.768+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:58.356+0000' },
+    createdAt: '2018-05-02T19:22:14.768+0000',
+    updatedAt: '2018-05-08T04:36:58.356+0000',
     price: 18200.0,
     driver_location: {
       type: 'Point',
@@ -16239,7 +16239,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T18:49:17.680+0000' },
+      date: '2018-05-02T18:49:17.680+0000',
       pickup_address: 'Cra. 33a #29a-32, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16261,8 +16261,8 @@ export const trips = [
     car: { plate: 'WOX154' },
     status: 'near',
     check_code: '39',
-    createdAt: { $date: '2018-05-02T18:32:57.322+0000' },
-    updatedAt: { $date: '2018-05-02T20:33:22.277+0000' },
+    createdAt: '2018-05-02T18:32:57.322+0000',
+    updatedAt: '2018-05-02T20:33:22.277+0000',
     price: 11100.0,
     driver_location: {
       type: 'Point',
@@ -16271,7 +16271,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T18:05:16.943+0000' },
+      date: '2018-05-02T18:05:16.943+0000',
       pickup_address: 'Cl. 79 #11-45, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16299,8 +16299,8 @@ export const trips = [
     car: { plate: 'WMZ709' },
     status: 'started',
     check_code: '51',
-    createdAt: { $date: '2018-05-02T18:01:16.706+0000' },
-    updatedAt: { $date: '2018-05-02T22:28:43.072+0000' },
+    createdAt: '2018-05-02T18:01:16.706+0000',
+    updatedAt: '2018-05-02T22:28:43.072+0000',
     price: 22400.0,
     driver_location: {
       type: 'Point',
@@ -16309,7 +16309,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T19:00:00.000+0000' },
+      date: '2018-05-02T19:00:00.000+0000',
       pickup_address: 'Ak. 24, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16334,8 +16334,8 @@ export const trips = [
     car: { plate: 'WLV267' },
     status: 'onWay',
     check_code: '38',
-    createdAt: { $date: '2018-05-02T17:12:26.050+0000' },
-    updatedAt: { $date: '2018-05-02T20:03:02.450+0000' },
+    createdAt: '2018-05-02T17:12:26.050+0000',
+    updatedAt: '2018-05-02T20:03:02.450+0000',
     price: 28800.0,
     driver_location: {
       type: 'Point',
@@ -16344,7 +16344,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-05T13:30:03.000+0000' },
+      date: '2018-05-05T13:30:03.000+0000',
       pickup_address:
         'Aeropuerto Internacional El Dorado - Calle 26 #103-9, Fontibon',
       pickup_location: {
@@ -16370,8 +16370,8 @@ export const trips = [
     car: { plate: 'WPQ704' },
     status: 'onWay',
     check_code: '25',
-    createdAt: { $date: '2018-05-02T16:01:27.330+0000' },
-    updatedAt: { $date: '2018-05-16T13:59:47.625+0000' },
+    createdAt: '2018-05-02T16:01:27.330+0000',
+    updatedAt: '2018-05-16T13:59:47.625+0000',
     price: 40900.0,
     driver_location: {
       type: 'Point',
@@ -16380,7 +16380,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T12:00:00.000+0000' },
+      date: '2018-05-03T12:00:00.000+0000',
       pickup_address: 'Cra. 11a #93-52, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16402,8 +16402,8 @@ export const trips = [
     car: { plate: 'WLK741' },
     status: 'onWay',
     check_code: '32',
-    createdAt: { $date: '2018-05-02T15:51:14.197+0000' },
-    updatedAt: { $date: '2018-05-09T05:00:00.954+0000' },
+    createdAt: '2018-05-02T15:51:14.197+0000',
+    updatedAt: '2018-05-09T05:00:00.954+0000',
     price: 537300.0,
     driver_location: {
       type: 'Point',
@@ -16412,7 +16412,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T14:57:03.634+0000' },
+      date: '2018-05-02T14:57:03.634+0000',
       pickup_address: 'Cra. 7 #156-80, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16440,8 +16440,8 @@ export const trips = [
     car: { plate: 'WLM309' },
     status: 'onWay',
     check_code: '38',
-    createdAt: { $date: '2018-05-02T14:43:24.077+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:11.482+0000' },
+    createdAt: '2018-05-02T14:43:24.077+0000',
+    updatedAt: '2018-05-08T04:36:11.482+0000',
     price: 20400.0,
     driver_location: {
       type: 'Point',
@@ -16450,7 +16450,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T14:52:40.835+0000' },
+      date: '2018-05-02T14:52:40.835+0000',
       pickup_address: 'Cra. 25 #49 Sur-1 a 49 Sur-71,, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16476,8 +16476,8 @@ export const trips = [
     car: { plate: 'WNV581' },
     status: 'started',
     check_code: '79',
-    createdAt: { $date: '2018-05-02T14:32:18.471+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:26.975+0000' },
+    createdAt: '2018-05-02T14:32:18.471+0000',
+    updatedAt: '2018-05-08T04:37:26.975+0000',
     price: 44000.0,
     driver_location: {
       type: 'Point',
@@ -16486,7 +16486,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T16:40:00.000+0000' },
+      date: '2018-05-02T16:40:00.000+0000',
       pickup_address: 'Rionegro, Antioquia, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16511,8 +16511,8 @@ export const trips = [
     car: { plate: 'SNW659' },
     status: 'near',
     check_code: '48',
-    createdAt: { $date: '2018-05-02T14:26:06.409+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:30.542+0000' },
+    createdAt: '2018-05-02T14:26:06.409+0000',
+    updatedAt: '2018-05-08T04:36:30.542+0000',
     price: 221100.0,
     driver_location: {
       type: 'Point',
@@ -16521,7 +16521,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T14:00:35.000+0000' },
+      date: '2018-05-02T14:00:35.000+0000',
       pickup_address: 'Cl. 101 #16-84, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16546,8 +16546,8 @@ export const trips = [
     car: { plate: 'WMM517' },
     status: 'started',
     check_code: '29',
-    createdAt: { $date: '2018-05-02T13:08:09.179+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:19.227+0000' },
+    createdAt: '2018-05-02T13:08:09.179+0000',
+    updatedAt: '2018-05-08T04:37:19.227+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -16556,7 +16556,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:20:42.509+0000' },
+      date: '2018-05-02T13:20:42.509+0000',
       pickup_address: 'Cra. 62 #64-75, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16581,8 +16581,8 @@ export const trips = [
     car: { plate: 'WNS329' },
     status: 'onWay',
     check_code: '12',
-    createdAt: { $date: '2018-05-02T13:06:27.938+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:14.289+0000' },
+    createdAt: '2018-05-02T13:06:27.938+0000',
+    updatedAt: '2018-05-08T04:38:14.289+0000',
     price: 12700.0,
     driver_location: {
       type: 'Point',
@@ -16591,7 +16591,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:17:44.119+0000' },
+      date: '2018-05-02T13:17:44.119+0000',
       pickup_address: 'Av. Boyacá #23-24, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16619,8 +16619,8 @@ export const trips = [
     car: { plate: 'WNS037' },
     status: 'started',
     check_code: '14',
-    createdAt: { $date: '2018-05-02T13:02:15.965+0000' },
-    updatedAt: { $date: '2018-05-04T17:57:14.917+0000' },
+    createdAt: '2018-05-02T13:02:15.965+0000',
+    updatedAt: '2018-05-04T17:57:14.917+0000',
     price: 24500.0,
     driver_location: {
       type: 'Point',
@@ -16629,7 +16629,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T15:00:01.000+0000' },
+      date: '2018-05-03T15:00:01.000+0000',
       pickup_address: 'Cl. 71a #5-2',
       pickup_location: {
         type: 'Point',
@@ -16655,8 +16655,8 @@ export const trips = [
     car: { plate: 'WGH075' },
     status: 'onWay',
     check_code: '62',
-    createdAt: { $date: '2018-05-02T13:00:03.147+0000' },
-    updatedAt: { $date: '2018-05-16T19:28:58.313+0000' },
+    createdAt: '2018-05-02T13:00:03.147+0000',
+    updatedAt: '2018-05-16T19:28:58.313+0000',
     price: 35100.0,
     driver_location: {
       type: 'Point',
@@ -16665,7 +16665,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:03:02.347+0000' },
+      date: '2018-05-02T13:03:02.347+0000',
       pickup_address: '59, Cl. 34 #6, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16693,8 +16693,8 @@ export const trips = [
     car: { plate: 'WOY194' },
     status: 'started',
     check_code: '22',
-    createdAt: { $date: '2018-05-02T12:49:31.587+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:08.224+0000' },
+    createdAt: '2018-05-02T12:49:31.587+0000',
+    updatedAt: '2018-05-08T04:35:08.224+0000',
     price: 24300.0,
     driver_location: {
       type: 'Point',
@@ -16703,7 +16703,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:53:17.577+0000' },
+      date: '2018-05-02T12:53:17.577+0000',
       pickup_address: 'Cra. 14 #99-1',
       pickup_location: {
         type: 'Point',
@@ -16728,8 +16728,8 @@ export const trips = [
     car: { plate: 'WMZ553' },
     status: 'onWay',
     check_code: '23',
-    createdAt: { $date: '2018-05-02T12:43:02.942+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:28.960+0000' },
+    createdAt: '2018-05-02T12:43:02.942+0000',
+    updatedAt: '2018-05-08T04:34:28.960+0000',
     price: 18700.0,
     driver_location: {
       type: 'Point',
@@ -16738,7 +16738,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:02:31.616+0000' },
+      date: '2018-05-02T13:02:31.616+0000',
       pickup_address: 'Cra. 13a #93-66, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16763,8 +16763,8 @@ export const trips = [
     car: { plate: 'WHS023' },
     status: 'near',
     check_code: '59',
-    createdAt: { $date: '2018-05-02T12:39:50.842+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:11.469+0000' },
+    createdAt: '2018-05-02T12:39:50.842+0000',
+    updatedAt: '2018-05-08T04:36:11.469+0000',
     price: 14800.0,
     driver_location: {
       type: 'Point',
@@ -16773,7 +16773,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T14:00:00.000+0000' },
+      date: '2018-05-02T14:00:00.000+0000',
       pickup_address: 'Cra. 56 #153-84, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16798,8 +16798,8 @@ export const trips = [
     car: { plate: 'WNX379' },
     status: 'onWay',
     check_code: '63',
-    createdAt: { $date: '2018-05-02T12:17:06.693+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:51.827+0000' },
+    createdAt: '2018-05-02T12:17:06.693+0000',
+    updatedAt: '2018-05-08T04:34:51.827+0000',
     price: 34400.0,
     driver_location: {
       type: 'Point',
@@ -16808,7 +16808,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:05:10.158+0000' },
+      date: '2018-05-02T12:05:10.158+0000',
       pickup_address: 'Cl. 108 #18b-2, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16830,8 +16830,8 @@ export const trips = [
     car: { plate: 'WNX641' },
     status: 'near',
     check_code: '60',
-    createdAt: { $date: '2018-05-02T11:48:03.997+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:26.604+0000' },
+    createdAt: '2018-05-02T11:48:03.997+0000',
+    updatedAt: '2018-05-08T04:36:26.604+0000',
     price: 16900.0,
     driver_location: {
       type: 'Point',
@@ -16840,7 +16840,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:00:22.000+0000' },
+      date: '2018-05-02T13:00:22.000+0000',
       pickup_address: 'Cl. 113 #55-17, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16865,8 +16865,8 @@ export const trips = [
     car: { plate: 'WNZ214' },
     status: 'started',
     check_code: '57',
-    createdAt: { $date: '2018-05-02T11:47:00.560+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:31.614+0000' },
+    createdAt: '2018-05-02T11:47:00.560+0000',
+    updatedAt: '2018-05-08T04:34:31.614+0000',
     price: 16100.0,
     driver_location: {
       type: 'Point',
@@ -16875,7 +16875,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:00:56.000+0000' },
+      date: '2018-05-02T13:00:56.000+0000',
       pickup_address: 'Ak. 11 #118-2',
       pickup_location: {
         type: 'Point',
@@ -16900,8 +16900,8 @@ export const trips = [
     car: { plate: 'WNZ243' },
     status: 'near',
     check_code: '43',
-    createdAt: { $date: '2018-05-02T11:46:06.223+0000' },
-    updatedAt: { $date: '2018-05-02T21:30:27.399+0000' },
+    createdAt: '2018-05-02T11:46:06.223+0000',
+    updatedAt: '2018-05-02T21:30:27.399+0000',
     price: 27000.0,
     driver_location: {
       type: 'Point',
@@ -16910,7 +16910,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:48:39.465+0000' },
+      date: '2018-05-02T11:48:39.465+0000',
       pickup_address: 'Cl. 134 #12b-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16938,8 +16938,8 @@ export const trips = [
     car: { plate: 'WMO021' },
     status: 'near',
     check_code: '62',
-    createdAt: { $date: '2018-05-02T11:21:25.370+0000' },
-    updatedAt: { $date: '2018-05-02T19:36:23.766+0000' },
+    createdAt: '2018-05-02T11:21:25.370+0000',
+    updatedAt: '2018-05-02T19:36:23.766+0000',
     price: 18500.0,
     driver_location: {
       type: 'Point',
@@ -16948,7 +16948,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:10:04.852+0000' },
+      date: '2018-05-02T12:10:04.852+0000',
       pickup_address: 'Av Suba #119-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -16970,8 +16970,8 @@ export const trips = [
     car: { plate: 'WNK292' },
     status: 'near',
     check_code: '23',
-    createdAt: { $date: '2018-05-02T11:17:52.659+0000' },
-    updatedAt: { $date: '2018-05-03T11:00:14.855+0000' },
+    createdAt: '2018-05-02T11:17:52.659+0000',
+    updatedAt: '2018-05-03T11:00:14.855+0000',
     price: 16200.0,
     driver_location: {
       type: 'Point',
@@ -16980,7 +16980,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:00:06.000+0000' },
+      date: '2018-05-02T12:00:06.000+0000',
       pickup_address: 'Calle 101 #68d-2',
       pickup_location: {
         type: 'Point',
@@ -17008,8 +17008,8 @@ export const trips = [
     car: { plate: 'ESK993' },
     status: 'started',
     check_code: '16',
-    createdAt: { $date: '2018-05-02T11:16:29.600+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:40.038+0000' },
+    createdAt: '2018-05-02T11:16:29.600+0000',
+    updatedAt: '2018-05-08T04:34:40.038+0000',
     price: 13600.0,
     driver_location: {
       type: 'Point',
@@ -17018,7 +17018,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T11:15:00.000+0000' },
+      date: '2018-05-03T11:15:00.000+0000',
       pickup_address: 'Cra. 21 #133-85, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17040,8 +17040,8 @@ export const trips = [
     car: { plate: 'WLM836' },
     status: 'onWay',
     check_code: '71',
-    createdAt: { $date: '2018-05-02T11:12:34.671+0000' },
-    updatedAt: { $date: '2018-05-03T16:26:36.020+0000' },
+    createdAt: '2018-05-02T11:12:34.671+0000',
+    updatedAt: '2018-05-03T16:26:36.020+0000',
     price: 27800.0,
     driver_location: {
       type: 'Point',
@@ -17050,7 +17050,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T22:00:07.000+0000' },
+      date: '2018-05-02T22:00:07.000+0000',
       pickup_address: 'Carulla Villa Susana - Cl. 30, Cartagena',
       pickup_location: {
         type: 'Point',
@@ -17073,8 +17073,8 @@ export const trips = [
     car: { plate: 'TVC730' },
     status: 'started',
     check_code: '16',
-    createdAt: { $date: '2018-05-02T11:02:17.913+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:25.047+0000' },
+    createdAt: '2018-05-02T11:02:17.913+0000',
+    updatedAt: '2018-05-08T04:37:25.047+0000',
     price: 23000.0,
     driver_location: {
       type: 'Point',
@@ -17083,7 +17083,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:07:09.327+0000' },
+      date: '2018-05-02T11:07:09.327+0000',
       pickup_address: 'Cra. 7 #126-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17105,8 +17105,8 @@ export const trips = [
     car: { plate: 'WNS924' },
     status: 'onWay',
     check_code: '45',
-    createdAt: { $date: '2018-05-02T10:54:35.797+0000' },
-    updatedAt: { $date: '2018-05-04T10:53:35.354+0000' },
+    createdAt: '2018-05-02T10:54:35.797+0000',
+    updatedAt: '2018-05-04T10:53:35.354+0000',
     price: 23000.0,
     driver_location: {
       type: 'Point',
@@ -17115,7 +17115,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:20:42.000+0000' },
+      date: '2018-05-02T11:20:42.000+0000',
       pickup_address: 'Cra. 55 #159-65',
       pickup_location: {
         type: 'Point',
@@ -17140,8 +17140,8 @@ export const trips = [
     car: { plate: 'WDG863' },
     status: 'near',
     check_code: '83',
-    createdAt: { $date: '2018-05-02T10:48:57.101+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:43.582+0000' },
+    createdAt: '2018-05-02T10:48:57.101+0000',
+    updatedAt: '2018-05-08T04:36:43.582+0000',
     price: 18400.0,
     driver_location: {
       type: 'Point',
@@ -17150,7 +17150,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:50:03.000+0000' },
+      date: '2018-05-02T12:50:03.000+0000',
       pickup_address: 'Calle 94 #72a-1',
       pickup_location: {
         type: 'Point',
@@ -17175,8 +17175,8 @@ export const trips = [
     car: { plate: 'WHT084' },
     status: 'near',
     check_code: '98',
-    createdAt: { $date: '2018-05-02T10:41:34.327+0000' },
-    updatedAt: { $date: '2018-05-03T00:24:19.658+0000' },
+    createdAt: '2018-05-02T10:41:34.327+0000',
+    updatedAt: '2018-05-03T00:24:19.658+0000',
     price: 29900.0,
     driver_location: {
       type: 'Point',
@@ -17185,7 +17185,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:10:00.000+0000' },
+      date: '2018-05-02T11:10:00.000+0000',
       pickup_address: 'Cl. 128d #21-39',
       pickup_location: {
         type: 'Point',
@@ -17210,8 +17210,8 @@ export const trips = [
     car: { plate: 'ESL823' },
     status: 'near',
     check_code: '62',
-    createdAt: { $date: '2018-05-02T10:25:58.957+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:14.517+0000' },
+    createdAt: '2018-05-02T10:25:58.957+0000',
+    updatedAt: '2018-05-08T04:36:14.517+0000',
     price: 28700.0,
     driver_location: {
       type: 'Point',
@@ -17220,7 +17220,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:35:58.184+0000' },
+      date: '2018-05-02T10:35:58.184+0000',
       pickup_address: 'Cra. 49 #118-41, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17245,8 +17245,8 @@ export const trips = [
     car: { plate: 'WOS899' },
     status: 'near',
     check_code: '85',
-    createdAt: { $date: '2018-05-02T10:25:01.599+0000' },
-    updatedAt: { $date: '2018-05-05T14:25:39.834+0000' },
+    createdAt: '2018-05-02T10:25:01.599+0000',
+    updatedAt: '2018-05-05T14:25:39.834+0000',
     price: 17000.0,
     driver_location: {
       type: 'Point',
@@ -17255,7 +17255,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:25:22.000+0000' },
+      date: '2018-05-02T11:25:22.000+0000',
       pickup_address: 'Carrera 16 #88-2',
       pickup_location: {
         type: 'Point',
@@ -17280,8 +17280,8 @@ export const trips = [
     car: { plate: 'WNR897' },
     status: 'started',
     check_code: '26',
-    createdAt: { $date: '2018-05-02T09:49:30.826+0000' },
-    updatedAt: { $date: '2018-05-03T20:08:11.793+0000' },
+    createdAt: '2018-05-02T09:49:30.826+0000',
+    updatedAt: '2018-05-03T20:08:11.793+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -17290,7 +17290,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T09:38:27.550+0000' },
+      date: '2018-05-02T09:38:27.550+0000',
       pickup_address: 'Cl. 143a #130-8',
       pickup_location: {
         type: 'Point',
@@ -17312,8 +17312,8 @@ export const trips = [
     car: { plate: 'WPQ704' },
     status: 'near',
     check_code: '66',
-    createdAt: { $date: '2018-05-02T09:35:17.084+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:37.137+0000' },
+    createdAt: '2018-05-02T09:35:17.084+0000',
+    updatedAt: '2018-05-08T04:34:37.137+0000',
     price: 25500.0,
     driver_location: {
       type: 'Point',
@@ -17322,7 +17322,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T09:34:48.451+0000' },
+      date: '2018-05-02T09:34:48.451+0000',
       pickup_address: 'Calle 146f #73a-1',
       pickup_location: {
         type: 'Point',
@@ -17348,8 +17348,8 @@ export const trips = [
     car: { plate: 'WCM035' },
     status: 'onWay',
     check_code: '57',
-    createdAt: { $date: '2018-05-02T09:29:53.836+0000' },
-    updatedAt: { $date: '2018-05-03T13:48:47.961+0000' },
+    createdAt: '2018-05-02T09:29:53.836+0000',
+    updatedAt: '2018-05-03T13:48:47.961+0000',
     price: 36000.0,
     driver_location: {
       type: 'Point',
@@ -17358,7 +17358,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:30:19.000+0000' },
+      date: '2018-05-02T10:30:19.000+0000',
       pickup_address: 'Ak. 9 #119-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17384,8 +17384,8 @@ export const trips = [
     car: { plate: 'WGQ747' },
     status: 'started',
     check_code: '67',
-    createdAt: { $date: '2018-05-02T05:48:50.751+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:42.044+0000' },
+    createdAt: '2018-05-02T05:48:50.751+0000',
+    updatedAt: '2018-05-08T04:36:42.044+0000',
     price: 37900.0,
     driver_location: {
       type: 'Point',
@@ -17394,7 +17394,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T04:29:54.466+0000' },
+      date: '2018-05-02T04:29:54.466+0000',
       pickup_address: 'Centro Comercial Plaza Central - Cra. 65 #11-50, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -17419,8 +17419,8 @@ export const trips = [
     car: { plate: 'WLK340' },
     status: 'near',
     check_code: '62',
-    createdAt: { $date: '2018-05-02T04:22:18.713+0000' },
-    updatedAt: { $date: '2018-05-08T22:40:25.639+0000' },
+    createdAt: '2018-05-02T04:22:18.713+0000',
+    updatedAt: '2018-05-08T22:40:25.639+0000',
     price: 31900.0,
     driver_location: {
       type: 'Point',
@@ -17429,7 +17429,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:00:05.000+0000' },
+      date: '2018-05-02T12:00:05.000+0000',
       pickup_address: 'Cl. 94 #72a-92',
       pickup_location: {
         type: 'Point',
@@ -17451,8 +17451,8 @@ export const trips = [
     car: { plate: 'WMZ453' },
     status: 'onWay',
     check_code: '59',
-    createdAt: { $date: '2018-05-02T04:19:27.572+0000' },
-    updatedAt: { $date: '2018-05-02T13:10:16.380+0000' },
+    createdAt: '2018-05-02T04:19:27.572+0000',
+    updatedAt: '2018-05-02T13:10:16.380+0000',
     price: 17800.0,
     driver_location: {
       type: 'Point',
@@ -17461,7 +17461,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:30:00.000+0000' },
+      date: '2018-05-02T10:30:00.000+0000',
       pickup_address: 'Dg. 48k Sur #5x-51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17486,8 +17486,8 @@ export const trips = [
     car: { plate: 'WNL160' },
     status: 'onWay',
     check_code: '18',
-    createdAt: { $date: '2018-05-02T04:11:16.758+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:20.991+0000' },
+    createdAt: '2018-05-02T04:11:16.758+0000',
+    updatedAt: '2018-05-08T04:34:20.991+0000',
     price: 38200.0,
     driver_location: {
       type: 'Point',
@@ -17496,7 +17496,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:45:47.000+0000' },
+      date: '2018-05-02T12:45:47.000+0000',
       pickup_address: 'Hotel NH Cali Royal - Cra. 100b #11A-99, Cali',
       pickup_location: {
         type: 'Point',
@@ -17518,8 +17518,8 @@ export const trips = [
     car: { plate: 'WHU623' },
     status: 'started',
     check_code: '69',
-    createdAt: { $date: '2018-05-02T03:56:33.948+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:54.944+0000' },
+    createdAt: '2018-05-02T03:56:33.948+0000',
+    updatedAt: '2018-05-08T04:36:54.944+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -17528,7 +17528,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:07:00.000+0000' },
+      date: '2018-05-02T10:07:00.000+0000',
       pickup_address: 'Cl. 7a Bis C #80a-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17550,8 +17550,8 @@ export const trips = [
     car: { plate: 'WLM433' },
     status: 'near',
     check_code: '10',
-    createdAt: { $date: '2018-05-02T03:42:00.605+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:14.513+0000' },
+    createdAt: '2018-05-02T03:42:00.605+0000',
+    updatedAt: '2018-05-08T04:36:14.513+0000',
     price: 25800.0,
     driver_location: {
       type: 'Point',
@@ -17560,7 +17560,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:15:02.000+0000' },
+      date: '2018-05-02T12:15:02.000+0000',
       pickup_address: 'Cra. 7 #78-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17588,8 +17588,8 @@ export const trips = [
     car: { plate: 'WGP382' },
     status: 'started',
     check_code: '28',
-    createdAt: { $date: '2018-05-02T03:30:36.053+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:34.114+0000' },
+    createdAt: '2018-05-02T03:30:36.053+0000',
+    updatedAt: '2018-05-08T04:37:34.114+0000',
     price: 34600.0,
     driver_location: {
       type: 'Point',
@@ -17598,7 +17598,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:15:01.000+0000' },
+      date: '2018-05-02T11:15:01.000+0000',
       pickup_address: 'Reserva de la Sierra - Cra. 7 #12630, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -17624,8 +17624,8 @@ export const trips = [
     car: { plate: 'ESL313' },
     status: 'onWay',
     check_code: '73',
-    createdAt: { $date: '2018-05-02T03:24:25.500+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:20.988+0000' },
+    createdAt: '2018-05-02T03:24:25.500+0000',
+    updatedAt: '2018-05-08T04:34:20.988+0000',
     price: 45800.0,
     driver_location: {
       type: 'Point',
@@ -17634,7 +17634,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:15:00.000+0000' },
+      date: '2018-05-02T11:15:00.000+0000',
       pickup_address: 'Cra. 21 #133-85, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17659,8 +17659,8 @@ export const trips = [
     car: { plate: 'WNU787' },
     status: 'started',
     check_code: '83',
-    createdAt: { $date: '2018-05-02T02:45:53.592+0000' },
-    updatedAt: { $date: '2018-05-03T03:06:32.876+0000' },
+    createdAt: '2018-05-02T02:45:53.592+0000',
+    updatedAt: '2018-05-03T03:06:32.876+0000',
     price: 27300.0,
     driver_location: {
       type: 'Point',
@@ -17669,7 +17669,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T09:40:22.000+0000' },
+      date: '2018-05-02T09:40:22.000+0000',
       pickup_address:
         'Parques Villa Javier Macarena I - 75 86, Calle 81 Sur, Bogotá',
       pickup_location: {
@@ -17692,8 +17692,8 @@ export const trips = [
     car: { plate: 'WNR899' },
     status: 'near',
     check_code: '13',
-    createdAt: { $date: '2018-05-02T02:40:11.509+0000' },
-    updatedAt: { $date: '2018-06-28T23:49:29.364+0000' },
+    createdAt: '2018-05-02T02:40:11.509+0000',
+    updatedAt: '2018-06-28T23:49:29.364+0000',
     price: 43000.0,
     driver_location: {
       type: 'Point',
@@ -17702,7 +17702,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:15:06.000+0000' },
+      date: '2018-05-02T10:15:06.000+0000',
       pickup_address: 'Cl. 149 #54-16, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17724,8 +17724,8 @@ export const trips = [
     car: { plate: 'whp833' },
     status: 'onWay',
     check_code: '55',
-    createdAt: { $date: '2018-05-02T02:34:05.658+0000' },
-    updatedAt: { $date: '2018-05-07T10:14:41.618+0000' },
+    createdAt: '2018-05-02T02:34:05.658+0000',
+    updatedAt: '2018-05-07T10:14:41.618+0000',
     price: 21300.0,
     driver_location: {
       type: 'Point',
@@ -17734,7 +17734,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:25:00.000+0000' },
+      date: '2018-05-02T12:25:00.000+0000',
       pickup_address: 'Cra. 12 #127a-55, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17759,8 +17759,8 @@ export const trips = [
     car: { plate: 'WMO014' },
     status: 'onWay',
     check_code: '18',
-    createdAt: { $date: '2018-05-02T02:21:38.893+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:13.200+0000' },
+    createdAt: '2018-05-02T02:21:38.893+0000',
+    updatedAt: '2018-05-08T04:38:13.200+0000',
     price: 14700.0,
     driver_location: {
       type: 'Point',
@@ -17769,7 +17769,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:55:25.000+0000' },
+      date: '2018-05-02T11:55:25.000+0000',
       pickup_address: 'Cra. 8 #97-62, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -17794,8 +17794,8 @@ export const trips = [
     car: { plate: 'WLT663' },
     status: 'onWay',
     check_code: '81',
-    createdAt: { $date: '2018-05-02T02:13:50.770+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:30.624+0000' },
+    createdAt: '2018-05-02T02:13:50.770+0000',
+    updatedAt: '2018-05-08T04:36:30.624+0000',
     price: 40100.0,
     driver_location: {
       type: 'Point',
@@ -17804,7 +17804,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:50:50.000+0000' },
+      date: '2018-05-02T11:50:50.000+0000',
       pickup_address: 'Cl. 90 #9a-51, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -17829,8 +17829,8 @@ export const trips = [
     car: { plate: 'EQP676' },
     status: 'near',
     check_code: '94',
-    createdAt: { $date: '2018-05-02T02:11:09.133+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:24.757+0000' },
+    createdAt: '2018-05-02T02:11:09.133+0000',
+    updatedAt: '2018-05-08T04:34:24.757+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -17839,7 +17839,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:30:39.000+0000' },
+      date: '2018-05-02T12:30:39.000+0000',
       pickup_address: 'Dg. 75 #4-28, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17862,8 +17862,8 @@ export const trips = [
     car: { plate: 'WNX919' },
     status: 'near',
     check_code: '95',
-    createdAt: { $date: '2018-05-02T02:07:09.859+0000' },
-    updatedAt: { $date: '2018-05-02T18:59:39.404+0000' },
+    createdAt: '2018-05-02T02:07:09.859+0000',
+    updatedAt: '2018-05-02T18:59:39.404+0000',
     price: 19400.0,
     driver_location: {
       type: 'Point',
@@ -17872,7 +17872,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:00:01.000+0000' },
+      date: '2018-05-02T12:00:01.000+0000',
       pickup_address: 'Cra. 8b #189-30, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17894,8 +17894,8 @@ export const trips = [
     car: { plate: 'WNX099' },
     status: 'onWay',
     check_code: '41',
-    createdAt: { $date: '2018-05-02T02:02:24.346+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:08.131+0000' },
+    createdAt: '2018-05-02T02:02:24.346+0000',
+    updatedAt: '2018-05-08T04:37:08.131+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -17904,7 +17904,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T02:21:00.546+0000' },
+      date: '2018-05-02T02:21:00.546+0000',
       pickup_address: 'Cra. 10 #93b-53, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -17926,8 +17926,8 @@ export const trips = [
     car: { plate: 'WHR026' },
     status: 'near',
     check_code: '47',
-    createdAt: { $date: '2018-05-02T02:00:10.757+0000' },
-    updatedAt: { $date: '2018-05-02T02:33:46.737+0000' },
+    createdAt: '2018-05-02T02:00:10.757+0000',
+    updatedAt: '2018-05-02T02:33:46.737+0000',
     price: 10700.0,
     driver_location: {
       type: 'Point',
@@ -17936,7 +17936,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:25:00.000+0000' },
+      date: '2018-05-02T11:25:00.000+0000',
       pickup_address: 'Alsace Reserved 2 - Cra. 71d #12C-60, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -17961,8 +17961,8 @@ export const trips = [
     car: { plate: 'WMZ102' },
     status: 'near',
     check_code: '49',
-    createdAt: { $date: '2018-05-02T01:59:56.917+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:38.728+0000' },
+    createdAt: '2018-05-02T01:59:56.917+0000',
+    updatedAt: '2018-05-08T04:35:38.728+0000',
     price: 28600.0,
     driver_location: {
       type: 'Point',
@@ -17971,7 +17971,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T21:15:58.000+0000' },
+      date: '2018-05-02T21:15:58.000+0000',
       pickup_address: 'Carrera 43A',
       pickup_location: {
         type: 'Point',
@@ -17994,8 +17994,8 @@ export const trips = [
     car: { plate: 'WHR440' },
     status: 'near',
     check_code: '42',
-    createdAt: { $date: '2018-05-02T01:47:22.184+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:32.985+0000' },
+    createdAt: '2018-05-02T01:47:22.184+0000',
+    updatedAt: '2018-05-08T04:36:32.985+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -18004,7 +18004,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:20:37.000+0000' },
+      date: '2018-05-02T12:20:37.000+0000',
       pickup_address: 'Transversal 60',
       pickup_location: {
         type: 'Point',
@@ -18032,8 +18032,8 @@ export const trips = [
     car: { plate: 'EQP898' },
     status: 'near',
     check_code: '43',
-    createdAt: { $date: '2018-05-02T01:45:04.652+0000' },
-    updatedAt: { $date: '2018-05-02T19:20:47.203+0000' },
+    createdAt: '2018-05-02T01:45:04.652+0000',
+    updatedAt: '2018-05-02T19:20:47.203+0000',
     price: 18300.0,
     driver_location: {
       type: 'Point',
@@ -18042,7 +18042,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:39:00.000+0000' },
+      date: '2018-05-02T10:39:00.000+0000',
       pickup_address: 'Cl. 169 #58-46, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18067,8 +18067,8 @@ export const trips = [
     car: { plate: 'WLM714' },
     status: 'onWay',
     check_code: '37',
-    createdAt: { $date: '2018-05-02T01:42:35.575+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:16.839+0000' },
+    createdAt: '2018-05-02T01:42:35.575+0000',
+    updatedAt: '2018-05-08T04:36:16.839+0000',
     price: 18900.0,
     driver_location: {
       type: 'Point',
@@ -18077,7 +18077,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T02:10:00.000+0000' },
+      date: '2018-05-02T02:10:00.000+0000',
       pickup_address: 'Dg. 48k Sur #5x-51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18102,8 +18102,8 @@ export const trips = [
     car: { plate: 'WMM855' },
     status: 'started',
     check_code: '32',
-    createdAt: { $date: '2018-05-02T01:30:16.771+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:20.981+0000' },
+    createdAt: '2018-05-02T01:30:16.771+0000',
+    updatedAt: '2018-05-08T04:34:20.981+0000',
     price: 25800.0,
     driver_location: {
       type: 'Point',
@@ -18112,7 +18112,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T09:30:19.000+0000' },
+      date: '2018-05-02T09:30:19.000+0000',
       pickup_address: 'Carrera 6 Bis #127c-2',
       pickup_location: {
         type: 'Point',
@@ -18137,8 +18137,8 @@ export const trips = [
     car: { plate: 'WMY999' },
     status: 'onWay',
     check_code: '82',
-    createdAt: { $date: '2018-05-02T01:27:01.733+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:45.047+0000' },
+    createdAt: '2018-05-02T01:27:01.733+0000',
+    updatedAt: '2018-05-08T04:34:45.047+0000',
     price: 42900.0,
     driver_location: {
       type: 'Point',
@@ -18147,7 +18147,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:00:29.000+0000' },
+      date: '2018-05-02T10:00:29.000+0000',
       pickup_address: 'Carrera 111c #80a-2',
       pickup_location: {
         type: 'Point',
@@ -18175,8 +18175,8 @@ export const trips = [
     car: { plate: 'WGQ647' },
     status: 'near',
     check_code: '56',
-    createdAt: { $date: '2018-05-02T01:21:10.752+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:14.506+0000' },
+    createdAt: '2018-05-02T01:21:10.752+0000',
+    updatedAt: '2018-05-08T04:36:14.506+0000',
     price: 18400.0,
     driver_location: {
       type: 'Point',
@@ -18185,7 +18185,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T09:50:47.000+0000' },
+      date: '2018-05-02T09:50:47.000+0000',
       pickup_address: 'Carrera 11b #123-1',
       pickup_location: {
         type: 'Point',
@@ -18214,8 +18214,8 @@ export const trips = [
     car: { plate: 'WHQ601' },
     status: 'onWay',
     check_code: '77',
-    createdAt: { $date: '2018-05-02T01:18:04.956+0000' },
-    updatedAt: { $date: '2018-05-08T12:19:03.132+0000' },
+    createdAt: '2018-05-02T01:18:04.956+0000',
+    updatedAt: '2018-05-08T12:19:03.132+0000',
     price: 41400.0,
     driver_location: {
       type: 'Point',
@@ -18224,7 +18224,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:00:01.000+0000' },
+      date: '2018-05-02T11:00:01.000+0000',
       pickup_address: 'Cl. 142 #6-69, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18250,8 +18250,8 @@ export const trips = [
     car: { plate: 'WNZ837' },
     status: 'near',
     check_code: '75',
-    createdAt: { $date: '2018-05-02T01:02:56.139+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:22.330+0000' },
+    createdAt: '2018-05-02T01:02:56.139+0000',
+    updatedAt: '2018-05-08T04:34:22.330+0000',
     price: 43600.0,
     driver_location: {
       type: 'Point',
@@ -18260,7 +18260,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:00:00.000+0000' },
+      date: '2018-05-02T12:00:00.000+0000',
       pickup_address: 'Ak. 86 #51-66, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18282,8 +18282,8 @@ export const trips = [
     car: { plate: 'EQP791' },
     status: 'near',
     check_code: '84',
-    createdAt: { $date: '2018-05-02T00:40:43.774+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:05.414+0000' },
+    createdAt: '2018-05-02T00:40:43.774+0000',
+    updatedAt: '2018-05-08T04:35:05.414+0000',
     price: 57800.0,
     driver_location: {
       type: 'Point',
@@ -18292,7 +18292,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:00:19.000+0000' },
+      date: '2018-05-02T11:00:19.000+0000',
       pickup_address: 'Carrera 57 #138-12',
       pickup_location: {
         type: 'Point',
@@ -18315,8 +18315,8 @@ export const trips = [
     car: { plate: 'WLM263' },
     status: 'near',
     check_code: '50',
-    createdAt: { $date: '2018-05-02T00:36:27.839+0000' },
-    updatedAt: { $date: '2018-06-01T21:42:47.937+0000' },
+    createdAt: '2018-05-02T00:36:27.839+0000',
+    updatedAt: '2018-06-01T21:42:47.937+0000',
     price: 63500.0,
     driver_location: {
       type: 'Point',
@@ -18325,7 +18325,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:10:00.000+0000' },
+      date: '2018-05-02T10:10:00.000+0000',
       pickup_address: 'Cra. 95c #135A-50, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18353,8 +18353,8 @@ export const trips = [
     car: { plate: 'WEP579' },
     status: 'onWay',
     check_code: '57',
-    createdAt: { $date: '2018-05-02T00:32:44.993+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:50.890+0000' },
+    createdAt: '2018-05-02T00:32:44.993+0000',
+    updatedAt: '2018-05-08T04:37:50.890+0000',
     price: 20600.0,
     driver_location: {
       type: 'Point',
@@ -18363,7 +18363,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T20:55:00.000+0000' },
+      date: '2018-05-02T20:55:00.000+0000',
       pickup_address: 'Cra 45 #24b-27, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18388,8 +18388,8 @@ export const trips = [
     car: { plate: 'WPP212' },
     status: 'near',
     check_code: '44',
-    createdAt: { $date: '2018-05-02T00:32:17.720+0000' },
-    updatedAt: { $date: '2018-05-03T11:31:32.866+0000' },
+    createdAt: '2018-05-02T00:32:17.720+0000',
+    updatedAt: '2018-05-03T11:31:32.866+0000',
     price: 18800.0,
     driver_location: {
       type: 'Point',
@@ -18398,7 +18398,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:00:25.000+0000' },
+      date: '2018-05-02T12:00:25.000+0000',
       pickup_address: 'Bosques De Castilla - Cra. 80 Bis #7A-15, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -18424,8 +18424,8 @@ export const trips = [
     car: { plate: 'WLU248' },
     status: 'started',
     check_code: '35',
-    createdAt: { $date: '2018-05-02T00:20:32.241+0000' },
-    updatedAt: { $date: '2018-05-20T01:18:32.177+0000' },
+    createdAt: '2018-05-02T00:20:32.241+0000',
+    updatedAt: '2018-05-20T01:18:32.177+0000',
     price: 35200.0,
     driver_location: {
       type: 'Point',
@@ -18434,7 +18434,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T15:00:52.000+0000' },
+      date: '2018-05-02T15:00:52.000+0000',
       pickup_address:
         'Aeropuerto Internacional Alfonso Bonilla Aragón - Vía al Aeropuerto Nte., Palmira',
       pickup_location: {
@@ -18460,8 +18460,8 @@ export const trips = [
     car: { plate: 'WNX759' },
     status: 'started',
     check_code: '31',
-    createdAt: { $date: '2018-05-02T00:20:18.373+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:34.062+0000' },
+    createdAt: '2018-05-02T00:20:18.373+0000',
+    updatedAt: '2018-05-08T04:37:34.062+0000',
     price: 395100.0,
     driver_location: {
       type: 'Point',
@@ -18470,7 +18470,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:40:00.000+0000' },
+      date: '2018-05-02T10:40:00.000+0000',
       pickup_address: '#119a- a 119a-, Cl. 77b #119a98, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18495,8 +18495,8 @@ export const trips = [
     car: { plate: 'WON832' },
     status: 'started',
     check_code: '87',
-    createdAt: { $date: '2018-05-02T00:09:18.502+0000' },
-    updatedAt: { $date: '2018-05-24T00:31:46.437+0000' },
+    createdAt: '2018-05-02T00:09:18.502+0000',
+    updatedAt: '2018-05-24T00:31:46.437+0000',
     price: 27700.0,
     driver_location: {
       type: 'Point',
@@ -18505,7 +18505,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:00:00.000+0000' },
+      date: '2018-05-02T11:00:00.000+0000',
       pickup_address: 'Cl. 99 #14-49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18533,8 +18533,8 @@ export const trips = [
     car: { plate: 'WHR464' },
     status: 'onWay',
     check_code: '26',
-    createdAt: { $date: '2018-05-02T00:01:25.102+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:26.364+0000' },
+    createdAt: '2018-05-02T00:01:25.102+0000',
+    updatedAt: '2018-05-08T04:34:26.364+0000',
     price: 66800.0,
     driver_location: {
       type: 'Point',
@@ -18543,7 +18543,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:00:00.000+0000' },
+      date: '2018-05-02T11:00:00.000+0000',
       pickup_address: 'Cl. 99 #14-49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18571,8 +18571,8 @@ export const trips = [
     car: { plate: 'WPM979' },
     status: 'near',
     check_code: '23',
-    createdAt: { $date: '2018-05-02T00:00:53.565+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:26.364+0000' },
+    createdAt: '2018-05-02T00:00:53.565+0000',
+    updatedAt: '2018-05-08T04:34:26.364+0000',
     price: 66500.0,
     driver_location: {
       type: 'Point',
@@ -18581,7 +18581,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:00:00.000+0000' },
+      date: '2018-05-02T11:00:00.000+0000',
       pickup_address: 'Cl. 99 #14-49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18609,8 +18609,8 @@ export const trips = [
     car: { plate: 'WNZ680' },
     status: 'near',
     check_code: '95',
-    createdAt: { $date: '2018-05-02T00:00:21.580+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:26.364+0000' },
+    createdAt: '2018-05-02T00:00:21.580+0000',
+    updatedAt: '2018-05-08T04:34:26.364+0000',
     price: 71700.0,
     driver_location: {
       type: 'Point',
@@ -18619,7 +18619,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:00:00.000+0000' },
+      date: '2018-05-02T11:00:00.000+0000',
       pickup_address: 'Cl. 99 #14-49, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18647,8 +18647,8 @@ export const trips = [
     car: { plate: 'WPM403' },
     status: 'onWay',
     check_code: '68',
-    createdAt: { $date: '2018-05-01T23:59:44.359+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:26.364+0000' },
+    createdAt: '2018-05-01T23:59:44.359+0000',
+    updatedAt: '2018-05-08T04:34:26.364+0000',
     price: 66100.0,
     driver_location: {
       type: 'Point',
@@ -18657,7 +18657,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:40:00.000+0000' },
+      date: '2018-05-02T12:40:00.000+0000',
       pickup_address: 'Cra. 2 Este #70-20, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18679,8 +18679,8 @@ export const trips = [
     car: { plate: 'WPM950' },
     status: 'near',
     check_code: '65',
-    createdAt: { $date: '2018-05-01T23:50:02.508+0000' },
-    updatedAt: { $date: '2018-05-09T05:00:00.671+0000' },
+    createdAt: '2018-05-01T23:50:02.508+0000',
+    updatedAt: '2018-05-09T05:00:00.671+0000',
     price: 13400.0,
     driver_location: {
       type: 'Point',
@@ -18689,7 +18689,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T09:30:55.000+0000' },
+      date: '2018-05-02T09:30:55.000+0000',
       pickup_address: 'San Esteban Del Poblado - Calle 1 Sur, Medellín',
       pickup_location: {
         type: 'Point',
@@ -18711,8 +18711,8 @@ export const trips = [
     car: { plate: 'WPL868' },
     status: 'near',
     check_code: '29',
-    createdAt: { $date: '2018-05-01T23:29:41.824+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:58.146+0000' },
+    createdAt: '2018-05-01T23:29:41.824+0000',
+    updatedAt: '2018-05-08T04:35:58.146+0000',
     price: 84720.0,
     driver_location: {
       type: 'Point',
@@ -18721,7 +18721,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:50:00.000+0000' },
+      date: '2018-05-02T13:50:00.000+0000',
       pickup_address: 'Cl. 124 #16-35, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18743,8 +18743,8 @@ export const trips = [
     car: { plate: 'ESL944' },
     status: 'onWay',
     check_code: '89',
-    createdAt: { $date: '2018-05-01T22:49:48.425+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:51.152+0000' },
+    createdAt: '2018-05-01T22:49:48.425+0000',
+    updatedAt: '2018-05-08T04:34:51.152+0000',
     price: 24100.0,
     driver_location: {
       type: 'Point',
@@ -18753,7 +18753,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:30:31.000+0000' },
+      date: '2018-05-02T11:30:31.000+0000',
       pickup_address: 'Cl. 93a #10-55, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18775,8 +18775,8 @@ export const trips = [
     car: { plate: 'WGZ838' },
     status: 'onWay',
     check_code: '99',
-    createdAt: { $date: '2018-05-01T22:46:25.061+0000' },
-    updatedAt: { $date: '2018-05-02T16:33:18.313+0000' },
+    createdAt: '2018-05-01T22:46:25.061+0000',
+    updatedAt: '2018-05-02T16:33:18.313+0000',
     price: 16700.0,
     driver_location: {
       type: 'Point',
@@ -18785,7 +18785,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T22:48:07.671+0000' },
+      date: '2018-05-01T22:48:07.671+0000',
       pickup_address:
         'WOK Izakaya - Carrera 13 # 82-74, 3 piso, Zona T, Bogotá',
       pickup_location: {
@@ -18808,8 +18808,8 @@ export const trips = [
     car: { plate: 'WFV134' },
     status: 'near',
     check_code: '63',
-    createdAt: { $date: '2018-05-01T22:40:30.909+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:38.019+0000' },
+    createdAt: '2018-05-01T22:40:30.909+0000',
+    updatedAt: '2018-05-08T04:34:38.019+0000',
     price: 8300.0,
     driver_location: {
       type: 'Point',
@@ -18818,7 +18818,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:40:48.000+0000' },
+      date: '2018-05-02T10:40:48.000+0000',
       pickup_address: 'Calle 127D #21-2',
       pickup_location: {
         type: 'Point',
@@ -18841,8 +18841,8 @@ export const trips = [
     car: { plate: 'WLV038' },
     status: 'onWay',
     check_code: '75',
-    createdAt: { $date: '2018-05-01T22:40:06.102+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:42.754+0000' },
+    createdAt: '2018-05-01T22:40:06.102+0000',
+    updatedAt: '2018-05-08T04:36:42.754+0000',
     price: 36200.0,
     driver_location: {
       type: 'Point',
@@ -18851,7 +18851,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:30:00.000+0000' },
+      date: '2018-05-02T11:30:00.000+0000',
       pickup_address: 'Dg. 84a #82-65, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18879,8 +18879,8 @@ export const trips = [
     car: { plate: 'EQP677' },
     status: 'near',
     check_code: '65',
-    createdAt: { $date: '2018-05-01T22:27:13.231+0000' },
-    updatedAt: { $date: '2018-05-02T22:01:43.968+0000' },
+    createdAt: '2018-05-01T22:27:13.231+0000',
+    updatedAt: '2018-05-02T22:01:43.968+0000',
     price: 21700.0,
     driver_location: {
       type: 'Point',
@@ -18889,7 +18889,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:45:07.000+0000' },
+      date: '2018-05-02T11:45:07.000+0000',
       pickup_address: 'Cra. 10 #93-51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18914,8 +18914,8 @@ export const trips = [
     car: { plate: 'TAN027' },
     status: 'started',
     check_code: '15',
-    createdAt: { $date: '2018-05-01T22:23:24.080+0000' },
-    updatedAt: { $date: '2018-05-02T16:47:12.214+0000' },
+    createdAt: '2018-05-01T22:23:24.080+0000',
+    updatedAt: '2018-05-02T16:47:12.214+0000',
     price: 16500.0,
     driver_location: {
       type: 'Point',
@@ -18924,7 +18924,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:00:00.000+0000' },
+      date: '2018-05-02T12:00:00.000+0000',
       pickup_address:
         'Torreladera Bosque Reservado - #146f-59 a, Cra. 80 #146f87, Bogotá',
       pickup_location: {
@@ -18950,8 +18950,8 @@ export const trips = [
     car: { plate: 'WHQ732' },
     status: 'near',
     check_code: '59',
-    createdAt: { $date: '2018-05-01T22:19:56.683+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:14.442+0000' },
+    createdAt: '2018-05-01T22:19:56.683+0000',
+    updatedAt: '2018-05-08T04:38:14.442+0000',
     price: 17900.0,
     driver_location: {
       type: 'Point',
@@ -18960,7 +18960,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T22:00:00.000+0000' },
+      date: '2018-05-03T22:00:00.000+0000',
       pickup_address: 'Ak. 9 #12530, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -18988,8 +18988,8 @@ export const trips = [
     car: { plate: 'ESL155' },
     status: 'near',
     check_code: '41',
-    createdAt: { $date: '2018-05-01T20:17:30.602+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:43.138+0000' },
+    createdAt: '2018-05-01T20:17:30.602+0000',
+    updatedAt: '2018-05-08T04:35:43.138+0000',
     price: 47000.0,
     driver_location: {
       type: 'Point',
@@ -18998,7 +18998,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T11:15:15.000+0000' },
+      date: '2018-05-02T11:15:15.000+0000',
       pickup_address: 'Cra. 1a #76a-1, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19020,8 +19020,8 @@ export const trips = [
     car: { plate: 'WNK964' },
     status: 'near',
     check_code: '88',
-    createdAt: { $date: '2018-05-01T20:11:28.376+0000' },
-    updatedAt: { $date: '2018-05-03T11:14:08.112+0000' },
+    createdAt: '2018-05-01T20:11:28.376+0000',
+    updatedAt: '2018-05-03T11:14:08.112+0000',
     price: 14800.0,
     driver_location: {
       type: 'Point',
@@ -19030,7 +19030,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-04T07:40:00.000+0000' },
+      date: '2018-05-04T07:40:00.000+0000',
       pickup_address: 'Carrera 19A #173-70, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19055,8 +19055,8 @@ export const trips = [
     car: { plate: 'ESL033' },
     status: 'onWay',
     check_code: '82',
-    createdAt: { $date: '2018-05-01T19:51:11.314+0000' },
-    updatedAt: { $date: '2018-05-17T20:09:06.796+0000' },
+    createdAt: '2018-05-01T19:51:11.314+0000',
+    updatedAt: '2018-05-17T20:09:06.796+0000',
     price: 20700.0,
     driver_location: {
       type: 'Point',
@@ -19065,7 +19065,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-03T07:40:00.000+0000' },
+      date: '2018-05-03T07:40:00.000+0000',
       pickup_address: 'Carrera 19A #173-70, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19090,8 +19090,8 @@ export const trips = [
     car: { plate: 'WNL296' },
     status: 'near',
     check_code: '14',
-    createdAt: { $date: '2018-05-01T19:50:36.445+0000' },
-    updatedAt: { $date: '2018-05-17T20:09:11.315+0000' },
+    createdAt: '2018-05-01T19:50:36.445+0000',
+    updatedAt: '2018-05-17T20:09:11.315+0000',
     price: 20400.0,
     driver_location: {
       type: 'Point',
@@ -19100,7 +19100,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T21:40:00.000+0000' },
+      date: '2018-05-01T21:40:00.000+0000',
       pickup_address:
         'Vía al Aeropuerto Nte., Palmira, Valle del Cauca, Colombia',
       pickup_location: {
@@ -19126,8 +19126,8 @@ export const trips = [
     car: { plate: 'WMX904' },
     status: 'near',
     check_code: '87',
-    createdAt: { $date: '2018-05-01T19:36:29.418+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:40.577+0000' },
+    createdAt: '2018-05-01T19:36:29.418+0000',
+    updatedAt: '2018-05-08T04:37:40.577+0000',
     price: 162000.0,
     driver_location: {
       type: 'Point',
@@ -19136,7 +19136,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-13T04:50:00.000+0000' },
+      date: '2018-05-13T04:50:00.000+0000',
       pickup_address: 'Cl. 185 #45-3, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19158,8 +19158,8 @@ export const trips = [
     car: { plate: 'WLT550' },
     status: 'started',
     check_code: '84',
-    createdAt: { $date: '2018-05-01T19:36:00.703+0000' },
-    updatedAt: { $date: '2018-05-13T05:39:00.816+0000' },
+    createdAt: '2018-05-01T19:36:00.703+0000',
+    updatedAt: '2018-05-13T05:39:00.816+0000',
     price: 43400.0,
     driver_location: {
       type: 'Point',
@@ -19168,7 +19168,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-13T04:50:00.000+0000' },
+      date: '2018-05-13T04:50:00.000+0000',
       pickup_address: 'Cl. 185 #45-3, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19190,8 +19190,8 @@ export const trips = [
     car: { plate: 'ESL938' },
     status: 'started',
     check_code: '75',
-    createdAt: { $date: '2018-05-01T19:31:08.333+0000' },
-    updatedAt: { $date: '2018-05-13T05:18:59.876+0000' },
+    createdAt: '2018-05-01T19:31:08.333+0000',
+    updatedAt: '2018-05-13T05:18:59.876+0000',
     price: 12700.0,
     driver_location: {
       type: 'Point',
@@ -19200,7 +19200,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T19:23:53.797+0000' },
+      date: '2018-05-01T19:23:53.797+0000',
       pickup_address: 'Cra. 6 #119-13',
       pickup_location: {
         type: 'Point',
@@ -19225,8 +19225,8 @@ export const trips = [
     car: { plate: 'ESL507' },
     status: 'started',
     check_code: '16',
-    createdAt: { $date: '2018-05-01T19:13:21.304+0000' },
-    updatedAt: { $date: '2018-05-02T22:10:47.993+0000' },
+    createdAt: '2018-05-01T19:13:21.304+0000',
+    updatedAt: '2018-05-02T22:10:47.993+0000',
     price: 16600.0,
     driver_location: {
       type: 'Point',
@@ -19235,7 +19235,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T01:30:00.000+0000' },
+      date: '2018-05-02T01:30:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Alfonso Bonilla Aragón de Palmira - Vía al Aeropuerto Norte, Palmira, Palmira',
       pickup_location: {
@@ -19261,8 +19261,8 @@ export const trips = [
     car: { plate: 'TJX876' },
     status: 'near',
     check_code: '76',
-    createdAt: { $date: '2018-05-01T19:10:49.537+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:35.997+0000' },
+    createdAt: '2018-05-01T19:10:49.537+0000',
+    updatedAt: '2018-05-08T04:37:35.997+0000',
     price: 381240.0,
     driver_location: {
       type: 'Point',
@@ -19271,7 +19271,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T13:00:43.000+0000' },
+      date: '2018-05-02T13:00:43.000+0000',
       pickup_address:
         'Aeropuerto Internacional Ernesto Cortissoz - Aeropuerto Internacional Ernesto Cortissoz, Soledad',
       pickup_location: {
@@ -19298,8 +19298,8 @@ export const trips = [
     car: { plate: 'WEO094' },
     status: 'near',
     check_code: '97',
-    createdAt: { $date: '2018-05-01T17:51:00.868+0000' },
-    updatedAt: { $date: '2018-05-03T22:39:52.856+0000' },
+    createdAt: '2018-05-01T17:51:00.868+0000',
+    updatedAt: '2018-05-03T22:39:52.856+0000',
     price: 50400.0,
     driver_location: {
       type: 'Point',
@@ -19308,7 +19308,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T16:43:52.648+0000' },
+      date: '2018-05-01T16:43:52.648+0000',
       pickup_address: 'Cl. 80 bis #21-47, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -19330,8 +19330,8 @@ export const trips = [
     car: { plate: 'WLM842' },
     status: 'onWay',
     check_code: '71',
-    createdAt: { $date: '2018-05-01T16:36:10.006+0000' },
-    updatedAt: { $date: '2018-05-01T17:02:18.576+0000' },
+    createdAt: '2018-05-01T16:36:10.006+0000',
+    updatedAt: '2018-05-01T17:02:18.576+0000',
     price: 12100.0,
     driver_location: {
       type: 'Point',
@@ -19340,7 +19340,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T16:37:43.798+0000' },
+      date: '2018-05-01T16:37:43.798+0000',
       pickup_address: 'Cra. 45a #123-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19362,8 +19362,8 @@ export const trips = [
     car: { plate: 'WNK146' },
     status: 'near',
     check_code: '54',
-    createdAt: { $date: '2018-05-01T16:29:58.827+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:59.292+0000' },
+    createdAt: '2018-05-01T16:29:58.827+0000',
+    updatedAt: '2018-05-08T04:36:59.292+0000',
     price: 34700.0,
     driver_location: {
       type: 'Point',
@@ -19372,7 +19372,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T16:26:28.646+0000' },
+      date: '2018-05-01T16:26:28.646+0000',
       pickup_address: 'Cra. 129 #22b-57, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19397,8 +19397,8 @@ export const trips = [
     car: { plate: 'WNY832' },
     status: 'started',
     check_code: '96',
-    createdAt: { $date: '2018-05-01T16:11:27.144+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:51.352+0000' },
+    createdAt: '2018-05-01T16:11:27.144+0000',
+    updatedAt: '2018-05-08T04:36:51.352+0000',
     price: 16300.0,
     driver_location: {
       type: 'Point',
@@ -19407,7 +19407,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T19:50:00.000+0000' },
+      date: '2018-05-01T19:50:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional El Dorado - Calle 26 #103-9, Fontibon',
       pickup_location: {
@@ -19433,8 +19433,8 @@ export const trips = [
     car: { plate: 'WPL760' },
     status: 'started',
     check_code: '57',
-    createdAt: { $date: '2018-05-01T16:07:34.036+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:13.192+0000' },
+    createdAt: '2018-05-01T16:07:34.036+0000',
+    updatedAt: '2018-05-08T04:38:13.192+0000',
     price: 47300.0,
     driver_location: {
       type: 'Point',
@@ -19443,7 +19443,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T16:08:44.602+0000' },
+      date: '2018-05-01T16:08:44.602+0000',
       pickup_address: 'Carrera 16 #82-89',
       pickup_location: {
         type: 'Point',
@@ -19465,8 +19465,8 @@ export const trips = [
     car: { plate: 'ESL762' },
     status: 'started',
     check_code: '98',
-    createdAt: { $date: '2018-05-01T16:01:23.553+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:55.443+0000' },
+    createdAt: '2018-05-01T16:01:23.553+0000',
+    updatedAt: '2018-05-08T04:34:55.443+0000',
     price: 21600.0,
     driver_location: {
       type: 'Point',
@@ -19475,7 +19475,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T19:50:00.000+0000' },
+      date: '2018-05-01T19:50:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional El Dorado - Calle 26 #103-9, Fontibon',
       pickup_location: {
@@ -19501,8 +19501,8 @@ export const trips = [
     car: { plate: 'WGL060' },
     status: 'near',
     check_code: '89',
-    createdAt: { $date: '2018-05-01T15:58:50.361+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:13.192+0000' },
+    createdAt: '2018-05-01T15:58:50.361+0000',
+    updatedAt: '2018-05-08T04:38:13.192+0000',
     price: 53200.0,
     driver_location: {
       type: 'Point',
@@ -19511,7 +19511,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T16:45:13.000+0000' },
+      date: '2018-05-01T16:45:13.000+0000',
       pickup_address: 'Calle 127a 14a-71',
       pickup_location: {
         type: 'Point',
@@ -19540,8 +19540,8 @@ export const trips = [
     car: { plate: 'WNL338' },
     status: 'onWay',
     check_code: '38',
-    createdAt: { $date: '2018-05-01T15:57:05.593+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:53.458+0000' },
+    createdAt: '2018-05-01T15:57:05.593+0000',
+    updatedAt: '2018-05-08T04:35:53.458+0000',
     price: 35800.0,
     driver_location: {
       type: 'Point',
@@ -19550,7 +19550,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T18:40:03.000+0000' },
+      date: '2018-05-01T18:40:03.000+0000',
       pickup_address: 'Cra. 16 #88-8, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19575,8 +19575,8 @@ export const trips = [
     car: { plate: 'WNK144' },
     status: 'started',
     check_code: '15',
-    createdAt: { $date: '2018-05-01T15:44:23.235+0000' },
-    updatedAt: { $date: '2018-05-01T22:44:54.978+0000' },
+    createdAt: '2018-05-01T15:44:23.235+0000',
+    updatedAt: '2018-05-01T22:44:54.978+0000',
     price: 10600.0,
     driver_location: {
       type: 'Point',
@@ -19585,7 +19585,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T07:00:00.000+0000' },
+      date: '2018-05-02T07:00:00.000+0000',
       pickup_address: 'Cl. 152 #55a-10, Bogotá, Colorado, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19607,8 +19607,8 @@ export const trips = [
     car: { plate: 'WNT707' },
     status: 'near',
     check_code: '53',
-    createdAt: { $date: '2018-05-01T15:43:11.870+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:26.066+0000' },
+    createdAt: '2018-05-01T15:43:11.870+0000',
+    updatedAt: '2018-05-08T04:35:26.066+0000',
     price: 37400.0,
     driver_location: {
       type: 'Point',
@@ -19617,7 +19617,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T15:46:26.826+0000' },
+      date: '2018-05-01T15:46:26.826+0000',
       pickup_address: 'Cra. 8 #97-62, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -19639,8 +19639,8 @@ export const trips = [
     car: { plate: 'WHS097' },
     status: 'started',
     check_code: '34',
-    createdAt: { $date: '2018-05-01T15:33:03.367+0000' },
-    updatedAt: { $date: '2018-05-04T05:00:05.047+0000' },
+    createdAt: '2018-05-01T15:33:03.367+0000',
+    updatedAt: '2018-05-04T05:00:05.047+0000',
     price: 25500.0,
     driver_location: {
       type: 'Point',
@@ -19649,7 +19649,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T16:30:03.000+0000' },
+      date: '2018-05-01T16:30:03.000+0000',
       pickup_address: 'edificio guatapuri - Carrera 6 #53-26, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -19675,8 +19675,8 @@ export const trips = [
     car: { plate: 'ESL802' },
     status: 'started',
     check_code: '52',
-    createdAt: { $date: '2018-05-01T15:21:06.862+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:53.458+0000' },
+    createdAt: '2018-05-01T15:21:06.862+0000',
+    updatedAt: '2018-05-08T04:35:53.458+0000',
     price: 30100.0,
     driver_location: {
       type: 'Point',
@@ -19685,7 +19685,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T14:54:40.820+0000' },
+      date: '2018-05-01T14:54:40.820+0000',
       pickup_address: 'Cra. 2 #76a-02, bogotá',
       pickup_location: {
         type: 'Point',
@@ -19707,8 +19707,8 @@ export const trips = [
     car: { plate: 'WNY799' },
     status: 'onWay',
     check_code: '25',
-    createdAt: { $date: '2018-05-01T14:45:27.370+0000' },
-    updatedAt: { $date: '2018-05-01T15:31:56.478+0000' },
+    createdAt: '2018-05-01T14:45:27.370+0000',
+    updatedAt: '2018-05-01T15:31:56.478+0000',
     price: 6400.0,
     driver_location: {
       type: 'Point',
@@ -19717,7 +19717,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T14:53:54.489+0000' },
+      date: '2018-05-01T14:53:54.489+0000',
       pickup_address: 'Cl. 87 #19c-41, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19742,8 +19742,8 @@ export const trips = [
     car: { plate: 'WGP140' },
     status: 'near',
     check_code: '38',
-    createdAt: { $date: '2018-05-01T14:43:41.040+0000' },
-    updatedAt: { $date: '2018-05-01T16:12:00.724+0000' },
+    createdAt: '2018-05-01T14:43:41.040+0000',
+    updatedAt: '2018-05-01T16:12:00.724+0000',
     price: 15600.0,
     driver_location: {
       type: 'Point',
@@ -19752,7 +19752,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T14:41:14.237+0000' },
+      date: '2018-05-01T14:41:14.237+0000',
       pickup_address: 'Cra. 15a #118-22, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19777,8 +19777,8 @@ export const trips = [
     car: { plate: 'WNR987' },
     status: 'started',
     check_code: '55',
-    createdAt: { $date: '2018-05-01T14:28:48.594+0000' },
-    updatedAt: { $date: '2018-05-11T01:42:30.569+0000' },
+    createdAt: '2018-05-01T14:28:48.594+0000',
+    updatedAt: '2018-05-11T01:42:30.569+0000',
     price: 12500.0,
     driver_location: {
       type: 'Point',
@@ -19787,7 +19787,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T23:20:00.000+0000' },
+      date: '2018-05-01T23:20:00.000+0000',
       pickup_address: 'Cra. 15 #127b-48, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -19813,8 +19813,8 @@ export const trips = [
     car: { plate: 'WNT552' },
     status: 'onWay',
     check_code: '44',
-    createdAt: { $date: '2018-05-01T14:27:59.432+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:12.379+0000' },
+    createdAt: '2018-05-01T14:27:59.432+0000',
+    updatedAt: '2018-05-08T04:38:12.379+0000',
     price: 35000.0,
     driver_location: {
       type: 'Point',
@@ -19823,7 +19823,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T14:28:55.010+0000' },
+      date: '2018-05-01T14:28:55.010+0000',
       pickup_address: 'Cra. 7 #81-25, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19848,8 +19848,8 @@ export const trips = [
     car: { plate: 'WLV118' },
     status: 'started',
     check_code: '44',
-    createdAt: { $date: '2018-05-01T14:22:06.435+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:13.614+0000' },
+    createdAt: '2018-05-01T14:22:06.435+0000',
+    updatedAt: '2018-05-08T04:35:13.614+0000',
     price: 7200.0,
     driver_location: {
       type: 'Point',
@@ -19858,7 +19858,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T16:00:43.000+0000' },
+      date: '2018-05-01T16:00:43.000+0000',
       pickup_address: 'Cra. 76 #145-51, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19883,8 +19883,8 @@ export const trips = [
     car: { plate: 'WNZ589' },
     status: 'onWay',
     check_code: '11',
-    createdAt: { $date: '2018-05-01T14:16:28.599+0000' },
-    updatedAt: { $date: '2018-05-04T17:20:25.338+0000' },
+    createdAt: '2018-05-01T14:16:28.599+0000',
+    updatedAt: '2018-05-04T17:20:25.338+0000',
     price: 12600.0,
     driver_location: {
       type: 'Point',
@@ -19893,7 +19893,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T14:19:41.122+0000' },
+      date: '2018-05-01T14:19:41.122+0000',
       pickup_address: 'Cra. 13a #93-66, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19921,8 +19921,8 @@ export const trips = [
     car: { plate: 'WNX127' },
     status: 'near',
     check_code: '29',
-    createdAt: { $date: '2018-05-01T14:14:15.733+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:09.811+0000' },
+    createdAt: '2018-05-01T14:14:15.733+0000',
+    updatedAt: '2018-05-08T04:36:09.811+0000',
     price: 15000.0,
     driver_location: {
       type: 'Point',
@@ -19931,7 +19931,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T10:00:00.000+0000' },
+      date: '2018-05-02T10:00:00.000+0000',
       pickup_address: 'Cl. 152 #54-39, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -19953,8 +19953,8 @@ export const trips = [
     car: { plate: 'WOT357' },
     status: 'onWay',
     check_code: '38',
-    createdAt: { $date: '2018-05-01T13:41:09.241+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:35.984+0000' },
+    createdAt: '2018-05-01T13:41:09.241+0000',
+    updatedAt: '2018-05-08T04:37:35.984+0000',
     price: 40300.0,
     driver_location: {
       type: 'Point',
@@ -19963,7 +19963,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-02T12:30:00.000+0000' },
+      date: '2018-05-02T12:30:00.000+0000',
       pickup_address:
         'Aeropuerto Internacional Alfonso Bonilla Aragón de Palmira - Vía al Aeropuerto Norte, Palmira, Palmira',
       pickup_location: {
@@ -19989,8 +19989,8 @@ export const trips = [
     car: { plate: 'WNX758' },
     status: 'near',
     check_code: '73',
-    createdAt: { $date: '2018-05-01T13:40:14.672+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:35.984+0000' },
+    createdAt: '2018-05-01T13:40:14.672+0000',
+    updatedAt: '2018-05-08T04:37:35.984+0000',
     price: 463200.0,
     driver_location: {
       type: 'Point',
@@ -19999,7 +19999,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T18:00:00.000+0000' },
+      date: '2018-05-01T18:00:00.000+0000',
       pickup_address: 'Cl. 47 #57-2',
       pickup_location: {
         type: 'Point',
@@ -20024,8 +20024,8 @@ export const trips = [
     car: { plate: 'SNV681' },
     status: 'onWay',
     check_code: '48',
-    createdAt: { $date: '2018-05-01T13:02:49.791+0000' },
-    updatedAt: { $date: '2018-05-09T05:00:00.664+0000' },
+    createdAt: '2018-05-01T13:02:49.791+0000',
+    updatedAt: '2018-05-09T05:00:00.664+0000',
     price: 100000.0,
     driver_location: {
       type: 'Point',
@@ -20034,7 +20034,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T12:41:20.438+0000' },
+      date: '2018-05-01T12:41:20.438+0000',
       pickup_address: 'Cl. 165 #54c-54, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -20056,8 +20056,8 @@ export const trips = [
     car: { plate: 'WLL836' },
     status: 'near',
     check_code: '73',
-    createdAt: { $date: '2018-05-01T12:25:04.148+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:00.412+0000' },
+    createdAt: '2018-05-01T12:25:04.148+0000',
+    updatedAt: '2018-05-08T04:36:00.412+0000',
     price: 15200.0,
     driver_location: {
       type: 'Point',
@@ -20066,7 +20066,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T11:02:28.443+0000' },
+      date: '2018-05-01T11:02:28.443+0000',
       pickup_address: 'Codensa - Carrera 13a #93-66, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -20088,8 +20088,8 @@ export const trips = [
     car: { plate: 'WNW908' },
     status: 'started',
     check_code: '30',
-    createdAt: { $date: '2018-05-01T10:55:27.474+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:18.107+0000' },
+    createdAt: '2018-05-01T10:55:27.474+0000',
+    updatedAt: '2018-05-08T04:36:18.107+0000',
     price: 20400.0,
     driver_location: {
       type: 'Point',
@@ -20098,7 +20098,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T09:08:00.507+0000' },
+      date: '2018-05-01T09:08:00.507+0000',
       pickup_address: 'Cra. 72r #40 Sur-52',
       pickup_location: {
         type: 'Point',
@@ -20124,8 +20124,8 @@ export const trips = [
     car: { plate: 'ERK306' },
     status: 'started',
     check_code: '66',
-    createdAt: { $date: '2018-05-01T09:04:32.194+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:40.577+0000' },
+    createdAt: '2018-05-01T09:04:32.194+0000',
+    updatedAt: '2018-05-08T04:37:40.577+0000',
     price: 37900.0,
     driver_location: {
       type: 'Point',
@@ -20134,7 +20134,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T11:00:00.000+0000' },
+      date: '2018-05-01T11:00:00.000+0000',
       pickup_address: 'Casa de Retiros Nazareth #21-43, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -20162,8 +20162,8 @@ export const trips = [
     car: { plate: 'WGO934' },
     status: 'onWay',
     check_code: '66',
-    createdAt: { $date: '2018-05-01T08:03:58.559+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:14.502+0000' },
+    createdAt: '2018-05-01T08:03:58.559+0000',
+    updatedAt: '2018-05-08T04:36:14.502+0000',
     price: 25900.0,
     driver_location: {
       type: 'Point',
@@ -20172,7 +20172,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T06:41:27.818+0000' },
+      date: '2018-05-01T06:41:27.818+0000',
       pickup_address: 'Cra. 9 #85-32, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -20197,8 +20197,8 @@ export const trips = [
     car: { plate: 'WNT568' },
     status: 'near',
     check_code: '30',
-    createdAt: { $date: '2018-05-01T06:31:12.704+0000' },
-    updatedAt: { $date: '2018-05-08T04:35:13.614+0000' },
+    createdAt: '2018-05-01T06:31:12.704+0000',
+    updatedAt: '2018-05-08T04:35:13.614+0000',
     price: 13100.0,
     driver_location: {
       type: 'Point',
@@ -20207,7 +20207,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T06:20:52.982+0000' },
+      date: '2018-05-01T06:20:52.982+0000',
       pickup_address: 'Carrera 7',
       pickup_location: {
         type: 'Point',
@@ -20235,8 +20235,8 @@ export const trips = [
     car: { plate: 'WNK285' },
     status: 'onWay',
     check_code: '30',
-    createdAt: { $date: '2018-05-01T06:15:49.578+0000' },
-    updatedAt: { $date: '2018-05-08T04:38:00.051+0000' },
+    createdAt: '2018-05-01T06:15:49.578+0000',
+    updatedAt: '2018-05-08T04:38:00.051+0000',
     price: 19700.0,
     driver_location: {
       type: 'Point',
@@ -20245,7 +20245,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T06:26:19.265+0000' },
+      date: '2018-05-01T06:26:19.265+0000',
       pickup_address: 'Calle 84 #16-1',
       pickup_location: {
         type: 'Point',
@@ -20267,8 +20267,8 @@ export const trips = [
     car: { plate: 'WMZ360' },
     status: 'onWay',
     check_code: '14',
-    createdAt: { $date: '2018-05-01T06:06:21.733+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:55.440+0000' },
+    createdAt: '2018-05-01T06:06:21.733+0000',
+    updatedAt: '2018-05-08T04:34:55.440+0000',
     price: 16100.0,
     driver_location: {
       type: 'Point',
@@ -20277,7 +20277,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T06:04:28.671+0000' },
+      date: '2018-05-01T06:04:28.671+0000',
       pickup_address: 'Carrera 16a #83-1',
       pickup_location: {
         type: 'Point',
@@ -20299,8 +20299,8 @@ export const trips = [
     car: { plate: 'WNX189' },
     status: 'near',
     check_code: '61',
-    createdAt: { $date: '2018-05-01T05:57:38.919+0000' },
-    updatedAt: { $date: '2018-05-29T20:14:28.776+0000' },
+    createdAt: '2018-05-01T05:57:38.919+0000',
+    updatedAt: '2018-05-29T20:14:28.776+0000',
     price: 11700.0,
     driver_location: {
       type: 'Point',
@@ -20309,7 +20309,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T05:34:50.640+0000' },
+      date: '2018-05-01T05:34:50.640+0000',
       pickup_address: 'Cl. 96 #13a-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -20334,8 +20334,8 @@ export const trips = [
     car: { plate: 'WLL831' },
     status: 'started',
     check_code: '20',
-    createdAt: { $date: '2018-05-01T05:29:04.719+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:17.322+0000' },
+    createdAt: '2018-05-01T05:29:04.719+0000',
+    updatedAt: '2018-05-08T04:37:17.322+0000',
     price: 28500.0,
     driver_location: {
       type: 'Point',
@@ -20344,7 +20344,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T05:36:50.313+0000' },
+      date: '2018-05-01T05:36:50.313+0000',
       pickup_address: 'Cra. 47 #106a-60, bogotá, colombia',
       pickup_location: {
         type: 'Point',
@@ -20369,8 +20369,8 @@ export const trips = [
     car: { plate: 'WMN103' },
     status: 'near',
     check_code: '35',
-    createdAt: { $date: '2018-05-01T05:25:15.534+0000' },
-    updatedAt: { $date: '2018-05-08T04:34:20.969+0000' },
+    createdAt: '2018-05-01T05:25:15.534+0000',
+    updatedAt: '2018-05-08T04:34:20.969+0000',
     price: 8500.0,
     driver_location: {
       type: 'Point',
@@ -20379,7 +20379,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T05:27:35.663+0000' },
+      date: '2018-05-01T05:27:35.663+0000',
       pickup_address: 'Cl. 96 #13a-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -20404,8 +20404,8 @@ export const trips = [
     car: { plate: 'WMO016' },
     status: 'onWay',
     check_code: '66',
-    createdAt: { $date: '2018-05-01T05:22:32.818+0000' },
-    updatedAt: { $date: '2018-05-08T04:37:17.318+0000' },
+    createdAt: '2018-05-01T05:22:32.818+0000',
+    updatedAt: '2018-05-08T04:37:17.318+0000',
     price: 24000.0,
     driver_location: {
       type: 'Point',
@@ -20414,7 +20414,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T08:00:00.000+0000' },
+      date: '2018-05-01T08:00:00.000+0000',
       pickup_address: 'Cl. 96 #13a-21, Bogotá, Colombia',
       pickup_location: {
         type: 'Point',
@@ -20436,8 +20436,8 @@ export const trips = [
     car: { plate: 'WNU412' },
     status: 'started',
     check_code: '58',
-    createdAt: { $date: '2018-05-01T05:18:43.549+0000' },
-    updatedAt: { $date: '2018-05-28T23:46:52.644+0000' },
+    createdAt: '2018-05-01T05:18:43.549+0000',
+    updatedAt: '2018-05-28T23:46:52.644+0000',
     price: 75100.0,
     driver_location: {
       type: 'Point',
@@ -20446,7 +20446,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T05:25:50.743+0000' },
+      date: '2018-05-01T05:25:50.743+0000',
       pickup_address: 'Tecnofarma S.A - Carrera 16 #85-96, Bogotá',
       pickup_location: {
         type: 'Point',
@@ -20468,8 +20468,8 @@ export const trips = [
     car: { plate: 'WLT550' },
     status: 'onWay',
     check_code: '39',
-    createdAt: { $date: '2018-05-01T05:18:36.550+0000' },
-    updatedAt: { $date: '2018-05-08T04:36:00.408+0000' },
+    createdAt: '2018-05-01T05:18:36.550+0000',
+    updatedAt: '2018-05-08T04:36:00.408+0000',
     price: 15700.0,
     driver_location: {
       type: 'Point',
@@ -20478,7 +20478,7 @@ export const trips = [
   },
   {
     start: {
-      date: { $date: '2018-05-01T05:11:58.537+0000' },
+      date: '2018-05-01T05:11:58.537+0000',
       pickup_address: 'Carrera 9 #80-21',
       pickup_location: {
         type: 'Point',
@@ -20500,8 +20500,8 @@ export const trips = [
     car: { plate: 'WPM995' },
     status: 'started',
     check_code: '25',
-    createdAt: { $date: '2018-05-01T05:02:11.360+0000' },
-    updatedAt: { $date: '2018-05-12T03:02:34.924+0000' },
+    createdAt: '2018-05-01T05:02:11.360+0000',
+    updatedAt: '2018-05-12T03:02:34.924+0000',
     price: 26500.0,
     driver_location: {
       type: 'Point',

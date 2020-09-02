@@ -47,8 +47,17 @@ export async function counts(
   filter: filter
 ): Promise<number> {
   const queryFilter: object = cleanFilter(filter);
-  const data = modelTrips.count(queryFilter);
+  const data = modelTrips.countDocuments(queryFilter);
   return data;
+}
+
+export async function create(
+  collection: string,
+  data: object
+): Promise<object> {
+  const saveData = new modelTrips(data);
+  const result = saveData.save();
+  return result;
 }
 function cleanFilter(filter: filter): object {
   let _filter: any = {};

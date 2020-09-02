@@ -12,8 +12,13 @@ module.exports = function (injectedStore: any): any {
     const trips: number = await store.counts(collection, filter);
     return trips;
   }
+  async function create(data: object): Promise<object> {
+    const created: object = await store.create(collection, data);
+    return created;
+  }
   return {
     findAll,
     findTotales,
+    create,
   };
 };
