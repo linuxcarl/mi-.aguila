@@ -8,6 +8,11 @@ const page: NumberSchema = Joi.number();
 const city: StringSchema = Joi.string().min(2).max(50);
 const country: StringSchema = city;
 
+export const createTripSchema = {
+  city,
+  country,
+};
+
 export const filterSchema = {
   _id: idSchema,
   page,

@@ -1,10 +1,11 @@
-import express from 'express';
+import express, { Router } from 'express';
 const Controller = require('./index');
 import * as responses from '../../../utils/network/responses';
 
 import {
   filterSchema,
   filterSchemaTotales,
+  createTripSchema,
 } from '../../../utils/schemas/trips';
 import { validationHandler } from '../../../utils/middleware/validationHandler';
 
@@ -12,7 +13,7 @@ const router = express.Router();
 
 router.get('/', validationHandler(filterSchema, 'query'), getAll);
 router.get('/total', validationHandler(filterSchemaTotales, 'query'), getTotal);
-
+router.post('/', validationHandler(createTripSchema, 'params'), createTrip);
 async function getAll(req: any, res: any, next: any): Promise<void> {
   let { page = 1, limit = 20, city, country } = req.query;
   try {
@@ -39,4 +40,5 @@ async function getTotal(req: any, res: any, next: any): Promise<void> {
     next(error);
   }
 }
+async function createTrip(req: any, res: any, next: any): Promise<void> {}
 module.exports = router;
