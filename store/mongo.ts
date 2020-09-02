@@ -27,7 +27,10 @@ async function connect(MONGO_URI: string): Promise<void> {
   console.log('[db] Conectada con el server db');
 }
 connect(MONGO_URI);
-export async function find(collection: string, filter: filter): Promise<any> {
+export async function find(
+  collection: string,
+  filter: filter
+): Promise<object> {
   let { limit = 20, page = 1 } = filter;
   delete filter.limit;
   delete filter.page;
@@ -37,6 +40,14 @@ export async function find(collection: string, filter: filter): Promise<any> {
     .limit(limit * 1)
     .skip((page - 1) * limit);
 
+  return data;
+}
+export async function counts(
+  collection: string,
+  filter: filter
+): Promise<number> {
+  const queryFilter: object = cleanFilter(filter);
+  const data = modelTrips.count(queryFilter);
   return data;
 }
 function cleanFilter(filter: filter): object {
