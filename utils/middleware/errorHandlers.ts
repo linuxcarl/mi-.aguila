@@ -21,7 +21,7 @@ export function wrapErrors(err: any, req: any, res: any, next: any): void {
 
 export function errorHandler(err: any, req: any, res: any, next: any): void {
   const {
-    outpout: { statusCode, payload },
+    output: { statusCode, payload },
   } = err;
   res.status(statusCode);
   res.json(withErrorStack(payload, err.stack));
