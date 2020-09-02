@@ -8,6 +8,8 @@ interface filter {
   _id?: string;
   limit?: number;
   page?: number;
+  city?: string;
+  country?: string;
 }
 export async function find(table: string, filter: filter): Promise<string[]> {
   let data: any = db[table];
@@ -28,6 +30,10 @@ export async function find(table: string, filter: filter): Promise<string[]> {
     data = data.length >= Number(limit) ? data.slice(init, limit) : data;
   }
   return data;
+}
+export async function counts(table: string, filter: filter): Promise<number> {
+  const row: string[] = await find(table, filter);
+  return row.length;
 }
 /*
 export async function findOne(
