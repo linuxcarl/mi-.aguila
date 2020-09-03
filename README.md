@@ -2,6 +2,10 @@
 
 This API REST was generated with NODE JS and TypeScript
 
+### What contain this project?
+
+This project creates, updates, and reads people's car trips, moving from one point to another. With this API we can consult the trips by city, country and also obtain the total trips.
+
 ![architecture](https://raw.githubusercontent.com/linuxcarl/mi-.aguila/master/architecture.jpg)
 
 ## Installation
@@ -275,6 +279,10 @@ This project uses a number of open source package to work properly:
 - [Prettier](https://prettier.io/) - An opinionated code formatter.
 - [Husky](https://www.npmjs.com/package/husky) - Husky can prevent bad git commit, git push and more 🐶 woof!
 - [ts-jest](https://www.npmjs.com/package/ts-jest) - is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+### Recommendations
+
+for the project to be more scalable, it is necessary to separate the collections from the database and relate them to each other.
 
 ### Author
 
