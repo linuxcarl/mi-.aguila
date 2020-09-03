@@ -267,8 +267,9 @@ This project uses a number of open source package to work properly:
 - [Express](http://expressjs.com/) - fast node.js network app framework [@tjholowaychuk]
 - [Cors](https://www.npmjs.com/package/cors) - CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS
 - [Helmet](https://helmetjs.github.io/) - Helmet helps you secure your Express apps by setting various HTTP headers. It’s not a silver bullet, but it can help!
-- [MongoDB](https://www.mongodb.com/es)- This database stores the trips
-- [Joi](https://github.com/hapijs/joi) @hapi/joi Is part of the hapi ecosystem and was designed to work seamlessly with the hapi web framework and its other components (but works great on its own or with other frameworks).
+- [MongoDB](https://www.mongodb.com/es) - This database stores the trips
+- [Mongoose](https://www.npmjs.com/package/mongoose) - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment
+- [Joi](https://github.com/hapijs/joi) - @hapi/joi Is part of the hapi ecosystem and was designed to work seamlessly with the hapi web framework and its other components (but works great on its own or with other frameworks).
 - [Boom](https://github.com/hapijs/boom) - @hapi/boom is part of the hapi ecosystem and was designed to work seamlessly with the hapi web framework and its other components (but works great on its own or with other frameworks).
 - [tslint](https://eslint.org/) - Find and fix problems in your TypeScript code.
 - [Prettier](https://prettier.io/) - An opinionated code formatter.

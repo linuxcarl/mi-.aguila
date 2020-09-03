@@ -9,17 +9,759 @@
     },
     "version": "1.0.0"
   },
-  "servers": [
-    {
-      "url": "https://carlosramirezflores.com/"
-    }
-  ],
   "tags": [
     {
-      "name": "Travels",
-      "description": "Everything about your travels"
+      "name": "trips",
+      "description": "Everything about your trips"
     }
   ],
-  "paths": null,
-  "components": null
+  "paths": {
+    "/trips": {
+      "post": {
+        "tags": [
+          "trips"
+        ],
+        "summary": "Add a new trips to the store",
+        "operationId": "createTrip",
+        "requestBody": {
+          "description": "Trip object that needs to be add to the store",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateTrips"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError400"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError404"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "trips"
+        ],
+        "summary": "get all trips",
+        "description": "get all trips, optional with params",
+        "operationId": "getAll",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "description": "The city values that optional to be considered for filter",
+            "required": false,
+            "style": "form",
+            "schema": {
+              "type": "string",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "country",
+            "in": "query",
+            "description": "The country values that optional to be considered for filter",
+            "required": false,
+            "style": "form",
+            "schema": {
+              "type": "string",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The limit values default is 20, that optional to be considered for filter",
+            "required": false,
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "default": 20
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "description": "The page values default is 1, that optional to be considered for filter",
+            "required": false,
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ApiResponse"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError400"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError404"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/trips/total": {
+      "get": {
+        "tags": [
+          "trips"
+        ],
+        "summary": "get total trips",
+        "description": "get total trips by city or country or all. Optional with params",
+        "operationId": "getTotal",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "description": "The city values that optional to be considered for filter",
+            "required": false,
+            "style": "form",
+            "schema": {
+              "type": "string",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "country",
+            "in": "query",
+            "description": "The country values that optional to be considered for filter",
+            "required": false,
+            "style": "form",
+            "schema": {
+              "type": "string",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ApiResponseTotal"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError400"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError404"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/trips/{_id}": {
+      "put": {
+        "tags": [
+          "trips"
+        ],
+        "summary": "Update an existing trip",
+        "operationId": "updateTrip",
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "description": "trip id to update",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "objectId"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "all data can be updated and is optional",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTrips"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError400"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError404"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateTrips": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/startAndEnd"
+            }
+          },
+          "end": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/startAndEnd"
+            }
+          },
+          "country": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/cityAndCountry"
+            }
+          },
+          "city": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/cityAndCountry"
+            }
+          },
+          "passenger": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/driveAndPassenger"
+            }
+          },
+          "driver": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/driveAndPassenger"
+            }
+          },
+          "car": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/car"
+            }
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "OnWay",
+              "Near",
+              "Started"
+            ]
+          },
+          "check_code": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "price": {
+            "type": "number"
+          },
+          "driver_location": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/location"
+            }
+          }
+        },
+        "required": [
+          "start",
+          "country",
+          "city",
+          "passenger",
+          "driver",
+          "car",
+          "status",
+          "check_code",
+          "price",
+          "driver_location"
+        ],
+        "example": {
+          "start": {
+            "date": "2019-01-25T03:00:00.000+0000",
+            "pickup_address": "Cl 52A, México, Jalpa",
+            "pickup_location": {
+              "type": "Point",
+              "coordinates": [
+                -74.11872,
+                4.683707
+              ]
+            }
+          },
+          "country": {
+            "name": "México"
+          },
+          "city": {
+            "name": "Jalpa"
+          },
+          "passenger": {
+            "first_name": "Lizette",
+            "last_name": "Ruiz"
+          },
+          "driver": {
+            "first_name": "Carlo Enrique",
+            "last_name": "Ramírez Flores"
+          },
+          "car": {
+            "plate": "SEW34"
+          },
+          "status": "started",
+          "check_code": "92",
+          "price": 34100,
+          "driver_location": {
+            "type": "Point",
+            "coordinates": [
+              -74.057076,
+              4.6710186
+            ]
+          }
+        }
+      },
+      "UpdateTrips": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/startAndEnd"
+            }
+          },
+          "country": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/cityAndCountry"
+            }
+          },
+          "city": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/cityAndCountry"
+            }
+          },
+          "passenger": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/driveAndPassenger"
+            }
+          },
+          "driver": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/driveAndPassenger"
+            }
+          },
+          "car": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/car"
+            }
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "OnWay",
+              "Near",
+              "Started"
+            ]
+          },
+          "check_code": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "price": {
+            "type": "number"
+          },
+          "driver_location": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/location"
+            }
+          }
+        },
+        "example": {
+          "start": {
+            "date": "2019-01-25T03:00:00.000+0000",
+            "pickup_address": "Cl 52A, México, Jalpa",
+            "pickup_location": {
+              "type": "Point",
+              "coordinates": [
+                -74.11872,
+                4.683707
+              ]
+            }
+          },
+          "end": {
+            "date": "2019-01-25T06:00:00.000+0000",
+            "pickup_address": "Av vallarta 345, México, Zacatecas",
+            "pickup_location": {
+              "type": "Point",
+              "coordinates": [
+                -72.11872,
+                4.685707
+              ]
+            }
+          },
+          "country": {
+            "name": "México"
+          },
+          "city": {
+            "name": "Jalpa"
+          },
+          "passenger": {
+            "first_name": "Lizette",
+            "last_name": "Ruiz"
+          },
+          "driver": {
+            "first_name": "Carlo Enrique",
+            "last_name": "Ramírez Flores"
+          },
+          "car": {
+            "plate": "SEW34"
+          },
+          "status": "started",
+          "check_code": "92",
+          "price": 34100,
+          "driver_location": {
+            "type": "Point",
+            "coordinates": [
+              -74.057076,
+              4.6710186
+            ]
+          }
+        }
+      },
+      "startAndEnd": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "pickup_address": {
+            "type": "string"
+          },
+          "pickup_location": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/location"
+            }
+          }
+        },
+        "required": [
+          "date",
+          "pickup_address",
+          "pickup_location"
+        ]
+      },
+      "cityAndCountry": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      },
+      "car": {
+        "type": "object",
+        "properties": {
+          "plate": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "plate"
+        ]
+      },
+      "location": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "coordinates": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "0": {
+                  "type": "number"
+                },
+                "1": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "type",
+          "coordinates"
+        ]
+      },
+      "driveAndPassenger": {
+        "type": "object",
+        "properties": {
+          "first_name": {
+            "type": "string"
+          },
+          "last_name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "first_name",
+          "last_name"
+        ]
+      },
+      "ApiResponseTotal": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "boolean",
+            "format": "int64"
+          },
+          "status": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "body": {
+            "type": "object",
+            "format": "int32"
+          }
+        },
+        "example": {
+          "error": false,
+          "status": 200,
+          "body": [
+            {
+              "trips": 6
+            }
+          ]
+        }
+      },
+      "ApiResponse": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "boolean",
+            "format": "int64"
+          },
+          "status": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "body": {
+            "type": "object",
+            "format": "int32"
+          }
+        },
+        "example": {
+          "error": false,
+          "status": 200,
+          "body": [
+            {
+              "start": {
+                "pickup_location": {
+                  "coordinates": [
+                    -74.11872,
+                    4.683707
+                  ],
+                  "type": "Point"
+                },
+                "date": "2019-01-25T03:00:00.000Z",
+                "pickup_address": "Cl 52A, México, Guadalajara"
+              },
+              "end": {
+                "pickup_location": {
+                  "coordinates": []
+                }
+              },
+              "driver_location": {
+                "coordinates": [
+                  -74.057076,
+                  4.6710186
+                ],
+                "type": "Point"
+              },
+              "_id": "5f5011204c7f0f542a9fb770",
+              "country": {
+                "name": "México"
+              },
+              "city": {
+                "name": "Guadalajara"
+              },
+              "passenger": {
+                "first_name": "Transporte",
+                "last_name": "Mi Aguila"
+              },
+              "driver": {
+                "first_name": "Ana Maria",
+                "last_name": "Rubles Tamayo"
+              },
+              "car": {
+                "plate": "SEW34"
+              },
+              "status": "started",
+              "check_code": 92,
+              "createdAt": "2019-01-24T23:36:51.363Z",
+              "updatedAt": "2019-01-25T03:55:25.006Z",
+              "price": 34100,
+              "__v": 0
+            }
+          ]
+        }
+      },
+      "ApiError400": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "error": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "stack": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "statusCode": 400,
+          "error": "Bad Request",
+          "message": "_id is not allowed",
+          "stack": "ValidationError _id is not allowed"
+        }
+      },
+      "ApiError404": {
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "error": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "statusCode": 404,
+          "error": "Not Found",
+          "message": "Not Found"
+        }
+      }
+    }
+  }
 }
