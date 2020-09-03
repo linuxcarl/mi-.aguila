@@ -12,7 +12,7 @@ import {
   wrapErrors,
 } from '../utils/middleware/errorHandlers';
 import { notFoundHandler } from '../utils/middleware/notFoundHandler';
-import trips = require('./components/trips/network');
+const trips = require('./components/trips/network');
 const app = express();
 
 app.use(cors());
