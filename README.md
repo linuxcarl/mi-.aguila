@@ -2,7 +2,7 @@
 
 This API REST was generated with NODE JS and TypeScript
 
-# [![architecture](https://github.com/linuxcarl/mi-.aguila/architecture.jpg)]
+![architecture](https://raw.githubusercontent.com/linuxcarl/mi-.aguila/master/architecture.jpg)
 
 ## Installation
 
