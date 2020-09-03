@@ -50,6 +50,7 @@ async function getTotal(req: any, res: any, next: any): Promise<void> {
 }
 async function createTrip(req: any, res: any, next: any): Promise<void> {
   const { body: trips } = req;
+  trips.createdAt = new Date();
   try {
     const createdTrip: string[] = await Controller.create(trips);
     responses.success(req, res, createdTrip, 201);

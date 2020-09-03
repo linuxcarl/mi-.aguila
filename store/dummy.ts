@@ -35,37 +35,11 @@ export async function counts(table: string, filter: filter): Promise<number> {
   const row: string[] = await find(table, filter);
   return row.length;
 }
-/*
-export async function findOne(
-  table: string,
-  filter: filter
-): Promise<string[]> {
-  const row: string[] = await find(table, filter);
-  return row[0];
+export async function create(table: string, data: any): Promise<object> {
+  let result = await db[table][0];
+  return result;
 }
-
-export async function insert(table: string, data: any): Promise<object> {
-  const _id: string = '';
-  data = await findOne(table, { _id });
-  return data;
+export async function update(table: string, data: any): Promise<object> {
+  let result = await db[table][0];
+  return result;
 }
-
-export async function update(
-  table: string,
-  data: any,
-  id: string
-): Promise<object> {
-  const { _id } = await findOne(table, { _id: id });
-  return _id ? [1] : [0];
-}
-
-export async function remove(table: string, id: string): Promise<object> {
-  const { _id: string } = await findOne(table, { _id: id });
-  return { _id };
-}
-
-export async function deleted(table: string, data: object): Promise<string[]> {
-  const deletedData: string[] = await find(table, data);
-  return deletedData;
-}
-*/

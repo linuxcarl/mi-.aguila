@@ -45,7 +45,6 @@ export const createTripSchema = {
   car: car.required(),
   status: status.required(),
   check_code: check_code.required(),
-  createdAt: date.required(),
   price: price.required(),
   driver_location: driver_location.required(),
 };
