@@ -41,6 +41,13 @@ npm run start
 
 ## API url
 
+View all documentation
+Open in your browser:
+
+```
+http://localhost:3000/docs/
+```
+
 Allowed routes:
 
 ### `/trips`
