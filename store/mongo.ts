@@ -1,4 +1,4 @@
-import db, { DocumentQuery } from 'mongoose';
+import db, { model } from 'mongoose';
 import { config } from '../config';
 
 import { modelTrips } from './models/trips';
@@ -71,6 +71,22 @@ export async function update(
   const result = await modelUpdate.save();
   return result;
 }
+
+export async function execSeeder(
+  collection: string,
+  data: object
+): Promise<any> {
+  const ModelTrips = new modelTrips();
+  modelTrips
+    .deleteMany({})
+    .then((result) => {
+      console.log(result);
+    })
+    .catch((e) => console.log(e));
+  const result = modelTrips.insertMany(data);
+  return result;
+}
+
 function cleanFilter(filter: filter): object {
   let _filter: any = {};
   Object.entries(filter).forEach(([index, value]) => {
