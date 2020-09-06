@@ -92,4 +92,43 @@ describe('routes - trips', function () {
       done();
     });
   });
+  describe('PUT /trips', function () {
+    it('should create new trip', async (done) => {
+      const dataTrip = {
+        end: {
+          date: new Date(),
+          pickup_address:
+            'Inexmoda - Carrera 43 #23 NORTE - 195, Medellín, Antioquia, Colombia',
+          pickup_location: {
+            type: 'Point',
+            coordinates: [-75.5758876, 6.1941856],
+          },
+        },
+      };
+
+      const res = await request.put('/5f5001a727b4125027c92f29').send(dataTrip);
+      expect(res.statusCode).toEqual(200);
+      expect(res.body).toMatchObject({
+        error: expect.any(Boolean),
+        status: expect.any(Number),
+        body: expect.any(Object),
+      });
+      expect(res.body.body).toMatchObject({
+        _id: expect.any(String),
+        start: expect.any(Object),
+        end: expect.any(Object),
+        country: expect.any(Object),
+        city: expect.any(Object),
+        passenger: expect.any(Object),
+        driver: expect.any(Object),
+        car: expect.any(Object),
+        status: expect.any(String),
+        check_code: expect.any(Number),
+        price: expect.any(Number),
+        driver_location: expect.any(Object),
+        createdAt: expect.any(String),
+      });
+      done();
+    });
+  });
 });
